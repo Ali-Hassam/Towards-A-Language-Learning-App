@@ -1,59 +1,63 @@
-import sys
 import json
 from spellchecker import SpellChecker
-from PyQt6.QtGui import QGuiApplication
-from PyQt6.QtQml import QQmlApplicationEngine
-from PyQt6.QtQuick import QQuickWindow
-from PyQt6.QtCore import QObject, pyqtSignal
-from PyQt6.QtCore import QObject, pyqtSlot
+word = input("Enter the German Word that you want to learn")
+meaning = input("Enter the meaning of this german word")
 
-class LanguageApp(QObject):
-    def __init__(self):
-        QObject.__init__(self)
-        # JSON file path for the database
-        self.DATABASE_FILE = "database.json"
-        self._input_word = ""
-        self.germanspell = SpellChecker(language='de') 
-    # To get the input from front-end.
-    @pyqtSlot(str)
-    def set_input_word(self, word):
-        self._input_word = word 
+# database handler
+class database:
+    db_file="database.json"    
+    def read():
+        with open(database.db_file, mode="r", encoding="utf-8") as read_file:
+            return json.load(read_file)
 
-    #To check the spelling of imput 
-    @pyqtSlot(str, result=bool)
-    def spelling(self, word):
+    def save(word):
+        data = database.read()
+        data["user_inputs"].append(word)
+        with open(database.db_file, mode="w", encoding="utf-8") as write_file:
+            json.dump(data, write_file, ensure_ascii=False, indent=4)
+
+    def get_words():
+        database_file = database.read()
+        word_list = []
+        for i in database_file["user_inputs"]:
+            word_list.append(i['word'])
+        return word_list
+
+# This class is responsible for input checking
+class inputcontroller:
+    # So when we put also the artikel somehow it was failing in the spelling checker, so I put this part the pars out input
+    def input_parser(word):
+        return word.split()
+
+    #This part is for spelling checker
+    def spelling(word):
+        germanspell = SpellChecker(language='de') 
         word = word.lower()
         # Check if the word is spelled correctly
-        if word in self.germanspell:
-            save_format = {"word" : word}
-            self.save(save_format)
-            print("Word saved successfully.")
+        if word in germanspell:
             return True
         else:
-            print("Word is misspelled.")
-            return False
-    
-    # This function is for saving the input word into the database.
-    def save(self, data):
-        try:
-            with open(self.DATABASE_FILE, mode="r", encoding="utf-8") as read_file:
-                existing_data = json.load(read_file)
-        except (FileNotFoundError, json.JSONDecodeError):
-            existing_data = []
+            candidates = list(germanspell.candidates(word))
+            candidates.append("None of them macthes the word I wanted to right")
+            if candidates:
+                return list(candidates)
+            else:  
+                return ["Woopss we couldn't find any suggestions"]
 
-        existing_data.append({"word": data["word"]})
-        with open(self.DATABASE_FILE, mode="w", encoding="utf-8") as write_file:
-            json.dump(existing_data, write_file, ensure_ascii=False, indent=4)
-
-    def bootUp(self):
-        print("Application Booted Up.")
-
-QQuickWindow.setSceneGraphBackend('software')
-app = QGuiApplication(sys.argv)
-engine = QQmlApplicationEngine()
-engine.quit.connect(app.quit)
-engine.load('./main.qml')
-back_end = LanguageApp()
-engine.rootContext().setContextProperty("languageApp", back_end)
-back_end.bootUp()
-sys.exit(app.exec())
+saved_words = database.get_words()
+db = database.read()
+if word not in saved_words:
+    result = inputcontroller.spelling(word)
+    if  result == True:
+        new_entry = {
+                    "word": word,
+                    "translation": meaning
+                    }
+        database.save(new_entry)
+        print(f"{word} has been saved!")
+    else:
+        print("Incorrect spelling. Did you mean:")
+        for suggestion in result:
+            print(f"- {suggestion}")
+else:
+    print(f"{word} is already in the database.")
