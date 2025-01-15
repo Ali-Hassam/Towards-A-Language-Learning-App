@@ -1,0 +1,4268 @@
+{
+    "A1": [
+        {
+        "word": "ab",
+        "translation": "from",
+        "example_sentence": "Ab morgen muss ich arbeiten.",
+        "type": "Preposition"
+        },
+        {
+        "word": "aber",
+        "translation": "but",
+        "example_sentence": "Ich bin oft im Büro, aber nur für wenige Stunden.",
+        "type": "Conjunction"
+        },
+        {
+        "word": "abfahren",
+        "translation": "depart",
+        "example_sentence": "Wir fahren um zwölf Uhr ab.",
+        "type": "Verb"
+        },
+        {
+        "word": "die Abfahrt",
+        "plural": "die Abfahrten",
+        "translation": "departure",
+        "example_sentence": "Vor der Abfahrt rufe ich an.",
+        "type": "Noun"
+        },
+        {
+        "word": "abgeben",
+        "translation": "hand in",
+        "example_sentence": "Ich muss meine Schlüssel abgeben.",
+        "type": "Verb"
+        },
+        {
+        "word": "abholen",
+        "translation": "pick up",
+        "example_sentence": "Wann kann ich den Schrank bei dir abholen?",
+        "type": "Verb"
+        },
+        {
+        "word": "der Absender",
+        "plural": "die Absender",
+        "translation": "sender",
+        "example_sentence": "Da ist ein Brief für dich ohne Absender.",
+        "type": "Noun"
+        },
+        {
+        "word": "Achtung",
+        "translation": "attention",
+        "example_sentence": "Achtung! Das dürfen Sie nicht tun.",
+        "type": "Noun"
+        },
+        {
+        "word": "die Adresse",
+        "plural": "die Adressen",
+        "translation": "address",
+        "example_sentence": "Können Sie mir seine Adresse sagen?",
+        "type": "Noun"
+        },
+        {
+        "word": "all-",
+        "translation": "all",
+        "example_sentence": "Alles Gute!",
+        "type": "Pronoun"
+        },
+        {
+        "word": "allein",
+        "translation": "alone",
+        "example_sentence": "Er kommt allein.",
+        "type": "Adjective"
+        },
+        {
+        "word": "also",
+        "translation": "so",
+        "example_sentence": "Also, es ist so: ...",
+        "type": "Adverb"
+        },
+        {
+        "word": "alt",
+        "translation": "old",
+        "example_sentence": "Wie alt sind Sie?",
+        "type": "Adjective"
+        },
+        {
+        "word": "das Alter",
+        "plural": "die Alter",
+        "translation": "age",
+        "example_sentence": "Alter: 26 Jahre.",
+        "type": "Noun"
+        },
+        {
+        "word": "an",
+        "translation": "at",
+        "example_sentence": "Fahren Sie an der nächsten Straße nach rechts.",
+        "type": "Preposition"
+        },
+        {
+        "word": "anbieten",
+        "translation": "offer",
+        "example_sentence": "Was darf ich dir anbieten?",
+        "type": "Verb"
+        },
+        {
+        "word": "das Angebot",
+        "plural": "die Angebote",
+        "translation": "offer",
+        "example_sentence": "Heute sind Sportschuhe im Angebot.",
+        "type": "Noun"
+        },
+        {
+        "word": "ander-",
+        "translation": "other",
+        "example_sentence": "Willst du diese Jacke? – Nein, ich möchte die andere.",
+        "type": "Adjective"
+        },
+        {
+        "word": "anfangen",
+        "translation": "begin",
+        "example_sentence": "Hier fängt die Bahnhofstraße an.",
+        "type": "Verb"
+        },
+        {
+        "word": "der Anfang",
+        "plural": "die Anfänge",
+        "translation": "beginning",
+        "example_sentence": "Sie wohnt am Anfang der Straße.",
+        "type": "Noun"
+        },
+        {
+        "word": "anklicken",
+        "translation": "click",
+        "example_sentence": "Da musst du dieses Wort anklicken.",
+        "type": "Verb"
+        },
+        {
+        "word": "ankommen",
+        "translation": "arrive",
+        "example_sentence": "Wann kommt dieser Zug in Hamburg an?",
+        "type": "Verb"
+        },
+        {
+        "word": "die Ankunft",
+        "plural": "die Ankünfte",
+        "translation": "arrival",
+        "example_sentence": "Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.",
+        "type": "Noun"
+        },
+        {
+        "word": "ankreuzen",
+        "translation": "tick",
+        "example_sentence": "Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.",
+        "type": "Verb"
+        },
+        {
+        "word": "anmachen",
+        "translation": "turn on",
+        "example_sentence": "Mach bitte das Licht an!",
+        "type": "Verb"
+        },
+        {
+        "word": "(sich) anmelden",
+        "translation": "register",
+        "example_sentence": "Wo kann ich mich anmelden?",
+        "type": "Verb"
+        },
+        {
+        "word": "die Anmeldung",
+        "plural": "die Anmeldungen",
+        "translation": "registration",
+        "example_sentence": "Eine Anmeldung für diesen Kurs ist nicht mehr möglich.",
+        "type": "Noun"
+        },
+        {
+        "word": "die Anrede",
+        "plural": "die Anreden",
+        "translation": "salutation",
+        "example_sentence": "Schreiben Sie auch eine Anrede und einen Gruß.",
+        "type": "Noun"
+        },
+        {
+        "word": "anrufen",
+        "translation": "call",
+        "example_sentence": "Kann man Sie anrufen?",
+        "type": "Verb"
+        },
+        {
+        "word": "der Anruf",
+        "plural": "die Anrufe",
+        "translation": "call",
+        "example_sentence": "Sie bekommt viele Anrufe auf ihrem Handy.",
+        "type": "Noun"
+        },
+        {
+        "word": "der Anrufbeantworter",
+        "plural": "die Anrufbeantworter",
+        "translation": "answering machine",
+        "example_sentence": "Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.",
+        "type": "Noun"
+        },
+        {
+        "word": "die Ansage",
+        "plural": "die Ansagen",
+        "translation": "announcement",
+        "example_sentence": "Hören Sie die Ansagen.",
+        "type": "Noun"
+        },
+        {
+        "word": "der Anschluss",
+        "plural": "die Anschlüsse",
+        "translation": "connection",
+        "example_sentence": "In Mannheim haben Sie Anschluss nach Saarbrücken.",
+        "type": "Noun"
+        },
+        {
+        "word": "an sein",
+        "translation": "on",
+        "example_sentence": "Heute Nacht war das Licht an.",
+        "type": "Verb"
+        },
+        {
+        "word": "antworten",
+        "translation": "answer",
+        "example_sentence": "Er antwortet nicht.",
+        "type": "Verb"
+        },
+        {
+        "word": "die Antwort",
+        "plural": "die Antworten",
+        "translation": "answer",
+        "example_sentence": "Er gibt leider keine Antwort.",
+        "type": "Noun"
+        },
+        {
+        "word": "die Anzeige",
+        "plural": "die Anzeigen",
+        "translation": "advertisement",
+        "example_sentence": "Ich habe Ihre Anzeige in der Zeitung gelesen.",
+        "type": "Noun"
+        },
+        {
+        "word": "(sich) anziehen",
+        "translation": "dress",
+        "example_sentence": "Ich muss mich noch anziehen.",
+        "type": "Verb"
+        },
+        {
+        "word": "das Apartment",
+        "plural": "die Apartments",
+        "translation": "apartment",
+        "example_sentence": "Wir haben ein Apartment gemietet.",
+        "type": "Noun"
+        },
+        {
+        "word": "der Apfel",
+        "plural": "die Äpfel",
+        "translation": "apple",
+        "example_sentence": "Ein Pfund Äpfel bitte.",
+        "type": "Noun"
+        },
+        {
+        "word": "der Appetit",
+        "translation": "appetite",
+        "example_sentence": "Guten Appetit!",
+        "type": "Noun"
+        },
+        {
+        "word": "arbeiten",
+        "translation": "work",
+        "example_sentence": "Wo arbeiten Sie?",
+        "type": "Verb"
+        },
+        {
+        "word": "die Arbeit",
+        "plural": "die Arbeiten",
+        "translation": "work",
+        "example_sentence": "Mein Bruder sucht Arbeit.",
+        "type": "Noun"
+        },
+        {
+        "word": "arbeitslos",
+        "translation": "unemployed",
+        "example_sentence": "Es gibt bei uns viele Leute, die schon lange arbeitslos sind.",
+        "type": "Adjective"
+        },
+        {
+        "word": "der Arbeitsplatz",
+        "plural": "die Arbeitsplätze",
+        "translation": "workplace",
+        "example_sentence": "An meinem Arbeitsplatz fehlt ein Drucker.",
+        "type": "Noun"
+        },
+        {
+        "word": "der Arm",
+        "plural": "die Arme",
+        "translation": "arm",
+        "example_sentence": "Mein Arm tut weh.",
+        "type": "Noun"
+        },
+        {
+        "word": "der Arzt",
+        "plural": "die Ärzte",
+        "translation": "doctor",
+        "example_sentence": "Morgen habe ich einen Termin bei meiner Ärztin.",
+        "type": "Noun"
+        },
+        {
+        "word": "auch",
+        "translation": "also/too",
+        "example_sentence": "Ich bin auch Spanier.",
+        "type": "Adverb"
+        },
+        {
+        "word": "auf",
+        "translation": "on",
+        "example_sentence": "Die Kinder spielen auf der Straße.",
+        "type": "Preposition"
+        },
+        {
+        "word": "Auf Wiedersehen",
+        "translation": "goodbye",
+        "example_sentence": "Auf Wiedersehen.",
+        "type": "Phrase"
+        },
+        {
+        "word": "Wie heißt das auf Deutsch?",
+        "translation": "How do you say that in German?",
+        "example_sentence": "Wie heißt das auf Deutsch?",
+        "type": "Phrase"
+        },
+
+        {
+        "word": "das Baby",
+        "plural": "die Babys",
+        "translation": "baby",
+        "type": "noun",
+        "example_sentence": "Mein Kind ist noch ein Baby."
+        },
+        {
+        "word": "die Bäckerei",
+        "plural": "die Bäckereien",
+        "translation": "bakery",
+        "type": "noun",
+        "example_sentence": "Ich geh mal schnell zur Bäckerei."
+        },
+        {
+        "word": "das Bad",
+        "plural": "die Bäder",
+        "translation": "bath",
+        "type": "noun",
+        "example_sentence": "Wir haben kein großes Bad."
+        },
+        {
+        "word": "baden",
+        "translation": "bathe",
+        "type": "verb",
+        "example_sentence": "Ich bade nicht so gern, ich dusche lieber."
+        },
+        {
+        "word": "die Bahn",
+        "plural": "die Bahnen",
+        "translation": "train",
+        "type": "noun",
+        "example_sentence": "Wir fahren lieber mit der Bahn. Ich nehme die nächste Bahn."
+        },
+        {
+        "word": "der Bahnhof",
+        "plural": "die Bahnhöfe",
+        "translation": "train station",
+        "type": "noun",
+        "example_sentence": "Komme ich hier zum Bahnhof?"
+        },
+        {
+        "word": "der Bahnsteig",
+        "plural": "die Bahnsteige",
+        "translation": "platform",
+        "type": "noun",
+        "example_sentence": "Auf welchem Bahnsteig fährt der Zug?"
+        },
+        {
+        "word": "bald",
+        "translation": "soon",
+        "type": "adverb",
+        "example_sentence": "Ich komme bald."
+        },
+        {
+        "word": "der Balkon",
+        "plural": "die Balkone",
+        "translation": "balcony",
+        "type": "noun",
+        "example_sentence": "Die Wohnung hat auch einen kleinen Balkon."
+        },
+        {
+        "word": "die Banane",
+        "plural": "die Bananen",
+        "translation": "banana",
+        "type": "noun",
+        "example_sentence": "Drei Bananen, bitte!"
+        },
+        {
+        "word": "die Bank",
+        "plural": "die Banken",
+        "translation": "bank",
+        "type": "noun",
+        "example_sentence": "Die Bank schließt schon um vier Uhr. Er sitzt im Park auf einer Bank und liest."
+        },
+        {
+        "word": "bar",
+        "translation": "cash",
+        "type": "noun/adjective",
+        "example_sentence": "Muss ich bar zahlen oder geht’s auch mit Karte?"
+        },
+        {
+        "word": "der Bauch",
+        "plural": "die Bäuche",
+        "translation": "stomach",
+        "type": "noun",
+        "example_sentence": "Seit gestern tut mir der Bauch weh."
+        },
+        {
+        "word": "der Baum",
+        "plural": "die Bäume",
+        "translation": "tree",
+        "type": "noun",
+        "example_sentence": "Vorsicht, fahr nicht an den Baum!"
+        },
+        {
+        "word": "der Beamte",
+        "plural": "die Beamten",
+        "translation": "civil servant",
+        "type": "noun",
+        "example_sentence": "Fragen Sie die Beamtin an Schalter acht!"
+        },
+        {
+        "word": "bedeuten",
+        "translation": "mean",
+        "type": "verb",
+        "example_sentence": "Was bedeutet das Wort?"
+        },
+        {
+        "word": "beginnen",
+        "translation": "begin",
+        "type": "verb",
+        "example_sentence": "Das Spiel beginnt um 15.30 Uhr."
+        },
+        {
+        "word": "bei",
+        "translation": "at, with",
+        "type": "preposition",
+        "example_sentence": "Offenbach liegt bei Frankfurt. Ich wohne bei meinen Eltern."
+        },
+        {
+        "word": "beide",
+        "translation": "both",
+        "type": "pronoun",
+        "example_sentence": "Beide Eltern arbeiten. Wir kommen beide."
+        },
+        {
+        "word": "das Bein",
+        "plural": "die Beine",
+        "translation": "leg",
+        "type": "noun",
+        "example_sentence": "Mein rechtes Bein tut weh."
+        },
+        {
+        "word": "das Beispiel",
+        "plural": "die Beispiele",
+        "translation": "example",
+        "type": "noun",
+        "example_sentence": "Kannst du mir ein Beispiel sagen?"
+        },
+        {
+        "word": "zum Beispiel/z. B.",
+        "translation": "for example",
+        "type": "phrase",
+        "example_sentence": "Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier."
+        },
+        {
+        "word": "bekannt",
+        "translation": "known",
+        "type": "adjective",
+        "example_sentence": "Picasso ist sehr bekannt."
+        },
+        {
+        "word": "der/die Bekannte",
+        "plural": "die Bekannten",
+        "translation": "acquaintance",
+        "type": "noun",
+        "example_sentence": "Ein Bekannter von mir heißt Klaus."
+        },
+        {
+        "word": "bekommen",
+        "translation": "receive",
+        "type": "verb",
+        "example_sentence": "Haben Sie meinen Brief bekommen? Was bekommen Sie? Dieses Medikament bekommen Sie in der Apotheke."
+        },
+        {
+        "word": "benutzen",
+        "translation": "use",
+        "type": "verb",
+        "example_sentence": "Die Aufzüge bitte nicht benutzen!"
+        },
+        {
+        "word": "der Beruf",
+        "plural": "die Berufe",
+        "translation": "profession",
+        "type": "noun",
+        "example_sentence": "Was sind Sie von Beruf? Was ist Ihr Beruf?"
+        },
+        {
+        "word": "besetzt",
+        "translation": "occupied",
+        "type": "adjective",
+        "example_sentence": "Die Nummer ist immer besetzt. Der Platz ist besetzt."
+        },
+        {
+        "word": "besichtigen",
+        "translation": "visit, view",
+        "type": "verb",
+        "example_sentence": "Ich möchte gern den Dom besichtigen."
+        },
+        {
+        "word": "besser",
+        "translation": "better",
+        "type": "adjective",
+        "example_sentence": "Es geht mir schon besser."
+        },
+        {
+        "word": "best-",
+        "translation": "best",
+        "type": "adjective",
+        "example_sentence": "Am besten treffen wir uns morgen."
+        },
+        {
+        "word": "bestellen",
+        "translation": "order",
+        "type": "verb",
+        "example_sentence": "Wir möchten bestellen, bitte. Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?"
+        },
+        {
+        "word": "besuchen",
+        "translation": "visit",
+        "type": "verb",
+        "example_sentence": "Darf ich dich besuchen?"
+        },
+        {
+        "word": "das Bett",
+        "plural": "die Betten",
+        "translation": "bed",
+        "type": "noun",
+        "example_sentence": "Wir brauchen noch ein Kinderbett."
+        },
+        {
+        "word": "bezahlen",
+        "translation": "pay",
+        "type": "verb",
+        "example_sentence": "Wo muss ich bezahlen?"
+        },
+        {
+        "word": "das Bier",
+        "plural": "die Biere",
+        "translation": "beer",
+        "type": "noun",
+        "example_sentence": "Noch ein Bier bitte."
+        },
+        {
+        "word": "das Bild",
+        "plural": "die Bilder",
+        "translation": "picture",
+        "type": "noun",
+        "example_sentence": "Hast du ein Bild von deinem Sohn?"
+        },
+        {
+        "word": "billig",
+        "translation": "cheap",
+        "type": "adjective",
+        "example_sentence": "Die Jacke kostet nur 10 Euro! Die ist aber billig!"
+        },
+        {
+        "word": "die Birne",
+        "plural": "die Birnen",
+        "translation": "pear",
+        "type": "noun",
+        "example_sentence": "Ein Kilo Birnen, bitte!"
+        },
+        {
+        "word": "bis",
+        "translation": "until, to",
+        "type": "preposition",
+        "example_sentence": "Ich fahre nur bis Stuttgart. Ich warte bis morgen."
+        },
+        {
+        "word": "bisschen",
+        "translation": "a little bit",
+        "type": "adverb",
+        "example_sentence": "Ich spreche Englisch, Französisch und ein bisschen Deutsch."
+        },
+        {
+        "word": "bitte",
+        "translation": "please",
+        "type": "adverb",
+        "example_sentence": "Eine Tasse Kaffee, bitte! Sprechen Sie bitte leise!"
+        },
+        {
+        "word": "die Bitte",
+        "plural": "die Bitten",
+        "translation": "request",
+        "type": "noun",
+        "example_sentence": "Ich habe noch eine Bitte."
+        },
+        {
+        "word": "bitten",
+        "translation": "ask, request",
+        "type": "verb",
+        "example_sentence": "Darf ich Sie um etwas bitten?"
+        },
+        {
+        "word": "bitter",
+        "translation": "bitter",
+        "type": "adjective",
+        "example_sentence": "Der Kaffee schmeckt bitter."
+        },
+        {
+        "word": "bleiben",
+        "translation": "stay",
+        "type": "verb",
+        "example_sentence": "Ich bleibe heute zu Hause. Wir bleiben nur bis morgen."
+        },
+        {
+        "word": "der Bleistift",
+        "plural": "die Bleistifte",
+        "translation": "pencil",
+        "type": "noun",
+        "example_sentence": "Hast du einen Bleistift?"
+        },
+        {
+        "word": "der Blick",
+        "plural": "die Blicke",
+        "translation": "view",
+        "type": "noun",
+        "example_sentence": "Von diesem Hotel hat man einen guten Blick auf den Rhein."
+        },
+        {
+        "word": "die Blume",
+        "plural": "die Blumen",
+        "translation": "flower",
+        "type": "noun",
+        "example_sentence": "Gefallen dir die Blumen?"
+        },
+        {
+        "word": "der Bogen",
+        "translation": "bogen (sheet)",
+        "type": "noun",
+        "example_sentence": "Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen."
+        },
+        {
+        "word": "böse",
+        "translation": "angry, evil",
+        "type": "adjective",
+        "example_sentence": "Sie ist böse auf mich."
+        },
+        {
+        "word": "brauchen",
+        "translation": "need",
+        "type": "verb",
+        "example_sentence": "Brauchst du die Zeitung noch?"
+        },
+        {
+        "word": "breit",
+        "translation": "wide",
+        "type": "adjective",
+        "example_sentence": "Wie breit ist der Schrank?"
+        },
+        {
+        "word": "der Brief",
+        "plural": "die Briefe",
+        "translation": "letter",
+        "type": "noun",
+        "example_sentence": "Haben Sie einen Brief für mich?"
+        },
+        {
+        "word": "die Briefmarke",
+        "plural": "die Briefmarken",
+        "translation": "postage stamp",
+        "type": "noun",
+        "example_sentence": "Kaufst du bitte Briefmarken bei der Post?"
+        },
+        {
+        "word": "bringen",
+        "translation": "bring",
+        "type": "verb",
+        "example_sentence": "Bringen Sie mir bitte noch einen Kaffee! Wir müssen ihn zum Arzt bringen."
+        },
+        {
+        "word": "das Brot",
+        "plural": "die Brote",
+        "translation": "bread",
+        "type": "noun",
+        "example_sentence": "Haben Sie auch Weißbrot? Nimm noch ein paar Brote für die Fahrt mit."
+        },
+        {
+        "word": "das Brötchen",
+        "plural": "die Brötchen",
+        "translation": "bread roll",
+        "type": "noun",
+        "example_sentence": "Möchtest du Brötchen zum Frühstück?"
+        },
+        {
+        "word": "der Bruder",
+        "plural": "die Brüder",
+        "translation": "brother",
+        "type": "noun",
+        "example_sentence": "Sein Bruder arbeitet auch hier."
+        },
+        {
+        "word": "das Buch",
+        "plural": "die Bücher",
+        "translation": "book",
+        "type": "noun",
+        "example_sentence": "Gute Bücher sind oft sehr teuer. In diesem Wörterbuch finden Sie mehr als 20.000 Wörter."
+        },
+        {
+        "word": "der Buchstabe",
+        "plural": "die Buchstaben",
+        "translation": "letter (of the alphabet)",
+        "type": "noun",
+        "example_sentence": "Diesen Buchstaben gibt es in meiner Sprache nicht."
+        },
+        {
+        "word": "buchstabieren",
+        "translation": "spell",
+        "type": "verb",
+        "example_sentence": "Bitte buchstabieren Sie Ihren Namen."
+        },
+        {
+        "word": "der Bus",
+        "plural": "die Busse",
+        "translation": "bus",
+        "type": "noun",
+        "example_sentence": "Wann kommt der nächste Bus?"
+        },
+        {
+        "word": "die Butter",
+        "translation": "butter",
+        "type": "noun",
+        "example_sentence": "Für mich bitte ein Brötchen mit Butter und Käse."
+        },
+        {
+        "word": "das Café",
+        "plural": "die Cafés",
+        "translation": "café",
+        "type": "noun",
+        "example_sentence": "Sollen wir uns im Café treffen?"
+        },
+        {
+        "word": "die CD",
+        "plural": "die CDs",
+        "translation": "CD",
+        "type": "noun",
+        "example_sentence": "Bring bitte deine Lieblings-CD mit."
+        },
+        {
+        "word": "der Chef",
+        "plural": "die Chefs",
+        "translation": "boss",
+        "type": "noun",
+        "example_sentence": "Wir haben eine neue Chefin."
+        },
+        {
+        "word": "circa/ca.",
+        "translation": "approximately",
+        "type": "adverb",
+        "example_sentence": "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer."
+        },
+        {
+        "word": "der Computer",
+        "plural": "die Computer",
+        "translation": "computer",
+        "type": "noun",
+        "example_sentence": "Wann bekommst du deinen neuen Computer?"
+        },
+        {
+        "word": "da",
+        "translation": "there",
+        "type": "adverb",
+        "example_sentence": "Da hinten ist er ja."
+        },
+        {
+        "word": "die Dame",
+        "plural": "die Damen",
+        "translation": "lady",
+        "type": "noun",
+        "example_sentence": "Sehr geehrte Damen und Herren!"
+        },
+        {
+        "word": "daneben",
+        "translation": "next to it",
+        "type": "adverb",
+        "example_sentence": "Du kennst doch die Post. Daneben ist die Bank."
+        },
+        {
+        "word": "danken",
+        "translation": "thank",
+        "type": "verb",
+        "example_sentence": "Ich danke Ihnen für die Einladung."
+        },
+        {
+        "word": "der Dank",
+        "plural": "die Danks",
+        "translation": "thanks",
+        "type": "noun",
+        "example_sentence": "Vielen Dank! Herzlichen Dank!"
+        },
+        {
+        "word": "danke",
+        "translation": "thank you",
+        "type": "phrase",
+        "example_sentence": "Soll ich Ihnen helfen? - Nein, danke!"
+        },
+        {
+        "word": "dann",
+        "translation": "then",
+        "type": "adverb",
+        "example_sentence": "Ich muss noch schnell zur Post, dann komme ich."
+        },
+        {
+        "word": "das Datum",
+        "plural": "die Daten",
+        "translation": "date",
+        "type": "noun",
+        "example_sentence": "Bitte schreiben Sie noch das Datum auf das Formular."
+        },
+        {
+        "word": "dauern",
+        "translation": "last",
+        "type": "verb",
+        "example_sentence": "Wie lange dauert der Film?"
+        },
+        {
+        "word": "dein-",
+        "translation": "your",
+        "type": "pronoun",
+        "example_sentence": "Ist das dein Auto? Ist das deins?"
+        },
+        {
+        "word": "denn",
+        "translation": "because",
+        "type": "conjunction",
+        "example_sentence": "Ich kann nicht kommen, denn ich bin krank."
+        },
+        {
+        "word": "der, die, das",
+        "translation": "the",
+        "type": "article",
+        "example_sentence": "Ich nehme das da. Hier ist der Brief, den du suchst."
+        },
+        {
+        "word": "dich",
+        "translation": "you (accusative)",
+        "type": "pronoun",
+        "example_sentence": "Die Blumen sind für dich."
+        },
+        {
+        "word": "dies-",
+        "translation": "this",
+        "type": "pronoun",
+        "example_sentence": "Ich nehme lieber diesen Kuchen."
+        },
+        {
+        "word": "dir",
+        "translation": "you (dative)",
+        "type": "pronoun",
+        "example_sentence": "Gefallen dir die Blumen?"
+        },
+        {
+        "word": "die Disco",
+        "plural": "die Discos",
+        "translation": "disco",
+        "type": "noun",
+        "example_sentence": "Heute abend gehen wir in die Disco tanzen."
+        },
+        {
+        "word": "der Doktor",
+        "plural": "die Doktoren",
+        "translation": "doctor",
+        "type": "noun",
+        "example_sentence": "Meine Tochter ist krank. Wir gehen zum Doktor."
+        },
+        {
+        "word": "das Doppelzimmer",
+        "plural": "die Doppelzimmer",
+        "translation": "double room",
+        "type": "noun",
+        "example_sentence": "Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?"
+        },
+        {
+        "word": "das Dorf",
+        "plural": "die Dörfer",
+        "translation": "village",
+        "type": "noun",
+        "example_sentence": "Meine Familie lebt in einem Dorf."
+        },
+        {
+        "word": "dort, -her, -hin",
+        "translation": "there, to there",
+        "type": "adverb",
+        "example_sentence": "Deine Tasche kannst du dorthin stellen. Dort ist unser Haus."
+        },
+        {
+        "word": "draußen",
+        "translation": "outside",
+        "type": "adverb",
+        "example_sentence": "Wollen wir draußen sitzen?"
+        },
+        {
+        "word": "drucken",
+        "translation": "print",
+        "type": "verb",
+        "example_sentence": "Bitte drucke das Formular für mich."
+        },
+        {
+        "word": "der Drucker",
+        "plural": "die Drucker",
+        "translation": "printer",
+        "type": "noun",
+        "example_sentence": "Mein Drucker ist kaputt."
+        },
+        {
+        "word": "drücken",
+        "translation": "press",
+        "type": "verb",
+        "example_sentence": "Drück hier, dann geht der Computer an."
+        },
+        {
+        "word": "durch",
+        "translation": "through",
+        "type": "preposition",
+        "example_sentence": "Am besten gehen Sie durch die Breite Straße."
+        },
+        {
+        "word": "die Durchsage",
+        "plural": "die Durchsagen",
+        "translation": "announcement",
+        "type": "noun",
+        "example_sentence": "Ich habe die Durchsage nicht verstanden."
+        },
+        {
+        "word": "dürfen",
+        "translation": "may",
+        "type": "verb",
+        "example_sentence": "Sie dürfen hier nicht rauchen. Darf ich Sie zu einem Kaffee einladen?"
+        },
+        {
+        "word": "der Durst",
+        "plural": "die Durste",
+        "translation": "thirst",
+        "type": "noun",
+        "example_sentence": "Hast du etwas zu trinken? Ich habe großen Durst."
+        },
+        {
+        "word": "(sich) duschen",
+        "translation": "to shower",
+        "type": "verb",
+        "example_sentence": "Ich bade nicht so gern, ich dusche lieber."
+        },
+        {
+        "word": "die Dusche",
+        "plural": "die Duschen",
+        "translation": "shower",
+        "type": "noun",
+        "example_sentence": "Unsere Wohnung hat nur eine Dusche."
+        },
+        {
+        "word": "die Ecke",
+        "plural": "die Ecken",
+        "translation": "corner",
+        "type": "noun",
+        "example_sentence": "An der nächsten Ecke links."
+        },
+        {
+        "word": "die Ehefrau",
+        "plural": "die Ehefrauen",
+        "translation": "wife",
+        "type": "noun",
+        "example_sentence": "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
+        },
+        {
+        "word": "der Ehemann",
+        "plural": "die Ehemänner",
+        "translation": "husband",
+        "type": "noun",
+        "example_sentence": "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
+        },
+        {
+        "word": "das Ei",
+        "plural": "die Eier",
+        "translation": "egg",
+        "type": "noun",
+        "example_sentence": "Möchtest du ein Ei zum Frühstück?"
+        },
+        {
+        "word": "eilig",
+        "translation": "in a hurry",
+        "type": "adjective",
+        "example_sentence": "Hast du es eilig?"
+        },
+        {
+        "word": "ein-",
+        "translation": "one, a",
+        "type": "pronoun",
+        "example_sentence": "Ich nehme ein Bier. Willst du auch eins? Ist hier einer, der das kann?"
+        },
+        {
+        "word": "einfach",
+        "translation": "simple, easy",
+        "type": "adjective",
+        "example_sentence": "Die Prüfung ist ganz einfach. Hin und zurück? – Nein, bitte nur einfach."
+        },
+        {
+        "word": "der Eingang",
+        "plural": "die Eingänge",
+        "translation": "entrance",
+        "type": "noun",
+        "example_sentence": "Der Eingang ist um die Ecke."
+        },
+        {
+        "word": "einkaufen",
+        "translation": "to shop, to buy",
+        "type": "verb",
+        "example_sentence": "Ich muss noch für morgen einkaufen."
+        },
+        {
+        "word": "einladen",
+        "translation": "to invite",
+        "type": "verb",
+        "example_sentence": "Darf ich Sie zu einem Kaffee einladen?"
+        },
+        {
+        "word": "die Einladung",
+        "plural": "die Einladungen",
+        "translation": "invitation",
+        "type": "noun",
+        "example_sentence": "Danke für die Einladung!"
+        },
+        {
+        "word": "einmal",
+        "translation": "once",
+        "type": "adverb",
+        "example_sentence": "Diese Prüfung mache ich nicht noch einmal."
+        },
+        {
+        "word": "einsteigen",
+        "translation": "to get in, to board",
+        "type": "verb",
+        "example_sentence": "Schnell, steig ein, der Zug fährt gleich."
+        },
+        {
+        "word": "der Eintritt",
+        "plural": "die Eintritts",
+        "translation": "admission, entry",
+        "type": "noun",
+        "example_sentence": "Der Preis für den Eintritt ist 5 Euro."
+        },
+        {
+        "word": "das Einzelzimmer",
+        "plural": "die Einzelzimmer",
+        "translation": "single room",
+        "type": "noun",
+        "example_sentence": "Haben Sie noch ein Einzelzimmer?"
+        },
+        {
+        "word": "die Eltern",
+        "plural": "die Eltern",
+        "translation": "parents",
+        "type": "noun",
+        "example_sentence": "Meine Eltern leben in Spanien."
+        },
+        {
+        "word": "die E-Mail",
+        "plural": "die E-Mails",
+        "translation": "email",
+        "type": "noun",
+        "example_sentence": "Ich habe Ihre E-Mail nicht bekommen."
+        },
+        {
+        "word": "der Empfänger",
+        "plural": "die Empfänger",
+        "translation": "recipient",
+        "type": "noun",
+        "example_sentence": "Auf dem Brief steht dein Name, also bist du der Empfänger."
+        },
+        {
+        "word": "empfehlen",
+        "translation": "to recommend",
+        "type": "verb",
+        "example_sentence": "Welchen Wein können Sie mir empfehlen?"
+        },
+        {
+        "word": "enden",
+        "translation": "to end",
+        "type": "verb",
+        "example_sentence": "Die Straße endet hier."
+        },
+        {
+        "word": "das Ende",
+        "plural": "die Enden",
+        "translation": "end",
+        "type": "noun",
+        "example_sentence": "Sie wohnt am Ende der Straße. Er bekommt sein Geld am Ende des Monats."
+        },
+        {
+        "word": "entschuldigen",
+        "translation": "to apologize",
+        "type": "verb",
+        "example_sentence": "Entschuldigen Sie bitte!"
+        },
+        {
+        "word": "die Entschuldigung",
+        "plural": "die Entschuldigungen",
+        "translation": "apology",
+        "type": "noun",
+        "example_sentence": "Entschuldigung! – Bitte."
+        },
+        {
+        "word": "er",
+        "translation": "he",
+        "type": "pronoun",
+        "example_sentence": "Er heißt Ali."
+        },
+        {
+        "word": "das Ergebnis",
+        "plural": "die Ergebnisse",
+        "translation": "result",
+        "type": "noun",
+        "example_sentence": "Das Ergebnis des Tests bekommen Sie in zwei Wochen."
+        },
+        {
+        "word": "erklären",
+        "translation": "to explain",
+        "type": "verb",
+        "example_sentence": "Kannst du mir das erklären?"
+        },
+        {
+        "word": "erlauben",
+        "translation": "to allow",
+        "type": "verb",
+        "example_sentence": "Rauchen ist hier nicht erlaubt."
+        },
+        {
+        "word": "der Erwachsene",
+        "plural": "die Erwachsenen",
+        "translation": "adult",
+        "type": "noun",
+        "example_sentence": "Dieser Film ist nur für Erwachsene."
+        },
+        {
+        "word": "erzählen",
+        "translation": "to tell, to narrate",
+        "type": "verb",
+        "example_sentence": "Wir müssen euch etwas erzählen!"
+        },
+        {
+        "word": "es",
+        "translation": "it",
+        "type": "pronoun",
+        "example_sentence": "Es regnet."
+        },
+        {
+        "word": "essen",
+        "translation": "to eat",
+        "type": "verb",
+        "example_sentence": "Was gibt es zu essen?"
+        },
+        {
+        "word": "das Essen",
+        "plural": "die Essen",
+        "translation": "food, meal",
+        "type": "noun",
+        "example_sentence": "Das Essen ist heute sehr gut."
+        },
+        {
+        "word": "euer",
+        "translation": "your (plural informal)",
+        "type": "pronoun",
+        "example_sentence": "Euer Kurs beginnt heute."
+        },
+        {
+        "word": "fahren",
+        "translation": "to drive, to go (by vehicle)",
+        "type": "verb",
+        "example_sentence": "Ich fahre mit dem Auto zur Arbeit."
+        },
+        {
+        "word": "der Fahrer",
+        "plural": "die Fahrer",
+        "translation": "driver",
+        "type": "noun",
+        "example_sentence": "Bitte nicht mit dem Fahrer sprechen!"
+        },
+        {
+        "word": "die Fahrkarte",
+        "plural": "die Fahrkarten",
+        "translation": "ticket (for transportation)",
+        "type": "noun",
+        "example_sentence": "Hast du schon eine Fahrkarte?"
+        },
+        {
+        "word": "das Fahrrad",
+        "plural": "die Fahrräder",
+        "translation": "bicycle",
+        "type": "noun",
+        "example_sentence": "Fährst du mit dem Fahrrad oder mit dem Auto?"
+        },
+        {
+        "word": "falsch",
+        "translation": "wrong, incorrect",
+        "type": "adjective",
+        "example_sentence": "Das ist falsch."
+        },
+        {
+        "word": "die Familie",
+        "plural": "die Familien",
+        "translation": "family",
+        "type": "noun",
+        "example_sentence": "Meine Familie lebt in Spanien."
+        },
+        {
+        "word": "der Familienname",
+        "plural": "die Familiennamen",
+        "translation": "family name, surname",
+        "type": "noun",
+        "example_sentence": "Meine Familiennamen sind García González."
+        },
+        {
+        "word": "der Familienstand",
+        "plural": "die Familienstände",
+        "translation": "marital status",
+        "type": "noun",
+        "example_sentence": "Bei „Familienstand“ musst du „ledig“ ankreuzen."
+        },
+        {
+        "word": "die Farbe",
+        "plural": "die Farben",
+        "translation": "color",
+        "type": "noun",
+        "example_sentence": "Die Farbe gefällt mir gut."
+        },
+        {
+        "word": "das Fax",
+        "plural": "die Faxe",
+        "translation": "fax",
+        "type": "noun",
+        "example_sentence": "Schicken Sie uns einfach ein Fax!"
+        },
+        {
+        "word": "Feier-",
+        "translation": "celebration (prefix)",
+        "type": "prefix",
+        "example_sentence": "Am Montag ist Feiertag."
+        },
+        {
+        "word": "feiern",
+        "translation": "to celebrate",
+        "type": "verb",
+        "example_sentence": "Wir feiern heute meinen Geburtstag."
+        },
+        {
+        "word": "fehlen",
+        "translation": "to be absent, to be missing",
+        "type": "verb",
+        "example_sentence": "Herr Müller ist nicht da, er fehlt schon seit drei Tagen. Was fehlt Ihnen?"
+        },
+        {
+        "word": "der Fehler",
+        "plural": "die Fehler",
+        "translation": "mistake, error",
+        "type": "noun",
+        "example_sentence": "Diesen Fehler mache ich immer."
+        },
+        {
+        "word": "fernsehen",
+        "translation": "to watch TV",
+        "type": "verb",
+        "example_sentence": "Wollen wir heute Abend mal fernsehen?"
+        },
+        {
+        "word": "fertig",
+        "translation": "ready, finished",
+        "type": "adjective",
+        "example_sentence": "Bist du fertig? Ist mein Auto schon fertig?"
+        },
+        {
+        "word": "das Feuer",
+        "plural": "die Feuer",
+        "translation": "fire",
+        "type": "noun",
+        "example_sentence": "Haben Sie Feuer?"
+        },
+        {
+        "word": "das Fieber",
+        "plural": "die Fieber",
+        "translation": "fever",
+        "type": "noun",
+        "example_sentence": "Mein Mann hat noch immer Fieber."
+        },
+        {
+        "word": "der Film",
+        "plural": "die Filme",
+        "translation": "movie, film",
+        "type": "noun",
+        "example_sentence": "Ich möchte gern diesen Film sehen."
+        },
+        {
+        "word": "finden",
+        "translation": "to find",
+        "type": "verb",
+        "example_sentence": "Wir müssen den Schlüssel finden."
+        },
+        {
+        "word": "die Firma",
+        "plural": "die Firmen",
+        "translation": "company, firm",
+        "type": "noun",
+        "example_sentence": "Er arbeitet jetzt bei einer anderen Firma."
+        },
+        {
+        "word": "der Fisch",
+        "plural": "die Fische",
+        "translation": "fish",
+        "type": "noun",
+        "example_sentence": "Ich esse gern Fisch. Fleisch mag ich nicht."
+        },
+        {
+        "word": "die Flasche",
+        "plural": "die Flaschen",
+        "translation": "bottle",
+        "type": "noun",
+        "example_sentence": "Eine Flasche Bier, bitte."
+        },
+        {
+        "word": "das Fleisch",
+        "plural": "die Fleischarten",
+        "translation": "meat",
+        "type": "noun",
+        "example_sentence": "Fleisch mag ich nicht."
+        },
+        {
+        "word": "fliegen",
+        "translation": "to fly",
+        "type": "verb",
+        "example_sentence": "Ich fliege nicht gern. Deshalb fahre ich mit dem Zug."
+        },
+        {
+        "word": "abfliegen",
+        "translation": "to depart (by air)",
+        "type": "verb",
+        "example_sentence": "Wann fliegst du ab?"
+        },
+        {
+        "word": "der Abflug",
+        "plural": "die Abflüge",
+        "translation": "departure (flight)",
+        "type": "noun",
+        "example_sentence": "Der Abflug ist um 11.20 Uhr."
+        },
+        {
+        "word": "der Flughafen",
+        "plural": "die Flughäfen",
+        "translation": "airport",
+        "type": "noun",
+        "example_sentence": "Kannst du mich zum Flughafen bringen?"
+        },
+        {
+        "word": "das Flugzeug",
+        "plural": "die Flugzeuge",
+        "translation": "airplane",
+        "type": "noun",
+        "example_sentence": "Das Flugzeug aus Berlin kommt heute später an."
+        },
+        {
+        "word": "das Formular",
+        "plural": "die Formulare",
+        "translation": "form",
+        "type": "noun",
+        "example_sentence": "Sie müssen dieses Formular ausfüllen."
+        },
+        {
+        "word": "das Foto",
+        "plural": "die Fotos",
+        "translation": "photo",
+        "type": "noun",
+        "example_sentence": "Darf ich ein Foto machen?"
+        },
+        {
+        "word": "fragen",
+        "translation": "to ask",
+        "type": "verb",
+        "example_sentence": "Er möchte Sie etwas fragen. Wann kommen Sie?"
+        },
+        {
+        "word": "die Frage",
+        "plural": "die Fragen",
+        "translation": "question",
+        "type": "noun",
+        "example_sentence": "Ich habe eine Frage."
+        },
+        {
+        "word": "die Frau",
+        "plural": "die Frauen",
+        "translation": "woman, wife",
+        "type": "noun",
+        "example_sentence": "Das ist Frau Becker. Guten Tag, Frau Schmitt! Hier arbeiten mehr Frauen als Männer."
+        },
+        {
+        "word": "frei",
+        "translation": "free, available",
+        "type": "adjective",
+        "example_sentence": "Ist der Platz noch frei?"
+        },
+        {
+        "word": "die Freizeit",
+        "plural": "die Freizeiten",
+        "translation": "free time, leisure",
+        "type": "noun",
+        "example_sentence": "In meiner Freizeit spiele ich oft Fußball."
+        },
+        {
+        "word": "fremd",
+        "translation": "foreign, strange",
+        "type": "adjective",
+        "example_sentence": "Das weiß ich nicht; ich bin fremd hier."
+        },
+        {
+        "word": "(sich) freuen",
+        "translation": "to be happy, to look forward to",
+        "type": "verb",
+        "example_sentence": "Ich freue mich auf den Urlaub."
+        },
+        {
+        "word": "der Freund",
+        "plural": "die Freunde",
+        "translation": "friend",
+        "type": "noun",
+        "example_sentence": "Das ist ein Freund von mir. Das ist meine Freundin."
+        },
+        {
+        "word": "früher",
+        "translation": "earlier, formerly",
+        "type": "adverb",
+        "example_sentence": "Früher waren wir oft zusammen im Kino."
+        },
+        {
+        "word": "frühstücken",
+        "translation": "to have breakfast",
+        "type": "verb",
+        "example_sentence": "Am Sonntag frühstücke ich gern im Bett."
+        },
+        {
+        "word": "das Frühstück",
+        "plural": "die Frühstücke",
+        "translation": "breakfast",
+        "type": "noun",
+        "example_sentence": "Möchtest du ein Ei zum Frühstück?"
+        },
+        {
+        "word": "die Führung",
+        "plural": "die Führungen",
+        "translation": "tour, guidance",
+        "type": "noun",
+        "example_sentence": "Die Führung durch das Haus beginnt in 3 Minuten."
+        },
+        {
+        "word": "für",
+        "translation": "for",
+        "type": "preposition",
+        "example_sentence": "Das ist für Sie. Das ist der Schlüssel für die Haustür. Das ist das Brot für morgen."
+        },
+        {
+        "word": "der Fuß",
+        "plural": "die Füße",
+        "translation": "foot",
+        "type": "noun",
+        "example_sentence": "Der linke Fuß tut mir weh."
+        },
+        {
+        "word": "der Fußball",
+        "plural": "die Fußbälle",
+        "translation": "soccer, football",
+        "type": "noun",
+        "example_sentence": "Spielt ihr gerne Fußball?"
+        },
+        {
+        "word": "der Garten",
+        "plural": "die Gärten",
+        "translation": "garden",
+        "type": "noun",
+        "example_sentence": "Wir haben leider keinen Garten."
+        },
+        {
+        "word": "der Gast",
+        "plural": "die Gäste",
+        "translation": "guest",
+        "type": "noun",
+        "example_sentence": "Am Wochenende haben wir mehrere Gäste."
+        },
+        {
+        "word": "geben",
+        "translation": "to give",
+        "type": "verb",
+        "example_sentence": "Kannst du mir bitte deinen Kugelschreiber geben?"
+        },
+        {
+        "word": "Es gibt",
+        "translation": "there is, there are",
+        "type": "phrase",
+        "example_sentence": "Es gibt keine Karten mehr."
+        },
+        {
+        "word": "geboren",
+        "translation": "born",
+        "type": "verb (past participle)",
+        "example_sentence": "Ich bin in Zagreb geboren."
+        },
+        {
+        "word": "das Geburtsjahr",
+        "plural": "die Geburtsjahre",
+        "translation": "year of birth",
+        "type": "noun",
+        "example_sentence": "Das Geburtsjahr Ihres Sohnes, bitte?"
+        },
+        {
+        "word": "der Geburtsort",
+        "plural": "die Geburtsorte",
+        "translation": "place of birth",
+        "type": "noun",
+        "example_sentence": "Bitte schreiben Sie Ihren Geburtsort auf das Formular."
+        },
+        {
+        "word": "der Geburtstag",
+        "plural": "die Geburtstage",
+        "translation": "birthday",
+        "type": "noun",
+        "example_sentence": "Herzlichen Glückwunsch zum Geburtstag!"
+        },
+        {
+        "word": "gefallen",
+        "translation": "to like, to appeal",
+        "type": "verb",
+        "example_sentence": "Das gefällt mir."
+        },
+        {
+        "word": "gegen",
+        "translation": "against",
+        "type": "preposition",
+        "example_sentence": "Fahr nicht gegen den Baum! Ich bin gegen diese Lösung. Wer spielt gegen wen?"
+        },
+        {
+        "word": "gehen",
+        "translation": "to go, to walk",
+        "type": "verb",
+        "example_sentence": "Ich weiß nicht, wie das geht. Wie geht‘s? Jetzt muss ich (aber) leider gehen. Ich muss zum Arzt gehen. Das geht nicht!"
+        },
+        {
+        "word": "gehören",
+        "translation": "to belong",
+        "type": "verb",
+        "example_sentence": "Wem gehört das?"
+        },
+        {
+        "word": "das Geld",
+        "plural": "die Gelder",
+        "translation": "money",
+        "type": "noun",
+        "example_sentence": "Hast du noch Geld?"
+        },
+        {
+        "word": "das Gemüse",
+        "plural": "die Gemüse",
+        "translation": "vegetables",
+        "type": "noun",
+        "example_sentence": "Gemüse brauchen wir auch noch."
+        },
+        {
+        "word": "das Gepäck",
+        "translation": "luggage, baggage",
+        "type": "noun",
+        "example_sentence": "Wollen Sie Ihr Gepäck mitnehmen?"
+        },
+        {
+        "word": "gerade",
+        "translation": "just, straight",
+        "type": "adverb",
+        "example_sentence": "Da kommt er ja gerade."
+        },
+        {
+        "word": "geradeaus",
+        "translation": "straight ahead",
+        "type": "adverb",
+        "example_sentence": "Gehen Sie immer geradeaus!"
+        },
+        {
+        "word": "gern(e)",
+        "translation": "gladly, with pleasure",
+        "type": "adverb",
+        "example_sentence": "Ich gehe gerne einkaufen."
+        },
+        {
+        "word": "das Geschäft",
+        "plural": "die Geschäfte",
+        "translation": "shop, store, business",
+        "type": "noun",
+        "example_sentence": "Die Geschäfte schließen um 18.30 Uhr."
+        },
+        {
+        "word": "das Geschenk",
+        "plural": "die Geschenke",
+        "translation": "gift",
+        "type": "noun",
+        "example_sentence": "Danke für das schöne Geschenk."
+        },
+        {
+        "word": "die Geschwister",
+        "translation": "siblings",
+        "type": "noun (plural)",
+        "example_sentence": "Ich habe leider keine Geschwister."
+        },
+        {
+        "word": "das Gespräch",
+        "plural": "die Gespräche",
+        "translation": "conversation, discussion",
+        "type": "noun",
+        "example_sentence": "Das Gespräch mit Frau Kunz ist um 14 Uhr."
+        },
+        {
+        "word": "gestern",
+        "translation": "yesterday",
+        "type": "adverb",
+        "example_sentence": "Gestern war ich krank."
+        },
+        {
+        "word": "gestorben",
+        "translation": "died",
+        "type": "verb (past participle)",
+        "example_sentence": "Meine Frau ist gestern gestorben."
+        },
+        {
+        "word": "das Getränk",
+        "plural": "die Getränke",
+        "translation": "drink, beverage",
+        "type": "noun",
+        "example_sentence": "Mein Lieblingsgetränk ist Tomatensaft."
+        },
+        {
+        "word": "das Gewicht",
+        "plural": "die Gewichte",
+        "translation": "weight",
+        "type": "noun",
+        "example_sentence": "Bei „Gewicht“ schreibst du: 62 Kilo."
+        },
+        {
+        "word": "gewinnen",
+        "translation": "to win",
+        "type": "verb",
+        "example_sentence": "Wer gewinnt das Spiel?"
+        },
+        {
+        "word": "das Glas",
+        "plural": "die Gläser",
+        "translation": "glass",
+        "type": "noun",
+        "example_sentence": "Bitte noch ein Glas Wein! Wir brauchen noch drei Gläser."
+        },
+        {
+        "word": "glauben",
+        "translation": "to believe",
+        "type": "verb",
+        "example_sentence": "Sie können mir glauben, es ist so. Ich glaube, er kommt gleich."
+        },
+        {
+        "word": "gleich",
+        "translation": "same, right away",
+        "type": "adjective/adverb",
+        "example_sentence": "Das ist mir gleich. Das ist der gleiche Preis. Ich komme gleich."
+        },
+        {
+        "word": "das Gleis",
+        "plural": "die Gleise",
+        "translation": "track (railroad)",
+        "type": "noun",
+        "example_sentence": "Der ICE nach Berlin hält heute an Gleis 12."
+        },
+        {
+        "word": "das Glück",
+        "translation": "luck, happiness",
+        "type": "noun",
+        "example_sentence": "Viel Glück!"
+        },
+        {
+        "word": "glücklich",
+        "translation": "happy",
+        "type": "adjective",
+        "example_sentence": "Meine Kinder sind glücklich verheiratet."
+        },
+        {
+        "word": "der Glückwunsch",
+        "plural": "die Glückwünsche",
+        "translation": "congratulation",
+        "type": "noun",
+        "example_sentence": "Herzlichen Glückwunsch zum Geburtstag!"
+        },
+        {
+        "word": "Grad (Celsius)",
+        "translation": "degree (Celsius)",
+        "type": "noun",
+        "example_sentence": "Heute haben wir dreißig Grad."
+        },
+        {
+        "word": "gratulieren",
+        "translation": "to congratulate",
+        "type": "verb",
+        "example_sentence": "Ich gratuliere dir!"
+        },
+        {
+        "word": "grillen",
+        "translation": "to grill",
+        "type": "verb",
+        "example_sentence": "Heute grillen wir im Garten."
+        },
+        {
+        "word": "groß",
+        "translation": "big, tall",
+        "type": "adjective",
+        "example_sentence": "Mein Bruder und ich sind gleich groß. Frankfurt ist eine große Stadt."
+        },
+        {
+        "word": "die Größe",
+        "plural": "die Größen",
+        "translation": "size",
+        "type": "noun",
+        "example_sentence": "Haben Sie das auch in Größe 40?"
+        },
+        {
+        "word": "die Großeltern",
+        "translation": "grandparents",
+        "type": "noun (plural)",
+        "example_sentence": "Meine Großeltern leben in Japan."
+        },
+        {
+        "word": "die Großmutter",
+        "plural": "die Großmütter",
+        "translation": "grandmother",
+        "type": "noun",
+        "example_sentence": "Meine Großmutter heißt Eva."
+        },
+        {
+        "word": "der Großvater",
+        "plural": "die Großväter",
+        "translation": "grandfather",
+        "type": "noun",
+        "example_sentence": "Mein Großvater ist schon 80."
+        },
+        {
+        "word": "die Gruppe",
+        "plural": "die Gruppen",
+        "translation": "group",
+        "type": "noun",
+        "example_sentence": "Die erste Gruppe beginnt um 16 Uhr."
+        },
+        {
+        "word": "der Gruß",
+        "plural": "die Grüße",
+        "translation": "greeting",
+        "type": "noun",
+        "example_sentence": "Viele Grüße an Ihre Frau. Mit freundlichen Grüßen"
+        },
+        {
+        "word": "gültig",
+        "translation": "valid",
+        "type": "adjective",
+        "example_sentence": "Der Pass ist nicht mehr gültig."
+        },
+        {
+        "word": "günstig",
+        "translation": "affordable, cheap",
+        "type": "adjective",
+        "example_sentence": "Dort gibt es günstige Angebote."
+        },
+        {
+        "word": "gut",
+        "translation": "good",
+        "type": "adjective",
+        "example_sentence": "Das finde ich gut. Ich komme um 13 Uhr. – Gut! Guten Morgen! Ein gutes neues Jahr! Guten Appetit!"
+        },
+        {
+        "word": "das Haar",
+        "plural": "die Haare",
+        "translation": "hair",
+        "type": "noun",
+        "example_sentence": "Sie hat lange Haare."
+        },
+        {
+        "word": "haben",
+        "translation": "to have",
+        "type": "verb",
+        "example_sentence": "Ich habe ein neues Auto."
+        },
+        {
+        "word": "das Hähnchen",
+        "plural": "die Hähnchen",
+        "translation": "chicken",
+        "type": "noun",
+        "example_sentence": "Ein Hähnchen mit Pommes bitte!"
+        },
+        {
+        "word": "die Halbpension",
+        "plural": "die Halbpensionen",
+        "translation": "half board",
+        "type": "noun",
+        "example_sentence": "Möchten Sie Vollpension oder Halbpension?"
+        },
+        {
+        "word": "die Halle",
+        "plural": "die Hallen",
+        "translation": "hall",
+        "type": "noun",
+        "example_sentence": "Wir treffen uns in Halle B."
+        },
+        {
+        "word": "hallo",
+        "translation": "hello",
+        "type": "greeting",
+        "example_sentence": "Hallo Inge! Wie geht’s?"
+        },
+        {
+        "word": "halten",
+        "translation": "to stop, to hold",
+        "type": "verb",
+        "example_sentence": "Dieser Zug hält nicht in Rüdesheim."
+        },
+        {
+        "word": "die Haltestelle",
+        "plural": "die Haltestellen",
+        "translation": "bus stop, station",
+        "type": "noun",
+        "example_sentence": "An der nächsten Haltestelle müssen Sie aussteigen."
+        },
+        {
+        "word": "die Hand",
+        "plural": "die Hände",
+        "translation": "hand",
+        "type": "noun",
+        "example_sentence": "Er gibt mir die Hand."
+        },
+        {
+        "word": "das Handy",
+        "plural": "die Handys",
+        "translation": "mobile phone",
+        "type": "noun",
+        "example_sentence": "In der Schule bitte die Handys ausmachen!"
+        },
+        {
+        "word": "das Haus",
+        "plural": "die Häuser",
+        "translation": "house",
+        "type": "noun",
+        "example_sentence": "In welchem Haus wohnst du? Ich gehe jetzt nach Hause. Paul ist nicht zu Hause."
+        },
+        {
+        "word": "die Hausaufgabe",
+        "plural": "die Hausaufgaben",
+        "translation": "homework",
+        "type": "noun",
+        "example_sentence": "Kannst du mir bei den Hausaufgaben helfen?"
+        },
+        {
+        "word": "die Hausfrau",
+        "plural": "die Hausfrauen",
+        "translation": "housewife",
+        "type": "noun",
+        "example_sentence": "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
+        },
+        {
+        "word": "der Hausmann",
+        "plural": "die Hausmänner",
+        "translation": "househusband",
+        "type": "noun",
+        "example_sentence": "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
+        },
+        {
+        "word": "die Heimat",
+        "plural": "die Heimaten",
+        "translation": "homeland",
+        "type": "noun",
+        "example_sentence": "Ich komme aus der Schweiz. Das ist meine Heimat."
+        },
+        {
+        "word": "heiraten",
+        "translation": "to marry",
+        "type": "verb",
+        "example_sentence": "Meine Schwester heiratet einen Japaner."
+        },
+        {
+        "word": "heißen",
+        "translation": "to be called, to name",
+        "type": "verb",
+        "example_sentence": "Ich heiße Charlotte Meier. Wie heißt das auf Deutsch?"
+        },
+        {
+        "word": "helfen",
+        "translation": "to help",
+        "type": "verb",
+        "example_sentence": "Können Sie mir helfen, bitte?"
+        },
+        {
+        "word": "hell",
+        "translation": "bright",
+        "type": "adjective",
+        "example_sentence": "Im Sommer ist es bis 21 Uhr hell."
+        },
+        {
+        "word": "der Herd",
+        "plural": "die Herde",
+        "translation": "stove",
+        "type": "noun",
+        "example_sentence": "In der neuen Küche fehlt noch der Herd."
+        },
+        {
+        "word": "der Herr",
+        "plural": "die Herren",
+        "translation": "gentleman, Mr.",
+        "type": "noun",
+        "example_sentence": "Guten Tag, Herr Sommer!"
+        },
+        {
+        "word": "herzlich",
+        "translation": "heartfelt",
+        "type": "adjective",
+        "example_sentence": "Herzlichen Glückwunsch!"
+        },
+        {
+        "word": "heute",
+        "translation": "today",
+        "type": "adverb",
+        "example_sentence": "Heute ist ein schöner Tag."
+        },
+        {
+        "word": "hier",
+        "translation": "here",
+        "type": "adverb",
+        "example_sentence": "Hier ist 06131-553221, Pamela Linke. Hier wohne ich."
+        },
+        {
+        "word": "die Hilfe",
+        "plural": "die Hilfen",
+        "translation": "help",
+        "type": "noun",
+        "example_sentence": "Hilfe! Bitte helfen Sie mir! Brauchen Sie meine Hilfe?"
+        },
+        {
+        "word": "hinten",
+        "translation": "at the back",
+        "type": "adverb",
+        "example_sentence": "Die Tür zum Aussteigen ist hinten."
+        },
+        {
+        "word": "das Hobby",
+        "plural": "die Hobbys",
+        "translation": "hobby",
+        "type": "noun",
+        "example_sentence": "Meine Hobbys sind Wandern und Schwimmen."
+        },
+        {
+        "word": "hoch",
+        "translation": "high, tall",
+        "type": "adjective",
+        "example_sentence": "Der Mount Everest ist 8.880 Meter hoch."
+        },
+        {
+        "word": "die Hochzeit",
+        "plural": "die Hochzeiten",
+        "translation": "wedding",
+        "type": "noun",
+        "example_sentence": "Zur dieser Hochzeit kommen mehr als fünfzig Gäste."
+        },
+        {
+        "word": "holen",
+        "translation": "to fetch, to get",
+        "type": "verb",
+        "example_sentence": "Ich hole zwei Flaschen Wasser aus der Küche."
+        },
+        {
+        "word": "hören",
+        "translation": "to hear",
+        "type": "verb",
+        "example_sentence": "Hör mal! Was ist das? Ich habe das Lied schon mal gehört."
+        },
+        {
+        "word": "das Hotel",
+        "plural": "die Hotels",
+        "translation": "hotel",
+        "type": "noun",
+        "example_sentence": "Im Urlaub sind wir in einem Hotel am Meer."
+        },
+        {
+        "word": "der Hund",
+        "plural": "die Hunde",
+        "translation": "dog",
+        "type": "noun",
+        "example_sentence": "Der Hund ist noch jung."
+        },
+        {
+        "word": "der Hunger",
+        "translation": "hunger",
+        "type": "noun",
+        "example_sentence": "Ich habe Hunger! Wann ist das Essen fertig?"
+        },
+        {
+        "word": "ich",
+        "translation": "I",
+        "type": "pronoun",
+        "example_sentence": "Ich heiße Veronika."
+        },
+        {
+        "word": "ihr/ihm/ihn",
+        "translation": "her/him/it",
+        "type": "pronoun",
+        "example_sentence": "Gib ihr/ihm bitte das Buch. Ruf ihn bitte an."
+        },
+        {
+        "word": "immer",
+        "translation": "always",
+        "type": "adverb",
+        "example_sentence": "Frau Bast kommt immer zu spät."
+        },
+        {
+        "word": "in",
+        "translation": "in",
+        "type": "preposition",
+        "example_sentence": "Ich wohne in Wiesbaden. Der Zug kommt in fünf Minuten. Frau Rausch arbeitet in einem Geschäft. Komm, wir gehen ins Kino."
+        },
+        {
+        "word": "die Information",
+        "plural": "die Informationen",
+        "translation": "information",
+        "type": "noun",
+        "example_sentence": "Wenn Sie Fragen haben, gehen Sie zur Information. Wir haben hier wichtige Informationen für Sie."
+        },
+        {
+        "word": "international",
+        "translation": "international",
+        "type": "adjective",
+        "example_sentence": "Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ..."
+        },
+        {
+        "word": "das Internet",
+        "plural": "die Internets",
+        "translation": "internet",
+        "type": "noun",
+        "example_sentence": "Das findest du im Internet."
+        },
+        {
+        "word": "ja",
+        "translation": "yes",
+        "type": "interjection",
+        "example_sentence": "Sind Sie Herr Watanabe? – Ja."
+        },
+        {
+        "word": "die Jacke",
+        "plural": "die Jacken",
+        "translation": "jacket",
+        "type": "noun",
+        "example_sentence": "Zieh dir eine Jacke an. Es ist kalt."
+        },
+        {
+        "word": "jed-",
+        "translation": "each, every",
+        "type": "pronoun",
+        "example_sentence": "Blumen kannst du in jedem Bahnhof kaufen."
+        },
+        {
+        "word": "jetzt",
+        "translation": "now",
+        "type": "adverb",
+        "example_sentence": "Jetzt machen wir eine Pause."
+        },
+        {
+        "word": "der Job",
+        "plural": "die Jobs",
+        "translation": "job",
+        "type": "noun",
+        "example_sentence": "Jenny hat einen neuen Job bei der Post."
+        },
+        {
+        "word": "der Jugendliche",
+        "plural": "die Jugendlichen",
+        "translation": "teenager, youth",
+        "type": "noun",
+        "example_sentence": "Viele Jugendliche kaufen gern ein."
+        },
+        {
+        "word": "jung",
+        "translation": "young",
+        "type": "adjective",
+        "example_sentence": "Claudia ist 21. – Was? Noch so jung?"
+        },
+        {
+        "word": "der Junge",
+        "plural": "die Jungen",
+        "translation": "boy",
+        "type": "noun",
+        "example_sentence": "Ich habe zwei Kinder. Einen Jungen und ein Mädchen."
+        },
+        {
+        "word": "der Kaffee",
+        "plural": "die Kaffees",
+        "translation": "coffee",
+        "type": "noun",
+        "example_sentence": "Zum Frühstück trinke ich immer Kaffee."
+        },
+        {
+        "word": "kaputt",
+        "translation": "broken",
+        "type": "adjective",
+        "example_sentence": "Das Glas war teuer. Es geht sehr leicht kaputt."
+        },
+        {
+        "word": "die Karte",
+        "plural": "die Karten",
+        "translation": "card, map, ticket",
+        "type": "noun",
+        "example_sentence": "Ich schreibe meinen Bekannten eine Karte aus dem Urlaub. Wollen wir Karten spielen? Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte."
+        },
+        {
+        "word": "(Kredit)-Karte",
+        "plural": "die (Kredit)-Karten",
+        "translation": "(credit) card",
+        "type": "noun",
+        "example_sentence": "Kann ich auch mit Karte (be-) zahlen?"
+        },
+        {
+        "word": "die Kartoffel",
+        "plural": "die Kartoffeln",
+        "translation": "potato",
+        "type": "noun",
+        "example_sentence": "Für Pommes frites braucht man Kartoffeln."
+        },
+        {
+        "word": "die Kasse",
+        "plural": "die Kassen",
+        "translation": "cash register, checkout",
+        "type": "noun",
+        "example_sentence": "Zahlen Sie bitte an der Kasse."
+        },
+        {
+        "word": "kaufen",
+        "translation": "to buy",
+        "type": "verb",
+        "example_sentence": "Tim kauft sich ein neues Auto."
+        },
+        {
+        "word": "kein",
+        "translation": "no, none",
+        "type": "determiner",
+        "example_sentence": "Es gibt keine Eintrittskarten mehr."
+        },
+        {
+        "word": "kennen",
+        "translation": "to know (a person)",
+        "type": "verb",
+        "example_sentence": "Kennen Sie diese Frau? – Nein, leider nicht."
+        },
+        {
+        "word": "kennenlernen",
+        "translation": "to get to know",
+        "type": "verb",
+        "example_sentence": "Wir sind neu hier. Wir möchten Sie kennenlernen."
+        },
+        {
+        "word": "das Kind",
+        "plural": "die Kinder",
+        "translation": "child",
+        "type": "noun",
+        "example_sentence": "Wie viele Kinder haben Sie?"
+        },
+        {
+        "word": "der Kindergarten",
+        "plural": "die Kindergärten",
+        "translation": "kindergarten",
+        "type": "noun",
+        "example_sentence": "Die kleine Laura geht schon in den Kindergarten."
+        },
+        {
+        "word": "das Kino",
+        "plural": "die Kinos",
+        "translation": "cinema",
+        "type": "noun",
+        "example_sentence": "Wir sehen heute Abend im Kino einen schönen Film."
+        },
+        {
+        "word": "der Kiosk",
+        "plural": "die Kioske",
+        "translation": "kiosk",
+        "type": "noun",
+        "example_sentence": "Am Kiosk bekommen Sie Getränke, Zigaretten und Zeitungen."
+        },
+        {
+        "word": "klar",
+        "translation": "clear, sure",
+        "type": "adjective, interjection",
+        "example_sentence": "Kommst du mit? – Klar!"
+        },
+        {
+        "word": "die Klasse",
+        "plural": "die Klassen",
+        "translation": "class",
+        "type": "noun",
+        "example_sentence": "In unserer Klasse sind fünfundzwanzig Schüler. Im Zug fahre ich immer 2. Klasse."
+        },
+        {
+        "word": "die Kleidung",
+        "plural": "die Kleidungen",
+        "translation": "clothing",
+        "type": "noun",
+        "example_sentence": "Wo finde ich Kleidung? – Jacken im ersten, Jeans im zweiten Stock."
+        },
+        {
+        "word": "klein",
+        "translation": "small, little",
+        "type": "adjective",
+        "example_sentence": "Eltville ist eine kleine Stadt am Rhein."
+        },
+        {
+        "word": "kochen",
+        "translation": "to cook",
+        "type": "verb",
+        "example_sentence": "Herr Georgi kann gut kochen."
+        },
+        {
+        "word": "der Koffer",
+        "plural": "die Koffer",
+        "translation": "suitcase",
+        "type": "noun",
+        "example_sentence": "Ist das Ihr Koffer?"
+        },
+        {
+        "word": "der Kollege",
+        "plural": "die Kollegen",
+        "translation": "colleague",
+        "type": "noun",
+        "example_sentence": "Wie heißt die neue Kollegin?"
+        },
+        {
+        "word": "kommen",
+        "translation": "to come",
+        "type": "verb",
+        "example_sentence": "Woher kommen Sie? – Aus Frankreich. Kommst du mit ins Schwimmbad?"
+        },
+        {
+        "word": "können",
+        "translation": "can, to be able to",
+        "type": "verb",
+        "example_sentence": "Ich kann Deutsch und Russisch. Können Sie mir helfen?"
+        },
+        {
+        "word": "das Konto",
+        "plural": "die Konten",
+        "translation": "account",
+        "type": "noun",
+        "example_sentence": "Das Geld überweisen wir am ersten März auf Ihr Konto."
+        },
+        {
+        "word": "der Kopf",
+        "plural": "die Köpfe",
+        "translation": "head",
+        "type": "noun",
+        "example_sentence": "Mein Kopf tut weh!"
+        },
+        {
+        "word": "kosten",
+        "translation": "to cost",
+        "type": "verb",
+        "example_sentence": "Wie viel kostet das? – 10 Euro."
+        },
+        {
+        "word": "krank",
+        "translation": "sick",
+        "type": "adjective",
+        "example_sentence": "Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett."
+        },
+        {
+        "word": "kriegen",
+        "translation": "to get",
+        "type": "verb",
+        "example_sentence": "Ich kriege 15 Euro in der Stunde für meine Arbeit."
+        },
+        {
+        "word": "die Küche",
+        "plural": "die Küchen",
+        "translation": "kitchen",
+        "type": "noun",
+        "example_sentence": "Der neue Herd kommt in die Küche."
+        },
+        {
+        "word": "der Kuchen",
+        "plural": "die Kuchen",
+        "translation": "cake",
+        "type": "noun",
+        "example_sentence": "Ich nehme ein Stück Kuchen."
+        },
+        {
+        "word": "der Kugelschreiber",
+        "plural": "die Kugelschreiber",
+        "translation": "pen",
+        "type": "noun",
+        "example_sentence": "Hast du einen Kugelschreiber für mich?"
+        },
+        {
+        "word": "der Kühlschrank",
+        "plural": "die Kühlschränke",
+        "translation": "refrigerator",
+        "type": "noun",
+        "example_sentence": "Haben wir noch Milch? – Ja, im Kühlschrank."
+        },
+        {
+        "word": "kulturell",
+        "translation": "cultural",
+        "type": "adjective",
+        "example_sentence": "Ich bin kulturell interessiert. Ich gehe oft ins Museum."
+        },
+        {
+        "word": "sich kümmern",
+        "translation": "to care for",
+        "type": "verb",
+        "example_sentence": "Jede Mutter kümmert sich um ihre kleinen Kinder."
+        },
+        {
+        "word": "der Kunde",
+        "plural": "die Kunden",
+        "translation": "customer",
+        "type": "noun",
+        "example_sentence": "Einen Moment, bitte. Ich habe eine Kundin."
+        },
+        {
+        "word": "der Kurs",
+        "plural": "die Kurse",
+        "translation": "course",
+        "type": "noun",
+        "example_sentence": "Der Deutschkurs geht bis zum Sommer."
+        },
+        {
+        "word": "kurz",
+        "translation": "short",
+        "type": "adjective",
+        "example_sentence": "Ricardo hat kurzes Haar."
+        },
+        {
+        "word": "lachen",
+        "translation": "to laugh",
+        "type": "verb",
+        "example_sentence": "Die Kinder lachen viel."
+        },
+        {
+        "word": "der Laden",
+        "plural": "die Läden",
+        "translation": "shop, store",
+        "type": "noun",
+        "example_sentence": "Im Buchladen können Sie Bücher kaufen."
+        },
+        {
+        "word": "das Land",
+        "plural": "die Länder",
+        "translation": "country, land",
+        "type": "noun",
+        "example_sentence": "Italien ist ein schönes Land."
+        },
+        {
+        "word": "lang",
+        "translation": "long",
+        "type": "adjective",
+        "example_sentence": "Die Jeans ist zu lang."
+        },
+        {
+        "word": "lange",
+        "translation": "long (time)",
+        "type": "adverb",
+        "example_sentence": "Wie lange fährt der Zug von Hamburg nach Berlin?"
+        },
+        {
+        "word": "langsam",
+        "translation": "slowly",
+        "type": "adjective, adverb",
+        "example_sentence": "Könnten Sie bitte etwas langsamer sprechen?"
+        },
+        {
+        "word": "laufen",
+        "translation": "to run, to walk",
+        "type": "verb",
+        "example_sentence": "Ich möchte nicht Auto fahren, ich möchte laufen."
+        },
+        {
+        "word": "laut",
+        "translation": "loud",
+        "type": "adjective",
+        "example_sentence": "Nicht so laut! Das Baby schläft."
+        },
+        {
+        "word": "leben",
+        "translation": "to live",
+        "type": "verb",
+        "example_sentence": "Sie lebt bei ihrer Schwester. Ihre Eltern leben nicht mehr."
+        },
+        {
+        "word": "das Leben",
+        "plural": "die Leben",
+        "translation": "life",
+        "type": "noun",
+        "example_sentence": "Das Leben in diesem Land ist teuer."
+        },
+        {
+        "word": "die Lebensmittel",
+        "translation": "groceries",
+        "type": "noun (plural)",
+        "example_sentence": "Lebensmittel bekommen Sie im Supermarkt."
+        },
+        {
+        "word": "ledig",
+        "translation": "single",
+        "type": "adjective",
+        "example_sentence": "Sind Sie verheiratet? – Nein. Ledig."
+        },
+        {
+        "word": "legen",
+        "translation": "to lay, to place",
+        "type": "verb",
+        "example_sentence": "Legen Sie das Buch auf den Tisch."
+        },
+        {
+        "word": "der Lehrer",
+        "plural": "die Lehrer",
+        "translation": "teacher (male)",
+        "type": "noun",
+        "example_sentence": "Unsere Deutschlehrerin heißt Frau Müller."
+        },
+        {
+        "word": "leicht",
+        "translation": "light, easy",
+        "type": "adjective",
+        "example_sentence": "Der Koffer ist leicht. Deutsch ist nicht leicht."
+        },
+        {
+        "word": "leider",
+        "translation": "unfortunately",
+        "type": "adverb",
+        "example_sentence": "Leider kann ich nicht kommen. Ich muss zum Arzt."
+        },
+        {
+        "word": "leise",
+        "translation": "quiet",
+        "type": "adjective",
+        "example_sentence": "Seid leise. Die anderen schlafen schon."
+        },
+        {
+        "word": "lernen",
+        "translation": "to learn",
+        "type": "verb",
+        "example_sentence": "Wie lange lernen Sie schon Deutsch?"
+        },
+        {
+        "word": "lesen",
+        "translation": "to read",
+        "type": "verb",
+        "example_sentence": "Ich lese ein Buch von García Márquez."
+        },
+        {
+        "word": "letzt-",
+        "translation": "last",
+        "type": "adjective",
+        "example_sentence": "Morgen ist der letzte Kurstag."
+        },
+        {
+        "word": "die Leute",
+        "translation": "people",
+        "type": "noun (plural)",
+        "example_sentence": "In der Disko sind viele Leute."
+        },
+        {
+        "word": "das Licht",
+        "translation": "light",
+        "type": "noun",
+        "example_sentence": "Wo macht man hier das Licht an?"
+        },
+        {
+        "word": "lieb-",
+        "translation": "dear, loved",
+        "type": "prefix/adjective",
+        "example_sentence": "Liebe Susanne, lieber Hans."
+        },
+        {
+        "word": "lieben",
+        "translation": "to love",
+        "type": "verb",
+        "example_sentence": "Ich liebe dich!"
+        },
+        {
+        "word": "lieber",
+        "translation": "preferably",
+        "type": "adverb",
+        "example_sentence": "Sie fährt lieber mit der Bahn."
+        },
+        {
+        "word": "Lieblings-",
+        "translation": "favorite",
+        "type": "prefix",
+        "example_sentence": "Mein Lieblingsfilm ist „Schwarze Augen“."
+        },
+        {
+        "word": "das Lied",
+        "plural": "die Lieder",
+        "translation": "song",
+        "type": "noun",
+        "example_sentence": "Welches ist dein Lieblingslied?"
+        },
+        {
+        "word": "liegen",
+        "translation": "to lie, to be located",
+        "type": "verb",
+        "example_sentence": "Um neun Uhr liegt Judith noch im Bett. Frankfurt liegt am Main."
+        },
+        {
+        "word": "links",
+        "translation": "left",
+        "type": "adverb",
+        "example_sentence": "Gehen Sie die nächste Straße links."
+        },
+        {
+        "word": "der Lkw",
+        "plural": "die Lkws",
+        "translation": "truck",
+        "type": "noun",
+        "example_sentence": "Dieser Lastkraftwagen ist sehr groß."
+        },
+        {
+        "word": "das Lokal",
+        "plural": "die Lokale",
+        "translation": "restaurant, pub",
+        "type": "noun",
+        "example_sentence": "In unserer Straße gibt es ein neues Lokal."
+        },
+        {
+        "word": "die Lösung",
+        "plural": "die Lösungen",
+        "translation": "solution",
+        "type": "noun",
+        "example_sentence": "Die Lösung ist ganz einfach."
+        },
+        {
+        "word": "lustig",
+        "translation": "funny",
+        "type": "adjective",
+        "example_sentence": "Frau Mertens ist lustig. Sie lacht immer."
+        },
+        {
+        "word": "machen",
+        "translation": "to do, to make",
+        "type": "verb",
+        "example_sentence": "Was machst du heute Abend? Ich muss jetzt das Essen machen."
+        },
+        {
+        "word": "Das macht 5 Euro 95.",
+        "translation": "That costs 5 euros and 95 cents.",
+        "type": "expression",
+        "example_sentence": "Das macht 5 Euro 95."
+        },
+        {
+        "word": "Das macht nichts.",
+        "translation": "It doesn't matter.",
+        "type": "expression",
+        "example_sentence": "Das macht nichts."
+        },
+        {
+        "word": "das Mädchen",
+        "plural": "die Mädchen",
+        "translation": "girl",
+        "type": "noun",
+        "example_sentence": "Familie Kurz bekommt ein Baby. – Junge oder Mädchen?"
+        },
+        {
+        "word": "man",
+        "translation": "one, you (generalized)",
+        "type": "pronoun",
+        "example_sentence": "Hier darf man nicht rauchen."
+        },
+        {
+        "word": "der Mann",
+        "plural": "die Männer",
+        "translation": "man, husband",
+        "type": "noun",
+        "example_sentence": "Mein Mann arbeitet bei der Polizei."
+        },
+        {
+        "word": "männlich",
+        "translation": "male",
+        "type": "adjective",
+        "example_sentence": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“."
+        },
+        {
+        "word": "die Maschine",
+        "plural": "die Maschinen",
+        "translation": "machine",
+        "type": "noun",
+        "example_sentence": "Die Waschmaschine ist günstig."
+        },
+        {
+        "word": "das Meer",
+        "translation": "sea",
+        "type": "noun",
+        "example_sentence": "Wir machen Urlaub am Meer."
+        },
+        {
+        "word": "mehr",
+        "translation": "more",
+        "type": "adjective/adverb",
+        "example_sentence": "Dieses Auto kostet 1.000 Euro mehr als das andere."
+        },
+        {
+        "word": "mein",
+        "translation": "my",
+        "type": "possessive pronoun",
+        "example_sentence": "Mein Vater ist Arzt."
+        },
+        {
+        "word": "meist-",
+        "translation": "most",
+        "type": "prefix",
+        "example_sentence": "Die meisten Norddeutschen sind sehr groß."
+        },
+        {
+        "word": "der Mensch",
+        "plural": "die Menschen",
+        "translation": "person, human",
+        "type": "noun",
+        "example_sentence": "Die Menschen sind hier anders als bei uns."
+        },
+        {
+        "word": "mieten",
+        "translation": "to rent",
+        "type": "verb",
+        "example_sentence": "Ich möchte ein Auto mieten."
+        },
+        {
+        "word": "die Miete",
+        "translation": "rent",
+        "type": "noun",
+        "example_sentence": "Die Miete für diese Wohnung ist 600 Euro."
+        },
+        {
+        "word": "die Milch",
+        "translation": "milk",
+        "type": "noun",
+        "example_sentence": "Die Milch steht im Kühlschrank."
+        },
+        {
+        "word": "mit",
+        "translation": "with",
+        "type": "preposition",
+        "example_sentence": "Trinken Sie den Kaffee mit Milch?"
+        },
+        {
+        "word": "mitbringen",
+        "translation": "to bring along",
+        "type": "verb",
+        "example_sentence": "Ich gehe einkaufen. Soll ich dir was mitbringen?"
+        },
+        {
+        "word": "mitkommen",
+        "translation": "to come along",
+        "type": "verb",
+        "example_sentence": "Ich gehe ins Kino. Kommst du mit?"
+        },
+        {
+        "word": "mitmachen",
+        "translation": "to participate",
+        "type": "verb",
+        "example_sentence": "Warum macht ihr nicht mit?"
+        },
+        {
+        "word": "mitnehmen",
+        "translation": "to take along",
+        "type": "verb",
+        "example_sentence": "Nehmen wir meine Schwester ins Kino mit?"
+        },
+        {
+        "word": "die Mitte",
+        "translation": "center, middle",
+        "type": "noun",
+        "example_sentence": "Der Lehrer steht in der Mitte des Klassenzimmers."
+        },
+        {
+        "word": "die Möbel",
+        "translation": "furniture",
+        "type": "noun (plural)",
+        "example_sentence": "Sind die Möbel neu?"
+        },
+        {
+        "word": "möchten",
+        "translation": "would like",
+        "type": "verb",
+        "example_sentence": "Was möchten Sie trinken?"
+        },
+        {
+        "word": "mögen",
+        "translation": "to like",
+        "type": "verb",
+        "example_sentence": "Magst du Kaffee oder Tee?"
+        },
+        {
+        "word": "möglich",
+        "translation": "possible",
+        "type": "adjective",
+        "example_sentence": "Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich."
+        },
+        {
+        "word": "der Moment",
+        "translation": "moment",
+        "type": "noun",
+        "example_sentence": "Moment mal bitte! Einen Moment bitte."
+        },
+        {
+        "word": "morgen",
+        "translation": "tomorrow",
+        "type": "noun/adverb",
+        "example_sentence": "Morgen beginnt die Schule um 10 Uhr."
+        },
+        {
+        "word": "müde",
+        "translation": "tired",
+        "type": "adjective",
+        "example_sentence": "Ich bin müde. Ich gehe schlafen."
+        },
+        {
+        "word": "der Mund",
+        "translation": "mouth",
+        "type": "noun",
+        "example_sentence": "Öffnen Sie den Mund."
+        },
+        {
+        "word": "müssen",
+        "translation": "must, to have to",
+        "type": "verb",
+        "example_sentence": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten."
+        },
+        {
+        "word": "die Mutter",
+        "plural": "die Mütter",
+        "translation": "mother",
+        "type": "noun",
+        "example_sentence": "Frau Berghäuser ist die Mutter von Michaela."
+        },
+        {
+        "word": "nach",
+        "translation": "to, after",
+        "type": "preposition",
+        "example_sentence": "Ich gehe jetzt nach Hause. Ich fliege nach München. Es ist schon 5 nach 12."
+        },
+        {
+        "word": "nächst-",
+        "translation": "next",
+        "type": "prefix",
+        "example_sentence": "Sehen wir uns nächste Woche?"
+        },
+        {
+        "word": "der Name",
+        "plural": "die Namen",
+        "translation": "name",
+        "type": "noun",
+        "example_sentence": "Mein Name ist Thomas Schmidt. Mein Vorname ist Thomas; Schmidt ist der Familienname."
+        },
+        {
+        "word": "nehmen",
+        "translation": "to take",
+        "type": "verb",
+        "example_sentence": "Heute gibt es Hähnchen. Das nehme ich. Ich nehme den Bus."
+        },
+        {
+        "word": "nein",
+        "translation": "no",
+        "type": "adverb",
+        "example_sentence": "Fährst du auch nach München? – Nein, ich habe keine Zeit."
+        },
+        {
+        "word": "neu",
+        "translation": "new",
+        "type": "adjective",
+        "example_sentence": "Ich bin der neue Kollege. Wir haben eine neue Wohnung."
+        },
+        {
+        "word": "nicht",
+        "translation": "not",
+        "type": "adverb",
+        "example_sentence": "Das stimmt nicht. Das ist doch schön, nicht?"
+        },
+        {
+        "word": "nichts",
+        "translation": "nothing",
+        "type": "pronoun",
+        "example_sentence": "Das macht nichts. Hier kaufe ich nichts. Der Laden gefällt mir nicht."
+        },
+        {
+        "word": "nie",
+        "translation": "never",
+        "type": "adverb",
+        "example_sentence": "Er kommt nie pünktlich."
+        },
+        {
+        "word": "noch",
+        "translation": "still, yet",
+        "type": "adverb",
+        "example_sentence": "Vielleicht kommt er noch. Wir warten noch fünf Minuten. Ich habe noch 20 Euro."
+        },
+        {
+        "word": "normal",
+        "translation": "normal",
+        "type": "adjective",
+        "example_sentence": "75 kg. Sein Gewicht ist normal."
+        },
+        {
+        "word": "die Nummer",
+        "plural": "die Nummern",
+        "translation": "number",
+        "type": "noun",
+        "example_sentence": "Sie haben Zimmer Nummer zwölf. Welche Hausnummer haben Sie? Können Sie mir Ihre Nummer geben?"
+        },
+        {
+        "word": "nur",
+        "translation": "only",
+        "type": "adverb",
+        "example_sentence": "Ich möchte nur ein Glas Wasser."
+        },
+        {
+        "word": "oben",
+        "translation": "upstairs, above",
+        "type": "adverb",
+        "example_sentence": "Ich wohne oben."
+        },
+        {
+        "word": "das Obst",
+        "plural": "die Obst",
+        "translation": "fruit",
+        "type": "noun",
+        "example_sentence": "Im Sommer ist das Obst billig."
+        },
+        {
+        "word": "oder",
+        "translation": "or",
+        "type": "conjunction",
+        "example_sentence": "Wann können Sie kommen – heute oder morgen?"
+        },
+        {
+        "word": "öffnen",
+        "translation": "to open",
+        "type": "verb",
+        "example_sentence": "Ich öffne die Tür."
+        },
+        {
+        "word": "geöffnet",
+        "translation": "opened, open",
+        "type": "adjective",
+        "example_sentence": "Der Laden ist samstags bis 16.00 Uhr geöffnet."
+        },
+        {
+        "word": "oft",
+        "translation": "often",
+        "type": "adverb",
+        "example_sentence": "Petra treffe ich oft."
+        },
+        {
+        "word": "ohne",
+        "translation": "without",
+        "type": "preposition",
+        "example_sentence": "Ohne Geld kann er nichts kaufen."
+        },
+        {
+        "word": "das Öl",
+        "plural": "die Öle",
+        "translation": "oil",
+        "type": "noun",
+        "example_sentence": "Den Salat machen wir ohne Öl."
+        },
+        {
+        "word": "die Oma",
+        "plural": "die Omis",
+        "translation": "grandmother",
+        "type": "noun",
+        "example_sentence": "Meine Oma ist schon tot."
+        },
+        {
+        "word": "der Opa",
+        "plural": "die Opas",
+        "translation": "grandfather",
+        "type": "noun",
+        "example_sentence": "Mein Opa heißt Hans."
+        },
+        {
+        "word": "die Ordnung",
+        "plural": "die Ordnungen",
+        "translation": "order",
+        "type": "noun",
+        "example_sentence": "Das ist in Ordnung."
+        },
+        {
+        "word": "der Ort",
+        "plural": "die Orte",
+        "translation": "place",
+        "type": "noun",
+        "example_sentence": "Der Ort liegt am Meer."
+        },
+        {
+        "word": "das Papier",
+        "plural": "die Papiere",
+        "translation": "paper",
+        "type": "noun",
+        "example_sentence": "Hier sind Papier und Bleistift."
+        },
+        {
+        "word": "die Papiere",
+        "translation": "papers",
+        "type": "noun",
+        "example_sentence": "Haben Sie Ihre Papiere dabei?"
+        },
+        {
+        "word": "der Partner",
+        "plural": "die Partner",
+        "translation": "partner (male)",
+        "type": "noun",
+        "example_sentence": "Er ist mein Partner."
+        },
+        {
+        "word": "die Partnerin",
+        "plural": "die Partnerinnen",
+        "translation": "partner (female)",
+        "type": "noun",
+        "example_sentence": "Sie ist meine Partnerin."
+        },
+        {
+        "word": "die Party",
+        "plural": "die Partys",
+        "translation": "party",
+        "type": "noun",
+        "example_sentence": "Heute Abend machen wir eine Party."
+        },
+        {
+        "word": "der Pass",
+        "plural": "die Pässe",
+        "translation": "passport",
+        "type": "noun",
+        "example_sentence": "Im Hotel brauchst du deinen Pass."
+        },
+        {
+        "word": "die Pause",
+        "plural": "die Pausen",
+        "translation": "break, pause",
+        "type": "noun",
+        "example_sentence": "Von 12.00 bis 12.30 Uhr haben wir Mittagspause."
+        },
+        {
+        "word": "der Plan",
+        "plural": "die Pläne",
+        "translation": "plan",
+        "type": "noun",
+        "example_sentence": "Ich kaufe mir einen Stadtplan."
+        },
+        {
+        "word": "der Platz",
+        "plural": "die Plätze",
+        "translation": "place, seat",
+        "type": "noun",
+        "example_sentence": "Tut mir leid, der Platz ist besetzt."
+        },
+        {
+        "word": "die Polizei",
+        "translation": "police",
+        "type": "noun",
+        "example_sentence": "Holen Sie die Polizei!"
+        },
+        {
+        "word": "die Pommes frites",
+        "plural": "die Pommes frites",
+        "translation": "French fries",
+        "type": "noun",
+        "example_sentence": "Die Kinder essen Hähnchen mit Pommes frites."
+        },
+        {
+        "word": "die Post",
+        "translation": "post office, mail",
+        "type": "noun",
+        "example_sentence": "Wo ist die Post, bitte?"
+        },
+        {
+        "word": "die Postleitzahl",
+        "translation": "postal code",
+        "type": "noun",
+        "example_sentence": "Wie ist Ihre Postleitzahl?"
+        },
+        {
+        "word": "das Praktikum",
+        "plural": "die Praktika",
+        "translation": "internship",
+        "type": "noun",
+        "example_sentence": "Ich mache ein Praktikum bei Siemens."
+        },
+        {
+        "word": "die Praxis",
+        "translation": "practice (doctor’s office)",
+        "type": "noun",
+        "example_sentence": "Die Praxis ist ab acht Uhr geöffnet."
+        },
+        {
+        "word": "der Preis",
+        "plural": "die Preise",
+        "translation": "price",
+        "type": "noun",
+        "example_sentence": "Die Preise sind hoch."
+        },
+        {
+        "word": "das Problem",
+        "plural": "die Probleme",
+        "translation": "problem",
+        "type": "noun",
+        "example_sentence": "Mein Problem ist die Sprache."
+        },
+        {
+        "word": "der Prospekt",
+        "plural": "die Prospekte",
+        "translation": "brochure",
+        "type": "noun",
+        "example_sentence": "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel."
+        },
+        {
+        "word": "die Prüfung",
+        "plural": "die Prüfungen",
+        "translation": "exam",
+        "type": "noun",
+        "example_sentence": "Die Prüfung ist am Montag um 8.00 Uhr."
+        },
+        {
+        "word": "pünktlich",
+        "translation": "punctual",
+        "type": "adjective",
+        "example_sentence": "Der Bus fährt pünktlich um acht Uhr."
+        },
+        {
+        "word": "Rad fahren",
+        "translation": "to ride a bike",
+        "type": "verb",
+        "example_sentence": "Das Kind kann schon Rad fahren."
+        },
+        {
+        "word": "rauchen",
+        "translation": "to smoke",
+        "type": "verb",
+        "example_sentence": "Ich rauche nicht."
+        },
+        {
+        "word": "der Raum",
+        "plural": "die Räume",
+        "translation": "room",
+        "type": "noun",
+        "example_sentence": "Der Unterricht ist in Raum 332."
+        },
+        {
+        "word": "die Rechnung",
+        "plural": "die Rechnungen",
+        "translation": "bill, invoice",
+        "type": "noun",
+        "example_sentence": "Die Rechnung, bitte."
+        },
+        {
+        "word": "rechts",
+        "translation": "right (direction)",
+        "type": "adjective/adverb",
+        "example_sentence": "Die Schillerstraße ist hier rechts."
+        },
+        {
+        "word": "regnen",
+        "translation": "to rain",
+        "type": "verb",
+        "example_sentence": "Heute regnet es."
+        },
+        {
+        "word": "der Regen",
+        "translation": "rain",
+        "type": "noun",
+        "example_sentence": "Bei diesem Regen gehe ich nicht raus."
+        },
+        {
+        "word": "der Reis",
+        "translation": "rice",
+        "type": "noun",
+        "example_sentence": "Ich esse gern Reis."
+        },
+        {
+        "word": "reisen",
+        "translation": "to travel",
+        "type": "verb",
+        "example_sentence": "Ich reise gern."
+        },
+        {
+        "word": "die Reise",
+        "plural": "die Reisen",
+        "translation": "trip, journey",
+        "type": "noun",
+        "example_sentence": "Wir machen eine Reise nach Österreich."
+        },
+        {
+        "word": "das Reisebüro",
+        "plural": "die Reisebüros",
+        "translation": "travel agency",
+        "type": "noun",
+        "example_sentence": "Mein Mann arbeitet im Reisebüro."
+        },
+        {
+        "word": "der Reiseführer",
+        "plural": "die Reiseführer",
+        "translation": "tour guide, guidebook",
+        "type": "noun",
+        "example_sentence": "Unser Reiseführer heißt Peter."
+        },
+        {
+        "word": "reparieren",
+        "translation": "to repair",
+        "type": "verb",
+        "example_sentence": "Er hat das Fahrrad repariert."
+        },
+        {
+        "word": "die Reparatur",
+        "plural": "die Reparaturen",
+        "translation": "repair",
+        "type": "noun",
+        "example_sentence": "Die Reparatur ist sehr teuer."
+        },
+        {
+        "word": "das Restaurant",
+        "plural": "die Restaurants",
+        "translation": "restaurant",
+        "type": "noun",
+        "example_sentence": "Wir essen heute in einem Restaurant."
+        },
+        {
+        "word": "die Rezeption",
+        "translation": "reception (in a hotel)",
+        "type": "noun",
+        "example_sentence": "Fragen Sie bitte im Hotel an der Rezeption."
+        },
+        {
+        "word": "richtig",
+        "translation": "correct, right",
+        "type": "adjective",
+        "example_sentence": "Habe ich das richtig verstanden?"
+        },
+        {
+        "word": "riechen",
+        "translation": "to smell",
+        "type": "verb",
+        "example_sentence": "Dieser Wein riecht gut."
+        },
+        {
+        "word": "ruhig",
+        "translation": "quiet, calm",
+        "type": "adjective",
+        "example_sentence": "Ich möchte ein ruhiges Zimmer."
+        },
+        {
+        "word": "der Saft",
+        "translation": "juice",
+        "type": "noun",
+        "example_sentence": "Möchtest du einen Apfelsaft?"
+        },
+        {
+        "word": "sagen",
+        "translation": "to say",
+        "type": "verb",
+        "example_sentence": "Sag mal, wie geht es dir denn?"
+        },
+        {
+        "word": "der Salat",
+        "translation": "salad",
+        "type": "noun",
+        "example_sentence": "Wie schmeckt dir der Salat?"
+        },
+        {
+        "word": "das Salz",
+        "translation": "salt",
+        "type": "noun",
+        "example_sentence": "Herr Ober, kann ich bitte Salz haben?"
+        },
+        {
+        "word": "der Satz",
+        "plural": "die Sätze",
+        "translation": "sentence",
+        "type": "noun",
+        "example_sentence": "Dieser Satz ist sehr einfach."
+        },
+        {
+        "word": "die S-Bahn",
+        "translation": "S-Bahn (suburban train)",
+        "type": "noun",
+        "example_sentence": "Ich nehme lieber die S-Bahn."
+        },
+        {
+        "word": "der Schalter",
+        "translation": "counter (service counter)",
+        "type": "noun",
+        "example_sentence": "Gehen Sie bitte zum Schalter drei!"
+        },
+        {
+        "word": "scheinen",
+        "translation": "to shine",
+        "type": "verb",
+        "example_sentence": "Die Sonne scheint."
+        },
+        {
+        "word": "schicken",
+        "translation": "to send",
+        "type": "verb",
+        "example_sentence": "Bitte schicken Sie mir eine E-Mail."
+        },
+        {
+        "word": "das Schild",
+        "plural": "die Schilder",
+        "translation": "sign, label",
+        "type": "noun",
+        "example_sentence": "Haben Sie nicht das Schild gesehen?"
+        },
+        {
+        "word": "der Schinken",
+        "plural": "die Schinken",
+        "translation": "ham",
+        "type": "noun",
+        "example_sentence": "Ich möchte gern ein Schinkenbrot."
+        },
+        {
+        "word": "schlafen",
+        "translation": "to sleep",
+        "type": "verb",
+        "example_sentence": "Ich schlafe meistens acht Stunden."
+        },
+        {
+        "word": "schlecht",
+        "translation": "bad, poorly",
+        "type": "adjective",
+        "example_sentence": "Mir ist schlecht! Sie sehen schlecht aus."
+        },
+        {
+        "word": "schließen",
+        "translation": "to close",
+        "type": "verb",
+        "example_sentence": "Bitte, schließen Sie die Tür."
+        },
+        {
+        "word": "geschlossen",
+        "translation": "closed",
+        "type": "adjective",
+        "example_sentence": "Die Bank hat am Samstag geschlossen."
+        },
+        {
+        "word": "der Schluss",
+        "translation": "end, conclusion",
+        "type": "noun",
+        "example_sentence": "Ich muss jetzt Schluss machen. Zum Schluss gibt er uns allen die Hand."
+        },
+        {
+        "word": "der Schlüssel",
+        "plural": "die Schlüssel",
+        "translation": "key",
+        "type": "noun",
+        "example_sentence": "Ich gebe Ihnen noch den Zimmerschlüssel."
+        },
+        {
+        "word": "schmecken",
+        "translation": "to taste",
+        "type": "verb",
+        "example_sentence": "Schmeckt das gut?"
+        },
+        {
+        "word": "schnell",
+        "translation": "fast",
+        "type": "adjective",
+        "example_sentence": "Er fährt schnell."
+        },
+        {
+        "word": "schon",
+        "translation": "already",
+        "type": "adverb",
+        "example_sentence": "Ist das Essen schon fertig?"
+        },
+        {
+        "word": "schön",
+        "translation": "beautiful, nice",
+        "type": "adjective",
+        "example_sentence": "Schönen Urlaub! Das ist sehr schön."
+        },
+        {
+        "word": "der Schrank",
+        "plural": "die Schränke",
+        "translation": "cupboard, wardrobe",
+        "type": "noun",
+        "example_sentence": "Die Gläser stehen im Schrank."
+        },
+        {
+        "word": "schreiben",
+        "translation": "to write",
+        "type": "verb",
+        "example_sentence": "Er schreibt jeden Tag fünfzig E-Mails."
+        },
+        {
+        "word": "der Schuh",
+        "plural": "die Schuhe",
+        "translation": "shoe",
+        "type": "noun",
+        "example_sentence": "Zieh die Schuhe aus!"
+        },
+        {
+        "word": "die Schule",
+        "translation": "school",
+        "type": "noun",
+        "example_sentence": "Meine Tochter geht schon in die Schule."
+        },
+        {
+        "word": "der Schüler",
+        "plural": "die Schüler",
+        "translation": "student (male)",
+        "type": "noun",
+        "example_sentence": "In meinem Kurs sind acht Schülerinnen und fünf Schüler."
+        },
+        {
+        "word": "schwer",
+        "translation": "heavy, hard",
+        "type": "adjective",
+        "example_sentence": "Ist Ihr Gepäck sehr schwer? Das ist eine schwere Arbeit."
+        },
+        {
+        "word": "die Schwester",
+        "plural": "die Schwestern",
+        "translation": "sister",
+        "type": "noun",
+        "example_sentence": "Meine Schwester kommt am Dienstag."
+        },
+        {
+        "word": "schwimmen",
+        "translation": "to swim",
+        "type": "verb",
+        "example_sentence": "Ich schwimme jeden Tag einen Kilometer."
+        },
+        {
+        "word": "das Schwimmbad",
+        "translation": "swimming pool",
+        "type": "noun",
+        "example_sentence": "Kommst du mit ins Schwimmbad?"
+        },
+        {
+        "word": "der See",
+        "translation": "lake",
+        "type": "noun",
+        "example_sentence": "Komm, wir fahren zum Starnberger See."
+        },
+        {
+        "word": "sehen",
+        "translation": "to see",
+        "type": "verb",
+        "example_sentence": "Ich kann dich nicht sehen. Ich habe diesen Jungen schon einmal gesehen."
+        },
+        {
+        "word": "die Sehenswürdigkeit",
+        "plural": "die Sehenswürdigkeiten",
+        "translation": "sight, landmark",
+        "type": "noun",
+        "example_sentence": "Welche Sehenswürdigkeiten gibt es in Frankfurt?"
+        },
+        {
+        "word": "sehr",
+        "translation": "very",
+        "type": "adverb",
+        "example_sentence": "Danke sehr! Das ist sehr schwer."
+        },
+        {
+        "word": "sein",
+        "translation": "to be",
+        "type": "verb",
+        "example_sentence": "Herr Müller ist in seinem Zimmer. Mir ist kalt."
+        },
+        {
+        "word": "an sein",
+        "translation": "to be on",
+        "type": "verb",
+        "example_sentence": "Das Licht ist noch an."
+        },
+        {
+        "word": "auf sein",
+        "translation": "to be open",
+        "type": "verb",
+        "example_sentence": "Das Fenster ist noch auf."
+        },
+        {
+        "word": "weg sein",
+        "translation": "to be gone",
+        "type": "verb",
+        "example_sentence": "Herr Meier ist schon weg."
+        },
+        {
+        "word": "zu sein",
+        "translation": "to be closed",
+        "type": "verb",
+        "example_sentence": "Die Tür ist zu."
+        },
+        {
+        "word": "seit",
+        "translation": "since",
+        "type": "preposition",
+        "example_sentence": "Ich wohne seit drei Jahren in Köln."
+        },
+        {
+        "word": "selbstständig",
+        "translation": "self-employed",
+        "type": "adjective",
+        "example_sentence": "Er ist selbstständig."
+        },
+        {
+        "word": "sich",
+        "translation": "oneself, each other",
+        "type": "pronoun",
+        "example_sentence": "Sie müssen sich erst anmelden."
+        },
+        {
+        "word": "sie",
+        "translation": "she",
+        "type": "pronoun",
+        "example_sentence": "Wie heißt sie?"
+        },
+        {
+        "word": "Sie",
+        "translation": "you (formal)",
+        "type": "pronoun",
+        "example_sentence": "Wie heißen Sie, bitte?"
+        },
+        {
+        "word": "sitzen",
+        "translation": "to sit",
+        "type": "verb",
+        "example_sentence": "Wo sitzen Sie?"
+        },
+        {
+        "word": "so",
+        "translation": "so, like this",
+        "type": "adverb",
+        "example_sentence": "Sie müssen das so machen! Fahren Sie bitte nicht so schnell! Meine Frau ist so groß wie ich. So, das war‘s/wär‘s!"
+        },
+        {
+        "word": "das Sofa",
+        "translation": "sofa",
+        "type": "noun",
+        "example_sentence": "Das Sofa ist neu."
+        },
+        {
+        "word": "sofort",
+        "translation": "immediately",
+        "type": "adverb",
+        "example_sentence": "Bitte antworten Sie sofort."
+        },
+        {
+        "word": "der Sohn",
+        "plural": "die Söhne",
+        "translation": "son",
+        "type": "noun",
+        "example_sentence": "Das ist Hans, mein Sohn."
+        },
+        {
+        "word": "sollen",
+        "translation": "should",
+        "type": "verb",
+        "example_sentence": "Soll ich kommen? Was soll ich mitbringen?"
+        },
+        {
+        "word": "die Sonne",
+        "translation": "sun",
+        "type": "noun",
+        "example_sentence": "Die Sonne scheint."
+        },
+        {
+        "word": "spät",
+        "translation": "late",
+        "type": "adjective",
+        "example_sentence": "Es ist schon spät, ich muss gehen."
+        },
+        {
+        "word": "später",
+        "translation": "later",
+        "type": "adverb",
+        "example_sentence": "Das können wir später machen."
+        },
+        {
+        "word": "die Speisekarte",
+        "translation": "menu",
+        "type": "noun",
+        "example_sentence": "Bringen Sie mir die Speisekarte, bitte."
+        },
+        {
+        "word": "spielen",
+        "translation": "to play",
+        "type": "verb",
+        "example_sentence": "Die Kinder spielen draußen. Spielen Sie Karten?"
+        },
+        {
+        "word": "der Sport",
+        "translation": "sport",
+        "type": "noun",
+        "example_sentence": "Ich mache viel Sport."
+        },
+        {
+        "word": "die Sprache",
+        "plural": "die Sprachen",
+        "translation": "language",
+        "type": "noun",
+        "example_sentence": "Welche Sprachen sprichst du?"
+        },
+        {
+        "word": "sprechen",
+        "translation": "to speak",
+        "type": "verb",
+        "example_sentence": "Kann ich (mit) Herrn Klein sprechen?"
+        },
+        {
+        "word": "die Stadt",
+        "plural": "die Städte",
+        "translation": "city",
+        "type": "noun",
+        "example_sentence": "Heidelberg ist eine alte Stadt."
+        },
+        {
+        "word": "stehen",
+        "translation": "to stand",
+        "type": "verb",
+        "example_sentence": "Ich glaube es nicht, aber es steht in der Zeitung. Der Bus steht schon an der Haltestelle."
+        },
+        {
+        "word": "die Stelle",
+        "plural": "die Stellen",
+        "translation": "position, job",
+        "type": "noun",
+        "example_sentence": "Ich habe eine neue Stelle."
+        },
+        {
+        "word": "stellen",
+        "translation": "to place, put",
+        "type": "verb",
+        "example_sentence": "Stell die Tasche rechts in die Ecke!"
+        },
+        {
+        "word": "der Stock",
+        "translation": "floor (of a building)",
+        "type": "noun",
+        "example_sentence": "Unsere Wohnung liegt im ersten Stock."
+        },
+        {
+        "word": "die Straße",
+        "plural": "die Straßen",
+        "translation": "street",
+        "type": "noun",
+        "example_sentence": "In welcher Straße wohnen Sie?"
+        },
+        {
+        "word": "die Straßenbahn",
+        "translation": "tram",
+        "type": "noun",
+        "example_sentence": "Wo fährt die Straßenbahn ab?"
+        },
+        {
+        "word": "studieren",
+        "translation": "to study",
+        "type": "verb",
+        "example_sentence": "Ich studiere in Mainz."
+        },
+        {
+        "word": "das Studium",
+        "translation": "studies",
+        "type": "noun",
+        "example_sentence": "Das Studium beginnt im Oktober."
+        },
+        {
+        "word": "der Student",
+        "plural": "die Studenten",
+        "translation": "student (male)",
+        "type": "noun",
+        "example_sentence": "Ich bin Studentin."
+        },
+        {
+        "word": "die Stunde",
+        "plural": "die Stunden",
+        "translation": "hour",
+        "type": "noun",
+        "example_sentence": "Ich bin in einer Stunde zurück."
+        },
+        {
+        "word": "suchen",
+        "translation": "to search",
+        "type": "verb",
+        "example_sentence": "Suchst du etwas?"
+        },
+        {
+        "word": "tanzen",
+        "translation": "to dance",
+        "type": "verb",
+        "example_sentence": "Tanzen Sie gern?"
+        },
+        {
+        "word": "die Tasche",
+        "plural": "die Taschen",
+        "translation": "bag",
+        "type": "noun",
+        "example_sentence": "Ich habe die Schlüssel in der Tasche."
+        },
+        {
+        "word": "das Taxi",
+        "plural": "die Taxis",
+        "translation": "taxi",
+        "type": "noun",
+        "example_sentence": "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi."
+        },
+        {
+        "word": "der Tee",
+        "translation": "tea",
+        "type": "noun",
+        "example_sentence": "Ich trinke morgens immer Tee."
+        },
+        {
+        "word": "der Teil",
+        "plural": "die Teile",
+        "translation": "part",
+        "type": "noun",
+        "example_sentence": "Lies bitte auch den zweiten Teil."
+        },
+        {
+        "word": "telefonieren",
+        "translation": "to make a phone call",
+        "type": "verb",
+        "example_sentence": "Darf ich mal telefonieren?"
+        },
+        {
+        "word": "das Telefon",
+        "translation": "telephone",
+        "type": "noun",
+        "example_sentence": "Haben Sie Telefon?"
+        },
+        {
+        "word": "der Termin",
+        "plural": "die Termine",
+        "translation": "appointment",
+        "type": "noun",
+        "example_sentence": "Am besten machen wir sofort einen Termin."
+        },
+        {
+        "word": "der Test",
+        "plural": "die Tests",
+        "translation": "test",
+        "type": "noun",
+        "example_sentence": "Der Test war einfach."
+        },
+        {
+        "word": "teuer",
+        "translation": "expensive",
+        "type": "adjective",
+        "example_sentence": "Das ist mir zu teuer."
+        },
+        {
+        "word": "der Text",
+        "plural": "die Texte",
+        "translation": "text",
+        "type": "noun",
+        "example_sentence": "Lesen Sie bitte diesen Text."
+        },
+        {
+        "word": "das Thema",
+        "plural": "die Themen",
+        "translation": "topic",
+        "type": "noun",
+        "example_sentence": "Wir sprechen heute über das Thema „Essen und Trinken“."
+        },
+        {
+        "word": "das Ticket",
+        "plural": "die Tickets",
+        "translation": "ticket",
+        "type": "noun",
+        "example_sentence": "Wie viel kostet das Ticket?"
+        },
+        {
+        "word": "der Tisch",
+        "plural": "die Tische",
+        "translation": "table",
+        "type": "noun",
+        "example_sentence": "Die Fotos liegen auf dem Tisch."
+        },
+        {
+        "word": "die Tochter",
+        "plural": "die Töchter",
+        "translation": "daughter",
+        "type": "noun",
+        "example_sentence": "Das ist meine Tochter Katharina."
+        },
+        {
+        "word": "die Toilette",
+        "plural": "die Toiletten",
+        "translation": "toilet",
+        "type": "noun",
+        "example_sentence": "Wo ist die Toilette, bitte?"
+        },
+        {
+        "word": "die Tomate",
+        "plural": "die Tomaten",
+        "translation": "tomato",
+        "type": "noun",
+        "example_sentence": "Die Tomate ist noch grün."
+        },
+        {
+        "word": "tot",
+        "translation": "dead",
+        "type": "adjective",
+        "example_sentence": "Sein Vater ist schon lange tot."
+        },
+        {
+        "word": "(sich) treffen",
+        "translation": "to meet",
+        "type": "verb",
+        "example_sentence": "Ich treffe in der Stadt einen Kollegen. Wir treffen uns immer freitags."
+        },
+        {
+        "word": "die Treppe",
+        "plural": "die Treppen",
+        "translation": "stairs",
+        "type": "noun",
+        "example_sentence": "Die Toilette? Die Treppe hoch und dann links."
+        },
+        {
+        "word": "trinken",
+        "translation": "to drink",
+        "type": "verb",
+        "example_sentence": "Möchtest du etwas trinken?"
+        },
+        {
+        "word": "tschüss",
+        "translation": "bye",
+        "type": "expression",
+        "example_sentence": "Junge Leute sagen meistens „tschüss!“ und nicht „auf Wiedersehen“."
+        },
+        {
+        "word": "tun",
+        "translation": "to do",
+        "type": "verb",
+        "example_sentence": "Ich habe noch etwas zu tun. Was tut Ihr Mann?"
+        },
+        {
+        "word": "über",
+        "translation": "over, about",
+        "type": "preposition",
+        "example_sentence": "Gehen Sie hier über die Straße. Er wohnt im zweiten Stock über Familie Meier. Sind Sie über 18?"
+        },
+        {
+        "word": "übernachten",
+        "translation": "to spend the night",
+        "type": "verb",
+        "example_sentence": "Du kannst bei mir übernachten."
+        },
+        {
+        "word": "überweisen",
+        "translation": "to transfer money",
+        "type": "verb",
+        "example_sentence": "Sie können das Geld auch überweisen."
+        },
+        {
+        "word": "die Uhr",
+        "plural": "die Uhren",
+        "translation": "clock, watch",
+        "type": "noun",
+        "example_sentence": "Es ist vier Uhr."
+        },
+        {
+        "word": "um",
+        "translation": "at (time), around",
+        "type": "preposition",
+        "example_sentence": "Er kommt um sieben Uhr. Da kommt er gerade um die Ecke."
+        },
+        {
+        "word": "umziehen",
+        "translation": "to move (house)",
+        "type": "verb",
+        "example_sentence": "Nächsten Monat ziehen wir um."
+        },
+        {
+        "word": "und",
+        "translation": "and",
+        "type": "conjunction",
+        "example_sentence": "Peter und Helmut sind meine Söhne."
+        },
+        {
+        "word": "unser-",
+        "translation": "our",
+        "type": "possessive pronoun",
+        "example_sentence": "Das ist unsere Lehrerin."
+        },
+        {
+        "word": "unten",
+        "translation": "downstairs, below",
+        "type": "adverb",
+        "example_sentence": "Er wohnt ganz unten im Haus."
+        },
+        {
+        "word": "unter",
+        "translation": "under, beneath",
+        "type": "preposition",
+        "example_sentence": "Unter uns wohnt eine Familie mit drei Kindern."
+        },
+        {
+        "word": "der Unterricht",
+        "plural": "die Unterrichts",
+        "translation": "lesson, class",
+        "type": "noun",
+        "example_sentence": "Wir haben Unterricht von 8.00 bis 12.00 Uhr."
+        },
+        {
+        "word": "unterschreiben",
+        "translation": "to sign",
+        "type": "verb",
+        "example_sentence": "Wo muss ich unterschreiben?"
+        },
+        {
+        "word": "die Unterschrift",
+        "plural": "die Unterschriften",
+        "translation": "signature",
+        "type": "noun",
+        "example_sentence": "Hier fehlt noch Ihre Unterschrift."
+        },
+        {
+        "word": "der Urlaub",
+        "plural": "die Urlaube",
+        "translation": "vacation, holiday",
+        "type": "noun",
+        "example_sentence": "Ich nehme im September Urlaub."
+        },
+        {
+        "word": "der Vater",
+        "plural": "die Väter",
+        "translation": "father",
+        "type": "noun",
+        "example_sentence": "Mein Vater ist Arbeiter."
+        },
+        {
+        "word": "verboten",
+        "translation": "forbidden",
+        "type": "adjective",
+        "example_sentence": "Hier ist Rauchen verboten."
+        },
+        {
+        "word": "verdienen",
+        "translation": "to earn",
+        "type": "verb",
+        "example_sentence": "Ich verdiene 1.500 Euro im Monat."
+        },
+        {
+        "word": "der Verein",
+        "plural": "die Vereine",
+        "translation": "club, association",
+        "type": "noun",
+        "example_sentence": "Es gibt einen neuen Sportverein in der Stadt."
+        },
+        {
+        "word": "verheiratet",
+        "translation": "married",
+        "type": "adjective",
+        "example_sentence": "Ich bin verheiratet und habe drei Kinder."
+        },
+        {
+        "word": "verkaufen",
+        "translation": "to sell",
+        "type": "verb",
+        "example_sentence": "Er verkauft sein altes Auto."
+        },
+        {
+        "word": "der Verkäufer",
+        "plural": "die Verkäufer",
+        "translation": "salesman",
+        "type": "noun",
+        "example_sentence": "Meine Mutter ist Verkäuferin im Kaufhaus."
+        },
+        {
+        "word": "vermieten",
+        "translation": "to rent out",
+        "type": "verb",
+        "example_sentence": "Die Wohnung ist schon vermietet."
+        },
+        {
+        "word": "der Vermieter",
+        "plural": "die Vermieter",
+        "translation": "landlord",
+        "type": "noun",
+        "example_sentence": "Unser Vermieter heißt Huber. Er wohnt auch hier."
+        },
+        {
+        "word": "verstehen",
+        "translation": "to understand",
+        "type": "verb",
+        "example_sentence": "Können Sie mich verstehen?"
+        },
+        {
+        "word": "der Verwandte",
+        "plural": "die Verwandten",
+        "translation": "relative",
+        "type": "noun",
+        "example_sentence": "Peter besucht seine Verwandten in Polen."
+        },
+        {
+        "word": "viel",
+        "translation": "much, a lot",
+        "type": "adjective",
+        "example_sentence": "Hier regnet es viel."
+        },
+        {
+        "word": "vielleicht",
+        "translation": "maybe",
+        "type": "adverb",
+        "example_sentence": "Ich komme vielleicht mit dem Bus."
+        },
+        {
+        "word": "von",
+        "translation": "from, of",
+        "type": "preposition",
+        "example_sentence": "Das Auto von Felix ist kaputt. Er kommt gerade von Köln/von zu Hause."
+        },
+        {
+        "word": "vor",
+        "translation": "before, in front of",
+        "type": "preposition",
+        "example_sentence": "Der Termin war vor einer Stunde. Das Auto steht vor der Tür."
+        },
+        {
+        "word": "der Vorname",
+        "plural": "die Vornamen",
+        "translation": "first name",
+        "type": "noun",
+        "example_sentence": "Ich heiße Müller, mein Vorname ist Eva."
+        },
+        {
+        "word": "die Vorsicht",
+        "translation": "caution",
+        "type": "noun",
+        "example_sentence": "Vorsicht! Da kommt ein Auto."
+        },
+        {
+        "word": "(sich) vorstellen",
+        "translation": "to introduce oneself",
+        "type": "verb",
+        "example_sentence": "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?"
+        },
+        {
+        "word": "die Vorwahl",
+        "translation": "area code",
+        "type": "noun",
+        "example_sentence": "Wie ist die Vorwahl von München?"
+        },
+        {
+        "word": "wandern",
+        "translation": "to hike, to wander",
+        "type": "verb",
+        "example_sentence": "Wir wandern um den Chiemsee."
+        },
+        {
+        "word": "wann",
+        "translation": "when",
+        "type": "interrogative pronoun",
+        "example_sentence": "Wann bist du fertig?"
+        },
+        {
+        "word": "warten",
+        "translation": "to wait",
+        "type": "verb",
+        "example_sentence": "Können Sie ein paar Minuten warten?"
+        },
+        {
+        "word": "warum",
+        "translation": "why",
+        "type": "interrogative pronoun",
+        "example_sentence": "Warum kommt er nicht?"
+        },
+        {
+        "word": "was",
+        "translation": "what",
+        "type": "interrogative pronoun",
+        "example_sentence": "Was ist das?"
+        },
+        {
+        "word": "was möchten Sie",
+        "translation": "what would you like",
+        "type": "phrase",
+        "example_sentence": "Was möchten Sie?"
+        },
+        {
+        "word": "was für ein",
+        "translation": "what kind of",
+        "type": "phrase",
+        "example_sentence": "Was für eine Farbe möchten Sie?"
+        },
+        {
+        "word": "(sich) waschen",
+        "translation": "to wash oneself",
+        "type": "verb",
+        "example_sentence": "Wo kann ich mir die Hände waschen?"
+        },
+        {
+        "word": "das Wasser",
+        "translation": "water",
+        "type": "noun",
+        "example_sentence": "Ein Glas Wasser, bitte."
+        },
+        {
+        "word": "weh tun",
+        "translation": "to hurt",
+        "type": "verb",
+        "example_sentence": "Ich muss zum Arzt. Mein Bein tut weh."
+        },
+        {
+        "word": "weiblich",
+        "translation": "female",
+        "type": "adjective",
+        "example_sentence": "Kreuzen Sie bitte an: 'weiblich' oder 'männlich'."
+        },
+        {
+        "word": "der Wein",
+        "plural": "die Weine",
+        "translation": "wine",
+        "type": "noun",
+        "example_sentence": "Nein danke, ich möchte keinen Wein."
+        },
+        {
+        "word": "weit",
+        "translation": "far",
+        "type": "adjective",
+        "example_sentence": "Zum Bahnhof ist es nicht weit."
+        },
+        {
+        "word": "weiter",
+        "translation": "further",
+        "type": "adjective",
+        "example_sentence": "Der Bus fährt nicht weiter."
+        },
+        {
+        "word": "welch-",
+        "translation": "which",
+        "type": "interrogative pronoun",
+        "example_sentence": "Welches Buch möchtest du?"
+        },
+        {
+        "word": "die Welt",
+        "translation": "world",
+        "type": "noun",
+        "example_sentence": "Es gibt viele Probleme auf der Welt."
+        },
+        {
+        "word": "wenig",
+        "translation": "little, few",
+        "type": "adjective",
+        "example_sentence": "Ich habe leider nur wenig verstanden."
+        },
+        {
+        "word": "wer",
+        "translation": "who",
+        "type": "interrogative pronoun",
+        "example_sentence": "Wer ist das?"
+        },
+        {
+        "word": "werden",
+        "translation": "to become",
+        "type": "verb",
+        "example_sentence": "Mein Sohn will Arzt werden."
+        },
+        {
+        "word": "das Wetter",
+        "translation": "weather",
+        "type": "noun",
+        "example_sentence": "Wir hatten schlechtes Wetter."
+        },
+        {
+        "word": "wichtig",
+        "translation": "important",
+        "type": "adjective",
+        "example_sentence": "Dieses Formular ist sehr wichtig."
+        },
+        {
+        "word": "wie",
+        "translation": "how, like",
+        "type": "adverb",
+        "example_sentence": "Wie heißt du?"
+        },
+        {
+        "word": "wie soll ich das machen?",
+        "translation": "how should I do this?",
+        "type": "phrase",
+        "example_sentence": "Wie soll ich das machen?"
+        },
+        {
+        "word": "wie viel",
+        "translation": "how much",
+        "type": "interrogative phrase",
+        "example_sentence": "Wie viel Milch nehmen Sie?"
+        },
+        {
+        "word": "willkommen",
+        "translation": "welcome",
+        "type": "adjective",
+        "example_sentence": "Herzlich willkommen!"
+        },
+        {
+        "word": "der Wind",
+        "translation": "wind",
+        "type": "noun",
+        "example_sentence": "Der Wind kommt aus Osten."
+        },
+        {
+        "word": "wir",
+        "translation": "we",
+        "type": "pronoun",
+        "example_sentence": "Wir lernen Deutsch."
+        },
+        {
+        "word": "wissen",
+        "translation": "to know",
+        "type": "verb",
+        "example_sentence": "Weißt du, wie er heißt?"
+        },
+        {
+        "word": "wo",
+        "translation": "where",
+        "type": "interrogative pronoun",
+        "example_sentence": "Wo waren Sie im Urlaub?"
+        },
+        {
+        "word": "woher",
+        "translation": "where from",
+        "type": "interrogative pronoun",
+        "example_sentence": "Woher kommen Sie?"
+        },
+        {
+        "word": "wohin",
+        "translation": "where to",
+        "type": "interrogative pronoun",
+        "example_sentence": "Wohin fährt dieser Bus?"
+        },
+        {
+        "word": "wohnen",
+        "translation": "to live",
+        "type": "verb",
+        "example_sentence": "Ich wohne in München."
+        },
+        {
+        "word": "die Wohnung",
+        "plural": "die Wohnungen",
+        "translation": "apartment, flat",
+        "type": "noun",
+        "example_sentence": "Seit wann haben Sie diese Wohnung?"
+        },
+        {
+        "word": "wollen",
+        "translation": "to want",
+        "type": "verb",
+        "example_sentence": "Wollen Sie einen Kaffee trinken?"
+        },
+        {
+        "word": "das Wort",
+        "plural": "die Wörter",
+        "translation": "word",
+        "type": "noun",
+        "example_sentence": "Ich kenne das Wort nicht."
+        },
+        {
+        "word": "wunderbar",
+        "translation": "wonderful",
+        "type": "adjective",
+        "example_sentence": "Das Essen schmeckt wunderbar."
+        },
+        {
+        "word": "zahlen",
+        "translation": "to pay",
+        "type": "verb",
+        "example_sentence": "Zahlen, bitte!"
+        },
+        {
+        "word": "die Zeit",
+        "translation": "time",
+        "type": "noun",
+        "example_sentence": "Ich habe heute keine Zeit."
+        },
+        {
+        "word": "zurzeit",
+        "translation": "currently",
+        "type": "adverb",
+        "example_sentence": "Zurzeit habe ich sehr viel zu tun."
+        },
+        {
+        "word": "die Zeitung",
+        "plural": "die Zeitungen",
+        "translation": "newspaper",
+        "type": "noun",
+        "example_sentence": "Ich lese gern Zeitung."
+        },
+        {
+        "word": "die Zigarette",
+        "plural": "die Zigaretten",
+        "translation": "cigarette",
+        "type": "noun",
+        "example_sentence": "Wie teuer sind die Zigaretten?"
+        },
+        {
+        "word": "das Zimmer",
+        "plural": "die Zimmer",
+        "translation": "room",
+        "type": "noun",
+        "example_sentence": "Das Zimmer ist groß."
+        },
+        {
+        "word": "der Zoll",
+        "translation": "customs",
+        "type": "noun",
+        "example_sentence": "Wir müssen noch durch den Zoll."
+        },
+        {
+        "word": "zu",
+        "translation": "to",
+        "type": "preposition",
+        "example_sentence": "Der Bus fährt zum Bahnhof."
+        },
+        {
+        "word": "zufrieden",
+        "translation": "satisfied",
+        "type": "adjective",
+        "example_sentence": "Ich bin mit der Wohnung zufrieden."
+        },
+        {
+        "word": "der Zug",
+        "plural": "die Züge",
+        "translation": "train",
+        "type": "noun",
+        "example_sentence": "Ich fahre gern mit dem Zug."
+        },
+        {
+        "word": "zurück",
+        "translation": "back",
+        "type": "adverb",
+        "example_sentence": "Wann kommst du zurück?"
+        },
+        {
+        "word": "zusammen",
+        "translation": "together",
+        "type": "adverb",
+        "example_sentence": "Sollen wir zusammen essen gehen?"
+        },
+        {
+        "word": "zwischen",
+        "translation": "between",
+        "type": "preposition",
+        "example_sentence": "Heidelberg liegt zwischen Frankfurt und Stuttgart."
+        }
+    ]
+}
