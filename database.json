@@ -1,13 +1,20 @@
 {
     "user_inputs": [
         {
-            "word": "schön"
+            "word": "Schön",
+            "meaning": "beautiful"
         },
         {
-            "word": "lernen"
+            "word": "Trinken",
+            "meaning": "to drink"
         },
         {
-            "word": "besser"
+            "word": "Essen",
+            "meaning": "To eat"
+        },
+        {
+            "word": "Schon",
+            "meaning": "Already"
         }
     ]
 }
