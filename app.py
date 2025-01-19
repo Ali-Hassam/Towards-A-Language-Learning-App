@@ -225,13 +225,71 @@ if __name__ == "__main__":
     main_window.title("Language Learning Application by Hassam and Zühal")
     main_window.geometry(get_geometry(main_window.winfo_screenwidth(), main_window.winfo_screenheight(), 0, 0,1000, 600))
 
-    add_word_button = ttk.Button(main_window, text="Add new word", command=lambda:add_word_window(get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),main_window.winfo_y(), 800, 500)))
-    add_word_button.place(relx=0, rely=0, anchor="nw", x=10, y=10) #relx and rely = relative-positions (0-1), anchor: of the label
 
+    # A way around to adjust the widgets at the centre of teh window.
+    main_window.grid_rowconfigure(0, weight=1)
+    main_window.grid_rowconfigure(2, weight=1)
+    main_window.grid_columnconfigure(0, weight=1)
+    main_window.grid_columnconfigure(4, weight=1)
+
+
+    #CallBack using protocol #uncomment at the end
     # def main_window_callback():
     #     if messagebox.askokcancel("Quit", "Do you really wish to quit?"):
     #         main_window.destroy()
     #
     # main_window.protocol("WM_DELETE_WINDOW", main_window_callback)
+
+
+    image = tk.PhotoImage(file="app-icon.png")
+
+    main_window.iconphoto(False, image)
+
+    image_label = ttk.Label(main_window, image=image)
+    # image_label.grid(row=1, column=1, columnspan=3, pady=0)
+    image_label.grid(row=1, column=2) #btter way
+
+    # styles
+    style = ttk.Style()
+    # style.theme_use('xpnative') #Windows-XP Theme
+    # print(style.theme_use()) #current theme
+    style.configure('menu.TButton', font=('Arial', 12))
+
+    #About
+    info_Button = ttk.Button(main_window, text="About", width=10, style='menu.TButton')
+    info_Button.place(relx=0, rely=0, anchor="nw", x=10, y=10) #relx and rely = relative-positions (0-1), anchor: of the label
+
+
+    def change_level(event):
+        selected_value = level_var.get()  # Get the selected value from StringVar
+        print(f"Selected Level: {selected_value}") #to be impleemted
+
+
+    levels = ["Niveau: A1", "Niveau: A2", "Niveau: B1", "Niveau: B2"]
+    level_var = tk.StringVar()
+    # Set a default value for the combobox
+    combobox = ttk.Combobox(main_window, values=levels, state="readonly", textvariable=level_var, width=10, height=5, font=("Arial", 12))
+    combobox.set("Niveau: A1")  # Set default value
+    combobox.place(relx=1, rely=0, anchor="ne", x=-10, y=10)
+
+    # Bind the combobox value change event to the function
+    combobox.bind("<<ComboboxSelected>>", change_level)
+
+
+    MenuBtn1 = ttk.Button(main_window, text="Quiz", width=20, style='menu.TButton')
+    MenuBtn1.grid(row=2, column=1, pady=10, padx=10, ipady=20, ipadx=10)
+
+    MenuBtn2 = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton')
+    MenuBtn2.grid(row=2, column=2, pady=10, padx=10, ipady=20, ipadx=10)
+
+    MenuBtn3 = ttk.Button(main_window, text="Articles", width=20, style='menu.TButton')
+    MenuBtn3.grid(row=2, column=3, pady=10, padx=10, ipady=20, ipadx=10)
+
+    add_word_button = ttk.Button(main_window, text="Add new word", style='menu.TButton', command=lambda: add_word_window(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500)))
+    add_word_button.grid(row=3, column=2, pady=10, padx=10, ipady=10, ipadx=10, sticky="ew")
+
+
 
     main_window.mainloop()
