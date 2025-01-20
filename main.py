@@ -94,14 +94,12 @@ def words_to_study():
     database_file = read("user_inputs.txt") 
     today = datetime.now().timetuple().tm_yday
     word_list = []
-
     for line in database_file:
-        if "time:" in line:
-            time_value = int(line.split("time:")[1].split(",")[0].strip())
-            time_passed = today - time_value
-            if time_passed in {2, 3, 10, 17, 30}:
-                word_list.append({line})
+        time_value = int(line.split("time:")[1].split(",")[0].strip())
+        time_passed = today - time_value
 
+        if time_passed in {2, 3, 10, 17, 30}:
+            word_list.append(line)
     return word_list
 
 # This part is for games. So we will take count from user 
@@ -109,7 +107,8 @@ def get_random(count):
     words = words_to_study()
     if len(words) < count:
         return f"Your list is not that much long maybe you could learn some A1 word"
-    return random.sample(words, count)
+    else:
+        return random.sample(words, count)
 
 def input_word_and_save():
     input_word = input("Enter the German word that you want to learn: ")
@@ -165,11 +164,11 @@ def input_word_and_save():
                     if translation_correct:
                         gender = artikel(relevant[1])
                         if relevant[0] == gender:
-                            new_entry = f"word: {main_word}, translation: {meaning}, type: {word_type}, gender: {gender}, time: {last_time}, success: {start}'\n'"
+                            new_entry = f"word: {main_word}, translation: {meaning}, type: {word_type}, gender: {gender}, time: {last_time}, success: {start} \n"
                             save(new_entry)
                             print(f"Yes, the meaning of {main_word} is {meaning}. Congratulations, {word} has been saved!! Time to work")
                         else:
-                            new_entry = f"word: {main_word}, translation: {meaning}, type: {word_type}, gender: {gender}, time: {last_time}, success: {start}\n"
+                            new_entry = f"word: {main_word}, translation: {meaning}, type: {word_type}, gender: {gender}, time: {last_time}, success: {start} \n"
                             save(new_entry)
                             print(f"Woops we must study artikels.{main_word} artikel is not {relevant[0]} But there is no problem we saved the word correctlly")
                     else:
@@ -193,7 +192,7 @@ def input_word_and_save():
                     start = 0
                     translation_correct = translation(word_check[0],meaning)
                     if translation_correct:
-                            new_entry = f"word: {word}, translation: {meaning}, type: {word_type}, time: {last_time}, success: {start}\n"
+                            new_entry = f"word: {word}, translation: {meaning}, type: {word_type}, time: {last_time}, success: {start} \n"
                             save(new_entry)
                             print(f"Yes, the meaning of {word_check[0]} is {meaning}. Congratulations, {word} has been saved!! Time to work")
                     else:
@@ -211,42 +210,64 @@ def der_die_das_game():
     print("Welcome to the Der/Die/Das Game!")
     count = int(input("How many words do you want to practice in one session"))
     practice_list = get_random(count)
-    for i in practice_list:
-        for element in i:
-            word_info = element.strip().split(", ")
-            word = [info.split(": ")[1] for info in word_info if info.startswith("word:")][0]
-            word_type = [info.split(": ")[1] for info in word_info if info.startswith("type:")][0]
-            gender = [info.split(": ")[1] for info in word_info if info.startswith("gender:")][0]
-            if word_type == "NOUN":
-                noun = word
-                article = gender
-                user_guess = input(f"What is the correct article for '{noun}'? (der, die, das): ").lower()
-                if user_guess == article:
-                    print("Correct! Well done.")
-                else:
-                    print(f"Incorrect! The correct article is {article}.")
+    for element in practice_list:
+        word_info = element.strip().split(", ")
+        word_type = [info.split(": ")[1] for info in word_info if info.startswith("type:")][0]
+        if word_type == "NOUN":
+            noun = [info.split(": ")[1] for info in word_info if info.startswith("word:")][0]
+            article = [info.split(": ")[1] for info in word_info if info.startswith("gender:")][0]
+            user_guess = input(f"What is the correct article for '{noun}'? (der, die, das): ").lower()
+            if user_guess == article:
+                print("Correct! Well done.")
+            else:
+                print(f"Incorrect! The correct article is {article}.")
 
 def spelling_game():
     print("Welcome to the Spelling Game!")
     count = int(input("How many words do you want to practice in one session "))
     practice_list = get_random(count)
-    for i in practice_list:
-        for element in i:
-            word_info = element.strip().split(", ")
-            meaning = [info.split(": ")[1] for info in word_info if info.startswith("translation:")][0]
-            word = [info.split(": ")[1] for info in word_info if info.startswith("word:")][0]
-            user_spelling = input(f"What is the german word which means{meaning} ")
-            if user_spelling == word:
-                print(f"Yesss,{word} is spelled correctly!")
-            else:
-                print("Woops, you wrote it wrongly.")
+    for element in practice_list:
+        word_info = element.strip().split(", ")
+        meaning = [info.split(": ")[1] for info in word_info if info.startswith("translation:")][0]
+        word = [info.split(": ")[1] for info in word_info if info.startswith("word:")][0]
+        user_spelling = input(f"What is the german word which means{meaning} ")
+        if user_spelling == word:
+            print(f"Yesss,{word} is spelled correctly!")
+        else:
+            print("Woops, you wrote it wrongly.")
 
+def meaning_game():
+    print("Welcome to the Meaning Matching Game!")
+    count = int(input("How many words do you want to practice in one session? "))
+    practice_list = get_random(count)
+    meanings_list =[]
+    for meanings in read("user_inputs.txt"):
+        word_info = meanings.strip().split(", ")
+        word_type = [info.split(": ")[1] for info in word_info if info.startswith("translation:")][0]
+        meanings_list.append(word_type)
+    for element in practice_list:
+        word_info = element.strip().split(", ")
+        meaning = [info.split(": ")[1] for info in word_info if info.startswith("translation:")][0]
+        word = [info.split(": ")[1] for info in word_info if info.startswith("word:")][0]
+        print(f"What is the meaning of '{word}'?")
+        choices = random.sample(meanings_list, 3)  
+        choices.append(meaning) 
+        random.shuffle(choices) 
+        for idx, option in enumerate(choices, 1):
+            print(f"{idx}. {option}", end="  ")
+        print() 
+        choice = int(input("Choose the correct meaning (1-4): "))  
+        if choices[choice - 1] == meaning:  
+            print(f"Correct! The meaning of '{word}' is {meaning}.")
+        else:
+            print(f"Incorrect. The correct translation of '{word}' is '{meaning}'.")
+    
 if __name__ == "__main__":
     print("What do you want to do?")
     print("1: Input word and save")
     print("2: Der/Die/Das Game")
     print("3: Spelling Game")
-    
+    print("4: Meaning Matching Game")
     choice = input("Enter the number corresponding to your choice: ")
     
     if choice == "1":
@@ -255,5 +276,7 @@ if __name__ == "__main__":
         der_die_das_game()
     elif choice == "3":
         spelling_game()
+    elif choice == "4":
+        meaning_game()
     else:
         print("Invalid choice. Please try again.")

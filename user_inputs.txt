@@ -1,0 +1,19 @@
+word: haus, translation: house, type: NOUN, gender: das, time: 1, success: 0
+word: auto, translation: car, type: NOUN, gender: das, time: 15, success: 0
+word: hund, translation: dog, type: NOUN, gender: der, time: 11, success: 0
+word: apfel, translation: apple, type: NOUN, gender: der, time: 16, success: 0
+word: sich erinnern, translation: to remember, type: VERB, time: 18, success: 0
+word: moschee, translation: mosque, type: NOUN, gender: die, time: 1, success: 0
+word: buchhandlung, translation: bookshop, type: NOUN, gender: die, time: 11, success: 0
+word: gasthaus, translation: inn, type: NOUN, time: 15, success: 0
+word: vorort, translation: suburb, type: NOUN, gender: das, time: 3, success: 0
+word: straße, translation: street, type: NOUN, gender: die, time: 5, success: 0
+word: bahnhof, translation: train station, type: NOUN, gender: der, time: 10, success: 0
+word: flughafen, translation: airport, type: NOUN, gender: der, time: 1, success: 0
+word: bibliothek, translation: library, type: NOUN, gender: die, time: 8, success: 0
+word: wasserfall, translation: waterfall, type: NOUN, gender: der, time: 4, success: 0
+word: schädel, translation: skull, type: ADV, time: 19, success: 0
+word: bart, translation: beard, type: VERB, time: 19, success: 0
+word: zweck, translation: purpose, type: NOUN, gender: der, time: 19, success: 0
+word: computer, translation: computer, type: NOUN, gender: der, time: 20, success: 0
+word: damm, translation: dam, type: NOUN, gender: das, time: 20, success: 0
