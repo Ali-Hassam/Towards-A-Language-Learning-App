@@ -5,7 +5,6 @@ word: apfel, translation: apple, type: NOUN, gender: der, time: 16, success: 0
 word: sich erinnern, translation: to remember, type: VERB, time: 18, success: 0
 word: moschee, translation: mosque, type: NOUN, gender: die, time: 1, success: 0
 word: buchhandlung, translation: bookshop, type: NOUN, gender: die, time: 11, success: 0
-word: gasthaus, translation: inn, type: NOUN, time: 15, success: 0
 word: vorort, translation: suburb, type: NOUN, gender: das, time: 3, success: 0
 word: straße, translation: street, type: NOUN, gender: die, time: 5, success: 0
 word: bahnhof, translation: train station, type: NOUN, gender: der, time: 10, success: 0
