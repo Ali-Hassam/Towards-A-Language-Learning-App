@@ -1,0 +1,39 @@
+word: haus, translation: house, type: NOUN, gender: das, time: 1, success: 0
+word: auto, translation: car, type: NOUN, gender: das, time: 15, success: 0
+word: hund, translation: dog, type: NOUN, gender: der, time: 11, success: 0
+word: apfel, translation: apple, type: NOUN, gender: der, time: 16, success: 0
+word: sich erinnern, translation: to remember, type: VERB, time: 18, success: 0
+word: moschee, translation: mosque, type: NOUN, gender: die, time: 1, success: 0
+word: buchhandlung, translation: bookshop, type: NOUN, gender: die, time: 11, success: 0
+word: gasthaus, translation: inn, type: NOUN, time: 15, success: 0
+word: vorort, translation: suburb, type: NOUN, gender: das, time: 3, success: 0
+word: straße, translation: street, type: NOUN, gender: die, time: 5, success: 0
+word: bahnhof, translation: train station, type: NOUN, gender: der, time: 10, success: 0
+word: flughafen, translation: airport, type: NOUN, gender: der, time: 1, success: 0
+word: bibliothek, translation: library, type: NOUN, gender: die, time: 8, success: 0
+word: wasserfall, translation: waterfall, type: NOUN, gender: der, time: 4, success: 0
+word: schädel, translation: skull, type: ADV, time: 19, success: 0
+word: bart, translation: beard, type: VERB, time: 19, success: 0
+word: zweck, translation: purpose, type: NOUN, gender: der, time: 19, success: 0
+word: computer, translation: computer, type: NOUN, gender: der, time: 20, success: 0
+word: damm, translation: dam, type: NOUN, gender: das, time: 20, success: 0
+word: tisch, translation: table, type: NOUN, gender: der, time: 2, success: 0
+word: fenster, translation: window, type: NOUN, gender: das, time: 2, success: 0
+word: tür, translation: door, type: NOUN, gender: die, time: 3, success: 0
+word: lampe, translation: lamp, type: NOUN, gender: die, time: 3, success: 0
+word: sofa, translation: sofa, type: NOUN, gender: das, time: 10, success: 0
+word: stuhl, translation: chair, type: NOUN, gender: der, time: 10, success: 0
+word: bett, translation: bed, type: NOUN, gender: das, time: 17, success: 0
+word: schrank, translation: cupboard, type: NOUN, gender: der, time: 17, success: 0
+word: bild, translation: picture, type: NOUN, gender: das, time: 30, success: 0
+word: wand, translation: wall, type: NOUN, gender: die, time: 30, success: 0
+word: tasse, translation: cup, type: NOUN, gender: die, time: 2, success: 0
+word: teller, translation: plate, type: NOUN, gender: der, time: 3, success: 0
+word: messer, translation: knife, type: NOUN, gender: das, time: 10, success: 0
+word: gabel, translation: fork, type: NOUN, gender: die, time: 17, success: 0
+word: löffel, translation: spoon, type: NOUN, gender: der, time: 30, success: 0
+word: herd, translation: stove, type: NOUN, gender: der, time: 3, success: 0
+word: backofen, translation: oven, type: NOUN, gender: der, time: 10, success: 0
+word: kühlschrank, translation: fridge, type: NOUN, gender: der, time: 17, success: 0
+word: mikrowelle, translation: microwave, type: NOUN, gender: die, time: 30, success: 0
+word: wasserkocher, translation: kettle, type: NOUN, gender: der, time: 2, success: 0
