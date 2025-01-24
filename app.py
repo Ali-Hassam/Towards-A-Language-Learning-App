@@ -109,14 +109,14 @@ def add_to_library(new_word, new_meaning, win):
         new_word.delete(0, 'end')
         new_word.focus()
         new_meaning.delete(0, 'end')
+        new_meaning.config(state="disabled")
     else:
-        #add_word_button["state"] = 'normal'
         win.destroy()
 
 
 # Get a new word from user
 ## To many checks , optimization required may be "try:catch"
-def get_new_word(word,mean, win):
+def get_new_word(word,mean,win):
     new_word = word.get().lower()
     if new_word=="":
         messagebox.showerror(title="Error", message="Word can't be empty", parent=win)
@@ -143,17 +143,14 @@ def get_new_word(word,mean, win):
         
         res = messagebox.askyesno(title="Spelling mistake", message=f"Do you mean: {corrected_word.capitalize()}", parent=win)
         if res:
-            add_word_button["state"] = 'normal'
-            add_to_library(corrected_word.capitalize(), new_meaning)
-            res = messagebox.askyesno(title="Word added", message=f"{corrected_word.capitalize()} is added to the library.\n\nAdd another word?", parent=win)
-            if res:
-                word.delete(0, 'end')
-                word.focus()
+            # add_word_button["state"] = 'normal'
+            # add_to_library(corrected_word.capitalize(), new_meaning)
+            # res = messagebox.askyesno(title="Word added", message=f"{corrected_word.capitalize()} is added to the library.\n\nAdd another word?", parent=win)
+            # if res:
+            word.delete(0, 'end')
+            word.insert(0, corrected_word)
+            word.focus()
                 # meaning.delete(0, 'end')
-            else:
-                # print("goog")
-                add_word_button["state"] = 'normal'
-                win.destroy()
 
         elif GermanWords.candidates(new_word):
             candidates = list(GermanWords.candidates(new_word))
