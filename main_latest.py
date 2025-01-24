@@ -38,7 +38,7 @@ def spelling(word):
         candidates.append("None of them macthes the word I wanted to right")
         return list(candidates)
 
-nlp = spacy.load("de_core_news_sm")
+nlp = spacy.load("de_core_news_md")
 def artikel(word):
     artikels = {
         "masculine": {

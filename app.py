@@ -1,4 +1,4 @@
-import spacy
+# import spacy
 import tkinter as tk
 from tkinter import messagebox,ttk
 from deep_translator import PonsTranslator, GoogleTranslator
@@ -43,102 +43,81 @@ def get_db_words():
 
 # Translation checker
 def translation(word):
-    pons_translation = PonsTranslator(source='de', target='en').translate(word)
-    google_translation = GoogleTranslator(source='de', target='en').translate(text=word)
-    if pons_translation != google_translation:
-        pons_translation = [google_translation, pons_translation]
-    return pons_translation
+    pons_meaning = [PonsTranslator(source='de', target='en').translate(word)]
+    google_meaning = [GoogleTranslator(source='de', target='en').translate(text=word)]
+    all_meanings = set(pons_meaning + google_meaning)
+    return all_meanings
 
 
-nlp = spacy.load("de_core_news_md")
-
-
-def artikel(word):
-    artikels = {
-        "masculine": {
-            "definite": "der",
-            "indefinite": "ein"
-        },
-        "feminine": {
-            "definite": "die",
-            "indefinite": "eine"
-        },
-        "neuter": {
-            "definite": "das",
-            "indefinite": "ein"
-        },
-        "plural": {
-            "definite": "die",
-            "indefinite": None
-        }
-    }
-
-    doc = nlp(word)
-    token = doc[0]
-    gender = token.morph.get("Gender")
-    gender = gender[0]
-    if gender == "Masc":
-        return artikels["masculine"]["definite"]
-    elif gender == "Fem":
-        return artikels["feminine"]["definite"]
-    elif gender == "Neut":
-        return artikels["neuter"]["definite"]
-    else:
-        return "Maybe this is not a nounn "
-
-
-# And now we also have the type writer
-def get_type(word):
-    doc = nlp(word)
-    for token in doc:
-        return token.pos_
+# nlp = spacy.load("de_core_news_md")
+#
+#
+# def artikel(word):
+#     artikels = {
+#         "masculine": {
+#             "definite": "der",
+#             "indefinite": "ein"
+#         },
+#         "feminine": {
+#             "definite": "die",
+#             "indefinite": "eine"
+#         },
+#         "neuter": {
+#             "definite": "das",
+#             "indefinite": "ein"
+#         },
+#         "plural": {
+#             "definite": "die",
+#             "indefinite": None
+#         }
+#     }
+#
+#     doc = nlp(word)
+#     token = doc[0]
+#     gender = token.morph.get("Gender")
+#     gender = gender[0]
+#     if gender == "Masc":
+#         return artikels["masculine"]["definite"]
+#     elif gender == "Fem":
+#         return artikels["feminine"]["definite"]
+#     elif gender == "Neut":
+#         return artikels["neuter"]["definite"]
+#     else:
+#         return "Maybe this is not a nounn "
+#
+#
+# # And now we also have the typewriter
+# def get_type(word):
+#     doc = nlp(word)
+#     for token in doc:
+#         return token.pos_
 # -------------------------------------------------------------
 
 
 
 # Add the new word to the custom library
-def add_to_library(new_word, meaning):
-    
-    
-    add_word_button["state"]='normal'
-    # Zuhal Please implement/modify the function to add the word into the library (text or JSON file) here
-    saved_words = get_db_words()
-    if new_word not in saved_words:
-        messagebox.showinfo(title="Word added", message=f"{new_word} : {meaning} \nadded to the library")
-    #     new_entry = {
-    #                 "word": new_word,
-    #                 "meaning": meaning.capitalize()
-    #                 }
-    #     save(new_entry)
-    #     messagebox.showinfo(title="Word added", message=f"{new_word} added to the library")
-    # else:
-    #     messagebox.showinfo(title="Word added", message=f"{new_word} already exist the library")
-
+def add_to_library(new_word, new_meaning, win):
+    word = new_word.get()
+    meaning = new_meaning.get()
+    res = messagebox.askyesno(title="Word added",
+                            parent=win,
+                            message=f"{word.capitalize()} : {meaning.capitalize()} added to the library"
+                                    f"\n Do you want to add another word?")
+    if res:
+        get_meaning_btn = win.get_meaning_btn
+        get_meaning_btn.config(text='Get meaning')
+        new_word.delete(0, 'end')
+        new_word.focus()
+        new_meaning.delete(0, 'end')
+    else:
+        #add_word_button["state"] = 'normal'
+        win.destroy()
 
 
 # Get a new word from user
 ## To many checks , optimization required may be "try:catch"
-def get_new_word(word, win):
+def get_new_word(word,mean, win):
     new_word = word.get().lower()
-    # new_meaning = meaning.get().lower()
-
-    # with open(db_file, mode="r", encoding="utf-8") as read_file:
-    #     database_file = json.load(read_file)
-    #     word_list = []
-    #     for i in database_file["user_inputs"]:
-    #         word_list.append(i['word'])
-    #     # return word_list
-    #     saved_words = database.get_db_words()
-    #     db = database.read()
-    #     if word not in saved_words:
-    #         result = inputcontroller.spelling(word)
-    #         if result == True:
-    #             new_entry = {
-    #                 "word": word,
-    #                 "translation": meaning
-    #             }
-    #             database.save(new_entry)
-
     if new_word=="":
         messagebox.showerror(title="Error", message="Word can't be empty", parent=win)
         word.focus()
@@ -149,10 +128,10 @@ def get_new_word(word, win):
         word.focus()
         return 1
 
-    # elif new_meaning =="":
-    #     messagebox.showerror(title="Error", message="Meaning can't be empty", parent=win)
-    #     meaning.focus()
-    #     return 1
+    elif new_word in get_db_words():
+        messagebox.showwarning(title="Achtung!", message=f'"{new_word.capitalize()}" already exists in the library', parent=win)
+        word.focus()
+        return 1
 
     elif new_word=="Already exist": #backend handle this please
         messagebox.showwarning(title="Warning", message="Word already exists", parent=win)
@@ -224,45 +203,54 @@ def get_new_word(word, win):
 
     else:
         meanings = translation(new_word)
-        meaning_win = tk.Toplevel(win)  # sub-child window of show alternates
-        meaning_win.title("Possible Meanings")
-        meaning_win.geometry(win.geometry())
-        meaning_win.iconphoto(False, image)
+        get_meaning_btn = win.get_meaning_btn
 
-        tkinter_meaning_var = tk.StringVar()
+        if len(meanings) == 1:
+            mean.config(state="normal")
+            mean.insert(0, list(meanings)[0])
+            get_meaning_btn.config(text='Add to library')
+        else:
+            meaning_win = tk.Toplevel(win) # sub-child window of show alternates
+            meaning_win.title("Possible Meanings")
+            meaning_win.geometry(win.geometry())
+            meaning_win.iconphoto(False, image)
 
-        line = tk.Label(meaning_win, text=f"The possible meanings of: {new_word.capitalize()}")
-        line.grid(row=1, column=1, columnspan=3, pady=20)
+            get_meaning_btn.config(state="disabled")
 
-        ok_btn = ttk.Button(meaning_win, text='OK', state='disabled', command=lambda: add_to_library(new_word, tkinter_meaning_var.get()))
+            tkinter_meaning_var = tk.StringVar()
 
-        def enable_button():
-            ok_btn["state"] = 'normal'
+            line = tk.Label(meaning_win, text=f"The possible meanings of: {new_word.capitalize()}")
+            line.grid(row=1, column=1, columnspan=3, pady=20)
 
-        rw = 2
-        cl = 1
-        var = tk.StringVar()  # a special tk variable to hold the Radiobutton selection it changes dynamically
-        for word in meanings:
-            ttk.Radiobutton(
-                meaning_win,
-                text=word.capitalize(),
-                value=word.capitalize(),
-                variable=tkinter_meaning_var,
-                command=enable_button
-            ).grid(row=rw, column=cl, sticky='ew', padx=20, pady=20)
-            cl += 1
-            if cl == 4:
-                rw += 1
-                cl = 1
+            add_to_lib_btn = ttk.Button(meaning_win, text='Add to library', state='disabled', command=lambda: add_to_library(word, tkinter_meaning_var, meaning_win))
 
-        ok_btn.grid(row=rw + 1, column=1, columnspan=3, pady=20)
+            def enable_button():
+                add_to_lib_btn["state"] = 'normal'
 
-        meaning_win.grid_rowconfigure(0, weight=1)
-        meaning_win.grid_rowconfigure(rw + 2, weight=1)
-        meaning_win.grid_columnconfigure(0, weight=1)
-        meaning_win.grid_columnconfigure(4, weight=1)
+            rw = 2
+            cl = 1
+            var = tk.StringVar()  # a special tk variable to hold the Radiobutton selection it changes dynamically
+            for meaning in meanings:
+                ttk.Radiobutton(
+                    meaning_win,
+                    text=meaning.capitalize(),
+                    value=meaning.capitalize(),
+                    variable=tkinter_meaning_var,
+                    command=enable_button
+                ).grid(row=rw, column=cl, sticky='ew', padx=20, pady=20)
+                cl += 1
+                if cl == 4:
+                    rw += 1
+                    cl = 1
 
-        meaning_win.mainloop()
+            add_to_lib_btn.grid(row=rw + 1, column=1, columnspan=3, pady=20)
+
+            meaning_win.grid_rowconfigure(0, weight=1)
+            meaning_win.grid_rowconfigure(rw + 2, weight=1)
+            meaning_win.grid_columnconfigure(0, weight=1)
+            meaning_win.grid_columnconfigure(4, weight=1)
+
+            meaning_win.mainloop()
 
 
 
@@ -294,20 +282,23 @@ def add_word_window(geom):
     word_input.focus()
     word_input.grid(row=2, column=1, padx=10, pady=(0,25))
 
-    # meaning_label = tk.Label(add_word_win, text="Its meaning")
-    # meaning_label.grid(row=3, column=1, padx=10, pady=(0,5))
-    # # meaning_input = ttk.Entry(add_word_win, state='readonly')
-    # meaning_input = ttk.Entry(add_word_win)
-    # meaning_input.grid(row=5, column=1, padx=10, pady=(0,5))
+    meaning_label = tk.Label(add_word_win, text="Its meaning")
+    meaning_label.grid(row=3, column=1, padx=10, pady=(0,5))
+    meaning_input = ttk.Entry(add_word_win)
+    meaning_input = ttk.Entry(add_word_win, state='disabled')
+    meaning_input.grid(row=5, column=1, padx=10, pady=(0,5))
 
 
     # Button to close this window and/or handle input
-    submit_button = ttk.Button(add_word_win, text="Get meaning", padding=(10,5), command=lambda: [ get_new_word(word_input, add_word_win)]) #add_word_win.destroy()
-    submit_button.grid(row=3, column=1, padx=20, pady=20)
+    get_meaning_btn = ttk.Button(add_word_win, text="Get meaning", padding=(10,5), command=lambda: [get_new_word(word_input, meaning_input, add_word_win) if get_meaning_btn['text'] == "Get meaning" else add_to_library(word_input, meaning_input, add_word_win)]) #add_word_win.destroy()
+    get_meaning_btn.grid(row=6, column=1, padx=20, pady=20)
+
+    # Store the get_meaning_btn in the window object to access it in other function
+    add_word_win.get_meaning_btn = get_meaning_btn
 
     # Manipulate the grid to keep the widgets at the center of teh screen
     add_word_win.grid_rowconfigure(0, weight=1)
-    add_word_win.grid_rowconfigure(4, weight=1)
+    add_word_win.grid_rowconfigure(7, weight=1)
     add_word_win.grid_columnconfigure(1, weight=1)
 
 

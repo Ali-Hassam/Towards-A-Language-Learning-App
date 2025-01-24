@@ -16,7 +16,6 @@ word: schädel, translation: skull, type: ADV, time: 19, success: 0
 word: bart, translation: beard, type: VERB, time: 19, success: 0
 word: zweck, translation: purpose, type: NOUN, gender: der, time: 19, success: 0
 word: computer, translation: computer, type: NOUN, gender: der, time: 20, success: 0
-word: damm, translation: dam, type: NOUN, gender: das, time: 20, success: 0
 word: tisch, translation: table, type: NOUN, gender: der, time: 2, success: 0
 word: fenster, translation: window, type: NOUN, gender: das, time: 2, success: 0
 word: tür, translation: door, type: NOUN, gender: die, time: 3, success: 0

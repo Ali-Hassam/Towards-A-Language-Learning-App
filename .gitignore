@@ -1,3 +1,4 @@
 # Ignore the .idea folder used by PyCharm
 .idea/
 __pycache__/
+venv/
