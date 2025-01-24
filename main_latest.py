@@ -40,37 +40,49 @@ def spelling(word):
 
 nlp = spacy.load("de_core_news_md")
 def artikel(word):
-    artikels = {
-        "masculine": {
-            "definite": "der",
-            "indefinite": "ein"
-        },
-        "feminine": {
-            "definite": "die",
-            "indefinite": "eine"
-        },
-        "neuter": {
-            "definite": "das",
-            "indefinite": "ein"
-        },
-        "plural": {
-            "definite": "die",
-            "indefinite": None
-        }
-    }
+    # artikels = {
+    #     "masculine": {
+    #         "definite": "der",
+    #         "indefinite": "ein"
+    #     },
+    #     "feminine": {
+    #         "definite": "die",
+    #         "indefinite": "eine"
+    #     },
+    #     "neuter": {
+    #         "definite": "das",
+    #         "indefinite": "ein"
+    #     },
+    #     "plural": {
+    #         "definite": "die",
+    #         "indefinite": None
+    #     }
+    # }
+    #
+    # doc = nlp(word)
+    # token = doc[0]
+    # gender = token.morph.get("Gender")
+    # gender = gender[0]
+    # if gender == "Masc":
+    #     return artikels["masculine"]["definite"]
+    # elif gender == "Fem":
+    #     return artikels["feminine"]["definite"]
+    # elif gender == "Neut":
+    #     return artikels["neuter"]["definite"]
+    # else:
+    #     return "Maybe this is not a nounn "
 
+    ### Make it simple
     doc = nlp(word)
     token = doc[0]
     gender = token.morph.get("Gender")
     gender = gender[0]
     if gender == "Masc":
-        return artikels["masculine"]["definite"]
+        return 'der'
     elif gender == "Fem":
-        return artikels["feminine"]["definite"]
+        return 'die'
     elif gender == "Neut":
-        return artikels["neuter"]["definite"]
-    else:
-        return "Maybe this is not a nounn "
+        return 'das'
         
 # And now we also have the type writer
 def get_type(word):
@@ -132,6 +144,7 @@ def input_word_and_save():
     if word not in saved_words: 
         word_result = spelling(word) # check the spelling 
         if word_result == True:
+            #################################################### ####################################################  #################################################### #################################################### From here
             word_type = get_type(word)
             start = 0
             if word_type == "NOUN" and word_type: # if it is noun also look for artikel 
