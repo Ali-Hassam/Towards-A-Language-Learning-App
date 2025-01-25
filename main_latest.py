@@ -6,7 +6,7 @@ import random
 ## spech recognaton https://github.com/raphaelradna/german_vocabulary_trainer/blob/main/german_vocabulary_trainer.py
 
 
-db_file="user_inputs.txt"    
+db_file="user_words.txt"
 def read(file_name):
     with open(file_name, mode="r", encoding="utf-8") as file:
         return file.readlines()
@@ -18,7 +18,7 @@ def save(word):
         write_file.write(word) 
 
 def get_words():
-    database_file = read("user_inputs.txt")
+    database_file = read(db_file)
     word_list = []
     for line in database_file:
         line = line.strip()
@@ -102,15 +102,16 @@ def translation(word,meaning):
 
 # Timer algorithm every 2, 3, 10, 17, 30 later user will make exercises
 def words_to_study(noun_filter=None):
-    database_file = read("user_inputs.txt")
-    gothe_file = read("buildindatabase.txt")
-    today = datetime.now().timetuple().tm_yday
+    database_file = read("user_words.txt")
+    gothe_file = read("goethe_a1_words.txt")
+    today = datetime.now().strftime("%d-%m-%Y")
     priority_list = []
     normal_list = []
     gothe_list =[]
     for line in database_file:   
-        time_value = int(line.split("time:")[1].split(",")[0].strip())
-        time_passed = today - time_value
+        saved_date = line.split("Date:")[1].split(",")[0].strip()
+        time_passed = datetime.strptime(today, "%d-%m-%Y") - datetime.strptime(saved_date, "%d-%m-%Y")
+        time_passed = time_passed.days
         word_info = line.strip().split(", ")
         word_type = [info.split(": ")[1] for info in word_info if info.startswith("type:")][0]
         if noun_filter == "noun" and word_type == "NOUN":
@@ -222,15 +223,15 @@ def spelling_game():
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
             print(word_dict)
-            time_value = int (word_dict['time'])
+            time_value = int (word_dict['Date'])
             today = datetime.now().timetuple().tm_yday
             time_passed = today - time_value
-            word = word_dict['word']
-            meaning = word_dict['translation']
+            word = word_dict['Word']
+            meaning = word_dict['Meaning']
             user_spelling = input(f"What is the german word which means {meaning} ").lower()
-            if word_dict.get('gender'):  # Check if 'gender' exists
+            if word_dict.get('Article'):  # Check if 'gender' exists
                 user_spelling = user_spelling.split()
-                if len(user_spelling) == 2 and user_spelling[1] == word and user_spelling[0] == word_dict['gender']:
+                if len(user_spelling) == 2 and user_spelling[1] == word and user_spelling[0] == word_dict['Article']:
                     print(f"Yesss, {word} is spelled correctly!")
                     if time_passed in {2, 3, 10, 17, 30}:
                         total_words.remove(element)
@@ -243,7 +244,7 @@ def spelling_game():
                         print("Oops, please provide both the article and the word.")
                     else:
                         if user_spelling[0] != word_dict['gender']:
-                            print(f"Oops, the correct article should be '{word_dict['gender']}'")
+                            print(f"Oops, the correct article should be '{word_dict['Article']}'")
                         if user_spelling[1] != word:
                             print(f"Oops, the correct word should be '{word}'")
             else:
@@ -270,7 +271,7 @@ def meaning_game():
     normal_list = words_to_study()[1]  # Get teh rest fo the words
     total_words = priority_list + normal_list
     meanings_list = []
-    for meanings in read("user_inputs.txt"):
+    for meanings in read("user_words.txt"):
         word_info = meanings.strip().split(", ")
         word_type = [info.split(": ")[1] for info in word_info if info.startswith("translation")][0]
         meanings_list.append(word_type)
