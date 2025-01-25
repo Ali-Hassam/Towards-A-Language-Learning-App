@@ -5,12 +5,13 @@ from deep_translator import PonsTranslator, GoogleTranslator
 from spellchecker import SpellChecker
 from datetime import datetime
 import string
+import der_die_das_game
 
 GermanWords = SpellChecker(language='de')
 EnglishWords= SpellChecker(language='en')
 user_file="user_words.txt"
 goethe_file_a1="goethe_a1_words.txt"
-
+level = 'A1' # read level from file
 
 # -------------------------------------------------------------
 def read(file_name):
@@ -78,6 +79,17 @@ def get_type(word): # I extended this function to get the output in a more reada
     else:
         return "Unknown"
 # -------------------------------------------------------------
+
+def disable_btns(win):
+    for widget in win.winfo_children():
+        if isinstance(widget, ttk.Button):
+            widget.config(state="disabled")
+
+def enable_btns(win):
+    for widget in win.winfo_children():
+        if isinstance(widget, ttk.Button):
+            widget.config(state="normal")
+
 
 # Get the geometry of the windows
 def get_geometry(parent_width, parent_height, parent_x, parent_y, window_width, window_height):
@@ -274,6 +286,7 @@ def get_new_word(word,mean,win):
 
             def meaning_win_callback():
                 get_meaning_btn.config(state='normal')
+                enable_btns(main_window)
                 meaning_win.destroy()
 
             meaning_win.protocol("WM_DELETE_WINDOW", meaning_win_callback)
@@ -287,6 +300,10 @@ def add_word_window(geom):
     add_word_win.title("Add word")
     add_word_win.geometry(geom)
     add_word_win.iconphoto(False, image)
+
+    # Disable all buttons in the main window
+    disable_btns(main_window)
+
 
     word_label = tk.Label(add_word_win, text="New word")
     word_label.grid(row=1, column=1, padx=10, pady=(10,5))
@@ -316,7 +333,7 @@ def add_word_window(geom):
     add_word_win.grid_columnconfigure(1, weight=1)
 
     def add_word_win_callback():
-        add_word_button["state"]='normal'
+        enable_btns(main_window)
         add_word_win.destroy()
 
     add_word_win.protocol("WM_DELETE_WINDOW", add_word_win_callback)
@@ -348,9 +365,7 @@ if __name__ == "__main__":
     #
     # main_window.protocol("WM_DELETE_WINDOW", main_window_callback)
 
-
     image = tk.PhotoImage(file="app-icon.png")
-
     main_window.iconphoto(False, image)
 
     image_label = ttk.Label(main_window, image=image)
@@ -390,8 +405,10 @@ if __name__ == "__main__":
     MenuBtn2 = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton')
     MenuBtn2.grid(row=2, column=2, pady=10, padx=10, ipady=20, ipadx=10)
 
-    MenuBtn3 = ttk.Button(main_window, text="Articles", width=20, style='menu.TButton')
-    MenuBtn3.grid(row=2, column=3, pady=10, padx=10, ipady=20, ipadx=10)
+    article_game_btn = ttk.Button(main_window, text="Articles", width=20, style='menu.TButton', command=lambda: der_die_das_game.der_die_das_game(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500), main_window))
+    article_game_btn.grid(row=2, column=3, pady=10, padx=10, ipady=20, ipadx=10)
 
     add_word_button = ttk.Button(main_window, text="Add new word", style='menu.TButton', command=lambda: add_word_window(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
