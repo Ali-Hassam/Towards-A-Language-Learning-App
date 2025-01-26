@@ -1,0 +1,187 @@
+Word: Adresse; Meaning: address; Type: Noun; Article: die; Plural: die Adressen; Example_Sentence: Können Sie mir Ihre Adresse geben.  
+Word: Ahnung; Meaning: idea; Type: Noun; Article: die; Plural: die Ahnungen; Example_Sentence: Ich hatte keine Ahnung dass du heute Geburtstag hast.  
+Word: aktiv; Meaning: active; Type: ADJECTIVE; Example_Sentence: Peter ist sehr aktiv und macht viel Sport.  
+Word: aktuell; Meaning: current; Type: ADJECTIVE; Example_Sentence: Das ist das aktuelle Kinoprogramm.  
+Word: allein; Meaning: alone; Type: ADVERB; Example_Sentence: Er kommt allein zur Party.  
+Word: anfangen; Meaning: begin; Type: VERB; Example_Sentence: Hier fängt die Bahnhofstraße an.; conjugation: fängt an, fing an, hat angefangen  
+Word: Angst; Meaning: fear; Type: Noun; Article: die; Plural: die Ängste; Example_Sentence: Ich habe Angst vor großen Hunden.  
+Word: anrufen; Meaning: call; Type: VERB; Example_Sentence: Kann ich Sie heute Abend anrufen?; conjugation: ruft an, rief an, hat angerufen  
+Word: Anmeldung; Meaning: registration; Type: Noun; Article: die; Plural: die Anmeldungen; Example_Sentence: Wo bekomme ich das Formular für die Anmeldung?  
+Word: Ampel; Meaning: traffic light; Type: Noun; Article: die; Plural: die Ampeln; Example_Sentence: Nach der Ampel musst du nach links fahren.  
+Word: Alter; Meaning: age; Type: Noun; Article: das; Plural: die Alter; Example_Sentence: Alter: 18 Jahre.  
+Word: anders; Meaning: different; Type: ADVERB; Example_Sentence: Oliver ist anders als seine Freunde.  
+Word: anbieten; Meaning: offer; Type: VERB; Example_Sentence: Darf ich Ihnen ein Stück Kuchen anbieten?; conjugation: bietet an, bot an, hat angeboten  
+Word: das Angebot; Meaning: offer; Type: Noun; Article: das; Plural: die Angebote; Example_Sentence: Heute sind Sportschuhe im Angebot.  
+Word: ander-; Meaning: other; Type: ADJECTIVE; Example_Sentence: Willst du diese Jacke? – Nein ich möchte die andere.  
+Word: Absender; Meaning: sender; Type: Noun; Article: der; Plural: die Absender; Example_Sentence: Da ist ein Brief für dich ohne Absender.  
+Word: abholen; Meaning: pick up; Type: VERB; Example_Sentence: Wann kann ich die Sachen bei dir abholen?; conjugation: holt ab, holte ab, hat abgeholt  
+Word: abschließen; Meaning: lock; Type: VERB; Example_Sentence: Hast du die Tür abgeschlossen?; conjugation: schließt ab, schloss ab, hat abgeschlossen  
+Word: Achtung; Meaning: attention; Type: Noun; Article: die; Plural: -; Example_Sentence: Achtung! Pass auf! Der Verkehr ist hier gefährlich.  
+Word: abgeben; Meaning: hand in; Type: VERB; Example_Sentence: Ich muss meinen Schlüssel an der Rezeption abgeben.; conjugation: gibt ab, gab ab, hat abgegeben  
+Word: Ankunft; Meaning: arrival; Type: Noun; Article: die; Plural: die Ankünfte; Example_Sentence: Auf diesem Fahrplan steht nur die Ankunft der Züge.  
+Word: anmachen; Meaning: turn on; Type: VERB; Example_Sentence: Mach bitte das Licht an!; conjugation: macht an, machte an, hat angemacht  
+Word: Anschluss; Meaning: connection; Type: Noun; Article: der; Plural: die Anschlüsse; Example_Sentence: In Mannheim haben Sie Anschluss nach Saarbrücken.  
+Word: ansehen; Meaning: look at; Type: VERB; Example_Sentence: Darf ich eure Urlaubsfotos ansehen?; conjugation: sieht an, sah an, hat angesehen  
+Word: antworten; Meaning: answer; Type: VERB; Example_Sentence: Er antwortet nicht.; conjugation: antwortet, antwortete, hat geantwortet  
+Word: Antwort; Meaning: answer; Type: Noun; Article: die; Plural: die Antworten; Example_Sentence: Er gibt leider keine Antwort.  
+Word: Anzeige; Meaning: advertisement; Type: Noun; Article: die; Plural: die Anzeigen; Example_Sentence: Ich habe Ihre Anzeige in der Zeitung gelesen.  
+Word: Anzug; Meaning: suit; Type: Noun; Article: der; Plural: die Anzüge; Example_Sentence: Mein Mann muss sich einen neuen Anzug kaufen.  
+Word: Apfel; Meaning: apple; Type: Noun; Article: der; Plural: die Äpfel; Example_Sentence: Ein Kilo Äpfel bitte.  
+Word: Apotheke; Meaning: pharmacy; Type: Noun; Article: die; Plural: die Apotheken; Example_Sentence: Das Medikament bekommen Sie in der Apotheke.  
+Word: als; Meaning: as; Type: CONJUNCTION; Example_Sentence: Hector ist jünger als seine Schwester.  
+Word: also; Meaning: so; Type: ADVERB; Example_Sentence: Er hat Zeit also kann er uns helfen.  
+Word: allein; Meaning: alone; Type: ADVERB; Example_Sentence: Soll ich Ihnen helfen? - Nein danke ich schaffe das schon allein.  
+Word: alt; Meaning: old; Type: ADJECTIVE; Example_Sentence: Mein Computer ist schon sehr alt.  
+Word: all; Meaning: all; Type: ADJECTIVE; Example_Sentence: Alle Freunde kommen.  
+Word: Apparat; Meaning: device; Type: Noun; Article: der; Plural: die Apparate; Example_Sentence: Was machen wir mit deinem alten Apparat?  
+Word: arbeiten; Meaning: work; Type: VERB; Example_Sentence: Wo arbeiten Sie?; conjugation: arbeitet, arbeitete, hat gearbeitet  
+Word: Arbeit; Meaning: work; Type: Noun; Article: die; Plural: die Arbeiten; Example_Sentence: Mein Bruder sucht Arbeit.  
+Word: arbeitslos; Meaning: unemployed; Type: ADJECTIVE; Example_Sentence: Seit wann ist er schon arbeitslos?  
+Word: ärgern; Meaning: annoy; Type: VERB; Example_Sentence: Warum ärgerst du dich?; conjugation: ärgert, ärgerte, hat geärgert  
+Word: Arm; Meaning: arm; Type: Noun; Article: der; Plural: die Arme; Example_Sentence: Mein Arm tut weh.  
+Word: Artikel; Meaning: article; Type: Noun; Article: der; Plural: die Artikel; Example_Sentence: Ich habe in der Zeitung einen interessanten Artikel gelesen.  
+Word: auch; Meaning: also; Type: ADVERB; Example_Sentence: Maria muss auch am Wochenende arbeiten.  
+Word: auf; Meaning: on; Type: PREPOSITION; Example_Sentence: Die Kinder spielen auf der Straße.  
+Word: aufhören; Meaning: stop; Type: VERB; Example_Sentence: Wann hört ihr mit der Arbeit auf?; conjugation: hört auf, hörte auf, hat aufgehört  
+Word: aufmachen; Meaning: open; Type: VERB; Example_Sentence: Kannst du bitte die Tür aufmachen?; conjugation: macht auf, machte auf, hat aufgemacht  
+Word: aufpassen; Meaning: watch out; Type: VERB; Example_Sentence: Pass auf, der Teller fällt gleich auf den Boden!; conjugation: passt auf, passte auf, hat aufgepasst  
+Word: aufräumen; Meaning: tidy up; Type: VERB; Example_Sentence: Die Kinder müssen ihr Zimmer aufräumen.; conjugation: räumt auf, räumte auf, hat aufgeräumt  
+Word: aufregend; Meaning: exciting; Type: ADJECTIVE; Example_Sentence: Der Film ist nicht besonders aufregend.  
+Word: aufstehen; Meaning: get up; Type: VERB; Example_Sentence: Ich stehe jeden Morgen um sieben Uhr auf.; conjugation: steht auf, stand auf, ist aufgestanden  
+Word: Aufzug; Meaning: elevator; Type: Noun; Article: der; Plural: die Aufzüge; Example_Sentence: Der Aufzug ist leider kaputt.  
+Word: Auge; Meaning: eye; Type: Noun; Article: das; Plural: die Augen; Example_Sentence: Mein rechtes Auge tut weh.  
+Word: aus; Meaning: from; Type: PREPOSITION; Example_Sentence: Michele kommt aus Brasilien.  
+Word: Ausbildung; Meaning: training; Type: Noun; Article: die; Plural: die Ausbildungen; Example_Sentence: Ich möchte eine Ausbildung zum Krankenpfleger machen.  
+Word: Ausflug; Meaning: trip; Type: Noun; Article: der; Plural: die Ausflüge; Example_Sentence: Morgen machen wir einen Ausflug nach Heidelberg.  
+Word: ausfüllen; Meaning: fill out; Type: VERB; Example_Sentence: Füllen Sie bitte dieses Formular aus!; conjugation: füllt aus, füllte aus, hat ausgefüllt  
+Word: Ausgang; Meaning: exit; Type: Noun; Article: der; Plural: die Ausgänge; Example_Sentence: Wo ist der Ausgang?  
+Word: ausgeben; Meaning: spend; Type: VERB; Example_Sentence: Agata gibt viel Geld für Bücher aus.; conjugation: gibt aus, gab aus, hat ausgegeben  
+Word: ausgehen; Meaning: go out; Type: VERB; Example_Sentence: Gehen wir am Freitag zusammen aus?; conjugation: geht aus, ging aus, ist ausgegangen  
+Word: Auskunft; Meaning: information; Type: Noun; Article: die; Plural: die Auskünfte; Example_Sentence: Wo ist die Auskunft?  
+Word: Ausland; Meaning: abroad; Type: Noun; Article: das; Plural: -; Example_Sentence: Fahren Sie ins Ausland?  
+Word: ausmachen; Meaning: turn off; Type: VERB; Example_Sentence: Mach bitte das Licht aus!; conjugation: macht aus, machte aus, hat ausgemacht  
+Word: auspacken; Meaning: unpack; Type: VERB; Example_Sentence: Packst du bitte den Koffer aus?; conjugation: packt aus, packte aus, hat ausgepackt  
+Word: ausruhen; Meaning: rest; Type: VERB; Example_Sentence: Ruh dich erst mal aus!; conjugation: ruht aus, ruhte aus, hat ausgeruht  
+Word: aussehen; Meaning: look; Type: VERB; Example_Sentence: Wie sieht er aus?; conjugation: sieht aus, sah aus, hat ausgesehen  
+Word: außer; Meaning: except; Type: PREPOSITION; Example_Sentence: Außer Lisa möchte niemand den Film sehen.  
+Word: außerdem; Meaning: besides; Type: ADVERB; Example_Sentence: Möchten Sie außerdem noch etwas?  
+Word: außerhalb; Meaning: outside; Type: PREPOSITION; Example_Sentence: Die Wohnung liegt außerhalb der Stadt.  
+Word: aussprechen; Meaning: pronounce; Type: VERB; Example_Sentence: Wie spricht man das Wort aus?; conjugation: spricht aus, sprach aus, hat ausgesprochen  
+Word: aussteigen; Meaning: get off; Type: VERB; Example_Sentence: Wo müssen wir aussteigen?; conjugation: steigt aus, stieg aus, ist ausgestiegen  
+Word: Ausstellung; Meaning: exhibition; Type: Noun; Article: die; Plural: die Ausstellungen; Example_Sentence: Gehen wir in die Ausstellung?
+Word: austragen; Meaning: deliver; Type: VERB; Example_Sentence: Er trägt jeden Morgen die Zeitung aus.; conjugation: trägt aus, trug aus, hat ausgetragen
+Word: Ausweis; Meaning: ID card; Type: Noun; Article: der; Plural: die Ausweise; Example_Sentence: Darf ich bitte Ihren Ausweis sehen?
+Word: Auto; Meaning: car; Type: Noun; Article: das; Plural: die Autos; Example_Sentence: Er fährt mit dem Auto.
+Word: Autobahn; Meaning: highway; Type: Noun; Article: die; Plural: die Autobahnen; Example_Sentence: Darf ich mit dem Motorroller auf der Autobahn fahren?
+Word: Automat; Meaning: ticket machine; Type: Noun; Article: der; Plural: die Automaten; Example_Sentence: Fahrkarten gibt es nur am Automaten.
+Word: automatisch; Meaning: automatically; Type: ADVERB; Example_Sentence: Achtung, die Türen schließen automatisch.
+Word: Baby; Meaning: baby; Type: Noun; Article: das; Plural: die Babys; Example_Sentence: Wir haben ein Baby. Es ist sechs Wochen alt.
+Word: Babysitter; Meaning: babysitter; Type: Noun; Article: der; Plural: die Babysitter; Example_Sentence: Meine Tochter arbeitet als Babysitter bei einer Familie mit vier Kindern.
+Word: backen; Meaning: bake; Type: VERB; Example_Sentence: Wenn du kommst, backe ich einen Kuchen.; conjugation: bäckt, backt, hat gebacken
+Word: Bäckerei; Meaning: bakery; Type: Noun; Article: die; Plural: die Bäckereien; Example_Sentence: Ich geh mal schnell zur Bäckerei.
+Word: Bad; Meaning: bath; Type: Noun; Article: das; Plural: die Bäder; Example_Sentence: Im Winter nehme ich gern ein warmes Bad.
+Word: baden; Meaning: bathe; Type: VERB; Example_Sentence: Ich bade nicht so gern, ich dusche lieber.; conjugation: badet, hat gebadet
+Word: Babysitter; Meaning: babysitter; Type: Noun; Article: der; Plural: die Babysitter; Example_Sentence: Meine Tochter arbeitet als Babysitter bei einer Familie mit vier Kindern.
+Word: Bahnhof; Meaning: train station; Type: Noun; Article: der; Plural: die Bahnhöfe; Example_Sentence: Entschuldigung, komme ich hier zum Bahnhof?
+Word: Bahnsteig; Meaning: platform; Type: Noun; Article: der; Plural: die Bahnsteige; Example_Sentence: Auf Hauptbahnhöfen gibt es meist viele Bahnsteige.
+Word: bald; Meaning: soon; Type: ADVERB; Example_Sentence: Ich komme bald. Auf Wiedersehen, bis bald!
+Word: Balkon; Meaning: balcony; Type: Noun; Article: der; Plural: die Balkone; Example_Sentence: Die Wohnung hat auch einen kleinen Balkon.
+Word: Ball; Meaning: ball; Type: Noun; Article: der; Plural: die Bälle; Example_Sentence: Meine Kinder spielen gern Ball.
+Word: Banane; Meaning: banana; Type: Noun; Article: die; Plural: die Bananen; Example_Sentence: Drei Bananen, bitte!
+Word: Band; Meaning: band; Type: Noun; Article: die; Plural: die Bands; Example_Sentence: Was ist deine Lieblingsband? Anton spielt in einer Band.
+Word: Bank; Meaning: bank; Type: Noun; Article: die; Plural: die Banken; Example_Sentence: Bei welcher Bank haben Sie Ihr Konto?
+Word: Bank; Meaning: bench; Type: Noun; Article: die; Plural: die Bänke; Example_Sentence: Kommt, wir setzen uns auf diese Bank.
+Word: bar; Meaning: cash; Type: ADJECTIVE; Example_Sentence: Muss ich bar zahlen oder geht‘s auch mit Karte?
+Word: Basketball; Meaning: basketball; Type: Noun; Article: der; Plural: die Basketballs; Example_Sentence: Yannick spielt lieber Basketball als Fußball.
+Word: basteln; Meaning: craft; Type: VERB; Example_Sentence: Die Kinder haben etwas gebastelt.; conjugation: bastelt, hat gebastelt
+Word: Bauch; Meaning: stomach; Type: Noun; Article: der; Plural: die Bäuche; Example_Sentence: Seit gestern tut mir der Bauch weh.
+Word: bauen; Meaning: build; Type: VERB; Example_Sentence: Unsere Nachbarn bauen ein neues Haus.; conjugation: baut, hat gebaut
+Word: Baum; Meaning: tree; Type: Noun; Article: der; Plural: die Bäume; Example_Sentence: Der Baum ist über hundert Jahre alt.
+Word: Baustelle; Meaning: construction site; Type: Noun; Article: die; Plural: die Baustellen; Example_Sentence: Vor unserem Haus ist eine große Baustelle.
+Word: beantworten; Meaning: answer; Type: VERB; Example_Sentence: Können Sie meine Frage bitte beantworten?; conjugation: beantwortet, hat beantwortet
+Word: bedanken (sich); Meaning: thank; Type: VERB; Example_Sentence: Ich möchte mich noch einmal sehr herzlich für Ihre Hilfe bedanken.; conjugation: bedankt, hat bedankt
+Word: bedeuten; Meaning: mean; Type: VERB; Example_Sentence: Was bedeutet das Wort?; conjugation: bedeutet, hat bedeutet
+Word: beeilen (sich); Meaning: hurry; Type: VERB; Example_Sentence: Kannst du dich bitte beeilen? Der Bus fährt gleich ab!; conjugation: beeilt, hat beeilt
+Word: beenden; Meaning: finish; Type: VERB; Example_Sentence: Du musst deine Ausbildung auf jeden Fall beenden.; conjugation: beendet, hat beendet
+Word: beginnen; Meaning: begin; Type: VERB; Example_Sentence: Das Spiel beginnt um 15.30 Uhr.; conjugation: beginnt, hat begonnen
+Word: begründen; Meaning: justify; Type: VERB; Example_Sentence: Bitte begründen Sie Ihre Meinung.; conjugation: begründet, hat begründet
+Word: bei; Meaning: at, with; Type: PREPOSITION; Example_Sentence: Offenbach liegt bei Frankfurt. Ich wohne bei meinen Eltern.
+Word: beide; Meaning: both; Type: PRONoun; Example_Sentence: Wir kommen beide. Welche Bluse möchten Sie, die rote oder die grüne? - Ich nehme beide.
+Word: Bein; Meaning: leg; Type: Noun; Article: das; Plural: die Beine; Example_Sentence: Mein rechtes Bein tut weh.
+Word: bekannt; Meaning: famous; Type: ADJECTIVE; Example_Sentence: Picasso ist sehr bekannt. Er ist ein bekannter Maler.
+Word: Bekannter; Meaning: acquaintance; Type: Noun; Article: der; Plural: die Bekannten; Example_Sentence: Ein Bekannter von mir heißt Klaus.
+Word: bekommen; Meaning: receive; Type: VERB; Example_Sentence: Haben Sie meinen Brief bekommen?; conjugation: bekommt, hat bekommen
+Word: beliebt; Meaning: popular; Type: ADJECTIVE; Example_Sentence: Fußball ist bei vielen Menschen beliebt.
+Word: benutzen; Meaning: use; Type: VERB; Example_Sentence: Die Aufzüge bitte nicht benutzen!; conjugation: benutzt, hat benutzt
+Word: bequem; Meaning: comfortable; Type: ADJECTIVE; Example_Sentence: Das Sofa ist sehr bequem. Meine Kinder ziehen am liebsten bequeme Schuhe an.
+Word: beraten; Meaning: advise; Type: VERB; Example_Sentence: Unsere Sekretärin berät Sie gern, wenn Sie Fragen haben.; conjugation: berät, hat beraten
+Word: Berg; Meaning: mountain; Type: Noun; Article: der; Plural: die Berge; Example_Sentence: Die Zugspitze ist der höchste Berg in Deutschland.
+Word: berichten; Meaning: report; Type: VERB; Example_Sentence: Alle Zeitungen berichten von dem Unfall.; conjugation: berichtet, hat berichtet
+Word: Beruf; Meaning: profession; Type: Noun; Article: der; Plural: die Berufe; Example_Sentence: Was bist du von Beruf?
+Word: berühmt; Meaning: famous; Type: ADJECTIVE; Example_Sentence: Thomas Müller ist ein berühmter Fußballspieler.
+Word: Bescheid; Meaning: notice, information; Type: Noun; Article: der; Plural: die Bescheide; Example_Sentence: Kannst du mir bis morgen Bescheid geben?
+Word: beschreiben; Meaning: describe; Type: VERB; Example_Sentence: Kannst du mir den Weg zum Bahnhof beschreiben?; conjugation: beschreibt, hat beschrieben
+Word: beschweren (sich); Meaning: complain; Type: VERB; Example_Sentence: Hier ist es zu laut. Wo können wir uns beschweren?; conjugation: beschwert, hat beschwert
+Word: besetzt; Meaning: occupied; Type: ADJECTIVE; Example_Sentence: Ist dieser Platz frei? - Nein, er ist besetzt.
+Word: besichtigen; Meaning: visit (a place); Type: VERB; Example_Sentence: Ich möchte gern das Schloss besichtigen.; conjugation: besichtigt, hat besichtigt
+Word: besonders; Meaning: particularly; Type: ADVERB; Example_Sentence: Dieses Angebot ist besonders günstig. Hier ist die Pizza besonders gut.
+Word: bestätigen; Meaning: confirm; Type: VERB; Example_Sentence: Ich kann bestätigen, dass er hier war.; conjugation: bestätigt, hat bestätigt
+Word: bestehen; Meaning: pass (an exam); Type: VERB; Example_Sentence: Ich habe die Prüfung bestanden!; conjugation: besteht, hat bestanden
+Word: bestellen; Meaning: order; Type: VERB; Example_Sentence: Wir möchten bitte bestellen.; conjugation: bestellt, hat bestellt
+Word: Besuch; Meaning: visit; Type: Noun; Article: der; Plural: die Besuche; Example_Sentence: Wir bekommen am Wochenende Besuch.
+Word: besuchen; Meaning: visit; Type: VERB; Example_Sentence: Darf ich dich mal besuchen?; conjugation: besucht, hat besucht
+Word: Bett; Meaning: bed; Type: Noun; Article: das; Plural: die Betten; Example_Sentence: Sie ist krank und muss heute im Bett bleiben.
+Word: bewerben (sich); Meaning: apply; Type: VERB; Example_Sentence: Ich möchte mich um diese Stelle bewerben.; conjugation: bewirbt, hat beworben
+Word: Bewerbung; Meaning: application; Type: Noun; Article: die; Plural: die Bewerbungen; Example_Sentence: Kannst du mir bei meiner Bewerbung helfen?
+Word: bewölkt; Meaning: cloudy; Type: ADJECTIVE; Example_Sentence: Heute ist es bewölkt.
+Word: Wolke; Meaning: cloud; Type: Noun; Article: die; Plural: die Wolken; Example_Sentence: Es gibt viele Wolken am Himmel.
+Word: bezahlen; Meaning: pay; Type: VERB; Example_Sentence: Wo kann ich bezahlen?; conjugation: bezahlt, hat bezahlt
+Word: Bibliothek; Meaning: library; Type: Noun; Article: die; Plural: die Bibliotheken; Example_Sentence: Sie lernt jeden Tag in der Bibliothek.
+Word: Bier; Meaning: beer; Type: Noun; Article: das; Plural: die Biere; Example_Sentence: Noch ein Bier, bitte.
+Word: Bild; Meaning: picture; Type: Noun; Article: das; Plural: die Bilder; Example_Sentence: Hast du ein Bild von deinem Sohn?
+Word: billig; Meaning: cheap; Type: ADJECTIVE; Example_Sentence: Das Wörterbuch kostet nur fünf Euro. - Fünf Euro? Das ist aber billig!
+Word: Birne; Meaning: pear; Type: Noun; Article: die; Plural: die Birnen; Example_Sentence: Ein Kilo Birnen, bitte!
+Word: bis; Meaning: until; Type: PREPOSITION; Example_Sentence: Ich fahre nur bis Stuttgart. Ich warte bis Freitag.
+Word: bisschen; Meaning: a little; Type: Adverb; Example_Sentence: Können Sie bitte ein bisschen lauter sprechen? Ich spreche ein bisschen Französisch.
+Word: bitte; Meaning: please; Type: ADVERB; Example_Sentence: Eine Tasse Kaffee bitte! - Bitte schön!
+Word: Bitte; Meaning: request; Type: Noun; Article: die; Plural: die Bitten; Example_Sentence: Ich habe noch eine Bitte.
+Word: bitten; Meaning: ask; Type: VERB; Example_Sentence: Darf ich Sie um etwas bitten?; conjugation: bittet, hat gebeten
+Word: bitter; Meaning: bitter; Type: ADJECTIVE; Example_Sentence: Kaffee ohne Zucker schmeckt bitter.
+Word: Blatt; Meaning: sheet; Type: Noun; Article: das; Plural: die Blätter; Example_Sentence: Haben Sie ein Blatt Papier für mich?
+Word: bleiben; Meaning: stay; Type: VERB; Example_Sentence: Wir bleiben drei Tage in Berlin.; conjugation: bleibt, ist geblieben
+Word: Bleistift; Meaning: pencil; Type: Noun; Article: der; Plural: die Bleistifte; Example_Sentence: Hast du einen Bleistift?
+Word: blöd; Meaning: stupid; Type: ADJECTIVE; Example_Sentence: Ich finde es blöd, dass du morgen gehen musst.
+Word: Blog; Meaning: blog; Type: Noun; Article: der,das; Plural: die Blogs; Example_Sentence: Ich schreibe einen Blog über Mode.
+Word: blond; Meaning: blonde; Type: ADJECTIVE; Example_Sentence: Lisa hat blonde Haare.
+Word: Blume; Meaning: flower; Type: Noun; Article: die; Plural: die Blumen; Example_Sentence: Gefallen dir die Blumen?
+Word: Bluse; Meaning: blouse; Type: Noun; Article: die; Plural: die Blusen; Example_Sentence: Ich suche eine weiße Bluse.
+Word: Bohne; Meaning: bean; Type: Noun; Article: die; Plural: die Bohnen; Example_Sentence: Hans isst nicht gern Bohnen.
+Word: böse; Meaning: angry; Type: ADJECTIVE; Example_Sentence: Sie ist richtig böse auf mich.
+Word: braten; Meaning: roast; Type: VERB; Example_Sentence: Braten Sie das Fleisch in etwas Öl!; conjugation: brät, hat gebraten
+Word: brauchen; Meaning: need; Type: VERB; Example_Sentence: Ich brauche ein neues Auto.; conjugation: braucht, hat gebraucht
+Word: Brief; Meaning: letter; Type: Noun; Article: der; Plural: die Briefe; Example_Sentence: Haben Sie einen Brief für mich?
+Word: Briefmarke; Meaning: stamp; Type: Noun; Article: die; Plural: die Briefmarken; Example_Sentence: Bitte die Briefmarke nicht vergessen!
+Word: Brille; Meaning: glasses; Type: Noun; Article: die; Plural: die Brillen; Example_Sentence: Wo ist meine Brille?
+Word: bringen; Meaning: bring; Type: VERB; Example_Sentence: Bringen Sie mir bitte noch einen Kaffee!; conjugation: bringt, hat gebracht
+Word: Brot; Meaning: bread; Type: Noun; Article: das; Plural: die Brote; Example_Sentence: Nimm doch noch ein Brot für das Abendessen.
+Word: Brötchen; Meaning: bread roll; Type: Noun; Article: das; Plural: die Brötchen; Example_Sentence: Möchtest du Brot oder Brötchen zum Frühstück?
+Word: Brücke; Meaning: bridge; Type: Noun; Article: die; Plural: die Brücken; Example_Sentence: Fahren Sie über die nächste Brücke und dann nach links.
+Word: Buch; Meaning: book; Type: Noun; Article: das; Plural: die Bücher; Example_Sentence: Was kostet das Buch, bitte?
+Word: buchen; Meaning: book (a reservation); Type: VERB; Example_Sentence: Morgen buche ich unsere Urlaubsreise.; conjugation: bucht, hat gebucht
+Word: Buchstabe; Meaning: letter (of the alphabet); Type: Noun; Article: der; Plural: die Buchstaben; Example_Sentence: Diesen Buchstaben gibt es in meiner Sprache nicht.
+Word: buchstabieren; Meaning: spell; Type: VERB; Example_Sentence: Würden Sie bitte Ihren Namen buchstabieren?; conjugation: buchstabiert, hat buchstabiert
+Word: bunt; Meaning: colorful; Type: ADJECTIVE; Example_Sentence: Anna trägt gern bunte Kleider.
+Word: Büro; Meaning: office; Type: Noun; Article: das; Plural: die Büros; Example_Sentence: Ich arbeite in einem Büro.
+Word: Bus; Meaning: bus; Type: Noun; Article: der; Plural: die Busse; Example_Sentence: Wann kommt der nächste Bus?
+Word: Butter; Meaning: butter; Type: Noun; Article: die ; Plural: - ; Example_Sentence: Möchtest du Butter aufs Brot oder nur Käse?
+Word: Café; Meaning: café; Type: Noun; Article: das; Plural: die Cafés; Example_Sentence: Kommst du mit ins Café?
+Word: Cafeteria; Meaning: cafeteria; Type: Noun; Article: die; Plural: die Cafeterien; Example_Sentence: Ich gehe jetzt in die Cafeteria.
+Word: chatten; Meaning: to chat; Type: Verb; Conjugation: chattet, hat gechattet; Example_Sentence: Luis chattet gern mit seinen Freunden im Internet.
+Word: Chef; Meaning: boss; Type: Noun; Article: der; Plural: die Chefs; Example_Sentence: Wir haben eine neue Chefin.
+Word: Club; Meaning: club; Type: Noun; Article: der; Plural: die Clubs; Example_Sentence: Gibt es hier einen Tennis-Club,Klub?
+Word: Comic; Meaning: comic; Type: Noun; Article: der; Plural: die Comics; Example_Sentence: Mein Sohn liest immer nur Comics.
+Word: Computer; Meaning: computer; Type: Noun; Article: der; Plural: die Computer; Example_Sentence: Wann bekommst du deinen neuen Computer?
+Word: Creme; Meaning: cream; Type: Noun; Article: die; Plural: die Cremes; Example_Sentence: Ich suche eine Creme für die Hände.
+Word: da; Meaning: there; Type: Adverb; Example_Sentence: Da drüben ist der Bahnhof.
+Word: danke; Meaning: thank you; Type: Verb; Conjugation: dankt, hat gedankt; Example_Sentence: Ich danke Ihnen für die Einladung.
+Word: Datei; Meaning: file; Type: Noun; Article: die; Plural: die Dateien; Example_Sentence: Kannst du die Datei bitte öffnen?
