@@ -1,2 +1,0 @@
-# Towards-A-Language-Learning-App
-Towards-A-Language-Learning-App is a and interactive language learning platform. Unlike most apps, it allows users to input and track the new words they learn, personalizing the experience to their individual journey. By integrating user-generated content, the app adapts to your learning style and pace, ensuring that each new word is retained effectively. Whether you're a beginner or advancing your skills, this app offers a tailored approach to help you achieve fluency in your language of choice
