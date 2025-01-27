@@ -1,7 +1,9 @@
+import re
+import webbrowser
 import spacy
 import tkinter as tk
 # import ttkbootstrap as tb
-from tkinter import messagebox,ttk
+from tkinter import messagebox, ttk
 from deep_translator import PonsTranslator, GoogleTranslator
 from spellchecker import SpellChecker
 from datetime import datetime
@@ -13,10 +15,8 @@ import mcqs_game as mcqs
 GermanWords = SpellChecker(language='de')
 EnglishWords= SpellChecker(language='en')
 user_file="user_words.txt"
-goethe_file_a1="goethe_a1_words.txt"
+# goethe_file_a1="goethe_a1_words.txt"
 
-
-# -------------------------------------------------------------
 def read(file_name):
     with open(file_name, mode="r", encoding="utf-8") as file:
         return file.readlines()
@@ -62,30 +62,37 @@ def artikel(word): #I simplified this function a bit
 def get_type(word): # I extended this function to get the output in a more readable form
     doc = nlp(word)
     token = doc[0]
-    type = token.pos_
-    if type == "NOUN":
+    type_ = token.pos_
+    if type_ == "NOUN":
         return "Noun"
-    elif type == "VERB":
+    elif type_ == "VERB":
         return "Verb"
-    elif type == "ADJ":
+    elif type_ == "ADJ":
         return "Adjective"
-    elif type == "PRON":
+    elif type_ == "PRON":
         return "Pronoun"
-    elif type == 'ADP':
+    elif type_ == 'ADP':
         return "Preposition"
-    elif type == "DET":
+    elif type_ == "DET":
         return "Determiner_or_Article"
-    elif type == "AUX":
+    elif type_ == "AUX":
         return "Auxiliary_Verb"
-    elif type == "ADV":
+    elif type_ == "ADV":
         return "Adverb"
     else:
         return "Unknown"
 
 # This function returns the list of words that the user will practice/play game of
-def words_to_study(noun_filter=None):
+def words_to_study(level, noun_filter=None):
+    if level == "Niveau: A1":
+        goethe_file = "goethe_a1_words.txt"
+    elif level == "Niveau: A2":
+        goethe_file = "goethe_a2_words.txt"
+    else:
+        goethe_file = "goethe_a2_words.txt"
+
     database_file = read(user_file)
-    goethe_a1_file = read(goethe_file_a1)
+    goethe_a1_file = read(goethe_file)
 
     priority_list = []
     normal_list = []
@@ -205,10 +212,6 @@ def get_new_word(word,mean,win):
         messagebox.showwarning(title="Achtung!", message=f'"{new_word.capitalize()}" already exists in the library', parent=win)
         word.focus()
 
-    elif new_word=="Already exist": #backend handle this please
-        messagebox.showwarning(title="Warning", message="Word already exists", parent=win)
-        word.focus()
-
     elif GermanWords.unknown([new_word]) and GermanWords.correction(new_word) is not None:
         corrected_word = GermanWords.correction(new_word)
 
@@ -227,6 +230,7 @@ def get_new_word(word,mean,win):
             alt_word_win.title("Alternate words")
             alt_word_win.geometry(win.geometry())
             alt_word_win.iconphoto(False, image)
+            alt_word_win.grab_set()
 
             get_meaning_btn.config(state='disable')
 
@@ -286,6 +290,7 @@ def get_new_word(word,mean,win):
             meaning_win.title("Possible Meanings")
             meaning_win.geometry(win.geometry())
             meaning_win.iconphoto(False, image)
+            meaning_win.grab_set()
 
             get_meaning_btn.config(state="disabled")
             tkinter_meaning_var = tk.StringVar() # a special tk variable to hold the Radiobutton selection it changes dynamically
@@ -377,31 +382,182 @@ def add_word_window(geom):
     add_word_win.protocol("WM_DELETE_WINDOW", add_word_win_callback)
     add_word_win.mainloop()
 
+#see your lib
+def seeyourlib(geom):
+    seeyourlib_win = tk.Toplevel(main_window)
+    seeyourlib_win.title("Your Library")
+    seeyourlib_win.geometry(geom)
+    seeyourlib_win.iconphoto(False, image)
+    seeyourlib_win.grab_set()  # Locks the interaction with the parent window
+
+    database_file = read(user_file)
+    words_list = []
+    for line in database_file:
+        entry= {'word': re.search(r"Word: (\w+)", line).group(1) if re.search(r"Word: (\w+)", line) else None,
+                'article': re.search(r"Article: (\w+)", line).group(1) if re.search(r"Article: (\w+)", line) else '',
+                'meaning': re.search(r"Meaning: ([^,]+)", line).group(1) if re.search(r"Meaning: ([^,]+)",
+                                                                                      line) else None,
+                'type': re.search(r"Type: (\w+)", line).group(1) if re.search(r"Type: (\w+)", line) else None,
+                'date': re.search(r"Date: ([\d-]+)", line).group(1) if re.search(r"Date: ([\d-]+)", line) else None}
+        # Extract data using regex and directly store them in the dictionary
+
+        words_list.append(entry)
 
 
+
+    # #Adding a scrollable area in Tkinter is a bit tricky and involves several steps
+    # #1. Create a canvas to hold the scrollable area
+    # # And then add a scrollbar to the canvas becase only canvas widget supports the scrollbar
+    canvas = tk.Canvas(seeyourlib_win)
+    canvas.pack(side="left", fill="both", expand=True)
+
+    # Create a vertical scrollbar for the canvas
+    scrollbar = tk.Scrollbar(seeyourlib_win, orient="vertical", command=canvas.yview)
+    scrollbar.pack(side="right", fill="y")
+
+    # Configure the canvas to work with the scrollbar
+    canvas.configure(yscrollcommand=scrollbar.set)
+
+    #2. Create a frame to hold the content inside the canvas
+    scrollable_frame = tk.Frame(canvas)
+
+    ##3. Create a window inside the canvas to contain the contents
+    canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+
+    ##4. Add content to the scrollable frame
+    i=0
+    for entry in words_list:
+        formatted_entry = f"Word: '{entry['word']}',     Article: '{entry['article']}',     Meaning: '{entry['meaning']}',     Type: '{entry['type']}',     Date: '{entry['date']}'"
+        word_label = tk.Label(scrollable_frame, text=formatted_entry)
+        word_label.grid(row=i, column=0, pady=5, padx=5, sticky="w")
+        i+=1
+
+    # Update the scroll region of the canvas to encompass the entire content
+    scrollable_frame.update_idletasks()
+    canvas.config(scrollregion=canvas.bbox("all"))
+
+    # Bind mouse wheel to the canvas to scroll
+    def on_mouse_wheel(event):
+        if event.delta:  # For Windows
+            canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+        else:  # For Linux
+            canvas.yview_scroll(-1 * event.num, "units")
+
+    canvas.bind_all("<MouseWheel>", on_mouse_wheel)  # For Windows
+    canvas.bind_all("<Button-4>", on_mouse_wheel)  # For Linux
+    canvas.bind_all("<Button-5>", on_mouse_wheel)  # For Linux
+
+
+    seeyourlib_win.mainloop()
+
+
+#Progressbars
+def progress_(geom):
+    progress_win = tk.Toplevel(main_window)  # child window of the main_window
+    progress_win.title("Progress")
+    progress_win.geometry(geom)
+    progress_win.iconphoto(False, image)
+    progress_win.grab_set()  # Locks the interaction with the parent window
+
+    x = 100
+    y = 7
+    z = 90
+
+    value_label = ttk.Label(progress_win, text=f"Your Overall Progress",font=('Helvetica', 12))
+    value_label.grid(column=1, row=1)
+
+    # Create progress bar
+    pb = ttk.Progressbar(progress_win, orient='horizontal', mode='determinate', value=x, length=280)
+    pb.grid(column=1, row=2, padx=10, pady=20)
+    # Label to show progress, directly using the value of x
+    value_label = ttk.Label(progress_win, text=f"Your Custom Library: {x}%")
+    value_label.grid(column=1, row=3)
+
+    # Create progress bar
+    pb = ttk.Progressbar(progress_win, orient='horizontal', mode='determinate', value=y, length=280)
+    pb.grid(column=1, row=4, padx=10, pady=20)
+    # Label to show progress, directly using the value of x
+    value_label = ttk.Label(progress_win, text=f"A1 Goethe List: {y}%")
+    value_label.grid(column=1, row=5)
+
+    # Create progress bar
+    pb = ttk.Progressbar(progress_win, orient='horizontal', mode='determinate', value=z, length=280)
+    pb.grid(column=1, row=6, padx=10, pady=20)
+    # Label to show progress, directly using the value of x
+    value_label = ttk.Label(progress_win, text=f"A2 Goethe List: {z}%")
+    value_label.grid(column=1, row=7)
+
+
+    progress_win.grid_rowconfigure(0, weight=1)
+    progress_win.grid_rowconfigure(8, weight=1)
+    progress_win.grid_columnconfigure(0, weight=1)
+    progress_win.grid_columnconfigure(2, weight=1)
+    progress_win.mainloop()
+
+def open_link(event, url):
+    # Open the URL when the link is clicked
+    webbrowser.open(url)
+def about(geom):
+    about_win = tk.Toplevel(main_window)
+    about_win.title("About")
+    about_win.geometry(geom)
+    about_win.iconphoto(False, image)
+    about_win.grab_set()  # Locks the interaction with the parent window
+
+    # Create a Text widget for the description with more control
+    description_text = (
+        "Towards-A-Language-Learning-App is a and interactive language learning platform."
+        " Unlike most apps, it allows users to input and track the new words they learn, personalizing the experience to their individual journey. "
+        "By integrating user-generated content, the app adapts to your learning style and pace, ensuring that each new word is retained effectively. "
+        "Whether you're a beginner or advancing your skills, this app offers a tailored approach to help you achieve fluency in your language of choice.\n\n"
+        "This application is developed by Hassam Ali and Zühal Yildirim at Institute for Geographical Information Systems, university of Münster."
+    )
+
+    text_widget = tk.Text(about_win, wrap="word", font=("Helvetica", 12), height=15, width=50, pady=10, padx=10)
+    text_widget.insert(tk.END, description_text)
+    text_widget.config(state=tk.DISABLED)  # Make the text non-editable
+
+    # Adjust line spacing (spacing1 is before each line, spacing2 is between lines)
+    text_widget.config(spacing1=5, spacing2=5)
+    text_widget.pack(padx=10, pady=10)
+
+    # Create a clickable label
+    name_label1 = tk.Label(about_win, text="Hassam Ali", fg="blue", cursor="hand2",
+                          font=("Helvetica", 14, "bold"))
+    name_label1.pack(pady=10)
+    # Bind the click event for the name label to open link
+    name_label1.bind("<Button-1>", lambda event: open_link(event,"https://www.ali-hassam.github.io"))
+
+    name_label2 = tk.Label(about_win, text="Zühal Yildirim", fg="blue", cursor="hand2",
+                          font=("Helvetica", 14, "bold"))
+    name_label2.pack(pady=10)
+    # Bind the click event for the name label to open link
+    name_label2.bind("<Button-1>", lambda event: open_link(event,"https://github.com/ZuhalYildirim"))
+    about_win.mainloop()
 
 
 if __name__ == "__main__":
     main_window = tk.Tk()
     main_window.title("Language Learning Application by Hassam and Zühal")
-    main_window.geometry(get_geometry(main_window.winfo_screenwidth(), main_window.winfo_screenheight(), 0, 0,1000, 600))
+    screen_w = main_window.winfo_screenwidth()
+    screen_h =main_window.winfo_screenheight()
+    main_window.geometry(get_geometry(screen_w, screen_h, 0, 0,screen_w, screen_h))
 
 
     # A way around to adjust the widgets at the centre of teh window.
     main_window.grid_rowconfigure(0, weight=1)
-    main_window.grid_rowconfigure(2, weight=1)
+    main_window.grid_rowconfigure(5, weight=1)
     main_window.grid_columnconfigure(0, weight=1)
-    main_window.grid_columnconfigure(4, weight=1)
+    main_window.grid_columnconfigure(5, weight=1)
 
     progress = ttk.Progressbar(main_window, orient='horizontal', length=100, mode='determinate')
 
 
     #CallBack using protocol #uncomment at the end
-    # def main_window_callback():
-    #     if messagebox.askokcancel("Quit", "Do you really wish to quit?"):
-    #         main_window.destroy()
-    #
-    # main_window.protocol("WM_DELETE_WINDOW", main_window_callback)
+    def main_window_callback():
+        if messagebox.askokcancel("Quit", "Do you really wish to quit?"):
+            main_window.destroy()
+    main_window.protocol("WM_DELETE_WINDOW", main_window_callback)
 
 
     image = tk.PhotoImage(file="app-icon.png")
@@ -409,55 +565,65 @@ if __name__ == "__main__":
 
     image_label = ttk.Label(main_window, image=image)
     # image_label.grid(row=1, column=1, columnspan=3, pady=0)
-    image_label.grid(row=1, column=2) #btter way
+    image_label.grid(row=1, column=2, rowspan=2, pady=100) #btter way
 
     # styles
     style = ttk.Style()
     # style.theme_use('xpnative') #Windows-XP Theme
     # print(style.theme_use()) #current theme
-    style.configure('menu.TButton', font=('Arial', 12))
-    # style.configure('primary.TButton', font=('Arial', 12))
+    style.configure('menu.TButton', font=('Helvetica', 12))
+    # style.configure('primary.TButton', font=('Helvetica', 12))
 
     #About
-    info_Button = ttk.Button(main_window, text="About", padding=(10,2))#, style='info.Outline.TRadiobutton')
+    info_Button = ttk.Button(main_window, text="About", padding=(10,2), command= lambda: about(get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),main_window.winfo_y(), 800, 500)))#, style='info.Outline.TRadiobutton')
     info_Button.place(relx=0, rely=0, anchor="nw", x=10, y=10) #relx and rely = relative-positions (0-1), anchor: of the label
 
 
-    def change_level(event):
-        selected_value = level_var.get()  # Get the selected value from StringVar
-        print(f"Selected Level: {selected_value}") #to be impleemted
+    #def change_level(event):
+        # selected_value = level_var.get()  # Get the selected value from StringVar
+        # print(f"Selected Level: {selected_value}") #to be impleemted
+    # # Bind the combobox value change event to the function
+    # combobox.bind("<<ComboboxSelected>>", change_level)
 
 
     levels = ["Niveau: A1", "Niveau: A2", "Niveau: B1", "Niveau: B2"]
     level_var = tk.StringVar()
     # Set a default value for the combobox
-    combobox = ttk.Combobox(main_window, values=levels, state="readonly", textvariable=level_var, width=10, height=5, font=("Arial", 12))
+    combobox = ttk.Combobox(main_window, values=levels, state="readonly", textvariable=level_var, width=10, height=4, font=("Helvetica", 10))
     combobox.set("Niveau: A1")  # Set default value
     combobox.place(relx=1, rely=0, anchor="ne", x=-10, y=10)
-
-    # Bind the combobox value change event to the function
-    combobox.bind("<<ComboboxSelected>>", change_level)
 
 
     mcqsBtn = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton',  command=lambda: mcqs.MCQsGame(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
-                     main_window.winfo_y(), 800, 500), main_window))
-    mcqsBtn.grid(row=2, column=1, pady=10, padx=10, ipady=20, ipadx=10)
+                     main_window.winfo_y(), 800, 500), main_window, combobox))
+    mcqsBtn.grid(row=3, column=1, pady=10, padx=10, ipady=20, ipadx=10)
+
+    seewordsBtn = ttk.Button(main_window, text="See Your Library", width=20, style='menu.TButton',  command=lambda : seeyourlib(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500)))
+    seewordsBtn.grid(row=4, column=1, pady=10, padx=10, ipady=20, ipadx=10)
 
     spellingBtn = ttk.Button(main_window, text="Spellings", width=20, style='menu.TButton', command=lambda: sp.SpellingGame(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
-                     main_window.winfo_y(), 800, 500), main_window))
-    spellingBtn.grid(row=2, column=2, pady=10, padx=10, ipady=20, ipadx=10)
+                     main_window.winfo_y(), 800, 500), main_window,combobox))
+    spellingBtn.grid(row=3, column=2, pady=10, padx=10, ipady=20, ipadx=10)
 
     derdiedasBtn = ttk.Button(main_window, text="Articles", width=20, style='menu.TButton', command=lambda: ddd.DerDieDasGame(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
-                     main_window.winfo_y(), 800, 500), main_window))
-    derdiedasBtn.grid(row=2, column=3, pady=10, padx=10, ipady=20, ipadx=10)
+                     main_window.winfo_y(), 800, 500), main_window,combobox))
+    derdiedasBtn.grid(row=3, column=3, pady=10, padx=10, ipady=20, ipadx=10)
 
-    add_word_button = ttk.Button(main_window, text="Add new word", style='menu.TButton', command=lambda: add_word_window(
+    progressBtn = ttk.Button(main_window, text="See Your Progress", width=20, style='menu.TButton', command=lambda: progress_(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
                      main_window.winfo_y(), 800, 500)))
-    add_word_button.grid(row=3, column=2, pady=10, padx=10, ipady=10, ipadx=10, sticky="ew")
+    progressBtn.grid(row=4, column=3, pady=10, padx=10, ipady=20, ipadx=10)
+
+    add_word_button = ttk.Button(main_window, text="Add New Word", width=20,  style='menu.TButton', command=lambda: add_word_window(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500)))
+    add_word_button.grid(row=4, column=2, pady=10, padx=10, ipady=20, ipadx=10)
+    # add_word_button.grid(row=4, column=2, pady=10, padx=10, ipady=10, ipadx=10, sticky="ew")
 
 
 
