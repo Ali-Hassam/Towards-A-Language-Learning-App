@@ -1,11 +1,15 @@
 import spacy
 import tkinter as tk
+# import ttkbootstrap as tb
 from tkinter import messagebox,ttk
 from deep_translator import PonsTranslator, GoogleTranslator
 from spellchecker import SpellChecker
 from datetime import datetime
 import string
-
+import random
+import der_die_das_game as ddd
+import spelling_game as sp
+import mcqs_game as mcqs
 GermanWords = SpellChecker(language='de')
 EnglishWords= SpellChecker(language='en')
 user_file="user_words.txt"
@@ -77,7 +81,57 @@ def get_type(word): # I extended this function to get the output in a more reada
         return "Adverb"
     else:
         return "Unknown"
-# -------------------------------------------------------------
+
+# This function returns the list of words that the user will practice/play game of
+def words_to_study(noun_filter=None):
+    database_file = read(user_file)
+    goethe_a1_file = read(goethe_file_a1)
+
+    priority_list = []
+    normal_list = []
+    goethe_list = []
+
+    for line in database_file:
+        saved_date = line.split("Date:")[1].split(",")[0].strip()
+        today = datetime.now().strftime("%d-%m-%Y")
+        time_passed = datetime.strptime(today, "%d-%m-%Y") - datetime.strptime(saved_date, "%d-%m-%Y")
+        time_passed = time_passed.days
+
+        word_info = line.strip().split(", ")
+        word_type = [info.split(": ")[1] for info in word_info if info.startswith("Type:")][0]
+
+        if noun_filter == "noun" and word_type == "Noun":
+            if time_passed in {2, 3, 10, 17, 30}:
+                priority_list.append(line)
+            else:
+                normal_list.append(line)
+        elif noun_filter is None:
+            if time_passed in {2, 3, 10, 17, 30}:
+                priority_list.append(line)
+            else:
+                normal_list.append(line)
+
+    for line in goethe_a1_file:
+        word_info = line.strip().split(", ")
+        word_type = [info.split(": ")[1] for info in word_info if info.startswith("Type:")][0]
+
+        if noun_filter == "noun" and word_type == "Noun":
+            goethe_list.append(line)
+        elif noun_filter is None:
+            goethe_list.append(line)
+
+    return priority_list, normal_list, goethe_list
+
+
+
+def disable_btns(win):
+    for widget in win.winfo_children():
+        if isinstance(widget, (ttk.Button, ttk.Radiobutton, ttk.Entry, ttk.Combobox)):
+            widget.config(state="disabled")
+def enable_btns(win):
+    for widget in win.winfo_children():
+        if isinstance(widget, (ttk.Button, ttk.Radiobutton, ttk.Entry, ttk.Combobox)):
+            widget.config(state="normal")
 
 # Get the geometry of the windows
 def get_geometry(parent_width, parent_height, parent_x, parent_y, window_width, window_height):
@@ -287,6 +341,7 @@ def add_word_window(geom):
     add_word_win.title("Add word")
     add_word_win.geometry(geom)
     add_word_win.iconphoto(False, image)
+    add_word_win.grab_set()  # Locks the interaction with the parent window
 
     word_label = tk.Label(add_word_win, text="New word")
     word_label.grid(row=1, column=1, padx=10, pady=(10,5))
@@ -350,7 +405,6 @@ if __name__ == "__main__":
 
 
     image = tk.PhotoImage(file="app-icon.png")
-
     main_window.iconphoto(False, image)
 
     image_label = ttk.Label(main_window, image=image)
@@ -362,9 +416,10 @@ if __name__ == "__main__":
     # style.theme_use('xpnative') #Windows-XP Theme
     # print(style.theme_use()) #current theme
     style.configure('menu.TButton', font=('Arial', 12))
+    # style.configure('primary.TButton', font=('Arial', 12))
 
     #About
-    info_Button = ttk.Button(main_window, text="About", padding=(10,2), style='menu.TButton')
+    info_Button = ttk.Button(main_window, text="About", padding=(10,2))#, style='info.Outline.TRadiobutton')
     info_Button.place(relx=0, rely=0, anchor="nw", x=10, y=10) #relx and rely = relative-positions (0-1), anchor: of the label
 
 
@@ -384,14 +439,20 @@ if __name__ == "__main__":
     combobox.bind("<<ComboboxSelected>>", change_level)
 
 
-    MenuBtn1 = ttk.Button(main_window, text="Quiz", width=20, style='menu.TButton')
-    MenuBtn1.grid(row=2, column=1, pady=10, padx=10, ipady=20, ipadx=10)
+    mcqsBtn = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton',  command=lambda: mcqs.MCQsGame(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500), main_window))
+    mcqsBtn.grid(row=2, column=1, pady=10, padx=10, ipady=20, ipadx=10)
 
-    MenuBtn2 = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton')
-    MenuBtn2.grid(row=2, column=2, pady=10, padx=10, ipady=20, ipadx=10)
+    spellingBtn = ttk.Button(main_window, text="Spellings", width=20, style='menu.TButton', command=lambda: sp.SpellingGame(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500), main_window))
+    spellingBtn.grid(row=2, column=2, pady=10, padx=10, ipady=20, ipadx=10)
 
-    MenuBtn3 = ttk.Button(main_window, text="Articles", width=20, style='menu.TButton')
-    MenuBtn3.grid(row=2, column=3, pady=10, padx=10, ipady=20, ipadx=10)
+    derdiedasBtn = ttk.Button(main_window, text="Articles", width=20, style='menu.TButton', command=lambda: ddd.DerDieDasGame(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500), main_window))
+    derdiedasBtn.grid(row=2, column=3, pady=10, padx=10, ipady=20, ipadx=10)
 
     add_word_button = ttk.Button(main_window, text="Add new word", style='menu.TButton', command=lambda: add_word_window(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
