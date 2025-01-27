@@ -1,5 +1,6 @@
 import spacy
 import tkinter as tk
+# import ttkbootstrap as tb
 from tkinter import messagebox,ttk
 from deep_translator import PonsTranslator, GoogleTranslator
 from spellchecker import SpellChecker
@@ -7,6 +8,7 @@ from datetime import datetime
 import string
 import random
 import der_die_das_game as ddd
+import spelling_game as sp
 GermanWords = SpellChecker(language='de')
 EnglishWords= SpellChecker(language='en')
 user_file="user_words.txt"
@@ -413,10 +415,10 @@ if __name__ == "__main__":
     # style.theme_use('xpnative') #Windows-XP Theme
     # print(style.theme_use()) #current theme
     style.configure('menu.TButton', font=('Arial', 12))
-    style.configure('primary.TButton', font=('Arial', 12))
+    # style.configure('primary.TButton', font=('Arial', 12))
 
     #About
-    info_Button = ttk.Button(main_window, text="About", padding=(10,2), style='menu.TButton')
+    info_Button = ttk.Button(main_window, text="About", padding=(10,2))#, style='info.Outline.TRadiobutton')
     info_Button.place(relx=0, rely=0, anchor="nw", x=10, y=10) #relx and rely = relative-positions (0-1), anchor: of the label
 
 
@@ -436,11 +438,13 @@ if __name__ == "__main__":
     combobox.bind("<<ComboboxSelected>>", change_level)
 
 
-    MenuBtn1 = ttk.Button(main_window, text="Quiz", width=20, style='menu.TButton')
-    MenuBtn1.grid(row=2, column=1, pady=10, padx=10, ipady=20, ipadx=10)
+    mcqsBtn = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton')
+    mcqsBtn.grid(row=2, column=1, pady=10, padx=10, ipady=20, ipadx=10)
 
-    MenuBtn2 = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton')
-    MenuBtn2.grid(row=2, column=2, pady=10, padx=10, ipady=20, ipadx=10)
+    spellingBtn = ttk.Button(main_window, text="Spellings", width=20, style='menu.TButton', command=lambda: sp.SpellingGame(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500), main_window))
+    spellingBtn.grid(row=2, column=2, pady=10, padx=10, ipady=20, ipadx=10)
 
     derdiedasBtn = ttk.Button(main_window, text="Articles", width=20, style='menu.TButton', command=lambda: ddd.DerDieDasGame(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
