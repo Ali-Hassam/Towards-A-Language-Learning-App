@@ -61,7 +61,7 @@ class DerDieDasGame(app.tk.Toplevel):
         self.radio_button_das.grid(row=3, column=3)
 
         self.next_button = app.ttk.Button(self, text="Next", command=self.check_answer)
-        self.next_button.grid(row=4, column=2, pady=50)
+        self.next_button.grid(row=4, column=2, pady=(70,10))
 
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(5, weight=1)

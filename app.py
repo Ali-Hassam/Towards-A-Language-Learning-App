@@ -9,6 +9,7 @@ import string
 import random
 import der_die_das_game as ddd
 import spelling_game as sp
+import mcqs_game as mcqs
 GermanWords = SpellChecker(language='de')
 EnglishWords= SpellChecker(language='en')
 user_file="user_words.txt"
@@ -438,7 +439,9 @@ if __name__ == "__main__":
     combobox.bind("<<ComboboxSelected>>", change_level)
 
 
-    mcqsBtn = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton')
+    mcqsBtn = ttk.Button(main_window, text="MCQs", width=20, style='menu.TButton',  command=lambda: mcqs.MCQsGame(
+        get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
+                     main_window.winfo_y(), 800, 500), main_window))
     mcqsBtn.grid(row=2, column=1, pady=10, padx=10, ipady=20, ipadx=10)
 
     spellingBtn = ttk.Button(main_window, text="Spellings", width=20, style='menu.TButton', command=lambda: sp.SpellingGame(
