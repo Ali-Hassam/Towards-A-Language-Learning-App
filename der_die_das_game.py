@@ -2,7 +2,7 @@ import app
 
 
 class DerDieDasGame(app.tk.Toplevel):
-    def __init__(self, geometry=None, parent_window=None):
+    def __init__(self, geometry=None, parent_window=None,combobox=None):
         super().__init__()
 
         # Set parent window and geometry if provided and geometry if provided
@@ -26,31 +26,37 @@ class DerDieDasGame(app.tk.Toplevel):
         else:
             self.geometry = self.geometry("400x300")
 
+        if combobox:
+            self.level = combobox.get()
 
         self.title("Der Die Das Game")
 
         self.img = app.tk.PhotoImage(file="app-icon.png")
         self.iconphoto(False, self.img)
 
+        if self.level not in ["Niveau: A1", "Niveau: A2"]:
+            app.messagebox.showinfo("Entschuldigung ", "Entschuldigung ! only level A1 and A2 are available at the moment.")
+            self.destroy()
+            return
 
         self.consent_to_goethe_list = None
         # Game state initialization
-        self.priority_list = app.words_to_study("noun")[0]
-        self.normal_list = app.words_to_study("noun")[1]
-        self.goethe_list = app.words_to_study("noun")[2]
+        self.priority_list = app.words_to_study(self.level, "noun")[0]
+        self.normal_list = app.words_to_study(self.level, "noun")[1]
+        self.goethe_list = app.words_to_study(self.level, "noun")[2]
         self.all_lists = [self.priority_list, self.normal_list, self.goethe_list]
 
         self.info_label = app.ttk.Label(self, text="What is the correct article for")
         self.info_label.grid(row=1, column=2, padx=10, pady=(0,5))
 
-        self.word_label = app.ttk.Label(self, text="Word will appear here", font=("Arial", 18))
+        self.word_label = app.ttk.Label(self, text="Word will appear here", font=("Helvetica", 20))
         self.word_label.grid(row=2, column=2, padx=10, pady=(50,50))
 
         self.radio_var = app.tk.StringVar(value="")
         self.correct_article =""
 
         self.style = app.ttk.Style()
-        self.style.configure('Custom.TRadiobutton', font=('Arial', 14))
+        self.style.configure('Custom.TRadiobutton', font=('Helvetica', 14))
 
         self.radio_button_der = app.ttk.Radiobutton(self, text="der", variable=self.radio_var, value="der", style= 'Custom.TRadiobutton')
         self.radio_button_die = app.ttk.Radiobutton(self, text="die", variable=self.radio_var, value="die", style= 'Custom.TRadiobutton')

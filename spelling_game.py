@@ -1,7 +1,7 @@
 import app
 
 class SpellingGame(app.tk.Toplevel):
-    def __init__(self, geometry=None, parent_window=None):
+    def __init__(self, geometry=None, parent_window=None, combobox=None):
         super().__init__()
         # Set parent window and geometry if provided and geometry if provided
         # otherwise testing it as a standalone app
@@ -29,18 +29,39 @@ class SpellingGame(app.tk.Toplevel):
         self.img = app.tk.PhotoImage(file="app-icon.png")
         self.iconphoto(False, self.img)
 
+        if combobox:
+            self.level = combobox.get()
+
+        self.img = app.tk.PhotoImage(file="app-icon.png")
+        self.iconphoto(False, self.img)
+        # self.resizable(True, True) # not working due to self.transient propety.
+
+        if self.level not in ["Niveau: A1", "Niveau: A2"]:
+            app.messagebox.showinfo("Entschuldigung ", "Entschuldigung ! only level A1 and A2 are available at the moment.")
+            self.destroy()
+            return
+
 
         self.consent_to_goethe_list = None
         # Game state initialization
-        self.priority_list = app.words_to_study()[0]
-        self.normal_list = app.words_to_study()[1]
-        self.goethe_list = app.words_to_study()[2]
+        self.priority_list = app.words_to_study(self.level, None)[0]
+        self.normal_list = app.words_to_study(self.level, None)[1]
+        self.goethe_list = app.words_to_study(self.level,None)[2]
+        self.all_lists = [self.priority_list, self.normal_list, self.goethe_list]
+
+
+
+        self.consent_to_goethe_list = None
+        # Game state initialization
+        self.priority_list = app.words_to_study(self.level, None)[0]
+        self.normal_list = app.words_to_study(self.level, None)[1]
+        self.goethe_list = app.words_to_study(self.level, None)[2]
         self.all_lists = [self.priority_list, self.normal_list, self.goethe_list]
 
         self.info_label = app.ttk.Label(self, text="What is the correct meaning of")
         self.info_label.grid(row=1, column=2, padx=10, pady=(0,5))
 
-        self.meaning_label = app.ttk.Label(self, text="Word will appear here", font=("Arial", 18))
+        self.meaning_label = app.ttk.Label(self, text="Word will appear here", font=("Helvetica", 20))
         self.meaning_label.grid(row=2, column=2, padx=10, pady=(50,50))
 
         self.word_var = app.tk.StringVar(value="")
@@ -110,7 +131,6 @@ class SpellingGame(app.tk.Toplevel):
             word_type = word_dict['Type']
             if word_type.lower() == 'noun':
                 self.word_article = word_dict['Article']
-            print(self.current_word, self.correct_meaning, word_type, self.word_article)
             self.meaning_label.config(text=f"'{self.correct_meaning.capitalize()}'")
             if not self.consent_to_goethe_list:
                 self.consent_to_goethe_list = app.messagebox.askyesno("Goethe List", "We are moving to Goethe list")
