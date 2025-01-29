@@ -1,6 +1,4 @@
 import app
-
-
 class DerDieDasGame(app.tk.Toplevel):
     def __init__(self, geometry=None, parent_window=None,combobox=None):
         super().__init__()
@@ -53,7 +51,11 @@ class DerDieDasGame(app.tk.Toplevel):
         self.word_label.grid(row=2, column=2, padx=10, pady=(50,50))
 
         self.radio_var = app.tk.StringVar(value="")
+        self.current_word=""
         self.correct_article =""
+        self.current_word_source = ""
+        self.progress_user={}
+        self.progress_goethe={}
 
         self.style = app.ttk.Style()
         self.style.configure('Custom.TRadiobutton', font=('Helvetica', 14))
@@ -74,8 +76,7 @@ class DerDieDasGame(app.tk.Toplevel):
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(4, weight=1)
 
-        #self.protocol("WM_DELETE_WINDOW", self.close_window)
-
+        self.protocol("WM_DELETE_WINDOW", self.close_window)
         self.next_word()#call it initially to set teh first word adn answers
 
     def next_word(self):
@@ -83,49 +84,70 @@ class DerDieDasGame(app.tk.Toplevel):
         for lst in self.all_lists:
             app.random.shuffle(lst)
         # Prioritize the lists (priority list first, then normal list, then Goethe list)
-        self.radio_var.set("") #reset the radio button=
+        self.radio_var.set("") #reset the radio button
         if self.priority_list:
             element = self.priority_list.pop()
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            current_word = word_dict['Word']
+            self.current_word = word_dict['Word']
             self.correct_article = word_dict['Article']
-            self.word_label.config(text=f"'{current_word}'")
-
+            self.word_label.config(text=f"'{self.current_word}'")
+            self.current_word_source = "user"
         elif self.normal_list:
             element = self.normal_list.pop()
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            current_word = word_dict['Word']
+            self.current_word = word_dict['Word']
             self.correct_article = word_dict['Article']
-            self.word_label.config(text=f"'{current_word}'")
+            self.word_label.config(text=f"'{self.current_word}'")
+            self.current_word_source = "user"
         elif self.goethe_list:
             element = self.goethe_list.pop()
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            current_word = word_dict['Word']
+            self.current_word = word_dict['Word']
             self.correct_article = word_dict['Article']
-            self.word_label.config(text=f"'{current_word}'")
+            self.word_label.config(text=f"'{self.current_word}'")
+            self.current_word_source = "goethe"
 
             if not self.consent_to_goethe_list:
-                self.consent_to_goethe_list = app.messagebox.askyesno("Goethe List", "We are moving to Goethe list", parent=self)
+                self.consent_to_goethe_list = app.messagebox.askyesno("Goethe List", "Your custom list ist fertig. We are moving to Goethe list", parent=self)
                 if not self.consent_to_goethe_list:
-                    self.destroy()
+                    self.close_window()
+                    # self.destroy()
         else:
             app.messagebox.showinfo("Game Over", "All nouns have been practiced!")
-            self.destroy()
+            self.close_window()
+            # self.destroy()
 
     def check_answer(self):
         user_guess = self.radio_var.get()
+
         if user_guess == self.correct_article:
-            pass
-            # app.messagebox.showinfo("Success", "correct ✓")
+            if self.current_word_source == "user":
+                self.progress_user[self.current_word] = 1
+            else:
+                self.progress_goethe[self.current_word] = 1
         else:
+            if self.current_word_source == "user":
+                self.progress_user[self.current_word] = 0
+            else:
+                self.progress_goethe[self.current_word] = 0
+
             app.messagebox.showerror("Incorrect",f"Incorrect! The correct article is '{self.correct_article}'.", parent=self)
         self.next_word()  # Move to the next word
 
-    # def close_window(self):
-    #     """ Close the child window and re-enable the parent window """
+    def close_window(self):
+        if self.progress_user:
+            app.update_progress(self.progress_user, 'user_words.txt')
+
+        if self.progress_goethe:
+            if self.level=="Niveau: A1":
+                app.update_progress(self.progress_goethe,'goethe_a1_words.txt')
+            elif self.level == "Niveau: A2":
+                app.update_progress(self.progress_goethe, 'goethe_a2_words.txt')
+        self.destroy()
+
     #     if self.master:
     #         # Re-enable interaction with the parent window
     #         self.master.attributes('-disabled', False)

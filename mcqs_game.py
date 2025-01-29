@@ -1,5 +1,3 @@
-from numpy.ma.extras import column_stack
-
 import app
 class MCQsGame(app.tk.Toplevel):
     def __init__(self, geometry=None, parent_window=None, combobox=None):
@@ -64,6 +62,10 @@ class MCQsGame(app.tk.Toplevel):
 
         self.radio_var = app.tk.StringVar(value="")
         self.correct_meaning =""
+        self.current_word =""
+        self.current_word_source = ""
+        self.progress_user = {}
+        self.progress_goethe = {}
 
         self.style = app.ttk.Style()
         self.style.configure('Custom.TRadiobutton', font=('Helvetica', 14))
@@ -87,6 +89,7 @@ class MCQsGame(app.tk.Toplevel):
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(4, weight=1)
 
+        self.protocol("WM_DELETE_WINDOW", self.close_window)
         self.next_word()
 
     def next_word(self):
@@ -96,12 +99,12 @@ class MCQsGame(app.tk.Toplevel):
             element = self.priority_list.pop()  # Get the next word
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            current_word = word_dict['Word']
+            self.current_word = complete_word = word_dict['Word']
             current_type = word_dict['Type']
             if current_type.lower() == "noun":
-                current_word = word_dict['Article']+" "+current_word
+                complete_word = word_dict['Article']+" "+self.current_word
             self.correct_meaning = word_dict['Meaning']
-            self.word_label.config(text=f"'{current_word}'")
+            self.word_label.config(text=f"'{complete_word}'")
             choices = app.random.sample(self.meanings_list, 3)
             if self.correct_meaning in choices:
                 choices.remove(self.correct_meaning)
@@ -113,18 +116,18 @@ class MCQsGame(app.tk.Toplevel):
             self.radio_button_o2.config(text=choices[1].capitalize(), value=choices[1])
             self.radio_button_o3.config(text=choices[2].capitalize(), value=choices[2])
             #self.radio_button_o4.config(text=choices[3].capitalize(), value=choices[3])
-
+            self.current_word_source = "user"
         elif self.normal_list:
             app.random.shuffle(self.normal_list)
             element = self.normal_list.pop()
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            current_word = word_dict['Word']
+            self.current_word = complete_word = word_dict['Word']
             current_type = word_dict['Type']
             if current_type.lower() == "noun":
-                current_word = word_dict['Article']+" "+current_word
+                complete_word = word_dict['Article']+" "+self.current_word
             self.correct_meaning = word_dict['Meaning']
-            self.word_label.config(text=f"'{current_word}'")
+            self.word_label.config(text=f"'{complete_word}'")
             choices = app.random.sample(self.meanings_list, 3)
             if self.correct_meaning in choices:
                 choices.remove(self.correct_meaning)
@@ -136,21 +139,18 @@ class MCQsGame(app.tk.Toplevel):
             self.radio_button_o2.config(text=choices[1].capitalize(), value=choices[1])
             self.radio_button_o3.config(text=choices[2].capitalize(), value=choices[2])
             #self.radio_button_o4.config(text=choices[3].capitalize(), value=choices[3])
+            self.current_word_source = "user"
         elif self.goethe_list:
-            # print(self.goethe_list)
-            if not self.consent_to_goethe_list:
-                self.consent_to_goethe_list = app.messagebox.askyesno("Goethe List", "We are moving to Goethe list")
-                if not self.consent_to_goethe_list:
-                    self.destroy()
+            app.random.shuffle(self.goethe_list)
             element = self.goethe_list.pop()
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            current_word = word_dict['Word']
+            self.current_word = complete_word = word_dict['Word']
             current_type = word_dict['Type']
             if current_type.lower() == "noun":
-                current_word = word_dict['Article']+" "+current_word
+                complete_word = word_dict['Article']+" "+self.current_word
             self.correct_meaning = word_dict['Meaning']
-            self.word_label.config(text=f"'{current_word}'")
+            self.word_label.config(text=f"'{complete_word}'")
             choices = app.random.sample(self.meanings_list, 3)
             if self.correct_meaning in choices:
                 choices.remove(self.correct_meaning)
@@ -162,23 +162,49 @@ class MCQsGame(app.tk.Toplevel):
             self.radio_button_o2.config(text=choices[1].capitalize(), value=choices[1])
             self.radio_button_o3.config(text=choices[2].capitalize(), value=choices[2])
             #self.radio_button_o4.config(text=choices[3].capitalize(), value=choices[3])
+            self.current_word_source = "goethe"
+
+            if not self.consent_to_goethe_list:
+                self.consent_to_goethe_list = app.messagebox.askyesno("Goethe List", "Your custom list ist fertig. We are moving to Goethe list")
+                if not self.consent_to_goethe_list:
+                    self.close_window()
+                    # self.destroy()
+
         else:
             app.messagebox.showinfo("Game Over", "All words have been practiced!")
-            self.destroy()
+            self.close_window()
+            # self.destroy()
 
     def check_answer(self):
         user_guess = self.radio_var.get()
 
         if user_guess == self.correct_meaning:
-            ""
-            # messagebox.showinfo("Correct", "Correct")
+            if self.current_word_source == "user":
+                self.progress_user[self.current_word] = 1
+            else:
+                self.progress_goethe[self.current_word] = 1
         else:
+            if self.current_word_source == "user":
+                self.progress_user[self.current_word] = 0
+            else:
+                self.progress_goethe[self.current_word] = 0
+
             app.messagebox.showinfo("Incorrect", f"Incorrect! The correct answer is '{self.correct_meaning.capitalize()}'.")
 
         self.next_word()  # Move to the next word
 
+    def close_window(self):
+        if self.progress_user:
+            app.update_progress(self.progress_user, 'user_words.txt')
+
+        if self.progress_goethe:
+            if self.level=="Niveau: A1":
+                app.update_progress(self.progress_goethe,'goethe_a1_words.txt')
+            elif self.level == "Niveau: A2":
+                app.update_progress(self.progress_goethe, 'goethe_a2_words.txt')
+        self.destroy()
 
 
-if __name__ == "__main__":
-    game = MCQsGame()
-    game.mainloop()
+# if __name__ == "__main__":
+#     game = MCQsGame()
+#     game.mainloop()

@@ -1,5 +1,8 @@
-Word: Haus, Meaning: house, Type: Noun, Article: das, Date: 01-01-2025, Success: 0
-Word: Auto, Meaning: car, Type: Noun, Article: das, Date: 15-01-2025, Success: 0
-Word: Hund, Meaning: dog, Type: Noun, Article: der, Date: 11-01-2025, Success: 0
-Word: Apfel, Meaning: apple, Type: Noun, Article: der, Date: 16-01-2025, Success: 0
-Word: Alt, Meaning: old, Type: Adjective, Date: 16-01-2025, example_sentence: Wie alt sind Sie?
+Word: Haus, Meaning: house, Type: Noun, Article: das, Date: 01-01-2025, Success: 1
+Word: Auto, Meaning: car, Type: Noun, Article: das, Date: 15-01-2025, Success: 1
+Word: Hund, Meaning: dog, Type: Noun, Article: der, Date: 11-01-2025, Success: 1
+Word: Apfel, Meaning: apple, Type: Noun, Article: der, Date: 16-01-2025, Success: 1
+Word: Alt, Meaning: old, Type: Adjective, Date: 16-01-2025, example_sentence: Wie alt sind Sie?, Success: 1
+Word: suß, Meaning: sweet, Type: Adjective, Date: 16-01-2025, Success: 1
+Word: Schön, Meaning: Beautiful, Type: Adverb, Date: 30-01-2025, Success: 1
+Word: Verkehrsmittel, Meaning: Means of transport, Type: Noun, Article: das, Date: 30-01-2025, Success: 1

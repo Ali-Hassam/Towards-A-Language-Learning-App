@@ -1,13 +1,13 @@
-Word: Haus, Meaning: house, Type: Noun, Article: das, Date: 01-01-2025, Success: 0
-Word: Auto, Meaning: car, Type: Noun, Article: das, Date: 15-01-2025, Success: 0
-Word: Hund, Meaning: dog, Type: Noun, Article: der, Date: 11-01-2025, Success: 0
-Word: Apfel, Meaning: apple, Type: Noun, Article: der, Date: 16-01-2025, Success: 0
-Word: Alt, Meaning: old, Type: Adjective, Date: 16-01-2025, example_sentence: Wie alt sind Sie?
-Word: antworten, Meaning: answer, Type: Verb, example_sentence: Er antwortet nicht.
-Word: Antwort, Meaning: answer, Type: Noun, Article: die, Plural: die Antworten, example_sentence: Er gibt leider keine Antwort.
-Word: Anzeige, Meaning: advertisement, Type: Noun, Article: die, Plural: die Anzeigen, example_sentence: Ich habe Ihre Anzeige in der Zeitung gelesen.
-Word: (sich) anziehen, Meaning: dress, Type: Verb, example_sentence: Ich muss mich noch anziehen.
-Word: Apartment, Meaning: apartment, Type: Noun, Article: das, Plural: die Apartments, example_sentence: Wir haben ein Apartment gemietet.
-Word: Apfel, Meaning: apple, Type: Noun, Article: der, Plural: die Äpfel, example_sentence: Ein Pfund Äpfel bitte.
-Word: Appetit, Meaning: appetite, Type: Noun, Article: der, example_sentence: Guten Appetit!
-Word: arbeiten, Meaning: work, Type: Verb, example_sentence: Wo arbeiten Sie?
+Word: Haus, Meaning: house, Type: Noun, Article: das, Date: 01-01-2025, Success: 1
+Word: Auto, Meaning: car, Type: Noun, Article: das, Date: 15-01-2025, Success: 1
+Word: Hund, Meaning: dog, Type: Noun, Article: der, Date: 11-01-2025, Success: 1
+Word: Apfel, Meaning: apple, Type: Noun, Article: der, Date: 16-01-2025, Success: 1
+Word: Alt, Meaning: old, Type: Adjective, Date: 16-01-2025, example_sentence: Wie alt sind Sie?, Success: 0
+Word: antworten, Meaning: answer, Type: Verb, example_sentence: Er antwortet nicht., Success: 0
+Word: Antwort, Meaning: answer, Type: Noun, Article: die, Plural: die Antworten, example_sentence: Er gibt leider keine Antwort., Success: 1
+Word: Anzeige, Meaning: advertisement, Type: Noun, Article: die, Plural: die Anzeigen, example_sentence: Ich habe Ihre Anzeige in der Zeitung gelesen., Success: 1
+Word: (sich) anziehen, Meaning: dress, Type: Verb, example_sentence: Ich muss mich noch anziehen., Success: 0
+Word: Apartment, Meaning: apartment, Type: Noun, Article: das, Plural: die Apartments, example_sentence: Wir haben ein Apartment gemietet., Success: 0
+Word: Apfel, Meaning: apple, Type: Noun, Article: der, Plural: die Äpfel, example_sentence: Ein Pfund Äpfel bitte., Success: 1
+Word: Appetit, Meaning: appetite, Type: Noun, Article: der, example_sentence: Guten Appetit!, Success: 0
+Word: arbeiten, Meaning: work, Type: Verb, example_sentence: Wo arbeiten Sie?, Success: 0
