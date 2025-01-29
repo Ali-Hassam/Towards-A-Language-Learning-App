@@ -382,7 +382,6 @@ def add_word_window(geom):
     add_word_win.protocol("WM_DELETE_WINDOW", add_word_win_callback)
     add_word_win.mainloop()
 
-#see your lib
 def seeyourlib(geom):
     seeyourlib_win = tk.Toplevel(main_window)
     seeyourlib_win.title("Your Library")
@@ -394,10 +393,10 @@ def seeyourlib(geom):
     words_list = []
     for line in database_file:
         entry= {'word': re.search(r"Word: (\w+)", line).group(1) if re.search(r"Word: (\w+)", line) else None,
-                'article': re.search(r"Article: (\w+)", line).group(1) if re.search(r"Article: (\w+)", line) else '',
-                'meaning': re.search(r"Meaning: ([^,]+)", line).group(1) if re.search(r"Meaning: ([^,]+)",
-                                                                                      line) else None,
+                'article': re.search(r"Article: (\w+)", line).group(1) if re.search(r"Article: (\w+)", line) else None,
+                'meaning': re.search(r"Meaning: ([^,]+)", line).group(1) if re.search(r"Meaning: ([^,]+)", line) else None,
                 'type': re.search(r"Type: (\w+)", line).group(1) if re.search(r"Type: (\w+)", line) else None,
+                'success': re.search(r"Success: (\d)", line).group(1) if re.search(r"Success: (\d)", line) else None,
                 'date': re.search(r"Date: ([\d-]+)", line).group(1) if re.search(r"Date: ([\d-]+)", line) else None}
         # Extract data using regex and directly store them in the dictionary
 
@@ -427,7 +426,7 @@ def seeyourlib(geom):
     ##4. Add content to the scrollable frame
     i=0
     for entry in words_list:
-        formatted_entry = f"Word: '{entry['word']}',     Article: '{entry['article']}',     Meaning: '{entry['meaning']}',     Type: '{entry['type']}',     Date: '{entry['date']}'"
+        formatted_entry = f"Word: '{entry['word']}',     Article: '{entry['article']}',     Meaning: '{entry['meaning']}',     Type: '{entry['type']}',     Date: '{entry['date']}',     Last_Attempt: '{'Successful' if entry['success'] == '1' else 'Unsuccessful'}'"
         word_label = tk.Label(scrollable_frame, text=formatted_entry)
         word_label.grid(row=i, column=0, pady=5, padx=5, sticky="w")
         i+=1
@@ -450,42 +449,83 @@ def seeyourlib(geom):
 
     seeyourlib_win.mainloop()
 
+def update_progress(my_dict, file_path):
+    # with open(file_path, "r", encoding="utf-8") as f:
+    #     lines = f.readlines()
+    lines = read(file_path)
+    # Create a list to hold updated lines
+    updated_lines = []
+    for line in lines:
+        parts = line.split(",")
+        word = parts[0].split(":")[1].strip()
+        if word in my_dict:
+            updated_line = line.rstrip()  # Remove any trailing newline we have \n character at the end
+            # split teh line from teh right sid eand take the part before "success" and the adda new success with its value.
+            updated_line = updated_line.rsplit("Success:", 1)[0] + f"Success: {my_dict[word]}"
+
+            updated_lines.append(updated_line + "\n")
+        else:
+            updated_lines.append(line)
+
+    # Write the updated lines back to the same file
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.writelines(updated_lines)
+
+def calculate_progress(lines):
+    success_0_count = 0
+    success_1_count = 0
+    for line in lines:
+        # Check if "Success: 0" or "Success: 1" is present in the line
+        if "Success: 0" in line:
+            success_0_count += 1
+        elif "Success: 1" in line:
+            success_1_count += 1
+
+    # Calculate progress
+    total = success_0_count + success_1_count
+    if total > 0: #may be the user does not added any words
+        progress = (success_1_count / total) * 100
+        return progress
+    else:
+        return 0
+
+
 
 #Progressbars
-def progress_(geom):
+def show_progress(geom):
     progress_win = tk.Toplevel(main_window)  # child window of the main_window
     progress_win.title("Progress")
     progress_win.geometry(geom)
     progress_win.iconphoto(False, image)
     progress_win.grab_set()  # Locks the interaction with the parent window
 
-    x = 100
-    y = 7
-    z = 90
+    x = round(calculate_progress(read('user_words.txt')), 2)
+    y = round(calculate_progress(read('goethe_a1_words.txt')), 2)
+    z = round(calculate_progress(read('goethe_a2_words.txt')), 2)
 
-    value_label = ttk.Label(progress_win, text=f"Your Overall Progress",font=('Helvetica', 12))
-    value_label.grid(column=1, row=1)
+    value_label = ttk.Label(progress_win, text=f"Your Overall Progress",font=('Helvetica', 18))
+    value_label.grid(column=1, row=1, pady=(0,50))
 
     # Create progress bar
     pb = ttk.Progressbar(progress_win, orient='horizontal', mode='determinate', value=x, length=280)
-    pb.grid(column=1, row=2, padx=10, pady=20)
+    pb.grid(column=1, row=2, padx=10, pady=(0,0))
     # Label to show progress, directly using the value of x
     value_label = ttk.Label(progress_win, text=f"Your Custom Library: {x}%")
-    value_label.grid(column=1, row=3)
+    value_label.grid(column=1, row=3, pady=(0,50))
 
     # Create progress bar
     pb = ttk.Progressbar(progress_win, orient='horizontal', mode='determinate', value=y, length=280)
-    pb.grid(column=1, row=4, padx=10, pady=20)
+    pb.grid(column=1, row=4, padx=10, pady=(0,0))
     # Label to show progress, directly using the value of x
     value_label = ttk.Label(progress_win, text=f"A1 Goethe List: {y}%")
-    value_label.grid(column=1, row=5)
+    value_label.grid(column=1, row=5, pady=(0,50))
 
     # Create progress bar
     pb = ttk.Progressbar(progress_win, orient='horizontal', mode='determinate', value=z, length=280)
-    pb.grid(column=1, row=6, padx=10, pady=20)
+    pb.grid(column=1, row=6, padx=10, pady=(0,0))
     # Label to show progress, directly using the value of x
     value_label = ttk.Label(progress_win, text=f"A2 Goethe List: {z}%")
-    value_label.grid(column=1, row=7)
+    value_label.grid(column=1, row=7, pady=(0,50))
 
 
     progress_win.grid_rowconfigure(0, weight=1)
@@ -506,7 +546,7 @@ def about(geom):
 
     # Create a Text widget for the description with more control
     description_text = (
-        "Towards-A-Language-Learning-App is a and interactive language learning platform."
+        "This Language Learning Application is an interactive language learning platform."
         " Unlike most apps, it allows users to input and track the new words they learn, personalizing the experience to their individual journey. "
         "By integrating user-generated content, the app adapts to your learning style and pace, ensuring that each new word is retained effectively. "
         "Whether you're a beginner or advancing your skills, this app offers a tailored approach to help you achieve fluency in your language of choice.\n\n"
@@ -542,6 +582,7 @@ if __name__ == "__main__":
     screen_w = main_window.winfo_screenwidth()
     screen_h =main_window.winfo_screenheight()
     main_window.geometry(get_geometry(screen_w, screen_h, 0, 0,screen_w, screen_h))
+    # main_window.geometry(get_geometry(screen_w, screen_h, 200, 200, 800, 600)) #for testing
 
 
     # A way around to adjust the widgets at the centre of teh window.
@@ -614,7 +655,7 @@ if __name__ == "__main__":
                      main_window.winfo_y(), 800, 500), main_window,combobox))
     derdiedasBtn.grid(row=3, column=3, pady=10, padx=10, ipady=20, ipadx=10)
 
-    progressBtn = ttk.Button(main_window, text="See Your Progress", width=20, style='menu.TButton', command=lambda: progress_(
+    progressBtn = ttk.Button(main_window, text="See Your Progress", width=20, style='menu.TButton', command=lambda: show_progress(
         get_geometry(main_window.winfo_width(), main_window.winfo_height(), main_window.winfo_x(),
                      main_window.winfo_y(), 800, 500)))
     progressBtn.grid(row=4, column=3, pady=10, padx=10, ipady=20, ipadx=10)

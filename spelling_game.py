@@ -1,5 +1,4 @@
 import app
-
 class SpellingGame(app.tk.Toplevel):
     def __init__(self, geometry=None, parent_window=None, combobox=None):
         super().__init__()
@@ -68,6 +67,9 @@ class SpellingGame(app.tk.Toplevel):
         self.current_word =""
         self.correct_meaning = ""
         self.word_article = ""
+        self.current_word_source = ""
+        self.progress_user={}
+        self.progress_goethe={}
 
 
         self.word_enter = app.ttk.Entry(self)
@@ -88,6 +90,7 @@ class SpellingGame(app.tk.Toplevel):
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(4, weight=1)
 
+        self.protocol("WM_DELETE_WINDOW", self.close_window)
         self.next_word()
 
     def next_word(self):
@@ -107,12 +110,12 @@ class SpellingGame(app.tk.Toplevel):
             if word_type.lower() == 'noun':
                 self.word_article = word_dict['Article']
             self.meaning_label.config(text=f"'{self.correct_meaning.capitalize()}'")
+            self.current_word_source = "user"
 
         elif self.normal_list:
             element = self.normal_list.pop()
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            # print(word_dict)
             self.current_word = word_dict['Word']
             self.correct_meaning = word_dict['Meaning']
             self.word_article = ""
@@ -120,25 +123,30 @@ class SpellingGame(app.tk.Toplevel):
             if word_type.lower() == 'noun':
                 self.word_article = word_dict['Article']
             self.meaning_label.config(text=f"'{self.correct_meaning.capitalize()}'")
+            self.current_word_source = "user"
         elif self.goethe_list:
             element = self.goethe_list.pop()
             line = element.strip().split(', ')
             word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in line}
-            # print(word_dict)
             self.current_word = word_dict['Word']
             self.correct_meaning = word_dict['Meaning']
             self.word_article = ""
             word_type = word_dict['Type']
+            self.current_word_source = "goethe"
             if word_type.lower() == 'noun':
                 self.word_article = word_dict['Article']
             self.meaning_label.config(text=f"'{self.correct_meaning.capitalize()}'")
+
+
             if not self.consent_to_goethe_list:
-                self.consent_to_goethe_list = app.messagebox.askyesno("Goethe List", "We are moving to Goethe list")
+                self.consent_to_goethe_list = app.messagebox.askyesno("Goethe List", "Your custom list ist fertig. We are moving to Goethe list")
                 if not self.consent_to_goethe_list:
-                    self.destroy()
+                    self.close_window()
+                    # self.destroy()
         else:
             app.messagebox.showinfo("Game Over", "All words have been practiced!")
-            self.destroy()
+            self.close_window()
+            # self.destroy()
 
     def check_answer(self):
         user_spelling = self.word_enter.get()
@@ -147,47 +155,102 @@ class SpellingGame(app.tk.Toplevel):
             app.messagebox.showwarning("Warning", "Please provide something to check. Don't mess around!")
         else:
             if self.word_article.lower() in ['der', 'die', 'das']:
+                word = self.current_word
                 if len(user_spelling) == 2:
                     if user_spelling[0].lower() == self.word_article.lower() and user_spelling[1] == self.current_word:
-                        pass
+                        if self.current_word_source == "user":
+                            self.progress_user[word] = 1
+                        else:
+                            self.progress_goethe[word] = 1
+                        # pass
                     elif user_spelling[0].lower() != self.word_article.lower() and user_spelling[1] != self.current_word:
+                        if self.current_word_source == "user":
+                            self.progress_user[word] = 0
+                        else:
+                            self.progress_goethe[word] = 0
                         app.messagebox.showerror("Wrong Word and Article",
                                              f"The correct word with article is '{self.word_article} {self.current_word.capitalize()}'")
                     elif user_spelling[0].lower() == self.word_article.lower() and user_spelling[1] != self.current_word:
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 0
+                        else:
+                           self.progress_goethe[word] = 0
                         app.messagebox.showerror("Wrong Word", f"Article is correct. But, the correct word is '{self.current_word.capitalize()}'")
 
                     elif user_spelling[0].lower() != self.word_article.lower() and user_spelling[1] == self.current_word:
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 0
+                        else:
+                           self.progress_goethe[word] = 0
                         app.messagebox.showwarning("Wrong Article",
                                              f"The word is correct. But the correct article for '{self.current_word.capitalize()}' is '{self.word_article}'")
 
                 else:
                     if user_spelling[0].lower() == self.word_article.lower():
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 0
+                        else:
+                           self.progress_goethe[word] = 0
                         app.messagebox.showerror("Correct Article",
                                                 f"The article '{self.word_article}' is correct, but the word should be '{self.current_word}'.")
                     elif user_spelling[0] == self.current_word:
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 0
+                        else:
+                           self.progress_goethe[word] = 0
                         app.messagebox.showwarning("Missing Article", "Correct word but missing article.\nPlease provide the article for the nouns as well.")
 
                     else:
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 0
+                        else:
+                           self.progress_goethe[word] = 0
                         app.messagebox.showerror("Wrong Word and Article", "The word or article provided is incorrect.")
 
 
             else:
+                word = self.current_word
                 if len(user_spelling) == 1:
                     if user_spelling[0].lower() == self.current_word.lower():
-                        pass  # Correct input, do nothing
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 1
+                        else:
+                           self.progress_goethe[word] = 1
+                        # pass  # Correct input, do nothing
                     else:
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 0
+                        else:
+                           self.progress_goethe[word] = 0
                         app.messagebox.showerror("Wrong Word", f"The correct word is '{self.current_word.capitalize()}'")
                 elif len(user_spelling) > 1:
                     if user_spelling[0].lower() == self.current_word.lower():
-                        pass
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 1
+                        else:
+                           self.progress_goethe[word] = 1
+                        # pass
                     else:
+                        if self.current_word_source == "user":
+                           self.progress_user[word] = 0
+                        else:
+                           self.progress_goethe[word] = 0
                         app.messagebox.showerror("Wrong Word", f"The correct word is '{self.current_word.capitalize()}'")
 
         self.current_word = ""
         self.correct_meaning = ""
         self.word_article = ""
         self.next_word()  # Move to the next word
+    def close_window(self):
+        if self.progress_user:
+            app.update_progress(self.progress_user, 'user_words.txt')
 
+        if self.progress_goethe:
+            if self.level=="Niveau: A1":
+                app.update_progress(self.progress_goethe,'goethe_a1_words.txt')
+            elif self.level == "Niveau: A2":
+                app.update_progress(self.progress_goethe, 'goethe_a2_words.txt')
+        self.destroy()
 # if __name__ == "__main__":
 #         game = SpellingGame()
 #         game.mainloop()
