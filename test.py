@@ -1,31 +1,13 @@
+goethe_file_a2 = "goethe_a2_words.txt"
+    
+def read(file_name):
+    with open(file_name, mode="r", encoding="utf-8") as file:
+        return file.readlines()
 
-from tkinter import *
-  
-# Create object 
-root = Tk() 
-  
-# Adjust size 
-root.geometry( "200x200" ) 
-  
-# Dropdown menu options 
-options = [ 
-    "10", 
-    "15", 
-    "20", 
-    "25"
-] 
-  
-# datatype of menu text 
-clicked = StringVar() 
-  
-# initial menu text 
-clicked.set( "10" ) 
-  
-# Create Dropdown menu 
-drop = OptionMenu( root , clicked , *options ) 
-drop.pack() 
-  
-text = clicked.get()
-print(text)
-# Execute tkinter 
-root.mainloop() 
+goethe_a2_file = read(goethe_file_a2)
+goethe_a2_list = []
+for line in goethe_a2_file:
+    parts = line.strip().split('; ')
+    word_dict = {pair.split(': ')[0]: pair.split(': ')[1] for pair in parts}
+    goethe_a2_list.append(word_dict)
+print(len(goethe_a2_file))

@@ -11,7 +11,7 @@ Word: Ampel; Meaning: traffic light; Type: Noun; Article: die; Plural: die Ampel
 Word: Alter; Meaning: age; Type: Noun; Article: das; Plural: die Alter; Example_Sentence: Alter: 18 Jahre.  
 Word: anders; Meaning: different; Type: ADVERB; Example_Sentence: Oliver ist anders als seine Freunde.  
 Word: anbieten; Meaning: offer; Type: VERB; Example_Sentence: Darf ich Ihnen ein Stück Kuchen anbieten?; conjugation: bietet an, bot an, hat angeboten  
-Word: das Angebot; Meaning: offer; Type: Noun; Article: das; Plural: die Angebote; Example_Sentence: Heute sind Sportschuhe im Angebot.  
+Word: Angebot; Meaning: offer; Type: Noun; Article: das; Plural: die Angebote; Example_Sentence: Heute sind Sportschuhe im Angebot.  
 Word: ander-; Meaning: other; Type: ADJECTIVE; Example_Sentence: Willst du diese Jacke? – Nein ich möchte die andere.  
 Word: Absender; Meaning: sender; Type: Noun; Article: der; Plural: die Absender; Example_Sentence: Da ist ein Brief für dich ohne Absender.  
 Word: abholen; Meaning: pick up; Type: VERB; Example_Sentence: Wann kann ich die Sachen bei dir abholen?; conjugation: holt ab, holte ab, hat abgeholt  
@@ -185,3 +185,996 @@ Word: Creme; Meaning: cream; Type: Noun; Article: die; Plural: die Cremes; Examp
 Word: da; Meaning: there; Type: Adverb; Example_Sentence: Da drüben ist der Bahnhof.
 Word: danke; Meaning: thank you; Type: Verb; Conjugation: dankt, hat gedankt; Example_Sentence: Ich danke Ihnen für die Einladung.
 Word: Datei; Meaning: file; Type: Noun; Article: die; Plural: die Dateien; Example_Sentence: Kannst du die Datei bitte öffnen?
+Word: Datum; Meaning: date; Type: Noun; Article: das; Plural: die Daten; example_sentence: Bitte Datum und Unterschrift nicht vergessen! Welches Datum haben wir heute? Haben Sie meine Kontaktdaten?
+Word: dauern; Meaning: to last; Type: Verb; example_sentence: Wie lange dauert die Pause? - Eine halbe Stunde.; Conjugation: dauert, hat gedauert
+Word: denken; Meaning: to think; Type: Verb; example_sentence: Ich denke, du hast recht. Ich denke oft an meine Freundin. Was denkst du? Sollen wir heute Abend ins Kino gehen?; Conjugation: denkt, hat gedacht
+Word: denn; Meaning: because; Type: Conjunction; example_sentence: Ich kann nicht kommen, denn ich bin krank.
+Word: deshalb; Meaning: therefore; Type: Adverb; example_sentence: Ich bin krank. Deshalb komme ich heute nicht ins Büro.
+Word: deutlich; Meaning: clear; Type: Adjective; example_sentence: Sprechen Sie bitte deutlich! Können Sie das bitte deutlicher schreiben? Ich kann das nicht lesen.
+Word: dick; Meaning: thick; Type: Adjective; example_sentence: Ich bin zu dick. Ich muss weniger essen.
+Word: Ding; Meaning: thing; Type: Noun; Article: das; Plural: die Dinge; example_sentence: Gib mir bitte mal das Ding da drüben! Was macht man mit diesem Ding? - Damit kann man Flaschen öffnen.
+Word: direkt; Meaning: direct; Type: Adjective; example_sentence: Wir wohnen direkt über dem Café. Gibt es keinen direkten Zug nach Hamburg? - Nein, Sie müssen immer umsteigen. Ich möchte nicht direkt nach der Schule studieren. Ich möchte erst reisen. Wir liefern Ihnen das Sofa direkt ins Haus.
+Word: Disco; Meaning: disco; Type: Noun; Article: die; Plural: die Discos; example_sentence: Wir gehen heute Abend in die Disco/Disko.
+Word: Disko; Meaning: disco; Type: Noun; Article: die; Plural: die Diskos; example_sentence: Wir gehen heute Abend in die Disco/Disko.
+Word: diskutieren; Meaning: to discuss; Type: Verb; example_sentence: Ich möchte das mit meinen Kollegen diskutieren.; Conjugation: diskutiert, hat diskutiert
+Word: doch; Meaning: but; Type: Adverb; example_sentence: Hast du keinen Hunger? - Doch, ich bin sehr hungrig. Kannst du morgen nicht kommen? - Doch. Geh doch mal wieder ins Kino! Das macht doch nichts!
+Word: Doppelzimmer; Meaning: double room; Type: Noun; Article: das; example_sentence: Möchten Sie ein Doppelzimmer oder ein Einzelzimmer?
+Word: Dorf; Meaning: village; Type: Noun; Article: das; Plural: die Dörfer; example_sentence: Unser Dorf liegt direkt an der Autobahn. Meine Familie lebt in einem Dorf.
+Word: dort; Meaning: there; Type: Adverb; example_sentence: Wir treffen uns vor dem Kino. - Gut, ich bin in fünf Minuten dort. Dort ist unser Haus.
+Word: dorthin; Meaning: to there; Type: Adverb; example_sentence: Deine Tasche kannst du dorthin stellen.
+Word: dorther; Meaning: from there; Type: Adverb; example_sentence: Kommst du mit in die Stadt? - Nein, ich komme gerade dorther/von dort.
+Word: draußen; Meaning: outside; Type: Adverb; example_sentence: Das Wetter ist so schön. Wollen wir draußen sitzen? Hunde müssen draußen bleiben.
+Word: dringend; Meaning: urgent; Type: Adjective; example_sentence: Bitte kommen Sie schnell. Es ist dringend.
+Word: drinnen; Meaning: inside; Type: Adverb; example_sentence: Wollen Sie drinnen oder draußen sitzen? Hier drinnen ist es sehr warm.
+Word: drüben; Meaning: over there; Type: Adverb; example_sentence: Da drüben ist die Haltestelle.
+Word: drücken; Meaning: to press; Type: Verb; example_sentence: An dieser Tür musst du drücken, nicht ziehen, dann geht sie auf. Drücken Sie „Bestätigen“! Meine Schuhe drücken.; Conjugation: drückt, hat gedrückt
+Word: drucken; Meaning: to print; Type: Verb; example_sentence: Wähle einfach „Datei drucken“!; Conjugation: druckt, hat gedruckt
+Word: Drucker; Meaning: printer; Type: Noun; Article: der; example_sentence: Mein Drucker ist kaputt.
+Word: dumm; Meaning: stupid; Type: Adjective; example_sentence: Ich finde den Film dumm. Entschuldigung, das war dumm von mir. Das ist mir zu dumm.
+Word: dunkel; Meaning: dark; Type: Adjective; example_sentence: Um sechs Uhr ist es schon dunkel. Meine Schwester hat dunkle Haare. Ich will eine dunkelblaue Bluse kaufen.
+Word: dünn; Meaning: thin; Type: Adjective; example_sentence: Das Buch ist sehr dünn. Es hat nur 40 Seiten. Mein Bruder ist 1,80 Meter groß und 62 Kilo schwer, er ist zu dünn.
+Word: durch; Meaning: through; Type: Preposition; example_sentence: Am besten gehen Sie durch die Tengstraße. Wir fahren mit dem Fahrrad durch den Wald.
+Word: dürfen; Meaning: to be allowed to; Type: Verb; example_sentence: Sie dürfen hier nicht parken. Dürfen wir heute länger fernsehen? Darf ich Sie zu einem Kaffee einladen?; Conjugation: darf, durfte, hat gedurft
+Word: Durst; Meaning: thirst; Type: Noun; Article: der; example_sentence: Hast du etwas zu trinken? Ich habe großen Durst.
+Word: Dusche; Meaning: shower; Type: Noun; Article: die; Plural: die Duschen; example_sentence: Unsere Wohnung hat nur eine Dusche.
+Word: duschen (sich); Meaning: to shower; Type: Verb; example_sentence: Ich bade nicht so gern, ich dusche lieber. Möchten Sie sich duschen? Das Badezimmer ist dort hinten links.; Conjugation: duscht, hat geduscht
+Word: E-Book; Meaning: e-book; Type: Noun; Article: das; Plural: die E-Books; example_sentence: Liest du lieber E-Books oder Bücher aus Papier? Entschuldigung, kann man hier E-Books kaufen?
+Word: echt; Meaning: real; Type: Adjective; example_sentence: Ist das Bild ein echter Picasso? Der Film ist echt gut.
+Word: Ecke; Meaning: corner; Type: Noun; Article: die; Plural: die Ecken; example_sentence: Gehen Sie an der nächsten Ecke links. Dann kommen Sie zur Apotheke. Wir stellen das Regal in die Ecke.
+Word: egal; Meaning: doesn’t matter; Type: Adjective; example_sentence: Das ist mir egal. Willst du Tee oder Kaffee trinken? – Egal.
+Word: Ehefrau; Meaning: wife; Type: Noun; Article: die; Plural: die Ehefrauen; example_sentence: Das ist meine Ehefrau.
+Word: Ehemann; Meaning: husband; Type: Noun; Article: der; Plural: die Ehemänner; example_sentence: Das ist mein Ehemann.
+Word: Ehepartner; Meaning: spouse; Type: Noun; Article: der; example_sentence: Das ist mein Ehepartner.
+Word: Ei; Meaning: egg; Type: Noun; Article: das; Plural: die Eier; example_sentence: Möchtest du ein Ei zum Frühstück?
+Word: eigen-; Meaning: own; Type: Adjective; example_sentence: Nicht alle Kinder haben ein eigenes Zimmer.
+Word: eigentlich; Meaning: actually; Type: Adverb; example_sentence: Wir wollten eigentlich Freunde besuchen, aber dann sind wir doch zu Hause geblieben. Kennst du eigentlich Susanne?
+Word: eilig; Meaning: urgent; Type: Adjective; example_sentence: Hast du es eilig?
+Word: einfach; Meaning: simple; Type: Adjective; example_sentence: Die Prüfung ist ganz einfach. Ich verstehe das nicht. Kannst du es bitte einfacher sagen? Hin und zurück? – Nein, bitte nur eine einfache Fahrt nach Berlin.
+Word: Eingang; Meaning: entrance; Type: Noun; Article: der; Plural: die Eingänge; example_sentence: Der Eingang ist um die Ecke.
+Word: einige; Meaning: some; Type: Adjective; example_sentence: In diesem Text sind einige Fehler. Das dauert noch einige Zeit, bis das Essen fertig ist.
+Word: einkaufen; Meaning: to shop; Type: Verb; example_sentence: Ich muss noch für morgen einkaufen.; Conjugation: kauft ein, hat eingekauft
+Word: Einkaufszentrum; Meaning: shopping center; Type: Noun; Article: das; Plural: die Einkaufszentren; example_sentence: Kommst du morgen mit ins Einkaufszentrum?
+Word: einladen; Meaning: to invite; Type: Verb; example_sentence: Darf ich Sie zu einem Kaffee einladen?; Conjugation: lädt ein, hat eingeladen
+Word: Einladung; Meaning: invitation; Type: Noun; Article: die; Plural: die Einladungen; example_sentence: Danke für die Einladung zu deinem Geburtstag!
+Word: einmal; Meaning: once; Type: Adverb; example_sentence: Rufen Sie/Ruf mich bitte morgen noch einmal an. Diese Prüfung mache ich nicht noch einmal. Warst du schon einmal in Paris?
+Word: einpacken; Meaning: to pack; Type: Verb; example_sentence: Pack bitte die Handtücher ein! Soll ich Ihnen das als Geschenk einpacken?; Conjugation: packt ein, hat eingepackt
+Word: einsteigen; Meaning: to get in; Type: Verb; example_sentence: Schnell, steig ein, der Zug fährt gleich ab. Bitte ab 20 Uhr vorn im Bus einsteigen.; Conjugation: steigt ein, ist eingestiegen
+Word: eintragen (sich); Meaning: to register; Type: Verb; example_sentence: Tragen Sie sich bitte in diese Liste ein! Sie müssen Ihren Namen und Ihre Adresse eintragen.; Conjugation: trägt ein, hat eingetragen
+Word: Eintritt; Meaning: entrance fee; Type: Noun; Article: der; Plural: die Eintritte; example_sentence: Der Eintritt kostet fünf Euro. Der Eintritt ist frei. Sie müssen nichts bezahlen.
+Word: einverstanden sein; Meaning: to agree; Type: Verb; example_sentence: Als Termin schlage ich den 11. Juni vor. – Gut, ich bin einverstanden. Bist du einverstanden, wenn wir bald nach Hause gehen?; Conjugation: ist einverstanden, war einverstanden, ist einverstanden gewesen
+Word: einzel-; Meaning: single; Type: Adjective; example_sentence: Nicht alle zusammen. Könnt ihr bitte einzeln sprechen? Florian ist ein Einzelkind. Er hat keine Geschwister. Ein Einzelzimmer ist noch frei.
+Word: einziehen; Meaning: to move in; Type: Verb; example_sentence: Im Juni ziehen unsere neuen Nachbarn ein. Wann können wir in die Wohnung einziehen?; Conjugation: zieht ein, ist eingezogen
+Word: Eis; Meaning: ice cream; Type: Noun; Article: das; example_sentence: Möchtest du auch ein Eis?
+Word: E-Mail; Meaning: email; Type: Noun; Article: die; Plural: die E-Mails; example_sentence: Ich schreibe Ihnen/dir eine E-Mail.
+Word: Empfänger; Meaning: recipient; Type: Noun; Article: der; Plural: die Empfänger; example_sentence: Auf dem Brief steht dein Name, also bist du der Empfänger.
+Word: empfehlen; Meaning: to recommend; Type: Verb; example_sentence: Welchen Wein können Sie mir empfehlen?; Conjugation: empfiehlt, hat empfohlen
+Word: Ende; Meaning: end; Type: Noun; Article: das; Plural: die Enden; example_sentence: Sie wohnt am Ende der Straße. Er bekommt sein Geld am Monatsende.
+Word: enden; Meaning: to end; Type: Verb; example_sentence: Die Straße endet hier. Der Kurs endet in einer Woche.; Conjugation: endet, hat geendet
+Word: endlich; Meaning: finally; Type: Adverb; example_sentence: Wann kommst du endlich? Der Film fängt gleich an. Endlich bist du da!
+Word: eng; Meaning: tight; Type: Adjective; example_sentence: Diese Hose ist zu eng. Gibt es sie auch eine Nummer größer?
+Word: entschuldigen (sich); Meaning: to apologize; Type: Verb; example_sentence: Entschuldigen Sie bitte! Ich möchte mich bei dir entschuldigen.; Conjugation: entschuldigt, hat entschuldigt
+Word: Entschuldigung; Meaning: apology; Type: Noun; Article: die; Plural: die Entschuldigungen; example_sentence: Oh, Entschuldigung! – Macht nichts. Kein Problem.
+Word: Erdgeschoss; Meaning: ground floor; Type: Noun; Article: das; Plural: die Erdgeschosse; example_sentence: Ich wohne im Erdgeschoss.
+Word: Erfahrung; Meaning: experience; Type: Noun; Article: die; Plural: die Erfahrungen; example_sentence: Ich habe zehn Jahre Erfahrung in diesem Beruf.
+Word: erinnern (sich); Meaning: to remember; Type: Verb; example_sentence: Erinnerst du dich an José? - Nein, ich erinnere mich nicht an ihn, tut mir leid. Kannst du mich morgen bitte an meinen Arzttermin erinnern?; Conjugation: erinnert, hat erinnert
+Word: erkältet sein; Meaning: to have a cold; Type: Verb; example_sentence: Lisa ist erkältet. Sie kann heute nicht zur Schule gehen.; Conjugation: ist erkältet, war erkältet, ist erkältet gewesen
+Word: erklären; Meaning: to explain; Type: Verb; example_sentence: Ich verstehe das nicht. Kannst du mir das erklären?; Conjugation: erklärt, hat erklärt
+Word: erlauben; Meaning: to allow; Type: Verb; example_sentence: Meine Kinder dürfen diesen Film sehen. Ich habe es ihnen erlaubt.; Conjugation: erlaubt, hat erlaubt
+Word: erlaubt sein; Meaning: to be allowed; Type: Verb; example_sentence: Parken ist hier nicht erlaubt.; Conjugation: ist erlaubt, war erlaubt, ist erlaubt gewesen
+Word: Erlaubnis; Meaning: permission; Type: Noun; Article: die; example_sentence: Haben Sie eine Arbeitserlaubnis?
+Word: Ermäßigung; Meaning: discount; Type: Noun; Article: die; Plural: die Ermäßigungen; example_sentence: Für Schüler, Studenten und Rentner gibt es eine Ermäßigung.
+Word: erreichen; Meaning: to reach; Type: Verb; example_sentence: Wenn wir uns beeilen, erreichen wir noch den Zug um acht Uhr. Bis 18 Uhr können Sie mich im Büro erreichen.; Conjugation: erreicht, hat erreicht
+Word: erst; Meaning: only, not until; Type: Adverb; example_sentence: Wir können erst morgen kommen. Dina ist keine 18, sie ist erst 16 Jahre alt.
+Word: Erwachsene; Meaning: adult; Type: Noun; Article: der (male), die (female); Plural: die Erwachsenen; example_sentence: Erwachsene zahlen zehn Euro, für Kinder ist der Eintritt frei. Dieser Film ist nur für Erwachsene.
+Word: erzählen; Meaning: to tell; Type: Verb; example_sentence: Wir müssen euch etwas erzählen! Erzählst du mir eine Geschichte?; Conjugation: erzählt, hat erzählt
+Word: essen; Meaning: to eat; Type: Verb; example_sentence: Was gibt es zu essen?; Conjugation: isst, hat gegessen
+Word: Essen; Meaning: food, meal; Type: Noun; Article: das; example_sentence: Das Essen in der Cafeteria ist meistens ganz gut. Darf ich Sie zum Essen einladen?
+Word: etwas; Meaning: something; Type: Pronoun; example_sentence: Ich muss dir etwas erzählen! Haben Sie etwas zum Schreiben? Ich habe leider nur Tee. Etwas anderes kann ich dir leider nicht anbieten.
+Word: Fach; Meaning: subject; Type: Noun; Article: das; Plural: die Fächer; example_sentence: Welches Fach magst du in der Schule am liebsten?
+Word: (ab)fahren; Meaning: to leave, to depart; Type: Verb; example_sentence: Ich fahre mit dem Auto zur Arbeit. Achtung an Gleis 17! Der Zug München - Paris fährt jetzt ab.; Conjugation: fährt (ab), ist (ab)gefahren
+Word: Abfahrt; Meaning: departure; Type: Noun; Article: die; Plural: die Abfahrten; example_sentence: Wir haben noch zwanzig Minuten bis zur Abfahrt.
+Word: Fahrkarte; Meaning: ticket; Type: Noun; Article: die; Plural: die Fahrkarten; example_sentence: Hast du schon eine Fahrkarte? Ihre Fahrkarten, bitte!
+Word: Fahrplan; Meaning: schedule, timetable; Type: Noun; Article: der; Plural: die Fahrpläne; example_sentence: Ist das der neue Fahrplan?
+Word: (Fahr)Rad; Meaning: bicycle; Type: Noun; Article: das; Plural: die (Fahr)Räder; example_sentence: Wenn es nicht regnet, fahre ich mit dem Fahrrad.
+Word: fallen; Meaning: to fall; Type: Verb; example_sentence: Pass auf, das Glas fällt gleich vom Tisch.; Conjugation: fällt, ist gefallen
+Word: falsch; Meaning: wrong; Type: Adjective; example_sentence: Die Lösung ist falsch. Sie haben die falsche Nummer gewählt.
+Word: Familie; Meaning: family; Type: Noun; Article: die; Plural: die Familien; example_sentence: Meine Familie lebt in Spanien. Ich habe eine große Familie.
+Word: Familienname; Meaning: last name, surname; Type: Noun; Article: der; Plural: die Familiennamen; example_sentence: Mein Familienname ist González.
+Word: Fan; Meaning: fan, supporter; Type: Noun; Article: der; Plural: die Fans; example_sentence: Er ist ein großer Fußballfan. Bella ist ein Fan von Rammstein.
+Word: fantastisch; Meaning: fantastic; Type: Adjective; example_sentence: Dein neues Kleid sieht fantastisch aus! Das Buch ist fantastisch. Du musst es unbedingt lesen!
+Word: Farbe; Meaning: color; Type: Noun; Article: die; Plural: die Farben; example_sentence: Die Farbe gefällt mir gut. Was ist deine Lieblingsfarbe?
+Word: fast; Meaning: almost; Type: Adverb; example_sentence: Der Film ist fast zu Ende. Ich habe fast alles verstanden.
+Word: faul; Meaning: lazy; Type: Adjective; example_sentence: Heute sind wir faul: Wir machen keine Hausaufgaben und arbeiten nicht.
+Word: fehlen; Meaning: to be missing; Type: Verb; example_sentence: Herr Müller ist nicht da, er fehlt schon seit drei Tagen. Was fehlt Ihnen?; Conjugation: fehlt, hat gefehlt
+Word: Fehler; Meaning: mistake, error; Type: Noun; Article: der; Plural: die Fehler; example_sentence: Diesen Fehler mache ich immer wieder.
+Word: Feier; Meaning: celebration; Type: Noun; Article: die; Plural: die Feiern; example_sentence: Wann hast du Feierabend? Am ersten Mai ist ein Feiertag.
+Word: feiern; Meaning: to celebrate; Type: Verb; example_sentence: Wir feiern heute meinen Geburtstag. Die Feier war sehr schön.; Conjugation: feiert, hat gefeiert
+Word: Fenster; Meaning: window; Type: Noun; Article: das; Plural: die Fenster; example_sentence: Kannst du bitte das Fenster öffnen?
+Word: Ferien; Meaning: vacation, holidays; Type: Noun; Article: die (Plural); example_sentence: Bald haben wir Ferien. Fährst du in den Ferien weg oder bleibst du zu Hause?
+Word: fernsehen; Meaning: to watch TV; Type: Verb; example_sentence: Lass uns heute Abend mal fernsehen.; Conjugation: sieht fern, hat ferngesehen
+Word: Fernseher; Meaning: television set; Type: Noun; Article: der; Plural: die Fernseher; example_sentence: Der Fernseher ist kaputt.
+Word: fertig sein; Meaning: to be ready, to be finished; Type: Verb; example_sentence: Das Essen ist gleich fertig. Kommst du? Wir müssen gleich gehen. Bist du fertig?; Conjugation: ist fertig, war fertig, ist fertig gewesen
+Word: Fest; Meaning: festival, celebration; Type: Noun; Article: das; Plural: die Feste; example_sentence: Frohes Fest! Am Wochenende feiern wir ein Fest. Meine Tochter hat Geburtstag.
+Word: Festival; Meaning: festival; Type: Noun; Article: das; Plural: die Festivals; example_sentence: Am Wochenende ist in der Stadt ein Musik-Festival.
+Word: fett; Meaning: fatty, greasy; Type: Adjective; example_sentence: Die Wurst ist mir zu fett.
+Word: Fieber; Meaning: fever; Type: Noun; Article: das; example_sentence: Sie hat hohes Fieber.
+Word: Film; Meaning: movie, film; Type: Noun; Article: der; Plural: die Filme; example_sentence: Ich möchte gern diesen Film sehen.
+Word: finden; Meaning: to find; Type: Verb; example_sentence: Wir müssen den Schlüssel finden. Ich finde es nicht gut, dass du so viel arbeitest. Ich finde ihn sehr nett.; Conjugation: findet, hat gefunden
+Word: Firma; Meaning: company, firm; Type: Noun; Article: die; Plural: die Firmen; example_sentence: Er arbeitet jetzt bei einer anderen Firma.
+Word: Fisch; Meaning: fish; Type: Noun; Article: der; Plural: die Fische; example_sentence: Fisch mag ich lieber als Fleisch.
+Word: fit sein; Meaning: to be fit; Type: Verb; example_sentence: Tom will fit sein. Er geht jeden Tag ins Fitnessstudio.; Conjugation: ist fit, war fit, ist fit gewesen
+Word: Flasche; Meaning: bottle; Type: Noun; Article: die; Plural: die Flaschen; example_sentence: Eine Flasche Mineralwasser, bitte!
+Word: Fleisch; Meaning: meat; Type: Noun; Article: das; example_sentence: Fleisch mag ich nicht.
+Word: fleißig; Meaning: diligent, hardworking; Type: Adjective; example_sentence: Ibrahim ist sehr fleißig. Er macht immer seine Hausaufgaben.
+Word: fliegen; Meaning: to fly; Type: Verb; example_sentence: Ich fliege nicht gern, ich fahre lieber mit dem Zug. Ich fliege in den Ferien nach Spanien.; Conjugation: fliegt, ist geflogen
+Word: abfliegen; Meaning: to take off (flight); Type: Verb; example_sentence: Wann fliegst du ab?; Conjugation: fliegt ab, ist abgeflogen
+Word: Flohmarkt; Meaning: flea market; Type: Noun; Article: der; Plural: die Flohmärkte; example_sentence: Ich gehe gern auf den Flohmarkt. Diesen Hut habe ich auf dem Flohmarkt gekauft.
+Word: Flug; Meaning: flight; Type: Noun; Article: der; Plural: die Flüge; example_sentence: Ich möchte einen Flug nach Kanada buchen. Der Flug LH123 von München nach Frankfurt ist um 21:00 Uhr.
+Word: Flughafen; Meaning: airport; Type: Noun; Article: der; Plural: die Flughäfen; example_sentence: Kannst du mich zum Flughafen bringen?
+Word: Flugzeug; Meaning: airplane; Type: Noun; Article: das; Plural: die Flugzeuge; example_sentence: Das Flugzeug aus Berlin hat Verspätung. Das Flugzeug startet in einer halben Stunde. Wir müssen uns beeilen.
+Word: Fluss; Meaning: river; Type: Noun; Article: der; Plural: die Flüsse; example_sentence: Der Rhein ist ein großer Fluss.
+Word: Formular; Meaning: form, document; Type: Noun; Article: das; Plural: die Formulare; example_sentence: Sie müssen dieses Formular ausfüllen.
+Word: Fotoapparat; Meaning: camera; Type: Noun; Article: der; Plural: die Fotoapparate; example_sentence: Ich möchte mir einen Fotoapparat kaufen.
+Word: fotografieren; Meaning: to take photos; Type: Verb; example_sentence: Ich fotografiere gern.; Conjugation: fotografiert, hat fotografiert
+Word: Foto; Meaning: photo, picture; Type: Noun; Article: das; Plural: die Fotos; example_sentence: Darf ich ein Foto machen?
+Word: Frage; Meaning: question; Type: Noun; Article: die; Plural: die Fragen; example_sentence: Ich habe eine Frage.
+Word: fragen; Meaning: to ask; Type: Verb; example_sentence: Er fragt, wann er kommen kann. Ich möchte Sie etwas fragen.; Conjugation: fragt, hat gefragt
+Word: Frau; Meaning: woman, Mrs.; Type: Noun; Article: die; Plural: die Frauen; example_sentence: Das ist Frau Becker. Guten Tag, Frau Schmitt! Hier arbeiten mehr Frauen als Männer.
+Word: frei; Meaning: free, available; Type: Adjective; example_sentence: Entschuldigung, ist dieser Platz noch frei? Morgen haben wir frei. Eintritt frei.
+Word: freiwillig; Meaning: voluntary, willingly; Type: Adjective; example_sentence: Manchmal bleibe ich freiwillig länger im Büro.
+Word: Freizeit; Meaning: free time, leisure; Type: Noun; Article: die; example_sentence: In meiner Freizeit spiele ich oft Fußball.
+Word: fremd; Meaning: foreign, unfamiliar; Type: Adjective; example_sentence: Das weiß ich nicht, ich bin fremd hier. Ich reise gern in fremde Länder.
+Word: freuen (sich); Meaning: to be happy, to look forward to; Type: Verb; example_sentence: Zum Geburtstag habe ich ein interessantes Buch bekommen. Ich freue mich sehr über das Geschenk. Die Kinder freuen sich schon auf die Ferien. Ich freue mich, weil ich heute mit meinen Freunden Fußball spiele. Es/Das freut mich!; Conjugation: freut, hat gefreut
+Word: Freund; Meaning: friend (male); Type: Noun; Article: der; Plural: die Freunde; example_sentence: Das ist ein Freund von mir.
+Word: Freundin; Meaning: friend (female); Type: Noun; Article: die; Plural: die Freundinnen; example_sentence: Das ist meine Freundin Susanne.
+Word: freundlich; Meaning: friendly, kind; Type: Adjective; example_sentence: Er ist immer sehr freundlich zu mir. Mit freundlichen Grüßen.
+Word: frisch; Meaning: fresh; Type: Adjective; example_sentence: Das Brot ist noch ganz frisch. Ich habe es gerade gekauft.
+Word: froh; Meaning: happy, glad; Type: Adjective; example_sentence: Ich bin froh, dass du kommen kannst. Frohes Fest!
+Word: früh; Meaning: early; Type: Adverb; example_sentence: Geht es auch später? Sechs Uhr ist mir zu früh. Ich muss morgen sehr früh aufstehen.
+Word: früher; Meaning: earlier, in the past; Type: Adverb; example_sentence: Früher habe ich in Berlin gewohnt. Wir nehmen den früheren Zug.
+Word: Frühstück; Meaning: breakfast; Type: Noun; Article: das; example_sentence: Möchtest du ein Ei zum Frühstück?
+Word: frühstücken; Meaning: to have breakfast; Type: Verb; example_sentence: Ich frühstücke immer um 9:00 Uhr.; Conjugation: frühstückt, hat gefrühstückt
+Word: fühlen (sich); Meaning: to feel; Type: Verb; example_sentence: Wie fühlen Sie sich? Ich fühle mich heute nicht gut.; Conjugation: fühlt, hat gefühlt
+Word: Führerschein; Meaning: driver's license; Type: Noun; Article: der; Plural: die Führerscheine; example_sentence: Hast du den Führerschein? Sie hat die Führerscheinprüfung bestanden.
+Word: Führung; Meaning: guided tour, leadership; Type: Noun; Article: die; Plural: die Führungen; example_sentence: Die nächste Führung beginnt um 15 Uhr.
+Word: Fundsachen; Meaning: lost property; Type: Noun; Article: die (Pl.); example_sentence: Haben Sie meinen Schirm gefunden? - Sie können dort bei den Fundsachen schauen.
+Word: für; Meaning: for; Type: Preposition; example_sentence: Das Paket ist für Sie. Das ist der Schlüssel für die Haustür. Gibt es hier einen Sportverein für Jugendliche?
+Word: furchtbar; Meaning: terrible, awful; Type: Adjective; example_sentence: Er hat furchtbare Schmerzen. Die Hose sieht ja furchtbar aus. So kannst du nicht zur Arbeit gehen!
+Word: Fuß; Meaning: foot; Type: Noun; Article: der; Plural: die Füße; example_sentence: Der linke Fuß tut mir weh. Gehen Sie zu Fuß zur Arbeit?
+Word: Fußball; Meaning: soccer, football; Type: Noun; Article: der; Plural: die Fußbälle; example_sentence: Spielt ihr gern Fußball?
+Word: Gabel; Meaning: fork; Type: Noun; Article: die; Plural: die Gabeln; example_sentence: Kann ich bitte eine Gabel haben?
+Word: ganz; Meaning: whole, entire, completely; Type: Adjective/Adverb; example_sentence: Oh nein! Was ist passiert? Ist deine Brille jetzt kaputt? - Nein, zum Glück ist sie noch ganz! Morgen haben wir den ganzen Tag Schule. Ich bin ganz sicher, dass dein Termin am Montag ist. Ich finde Lara ganz nett. Oh, ich habe meinen Zahnarzttermin ganz vergessen.
+Word: Garage; Meaning: garage; Type: Noun; Article: die; Plural: die Garagen; example_sentence: Hier ist eine Garage für dein Auto.
+Word: Garten; Meaning: garden; Type: Noun; Article: der; Plural: die Gärten; example_sentence: Wir haben leider keinen Garten.
+Word: Gast; Meaning: guest; Type: Noun; Article: der; Plural: die Gäste; example_sentence: Heute Abend haben wir Gäste.
+Word: geben; Meaning: to give; Type: Verb; example_sentence: Kannst du mir mal deinen Stift geben? Es gibt keine Karten mehr für das Konzert.; Conjugation: gibt, hat gegeben
+Word: geboren; Meaning: born; Type: Adjective; example_sentence: Ich bin in Zagreb geboren. Wann und wo sind Sie geboren?
+Word: Geburtsjahr; Meaning: year of birth; Type: Noun; Article: das; Plural: die Geburtsjahre; example_sentence: Das Geburtsjahr Ihres Sohnes, bitte?
+Word: Geburtsort; Meaning: place of birth; Type: Noun; Article: der; Plural: die Geburtsorte; example_sentence: Bitte tragen Sie Ihren Geburtsort noch ein.
+Word: Geburtstag; Meaning: birthday; Type: Noun; Article: der; Plural: die Geburtstage; example_sentence: Herzlichen Glückwunsch zum Geburtstag!
+Word: geehrt; Meaning: honored, esteemed; Type: Adjective; example_sentence: Sehr geehrte Damen und Herren.
+Word: gefährlich; Meaning: dangerous; Type: Adjective; example_sentence: Du darfst nicht bei Rot über die Straße gehen. Das ist gefährlich.
+Word: gefallen; Meaning: to like, to be pleasing; Type: Verb; example_sentence: Das Bild gefällt mir. Wie gefällt es Ihnen in Berlin?; Conjugation: gefällt, hat gefallen
+Word: gegen; Meaning: against; Type: Preposition; example_sentence: Fahr nicht gegen den Baum! Ich bin gegen diesen Vorschlag. Wer spielt gegen wen? - Bayern gegen Dortmund. Haben Sie etwas gegen Grippe?
+Word: Gegenteil; Meaning: opposite; Type: Noun; Article: das; Plural: die Gegenteile; example_sentence: Das Gegenteil von „klein“ ist „groß“.
+Word: gegenüber; Meaning: opposite, across from; Type: Preposition/Adverb; example_sentence: Die Post ist gegenüber vom Bahnhof. Die Hausnummer 84 ist gleich gegenüber.
+Word: Gehalt; Meaning: salary; Type: Noun; Article: das; Plural: die Gehälter; example_sentence: Sie ist mit ihrem Gehalt zufrieden.
+Word: gehen; Meaning: to go, to walk; Type: Verb; example_sentence: Ich weiß nicht, wie das geht. Wie geht‘s? - Es geht. Ich muss jetzt leider gehen. Ich muss zum Arzt gehen. Das geht (doch) nicht! Nimmst du die Straßenbahn? - Nein, ich gehe lieber zu Fuß.; Conjugation: geht, ist gegangen
+Word: gehören; Meaning: to belong; Type: Verb; example_sentence: Gehört der Stift dir?; Conjugation: gehört, hat gehört
+Word: Geld; Meaning: money; Type: Noun; Article: das; example_sentence: Hast du noch Geld? Kannst du mir ein bisschen Geld leihen?
+Word: Geldbörse; Meaning: wallet; Type: Noun; Article: die; Plural: die Geldbörsen; example_sentence: Sie hat ihre Geldbörse verloren.
+Word: Gemüse; Meaning: vegetables; Type: Noun; Article: das; example_sentence: Wir kaufen das Gemüse immer auf dem Markt. Tomaten sind mein Lieblingsgemüse.
+Word: genau; Meaning: exactly, precise; Type: Adverb/Adjective; example_sentence: Sind Sie sicher, dass die Prüfung am 15. Juni ist? - Ja, das weiß ich genau. Die Uhr geht genau. Es ist genau acht Uhr.
+Word: genug; Meaning: enough; Type: Adverb; example_sentence: Es ist noch genug Pizza da. Möchtest du noch ein Stück? Ich verdiene nicht genug.
+Word: Gepäck; Meaning: luggage; Type: Noun; Article: das; example_sentence: Wollen Sie Ihr Gepäck mitnehmen? Sie können Ihr Gepäck auch im Hotel lassen.
+Word: gerade; Meaning: just, straight, at the moment; Type: Adverb; example_sentence: Kannst du später anrufen? Wir essen gerade. Was machst du gerade? Da kommt er ja gerade.
+Word: geradeaus; Meaning: straight ahead; Type: Adverb; example_sentence: Gehen Sie immer geradeaus!
+Word: Gerät; Meaning: device, appliance; Type: Noun; Article: das; Plural: die Geräte; example_sentence: Elektrogeräte finden Sie im dritten Stock.
+Word: Gericht; Meaning: dish, court; Type: Noun; Article: das; Plural: die Gerichte; example_sentence: Mein Lieblingsgericht ist Pizza.
+Word: gern; Meaning: gladly, with pleasure; Type: Adverb; example_sentence: Ich helfe Ihnen gern.
+Word: lieber; Meaning: rather, prefer; Type: Adverb; example_sentence: Kaffee oder Tee? - Ich trinke lieber einen Tee.
+Word: am liebsten; Meaning: most preferably; Type: Adverb; example_sentence: Am liebsten trinke ich Kaffee.
+Word: Geschäft; Meaning: shop, business; Type: Noun; Article: das; Plural: die Geschäfte; example_sentence: Die Geschäfte schließen um 18.30 Uhr.
+Word: Geschenk; Meaning: gift, present; Type: Noun; Article: das; Plural: die Geschenke; example_sentence: Danke für das schöne Geschenk.
+Word: Geschichte; Meaning: story, history; Type: Noun; Article: die; Plural: die Geschichten; example_sentence: Erzählst du mir eine Geschichte? Ich interessiere mich nicht für Geschichte. Paul hat gute Noten in Geschichte.
+Word: Geschirr; Meaning: dishes; Type: Noun; Article: das; example_sentence: Stellst du bitte das Geschirr in den Schrank?
+Word: Gesicht; Meaning: face; Type: Noun; Article: das; Plural: die Gesichter; example_sentence: Wasch dir bitte das Gesicht. Sie hat ein freundliches Gesicht.
+Word: Gespräch; Meaning: conversation, discussion; Type: Noun; Article: das; Plural: die Gespräche; example_sentence: Sie hören ein Gespräch. Zu diesem Gespräch gibt es fünf Aufgaben. Das Gespräch mit Frau Kunz ist um 14 Uhr.
+Word: gestern; Meaning: yesterday; Type: Adverb; example_sentence: Gestern wollte ich dich anrufen.
+Word: gesund; Meaning: healthy; Type: Adjective; example_sentence: Ich hatte Grippe. Jetzt bin ich wieder gesund.
+Word: Gesundheit; Meaning: health; Type: Noun; Article: die; example_sentence: Gesundheit! Sind Sie erkältet?
+Word: Getränk; Meaning: drink, beverage; Type: Noun; Article: das; Plural: die Getränke; example_sentence: Mein Lieblingsgetränk ist Tomatensaft. Die Getränkekarte, bitte!
+Word: gewinnen; Meaning: to win; Type: Verb; example_sentence: Unsere Mannschaft hat gewonnen. Mein Sohn will bei diesem Spiel immer gewinnen.; Conjugation: gewinnt, hat gewonnen
+Word: Gewitter; Meaning: thunderstorm; Type: Noun; Article: das; example_sentence: Ich glaube, es gibt heute ein Gewitter.
+Word: Gitarre; Meaning: guitar; Type: Noun; Article: die; Plural: die Gitarren; example_sentence: Er kann gut Gitarre spielen.
+Word: Glas; Meaning: glass; Type: Noun; Article: das; Plural: die Gläser; example_sentence: Bitte noch ein Glas Apfelsaft! Wir brauchen noch drei Gläser.
+Word: glauben; Meaning: to believe; Type: Verb; example_sentence: Sie können mir glauben, es ist so. Ich glaube, er kommt gleich.; Conjugation: glaubt, hat geglaubt
+Word: gleich; Meaning: immediately, same; Type: Adverb/Adjective; example_sentence: Ich komme gleich. Wir sind gleich alt.
+Word: Gleis; Meaning: track, platform; Type: Noun; Article: das; Plural: die Gleise; example_sentence: Der ICE nach Berlin hält heute an Gleis 12.
+Word: Glück; Meaning: luck, happiness; Type: Noun; Article: das; example_sentence: Viel Glück! Oh, es regnet. Zum Glück habe ich meinen Schirm dabei.
+Word: glücklich; Meaning: happy; Type: Adjective; example_sentence: Meine Tochter ist glücklich verheiratet. Ein glückliches neues Jahr!
+Word: Glückwunsch; Meaning: congratulations; Type: Noun; Article: der; Plural: die Glückwünsche; example_sentence: Herzlichen Glückwunsch zum Geburtstag!
+Word: gratulieren; Meaning: to congratulate; Type: Verb; example_sentence: Ich gratuliere dir!; Conjugation: gratuliert, hat gratuliert
+Word: grillen; Meaning: to grill, to barbecue; Type: Verb; example_sentence: Heute grillen wir im Garten.; Conjugation: grillt, hat gegrillt
+Word: Grippe; Meaning: flu; Type: Noun; Article: die; example_sentence: Ich habe eine Grippe und kann leider nicht kommen.
+Word: groß; Meaning: big, tall; Type: Adjective; example_sentence: Mein Bruder und ich sind gleich groß. Frankfurt ist eine große Stadt. Unsere Wohnung ist 80 m² groß.
+Word: Größe; Meaning: size; Type: Noun; Article: die; Plural: die Größen; example_sentence: Haben Sie das T-Shirt auch in Größe M?
+Word: Gruppe; Meaning: group; Type: Noun; Article: die; Plural: die Gruppen; example_sentence: Die erste Gruppe beginnt um 16 Uhr. Für Gruppen gibt es eine Ermäßigung.
+Word: Gruß; Meaning: greeting; Type: Noun; Article: der; Plural: die Grüße; example_sentence: Viele Grüße an Ihre Frau. Liebe Grüße. Mit freundlichen Grüßen.
+Word: gültig sein; Meaning: to be valid; Type: Verb; example_sentence: Der Pass ist nicht mehr gültig.; Conjugation: ist gültig, war gültig, ist gültig gewesen
+Word: günstig; Meaning: affordable, favorable; Type: Adjective; example_sentence: In diesem Laden gibt es immer günstige Angebote. Ich suche ein günstiges Sofa.
+Word: gut; Meaning: good; Type: Adjective; example_sentence: Das finde ich gut. Ich komme um 17 Uhr. – Gut!; Comparison: besser, am besten
+Word: Haar; Meaning: hair; Type: Noun; Article: das; Plural: die Haare; example_sentence: Sie hat lange Haare.
+Word: haben; Meaning: to have; Type: Verb; example_sentence: Ich habe ein neues Auto. Hast du kurz Zeit?; Conjugation: hat, hatte, hat gehabt
+Word: Hähnchen; Meaning: chicken; Type: Noun; Article: das; example_sentence: Ein Hähnchen mit Pommes, bitte!
+Word: Halle; Meaning: hall; Type: Noun; Article: die; Plural: die Hallen; example_sentence: Wir treffen uns in Halle B. Wo ist die neue Sporthalle?
+Word: hallo; Meaning: hello; Type: Interjection; example_sentence: Hallo Inge! Wie geht’s?
+Word: Hals; Meaning: throat, neck; Type: Noun; Article: der; Plural: die Hälse; example_sentence: Mir tut der Hals weh. Ich habe seit gestern Halsschmerzen.
+Word: halten; Meaning: to hold, to stop; Type: Verb; example_sentence: Dieser Zug hält nicht in Rüdesheim. Kannst du mal kurz meine Jacke halten?; Conjugation: hält, hat gehalten
+Word: Haltestelle; Meaning: bus stop, station; Type: Noun; Article: die; Plural: die Haltestellen; example_sentence: An der nächsten Haltestelle müssen Sie aussteigen.
+Word: Hamburger; Meaning: hamburger; Type: Noun; Article: der; Plural: die Hamburger; example_sentence: Einen Hamburger ohne Salat, bitte.
+Word: Hand; Meaning: hand; Type: Noun; Article: die; Plural: die Hände; example_sentence: Wasch dir bitte die Hände vor dem Essen.
+Word: Handtuch; Meaning: towel; Type: Noun; Article: das; Plural: die Handtücher; example_sentence: Gibst du mir bitte ein frisches Handtuch?
+Word: Handy; Meaning: mobile phone; Type: Noun; Article: das; Plural: die Handys; example_sentence: In der Schule bitte die Handys ausmachen! Kannst du mir bitte deine Handynummer geben?
+Word: hängen; Meaning: to hang; Type: Verb; example_sentence: Im Museum hängen moderne Bilder. Warum hast du das Bild noch nicht an die Wand gehängt?; Conjugation: hängt, hat gehangen, hat gehängt
+Word: hart; Meaning: hard; Type: Adjective; example_sentence: Ich finde das Bett zu hart. Die Brötchen sind ja ganz hart.
+Word: hässlich; Meaning: ugly; Type: Adjective; example_sentence: Ich finde das Kleid hässlich. Es gefällt mir nicht.
+Word: Hauptstadt; Meaning: capital city; Type: Noun; Article: die; Plural: die Hauptstädte; example_sentence: Berlin ist die Hauptstadt von Deutschland.
+Word: Haus; Meaning: house; Type: Noun; Article: das; Plural: die Häuser; example_sentence: In welchem Haus wohnst du? Ich gehe jetzt nach Hause. Paul ist nicht zu Hause.
+Word: Haushalt; Meaning: household; Type: Noun; Article: der; Plural: die Haushalte; example_sentence: Wer macht bei euch den Haushalt? - Meine Frau und ich machen den Haushalt zusammen. Ich wasche die Wäsche und sie putzt und räumt auf.
+Word: Heft; Meaning: notebook; Type: Noun; Article: das; Plural: die Hefte; example_sentence: Hast du dein Heft dabei?
+Word: Heimat; Meaning: homeland; Type: Noun; Article: die; example_sentence: Ich komme aus der Schweiz. Das ist meine Heimat. Mein Heimatland ist Italien. Dort bin ich geboren. Jetzt lebe ich in Deutschland, das ist meine neue Heimat.
+Word: heiraten; Meaning: to marry; Type: Verb; example_sentence: Meine Schwester heiratet nächsten Monat.; Conjugation: heiratet, hat geheiratet
+Word: heiß; Meaning: hot; Type: Adjective; example_sentence: Vorsicht, der Tee ist heiß! Mir ist heiß. Kannst du das Fenster öffnen?
+Word: heißen; Meaning: to be called; Type: Verb; example_sentence: Ich heiße Charlotte Meier. Wie heißt das auf Deutsch?; Conjugation: heißt, hat geheißen
+Word: Heizung; Meaning: heating; Type: Noun; Article: die; Plural: die Heizungen; example_sentence: Es ist kalt. Ist die Heizung kaputt?
+Word: helfen; Meaning: to help; Type: Verb; example_sentence: Würden Sie mir bitte helfen?; Conjugation: hilft, hat geholfen
+Word: hell; Meaning: bright, light; Type: Adjective; example_sentence: Im Sommer ist es bis 21 Uhr hell. Mein Zimmer ist sehr hell. Haben Sie das T-Shirt auch in hellblau?
+Word: Hemd; Meaning: shirt; Type: Noun; Article: das; Plural: die Hemden; example_sentence: Nick trägt heute ein neues Hemd.
+Word: her; Meaning: here; Type: Adverb; example_sentence: Komm bitte mal her! Herein! Die Tür ist offen. Woher kommen Sie?
+Word: heraus/raus; Meaning: out; Type: Adverb; example_sentence: Möchtet ihr nicht rauskommen? Das Wetter ist so schön. Kannst du bitte den Müll rausbringen?
+Word: Halle; Meaning: hall; Type: Noun; Article: die; Plural: die Hallen; example_sentence: Wir treffen uns in Halle B. Wo ist die neue Sporthalle?
+Word: hallo; Meaning: hello; Type: Interjection; example_sentence: Hallo Inge! Wie geht’s?
+Word: Hals; Meaning: throat, neck; Type: Noun; Article: der; Plural: die Hälse; example_sentence: Mir tut der Hals weh. Ich habe seit gestern Halsschmerzen.
+Word: halten; Meaning: to hold, to stop; Type: Verb; example_sentence: Dieser Zug hält nicht in Rüdesheim. Kannst du mal kurz meine Jacke halten?; Conjugation: hält, hat gehalten
+Word: Haltestelle; Meaning: bus stop, station; Type: Noun; Article: die; Plural: die Haltestellen; example_sentence: An der nächsten Haltestelle müssen Sie aussteigen.
+Word: Hamburger; Meaning: hamburger; Type: Noun; Article: der; Plural: die Hamburger; example_sentence: Einen Hamburger ohne Salat, bitte.
+Word: Hand; Meaning: hand; Type: Noun; Article: die; Plural: die Hände; example_sentence: Wasch dir bitte die Hände vor dem Essen.
+Word: Handtuch; Meaning: towel; Type: Noun; Article: das; Plural: die Handtücher; example_sentence: Gibst du mir bitte ein frisches Handtuch?
+Word: Handy; Meaning: mobile phone; Type: Noun; Article: das; Plural: die Handys; example_sentence: In der Schule bitte die Handys ausmachen! Kannst du mir bitte deine Handynummer geben?
+Word: hängen; Meaning: to hang; Type: Verb; example_sentence: Im Museum hängen moderne Bilder. Warum hast du das Bild noch nicht an die Wand gehängt?; Conjugation: hängt, hat gehangen, hat gehängt
+Word: hart; Meaning: hard; Type: Adjective; example_sentence: Ich finde das Bett zu hart. Die Brötchen sind ja ganz hart.
+Word: hässlich; Meaning: ugly; Type: Adjective; example_sentence: Ich finde das Kleid hässlich. Es gefällt mir nicht.
+Word: Hauptstadt; Meaning: capital city; Type: Noun; Article: die; Plural: die Hauptstädte; example_sentence: Berlin ist die Hauptstadt von Deutschland.
+Word: Haus; Meaning: house; Type: Noun; Article: das; Plural: die Häuser; example_sentence: In welchem Haus wohnst du? Ich gehe jetzt nach Hause. Paul ist nicht zu Hause.
+Word: Haushalt; Meaning: household; Type: Noun; Article: der; Plural: die Haushalte; example_sentence: Wer macht bei euch den Haushalt? - Meine Frau und ich machen den Haushalt zusammen. Ich wasche die Wäsche und sie putzt und räumt auf.
+Word: Heft; Meaning: notebook; Type: Noun; Article: das; Plural: die Hefte; example_sentence: Hast du dein Heft dabei?
+Word: Heimat; Meaning: homeland; Type: Noun; Article: die; example_sentence: Ich komme aus der Schweiz. Das ist meine Heimat. Mein Heimatland ist Italien. Dort bin ich geboren. Jetzt lebe ich in Deutschland, das ist meine neue Heimat.
+Word: heiraten; Meaning: to marry; Type: Verb; example_sentence: Meine Schwester heiratet nächsten Monat.; Conjugation: heiratet, hat geheiratet
+Word: heiß; Meaning: hot; Type: Adjective; example_sentence: Vorsicht, der Tee ist heiß! Mir ist heiß. Kannst du das Fenster öffnen?
+Word: heißen; Meaning: to be called; Type: Verb; example_sentence: Ich heiße Charlotte Meier. Wie heißt das auf Deutsch?; Conjugation: heißt, hat geheißen
+Word: Heizung; Meaning: heating; Type: Noun; Article: die; Plural: die Heizungen; example_sentence: Es ist kalt. Ist die Heizung kaputt?
+Word: helfen; Meaning: to help; Type: Verb; example_sentence: Würden Sie mir bitte helfen?; Conjugation: hilft, hat geholfen
+Word: hell; Meaning: bright, light; Type: Adjective; example_sentence: Im Sommer ist es bis 21 Uhr hell. Mein Zimmer ist sehr hell. Haben Sie das T-Shirt auch in hellblau?
+Word: Hemd; Meaning: shirt; Type: Noun; Article: das; Plural: die Hemden; example_sentence: Nick trägt heute ein neues Hemd.
+Word: her; Meaning: here; Type: Adverb; example_sentence: Komm bitte mal her! Herein! Die Tür ist offen. Woher kommen Sie?
+Word: heraus/raus; Meaning: out; Type: Adverb; example_sentence: Möchtet ihr nicht rauskommen? Das Wetter ist so schön. Kannst du bitte den Müll rausbringen?
+Word: herein/rein; Meaning: in, come in; Type: Adverb; example_sentence: Herein! Die Tür ist offen. Möchtest du nicht reinkommen? Ich kann uns einen Tee machen.
+Word: Herd; Meaning: stove; Type: Noun; Article: der; Plural: die Herde; example_sentence: In der neuen Küche fehlt noch der Herd.
+Word: Herr; Meaning: Mr.; Type: Noun; Article: der; Plural: die Herren; example_sentence: Guten Tag, Herr Sommer!
+Word: herstellen; Meaning: to produce, to make; Type: Verb; example_sentence: In unserer Firma stellen wir Möbel her.; Conjugation: stellt her, hat hergestellt
+Word: herunterladen; Meaning: to download; Type: Verb; example_sentence: Er lädt die Musik aus dem Internet herunter.; Conjugation: lädt herunter, hat heruntergeladen
+Word: herzlich; Meaning: cordial; Type: Adjective; example_sentence: Herzlichen Glückwunsch!
+Word: heute; Meaning: today; Type: Adverb; example_sentence: Heute ist ein schöner Tag. Heute muss ich nur bis 16 Uhr arbeiten.
+Word: hier; Meaning: here; Type: Adverb; example_sentence: Elektro Bauer, guten Tag. Hier ist Pamela Linke. Was kann ich für Sie tun? Hier wohne ich. Unterschreiben Sie bitte hier!
+Word: Hilfe; Meaning: help; Type: Noun; Article: die; example_sentence: Hilfe! Bitte helfen Sie mir! Er bekommt Hilfe von Freunden.
+Word: Himmel; Meaning: sky; Type: Noun; Article: der; Plural: die Himmel; example_sentence: Heute ist so tolles Wetter: Der Himmel ist blau und es gibt keine Wolken.
+Word: hin/hin-/-hin; Meaning: to, towards; Type: Adverb; example_sentence: Wo gehst du hin?/Wohin gehst du? Wohin ist Paul gegangen? – Ich glaube dorthin. Er geht in den Garten hinaus. Wir gehen ins Haus hinein.
+Word: hinten; Meaning: in the back; Type: Adverb; example_sentence: Die Tür zum Aussteigen ist hinten. Bitte hinten aussteigen!
+Word: hinter; Meaning: behind; Type: Preposition; example_sentence: Hinter dem Haus haben wir einen Garten.
+Word: Hobby; Meaning: hobby; Type: Noun; Article: das; Plural: die Hobbys; example_sentence: Meine Hobbys sind Joggen und Schwimmen.
+Word: hoch; Meaning: high, tall; Type: Adjective; example_sentence: Der Mount Everest ist circa 8.880 Meter hoch. Die Preise in diesem Laden sind sehr hoch.
+Word: Hochzeit; Meaning: wedding; Type: Noun; Article: die; Plural: die Hochzeiten; example_sentence: Zu seiner Hochzeit kommen mehr als einhundert Gäste.
+Word: hoffen; Meaning: to hope; Type: Verb; example_sentence: Ich hoffe, dass es dir gut geht.; Conjugation: hofft, hat gehofft
+Word: hoffentlich; Meaning: hopefully; Type: Adverb; example_sentence: Hoffentlich hat unser Zug keine Verspätung.
+Word: holen; Meaning: to fetch, to get; Type: Verb; example_sentence: Soll ich uns etwas zu trinken holen?; Conjugation: holt, hat geholt
+Word: Homepage; Meaning: homepage; Type: Noun; Article: die; Plural: die Homepages; example_sentence: Auf der Homepage von Freiburg gibt es alle wichtigen Informationen über die Stadt. Kennst du eine Homepage mit Deutschübungen?
+Word: hören; Meaning: to hear; Type: Verb; example_sentence: Hör mal! Was ist das?; Conjugation: hört, hat gehört
+Word: Hose; Meaning: pants; Type: Noun; Article: die; Plural: die Hosen; example_sentence: Kann ich die Hose waschen?
+Word: Hotel; Meaning: hotel; Type: Noun; Article: das; Plural: die Hotels; example_sentence: Im Urlaub sind wir in einem Hotel am Meer.
+Word: Hund; Meaning: dog; Type: Noun; Article: der; Plural: die Hunde; example_sentence: Magst du Hunde? Meine Tochter hat Angst vor Hunden.
+Word: Hunger; Meaning: hunger; Type: Noun; Article: der; example_sentence: Ich habe Hunger! Wann können wir endlich essen?
+Word: husten; Meaning: to cough; Type: Verb; example_sentence: Sie hustet seit zwei Tagen. Sie ist krank.; Conjugation: hustet, hat gehustet
+Word: Idee; Meaning: idea; Type: Noun; Article: die; Plural: die Ideen; example_sentence: Was machen wir heute Abend? Hast du eine gute Idee?
+Word: immer; Meaning: always; Type: Adverb; example_sentence: Frau Bast kommt immer zu spät.
+Word: in; Meaning: in; Type: Preposition; example_sentence: Ich wohne in Wiesbaden. Der Zug kommt in fünf Minuten. Frau Rausch arbeitet im Reisebüro. Komm, wir gehen ins Kino.
+Word: Information; Meaning: information; Type: Noun; Article: die; Plural: die Informationen; example_sentence: Wir haben hier einige wichtige Informationen für Sie. Wenn Sie Fragen haben, gehen Sie zur Information.
+Word: informieren (sich); Meaning: to inform (oneself); Type: Verb; example_sentence: Ich möchte mich vor der Reise über das Land informieren.; Conjugation: informiert, hat informiert
+Word: Insel; Meaning: island; Type: Noun; Article: die; Plural: die Inseln; example_sentence: Ich möchte im Sommer auf einer Insel Urlaub machen. Rügen ist die größte deutsche Insel.
+Word: Instrument; Meaning: instrument; Type: Noun; Article: das; Plural: die Instrumente; example_sentence: Ich spiele Klavier. Spielen Sie auch ein Instrument?
+Word: intelligent; Meaning: intelligent; Type: Adjective; example_sentence: Einstein war sehr intelligent.
+Word: Interesse; Meaning: interest; Type: Noun; Article: das; Plural: die Interessen; example_sentence: Ich habe viele Interessen: Sport, Lesen, Kultur, Reisen.
+Word: interessieren (sich); Meaning: to be interested in; Type: Verb; example_sentence: Ich interessiere mich für Fußball.; Conjugation: interessiert, hat interessiert
+Word: interessant; Meaning: interesting; Type: Adjective; example_sentence: Ich lese gerade ein interessantes Buch.
+Word: international; Meaning: international; Type: Adjective; example_sentence: Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China …
+Word: Internet; Meaning: internet; Type: Noun; Article: das; example_sentence: Das findest du im Internet. Du kannst im Internet Musik hören oder Spiele spielen.
+Word: Interview; Meaning: interview; Type: Noun; Article: das; Plural: die Interviews; example_sentence: Komm schnell! Im Radio kommt ein Interview mit deinem Lieblingssänger.
+Word: ja; Meaning: yes; Type: Adverb; example_sentence: Sind Sie Herr Watanabe? – Ja. Du bist hier in Berlin? Das ist ja toll!
+Word: Jacke; Meaning: jacket; Type: Noun; Article: die; Plural: die Jacken; example_sentence: Zieh dir eine Jacke an. Es ist kalt.
+Word: Jeans; Meaning: jeans; Type: Noun; Article: die; Plural: die Jeans; example_sentence: Ich mag Jeans lieber als Röcke.
+Word: jeder; Meaning: every; Type: Pronoun; example_sentence: Das Restaurant hat jeden Tag geöffnet. Jedes Kind bekommt einen Ball.
+Word: jemand; Meaning: someone; Type: Pronoun; example_sentence: Hat jemand meinen Stift? Hallo, ist jemand da?
+Word: jetzt; Meaning: now; Type: Adverb; example_sentence: Jetzt machen wir eine Pause.
+Word: Job; Meaning: job; Type: Noun; Article: der; Plural: die Jobs; example_sentence: Jenny hat einen neuen Job bei der Post. Ich suche noch einen Ferienjob.
+Word: joggen; Meaning: to jog; Type: Verb; example_sentence: Ich jogge gern im Park.; Conjugation: joggt, ist/hat gejoggt
+Word: Jugendherberge; Meaning: youth hostel; Type: Noun; Article: die; Plural: die Jugendherbergen; example_sentence: Wir übernachten in einer Jugendherberge.
+Word: Jugendliche; Meaning: young people; Type: Noun; Article: der/die; Plural: die Jugendlichen; example_sentence: Viele Jugendliche hören den ganzen Tag Musik. Der Eintritt für Kinder und Jugendliche bis 16 Jahre ist frei.
+Word: jung; Meaning: young; Type: Adjective; example_sentence: Claudia ist 21. – Was? Noch so jung? Bei uns im Haus wohnen viele junge Leute. Mein Bruder ist fünf Jahre jünger als ich.
+Word: Junge; Meaning: boy; Type: Noun; Article: der; Plural: die Jungen; example_sentence: In der Klasse von meiner Tochter sind 13 Jungen und 15 Mädchen.
+Word: Kaffee; Meaning: coffee; Type: Noun; Article: der; Plural: die Kaffees; example_sentence: Zum Frühstück trinke ich immer Kaffee. Einen Kaffee, bitte.
+Word: Kalender; Meaning: calendar; Type: Noun; Article: der; Plural: die Kalender; example_sentence: Haben Sie am Montag Zeit? - Einen Moment, ich schaue in meinem Kalender. Ich schreibe alle Termine in meinen Kalender.
+Word: kalt; Meaning: cold; Type: Adjective; example_sentence: Heute ist es sehr kalt. Der Kaffee ist kalt. Ich möchte ihn nicht mehr trinken. Mir ist kalt.
+Word: Kamera; Meaning: camera; Type: Noun; Article: die; Plural: die Kameras; example_sentence: Hannes hat eine neue Kamera. Er kann mit der Kamera Fotos und Filme machen.
+Word: kaputt; Meaning: broken; Type: Adjective; example_sentence: Unsere Waschmaschine ist kaputt.
+Word: Karte; Meaning: card, map, ticket; Type: Noun; Article: die; Plural: die Karten; example_sentence: Ich schreibe meinen Bekannten eine Karte aus dem Urlaub. Wollen wir Karten spielen? Du musst noch die Karten für das Konzert abholen, vergiss das bitte nicht! Die Karte, bitte! Ich möchte etwas bestellen. Kann ich auch mit Karte (be-)zahlen?
+Word: Kartoffel; Meaning: potato; Type: Noun; Article: die; Plural: die Kartoffeln; example_sentence: Für Pommes frites braucht man Kartoffeln.
+Word: Käse; Meaning: cheese; Type: Noun; Article: der; example_sentence: Isst du lieber Käse oder Wurst?
+Word: Kasse; Meaning: cash register, checkout; Type: Noun; Article: die; Plural: die Kassen; example_sentence: Zahlen Sie bitte an der Kasse.
+Word: Katze; Meaning: cat; Type: Noun; Article: die; Plural: die Katzen; example_sentence: Meine Tochter wünscht sich eine Katze.
+Word: kaufen; Meaning: to buy; Type: Verb; example_sentence: Tim kauft sich ein neues Auto.; Conjugation: kauft, hat gekauft
+Word: Kaufhaus; Meaning: department store; Type: Noun; Article: das; Plural: die Kaufhäuser; example_sentence: Meine Pullover kaufe ich immer im Kaufhaus Hertie.
+Word: kein; Meaning: no, none; Type: Pronoun; example_sentence: Hast du keinen Hunger? Ich habe heute leider keine Zeit. Ich spreche leider kein Chinesisch. Ich habe keine Kinder.
+Word: Keller; Meaning: basement; Type: Noun; Article: der; Plural: die Keller; example_sentence: Bitte bring die Kartoffeln in den Keller! Die Waschmaschinen sind im Keller.
+Word: kennen; Meaning: to know; Type: Verb; example_sentence: Kennen Sie diese Frau? – Nein, leider nicht.; Conjugation: kennt, hat gekannt
+Word: kennenlernen; Meaning: to meet, get to know; Type: Verb; example_sentence: Wo habt ihr euch kennengelernt? – Wir haben uns in München kennengelernt.; Conjugation: lernt kennen, hat kennengelernt
+Word: Kenntnisse; Meaning: knowledge; Type: Noun; Article: die; Plural: die Kenntnisse; example_sentence: Deine Deutschkenntnisse sind sehr gut! Ich möchte meine Computerkenntnisse verbessern.
+Word: Kette; Meaning: chain, necklace; Type: Noun; Article: die; Plural: die Ketten; example_sentence: Meine Mutter bekommt eine schöne Kette zum Geburtstag.
+Word: Kind; Meaning: child; Type: Noun; Article: das; Plural: die Kinder; example_sentence: Wie viele Kinder haben Sie?
+Word: Kindergarten; Meaning: kindergarten; Type: Noun; Article: der; Plural: die Kindergärten; example_sentence: Die kleine Laura geht schon in den Kindergarten.
+Word: Kino; Meaning: cinema, movie theater; Type: Noun; Article: das; Plural: die Kinos; example_sentence: Gehen wir heute Abend zusammen ins Kino?
+Word: Kiosk; Meaning: kiosk; Type: Noun; Article: der; Plural: die Kioske; example_sentence: Zeitungen kannst du am Kiosk kaufen.
+Word: Kirche; Meaning: church; Type: Noun; Article: die; Plural: die Kirchen; example_sentence: Diese Kirche ist fast 800 Jahre alt.
+Word: klappen; Meaning: to work out, to succeed; Type: Verb; example_sentence: Können wir uns heute Mittag treffen? – Ja, das hat geklappt.; Conjugation: klappt, hat geklappt
+Word: klar; Meaning: clear, of course; Type: Adjective; example_sentence: Kommst du mit? – Klar! Ich komme morgen zu deiner Party, das ist doch klar.
+Word: Klavier; Meaning: piano; Type: Noun; Article: das; Plural: die Klaviere; example_sentence: Jakob kann sehr gut Klavier spielen.
+Word: Kleid; Meaning: dress; Type: Noun; Article: das; Plural: die Kleider; example_sentence: Julia möchte ein rotes Kleid kaufen.
+Word: Kleidung; Meaning: clothing; Type: Noun; Article: die; Plural: die Kleidungen; example_sentence: Wo finde ich Kleidung? – Hosen im ersten, Kleider und Röcke im zweiten Stock.
+Word: klein; Meaning: small; Type: Adjective; example_sentence: Unsere Wohnung ist sehr klein. Unsere Tochter ist noch klein. Sie ist erst zwei Jahre alt. Wir machen am Wochenende einen kleinen Ausflug.
+Word: klug; Meaning: clever, smart; Type: Adjective; example_sentence: Molly ist ein kluges Mädchen. Lisa ist sehr klug. Sie bekommt immer gute Noten. Das ist klug von dir.
+Word: kochen; Meaning: to cook; Type: Verb; example_sentence: Herr Georgi kann gut kochen.; Conjugation: kocht, hat gekocht
+Word: Koffer; Meaning: suitcase; Type: Noun; Article: der; Plural: die Koffer; example_sentence: Hast du den Koffer schon gepackt?
+Word: Kollege; Meaning: colleague (male); Type: Noun; Article: der; Plural: die Kollegen; example_sentence: Wie heißt die neue Kollegin?
+Word: Kollegin; Meaning: colleague (female); Type: Noun; Article: die; Plural: die Kolleginnen; example_sentence: Wie heißt die neue Kollegin?
+Word: komisch; Meaning: funny, strange; Type: Adjective; example_sentence: Der Film war sehr komisch. Wir haben viel gelacht. Eine grüne Hose und gelbe Schuhe? Das sieht komisch aus. Das Essen schmeckt komisch. Probier mal!
+Word: kommen; Meaning: to come; Type: Verb; example_sentence: Woher kommen Sie? – Aus Frankreich.; Conjugation: kommt, ist gekommen
+Word: können; Meaning: can, to be able to; Type: Verb; example_sentence: Ich kann Deutsch und Russisch. Aber Englisch kann ich nicht.; Conjugation: kann, konnte, hat gekonnt
+Word: Kontakt; Meaning: contact; Type: Noun; Article: der; Plural: die Kontakte; example_sentence: Ich habe wenig Kontakt zu meinen Kollegen. Bitte schicken Sie mir Ihre Kontaktdaten!
+Word: Konto; Meaning: account; Type: Noun; Article: das; Plural: die Konten; example_sentence: Das Geld überweisen wir am ersten März auf Ihr Konto.
+Word: kontrollieren; Meaning: to check, to control; Type: Verb; example_sentence: Können Sie bei meinem Auto bitte das Öl kontrollieren?; Conjugation: kontrolliert, hat kontrolliert
+Word: Konzert; Meaning: concert; Type: Noun; Article: das; Plural: die Konzerte; example_sentence: Für das Konzert am Sonntag gibt es noch Karten.
+Word: Kopf; Meaning: head; Type: Noun; Article: der; Plural: die Köpfe; example_sentence: Mein Kopf tut weh!
+Word: Körper; Meaning: body; Type: Noun; Article: der; Plural: die Körper; example_sentence: Der Arzt sagt, ich muss etwas für meinen Körper tun, z. B. schwimmen oder Fahrrad fahren.
+Word: Kosmetik; Meaning: cosmetics; Type: Noun; Article: die; example_sentence: Kosmetik können Sie im Erdgeschoss kaufen.
+Word: kosten; Meaning: to cost; Type: Verb; example_sentence: Wie viel kostet das Buch?; Conjugation: kostet, hat gekostetWord: kostenlos; Meaning: free of charge; Type: Adjective; example_sentence: Diese Zeitschrift kostet nichts. Sie ist kostenlos.
+Word: krank; Meaning: ill, sick; Type: Adjective; example_sentence: Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett.
+Word: Krankenhaus; Meaning: hospital; Type: Noun; Article: das; Plural: die Krankenhäuser; example_sentence: Meine Tante ist im Krankenhaus. Er hat sich verletzt und muss ins Krankenhaus.
+Word: Krankenkasse; Meaning: health insurance; Type: Noun; Article: die; Plural: die Krankenkassen; example_sentence: Bei welcher Krankenkasse sind Sie?
+Word: Krankheit; Meaning: illness, disease; Type: Noun; Article: die; Plural: die Krankheiten; example_sentence: Welche Krankheit hat Herr Brandner?
+Word: Kredit; Meaning: credit, loan; Type: Noun; Article: der; Plural: die Kredite; example_sentence: Ich brauche einen Kredit von der Bank. Bezahlen Sie mit Kreditkarte?
+Word: Kreuzung; Meaning: intersection; Type: Noun; Article: die; Plural: die Kreuzungen; example_sentence: Fahren Sie an der nächsten Kreuzung rechts.
+Word: kriegen; Meaning: to get, to receive; Type: Verb; example_sentence: Ich kriege 15 Euro pro Stunde für meinen Job.; Conjugation: kriegt, hat gekriegt
+Word: Krimi; Meaning: crime novel, detective story; Type: Noun; Article: der; Plural: die Krimis; example_sentence: Miriam liest gern spannende Krimis. Schauen wir am Sonntag zusammen den Tatort? – Nein, ich mag keine Krimis.
+Word: Küche; Meaning: kitchen; Type: Noun; Article: die; Plural: die Küchen; example_sentence: Ich suche eine neue Wohnung mit drei Zimmern, Küche und Bad.
+Word: Kuchen; Meaning: cake; Type: Noun; Article: der; Plural: die Kuchen; example_sentence: Er isst sonntags ein Stück Kuchen. Schokoladenkuchen schmeckt mir am besten.
+Word: kühl; Meaning: cool; Type: Adjective; example_sentence: Es ist kühl draußen. Zieh dir eine Jacke an.
+Word: Kühlschrank; Meaning: refrigerator; Type: Noun; Article: der; Plural: die Kühlschränke; example_sentence: Haben wir noch Milch? – Ja, im Kühlschrank.
+Word: Kultur; Meaning: culture; Type: Noun; Article: die; Plural: die Kulturen; example_sentence: Ich finde fremde Länder und Kulturen sehr interessant. Jana interessiert sich sehr für Kultur. Sie geht jede Woche ins Theater oder ins Museum.
+Word: kümmern; Meaning: to take care of, to look after; Type: Verb; example_sentence: Sonja kann nicht arbeiten. Sie muss sich um ihre Tochter kümmern.; Conjugation: kümmert, hat gekümmert
+Word: Kunde; Meaning: customer (male); Type: Noun; Article: der; Plural: die Kunden; example_sentence: Einen Moment, bitte. Ich habe eine Kundin.
+Word: Kundin; Meaning: customer (female); Type: Noun; Article: die; Plural: die Kundinnen; example_sentence: Einen Moment, bitte. Ich habe eine Kundin.
+Word: kündigen; Meaning: to resign, to cancel; Type: Verb; example_sentence: Meine Arbeit gefällt mir nicht mehr. Ich habe heute gekündigt.; Conjugation: kündigt, hat gekündigt
+Word: Kunst; Meaning: art; Type: Noun; Article: die; Plural: die Künste; example_sentence: Ich verstehe nichts von moderner Kunst. Kunst war mein Lieblingsfach in der Schule.
+Word: Kurs; Meaning: course; Type: Noun; Article: der; Plural: die Kurse; example_sentence: Der Deutschkurs dauert zwei Monate.
+Word: kurz; Meaning: short; Type: Adjective; example_sentence: Ricardo hat kurze Haare. Kann ich Sie kurz sprechen?
+Word: lachen; Meaning: to laugh; Type: Verb; example_sentence: Die Kinder lachen über den Witz.; Conjugation: lacht, hat gelacht
+Word: Laden; Meaning: shop, store; Type: Noun; Article: der; Plural: die Läden; example_sentence: Ich kaufe meine Kleider immer in einem kleinen Laden im Zentrum.
+Word: Lampe; Meaning: lamp; Type: Noun; Article: die; Plural: die Lampen; example_sentence: Mach bitte die Lampe an. Es ist so dunkel.
+Word: Land; Meaning: country; Type: Noun; Article: das; Plural: die Länder; example_sentence: Deutschland ist ein schönes Land. Möchten Sie lieber auf dem Land oder in der Stadt wohnen?
+Word: Landschaft; Meaning: landscape; Type: Noun; Article: die; Plural: die Landschaften; example_sentence: Die Landschaft ist sehr schön.
+Word: lang; Meaning: long; Type: Adjective; example_sentence: Die Hose ist zu lang. Können Sie sie ändern?
+Word: lange; Meaning: long (duration); Type: Adjective; example_sentence: Wie lange fährt der Zug von Hamburg nach Berlin?
+Word: langsam; Meaning: slow; Type: Adjective; example_sentence: Könnten Sie bitte etwas langsamer sprechen?
+Word: langweilig; Meaning: boring; Type: Adjective; example_sentence: Mir ist langweilig. Sie findet Fußball sehr langweilig.
+Word: Laptop; Meaning: laptop; Type: Noun; Article: der/das; Plural: die Laptops; example_sentence: Ich brauche einen neuen Laptop.
+Word: lassen; Meaning: to let, to allow; Type: Verb; example_sentence: Lass mich in Ruhe!; Conjugation: lässt, hat gelassen
+Word: laufen; Meaning: to run, to walk; Type: Verb; example_sentence: Ich gehe jeden Morgen laufen. Unsere Tochter ist erst ein Jahr alt, aber sie kann schon laufen.; Conjugation: läuft, ist gelaufen
+Word: laut; Meaning: loud; Type: Adjective; example_sentence: Nicht so laut! Das Baby schläft.
+Word: leben; Meaning: to live; Type: Verb; example_sentence: Sie lebt bei ihrer Schwester.; Conjugation: lebt, hat gelebt
+Word: Leben; Meaning: life; Type: Noun; Article: das; Plural: die Leben; example_sentence: Hier in London ist das Leben teuer.
+Word: Lebensmittel; Meaning: groceries, food; Type: Noun; Article: die; Plural: die Lebensmittel; example_sentence: Lebensmittel bekommen Sie im Supermarkt.
+Word: leer; Meaning: empty; Type: Adjective; example_sentence: Die Kanne ist fast leer. Ich mache neuen Tee.
+Word: legen; Meaning: to lay, to put; Type: Verb; example_sentence: Legen Sie das Buch auf den Tisch.; Conjugation: legt, hat gelegt
+Word: leicht; Meaning: light, easy; Type: Adjective; example_sentence: Das Paket ist leicht, es wiegt nur ein Kilo. Die Aufgabe ist nicht leicht.
+Word: leider; Meaning: unfortunately; Type: Adverb; example_sentence: Leider kann ich nicht kommen. Ich muss zum Arzt.
+Word: leidtun; Meaning: to feel sorry; Type: Verb; example_sentence: Es tut mir leid, dass ich nicht kommen kann.; Conjugation: tut leid, hat leidgetan
+Word: leihen; Meaning: to lend, to borrow; Type: Verb; example_sentence: Kannst du mir fünf Euro leihen?; Conjugation: leiht, hat geliehen
+Word: leise; Meaning: quiet; Type: Adjective; example_sentence: Seid leise. Die anderen schlafen schon.
+Word: lernen; Meaning: to learn; Type: Verb; example_sentence: Wie lange lernen Sie schon Deutsch?; Conjugation: lernt, hat gelernt
+Word: lesen; Meaning: to read; Type: Verb; example_sentence: In der Schule lesen wir ein Buch von Goethe.; Conjugation: liest, hat gelesen
+Word: letzt-; Meaning: last; Type: Adjective; example_sentence: Morgen ist der letzte Kurstag. Was hast du letzte Woche gemacht?
+Word: Leute; Meaning: people; Type: Noun; Article: die; Plural: die Leute; example_sentence: Auf der Party sind viele Leute.
+Word: Licht; Meaning: light; Type: Noun; Article: das; Plural: die Lichter; example_sentence: Es ist so dunkel. Mach bitte das Licht an!
+Word: lieb-; Meaning: dear, beloved; Type: Prefix; example_sentence: Liebe Susanne, lieber Hans, Ich fahre lieber mit dem Zug als mit dem Bus. Möchtest du Pommes oder lieber eine Pizza?
+Word: lieben; Meaning: to love; Type: Verb; example_sentence: Ich liebe dich!; Conjugation: liebt, hat geliebt
+Word: Lieblings-; Meaning: favorite; Type: Prefix; example_sentence: Meine Lieblingsfarbe ist Blau.
+Word: Lied; Meaning: song; Type: Noun; Article: das; Plural: die Lieder; example_sentence: Zum Geburtstag singen wir dir ein Lied.
+Word: liefern; Meaning: to deliver; Type: Verb; example_sentence: Wir liefern Ihnen den Schrank nach Hause.; Conjugation: liefert, hat geliefert
+Word: liegen; Meaning: to lie, to be located; Type: Verb; example_sentence: Die Zeitung liegt auf dem Tisch. Judith liegt noch im Bett. Frankfurt liegt am Main.; Conjugation: liegt, hat/ist gelegen
+Word: Link; Meaning: link; Type: Noun; Article: der; Plural: die Links; example_sentence: Ich schicke dir einen Link zu Deutschübungen.
+Word: links; Meaning: left; Type: Adjective/Adverb; example_sentence: Gehen Sie die nächste Straße links.
+Word: Löffel; Meaning: spoon; Type: Noun; Article: der; Plural: die Löffel; example_sentence: Bitte bringen Sie mir einen Löffel.
+Word: Lokal; Meaning: restaurant, pub; Type: Noun; Article: das; Plural: die Lokale; example_sentence: Gibt es hier in der Nähe ein gutes Lokal?
+Word: Lüge; Meaning: lie; Type: Noun; Article: die; Plural: die Lügen; example_sentence: Das stimmt nicht! Das ist eine Lüge!
+Word: lügen; Meaning: to lie; Type: Verb; example_sentence: Du sollst nicht lügen.; Conjugation: lügt, hat gelogen
+Word: Lust; Meaning: desire, pleasure; Type: Noun; Article: die; Plural: none; example_sentence: Gehen wir heute Abend ins Kino? - Nein, ich habe keine Lust.
+Word: lustig; Meaning: funny; Type: Adjective; example_sentence: Warum lacht ihr? Was ist so lustig? Ich mag lustige Filme.
+Word: machen; Meaning: to make, to do; Type: Verb; example_sentence: Was machst du heute Abend?; Conjugation: macht, hat gemacht
+Word: Mädchen; Meaning: girl; Type: Noun; Article: das; Plural: die Mädchen; example_sentence: Familie Kurz bekommt ein Baby. – Junge oder Mädchen?
+Word: Magen; Meaning: stomach; Type: Noun; Article: der; Plural: die Mägen; example_sentence: Mein Magen tut weh.
+Word: Mailbox; Meaning: mailbox; Type: Noun; Article: die; Plural: die Mailboxen; example_sentence: Hier ist die Mailbox von Susanne König. Ich habe dir auf die Mailbox gesprochen.
+Word: mal; Meaning: time (instance); Type: Noun; Article: das; Plural: die Male; example_sentence: Sag mal, wie gefällt dir mein neues Kleid? Das erste Mal war ich vor fünf Jahren in England.
+Word: malen; Meaning: to paint; Type: Verb; example_sentence: Mein Sohn kann gut malen.; Conjugation: malt, hat gemalt
+Word: man; Meaning: one, people; Type: Pronoun; example_sentence: Wie schreibt man das? Hier darf man nicht rauchen.
+Word: manch-; Meaning: some; Type: Prefix; example_sentence: Manche Nachbarn sind unfreundlich.
+Word: manchmal; Meaning: sometimes; Type: Adverb; example_sentence: Manchmal essen wir im Restaurant. Rauchen Sie? - Manchmal.
+Word: Mann; Meaning: man; Type: Noun; Article: der; Plural: die Männer; example_sentence: Mein Mann ist Polizist.
+Word: männlich; Meaning: male; Type: Adjective; example_sentence: Bitte wählen Sie: „weiblich“ oder „männlich“.
+Word: Mannschaft; Meaning: team; Type: Noun; Article: die; Plural: die Mannschaften; example_sentence: Meine Lieblingsmannschaft hat 1:0 verloren.
+Word: Mantel; Meaning: coat; Type: Noun; Article: der; Plural: die Mäntel; example_sentence: Es ist kalt. Zieh deinen Mantel an!
+Word: Markt; Meaning: market; Type: Noun; Article: der; Plural: die Märkte; example_sentence: Ich gehe heute auf den Markt. Samstags ist hier Markt.
+Word: Maschine; Meaning: machine; Type: Noun; Article: die; Plural: die Maschinen; example_sentence: Die Waschmaschine funktioniert sehr gut.
+Word: Medikament; Meaning: medication; Type: Noun; Article: das; Plural: die Medikamente; example_sentence: Nehmen Sie dieses Medikament dreimal pro Tag!
+Word: Meer; Meaning: sea; Type: Noun; Article: das; Plural: die Meere; example_sentence: Wir machen Urlaub am Meer.
+Word: mehr; Meaning: more; Type: Adjective/Adverb; example_sentence: Dieses Auto kostet 1.000 Euro mehr als das andere. Mehr kann ich nicht essen! Ich möchte mehr Taschengeld.
+Word: meinen; Meaning: to mean; Type: Verb; example_sentence: Wie meinst du das? Erklär mir das bitte genauer!; Conjugation: meint, hat gemeint
+Word: Meinung; Meaning: opinion; Type: Noun; Article: die; Plural: die Meinungen; example_sentence: Meine Meinung zu dem Thema ist: … Was ist deine Meinung dazu?
+Word: meist-; Meaning: most; Type: Prefix; example_sentence: Ich bin neu hier im Haus. Die meisten Nachbarn kenne ich noch nicht.
+Word: meistens; Meaning: usually; Type: Adverb; example_sentence: Meistens trinke ich zum Frühstück nur einen Kaffee.
+Word: Menge; Meaning: quantity, amount; Type: Noun; Article: die; Plural: die Mengen; example_sentence: Wir haben noch eine Menge Zeit. Ich kenne eine Menge Leute in dieser Stadt.
+Word: Mensch; Meaning: person, human; Type: Noun; Article: der; Plural: die Menschen; example_sentence: Die Menschen sind hier ein bisschen anders als im Süden.
+Word: merken; Meaning: to notice, to remember; Type: Verb; example_sentence: Ich kann mir keine Zahlen merken. Ich vergesse sie sofort.; Conjugation: merkt, hat gemerkt
+Word: Messe; Meaning: fair, trade show; Type: Noun; Article: die; Plural: die Messen; example_sentence: Kommst du mit zur Buchmesse nach Frankfurt?
+Word: Messer; Meaning: knife; Type: Noun; Article: das; Plural: die Messer; example_sentence: Das Messer schneidet nicht gut. Ich habe nur ein Messer. Kannst du mir bitte noch eine Gabel bringen?
+Word: Miete; Meaning: rent; Type: Noun; Article: die; Plural: die Mieten; example_sentence: Wie viel Miete bezahlst du für deine Wohnung?
+Word: mieten; Meaning: to rent; Type: Verb; example_sentence: Ich möchte ein Auto mieten.; Conjugation: mietet, hat gemietet
+Word: Milch; Meaning: milk; Type: Noun; Article: die; Plural: none; example_sentence: Die Milch steht im Kühlschrank.
+Word: mindestens; Meaning: at least; Type: Adverb; example_sentence: Bitte kommen Sie mindestens zwei Stunden vor Ihrem Flug zum Flughafen. Schreiben Sie mindestens sieben Sätze! Ich warte schon mindestens 20 Minuten. Wann kommst du denn endlich?
+Word: Mineralwasser; Meaning: mineral water; Type: Noun; Article: das; Plural: none; example_sentence: Ein Glas Mineralwasser, bitte.
+Word: mit; Meaning: with; Type: Preposition; example_sentence: Trinken Sie den Kaffee mit oder ohne Zucker? Fahren wir mit dem Auto oder mit dem Zug nach Hamburg?
+Word: Mitarbeiter; Meaning: employee; Type: Noun; Article: der; Plural: die Mitarbeiter; example_sentence: Unsere Firma hat sieben Mitarbeiter.
+Word: Mittagessen; Meaning: lunch; Type: Noun; Article: das; Plural: die Mittagessen; example_sentence: Um zwölf Uhr gibt es Mittagessen.
+Word: Mitte; Meaning: middle; Type: Noun; Article: die; Plural: die Mitten; example_sentence: Den Schrank stellen wir an die Wand, den Tisch in die Mitte. Ich habe bis Mitte August frei.
+Word: Mittel; Meaning: remedy, means; Type: Noun; Article: das; Plural: die Mittel; example_sentence: Haben Sie ein Mittel gegen Magenschmerzen? Das neue Waschmittel ist sehr gut.
+Word: Möbel; Meaning: furniture; Type: Noun; Article: die; Plural: die Möbel; example_sentence: Eure Möbel sind sehr schön.
+Word: Mobiltelefon; Meaning: mobile phone; Type: Noun; Article: das; Plural: die Mobiltelefone; example_sentence: Wie kann ich Sie erreichen? Haben Sie ein Mobiltelefon?
+Word: möchten; Meaning: to want, would like; Type: Verb; example_sentence: Was möchten Sie trinken?; Conjugation: möchte, mochte, hat gemocht
+Word: Mode; Meaning: fashion; Type: Noun; Article: die; Plural: die Moden; example_sentence: Wie findest du die neue Mode?
+Word: modern; Meaning: modern; Type: Adjective; example_sentence: Das Stadtzentrum von Frankfurt ist sehr modern.
+Word: mögen; Meaning: to like; Type: Verb; example_sentence: Magst du Schokolade? - Nein, ich mag keine Süßigkeiten.; Conjugation: mag, mochte, hat gemocht
+Word: möglich; Meaning: possible; Type: Adjective; example_sentence: Kann ich bitte sofort einen Termin haben? - Das ist leider nicht möglich.
+Word: Moment; Meaning: moment; Type: Noun; Article: der; Plural: die Momente; example_sentence: Einen Moment, bitte. Warten Sie bitte einen Moment. Ich habe im Moment sehr viel zu tun.
+Word: morgen; Meaning: tomorrow; Type: Adverb; example_sentence: Morgen beginnt die Schule erst um zehn Uhr.
+Word: Motor; Meaning: motor; Type: Noun; Article: der; Plural: die Motoren; example_sentence: Der Motor ist kaputt. Das Auto fährt nicht mehr.
+Word: Motorroller; Meaning: scooter; Type: Noun; Article: der; Plural: die Motorroller; example_sentence: Oskar fährt mit dem Motorroller zur Arbeit.
+Word: müde; Meaning: tired; Type: Adjective; example_sentence: Ich bin müde. Ich gehe schlafen.
+Word: Müll; Meaning: trash, garbage; Type: Noun; Article: der; Plural: none; example_sentence: Bringst du bitte den Müll raus? Kann ich die Zeitungen wegwerfen? - Ja, sie sind alt. Bring/Wirf sie bitte in den Müll!
+Word: Mund; Meaning: mouth; Type: Noun; Article: der; Plural: die Münder; example_sentence: Öffnen Sie bitte den Mund. Ich möchte in Ihren Hals sehen.
+Word: Museum; Meaning: museum; Type: Noun; Article: das; Plural: die Museen; example_sentence: Im Kunstmuseum gibt es eine neue Ausstellung.
+Word: Musik; Meaning: music; Type: Noun; Article: die; Plural: none; example_sentence: Wie findest du die Musik? Spanische Musik gefällt mir gut.
+Word: müssen; Meaning: must, to have to; Type: Verb; example_sentence: Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten.; Conjugation: muss, musste
+Word: Mütze; Meaning: cap, hat; Type: Noun; Article: die; Plural: die Mützen; example_sentence: Haben Sie rote Mützen?
+Word: nach; Meaning: after, to; Type: Preposition; example_sentence: Ich gehe jetzt nach Hause. Ich fliege nach München. Es ist schon fünf nach zwölf. Wir treffen uns nach der Arbeit.
+Word: Nachbar; Meaning: neighbor (male); Type: Noun; Article: der; Plural: die Nachbarn; example_sentence: Mein Nachbar kommt aus Brasilien und meine Nachbarin ist Italienerin. Die neuen Nachbarn sind sehr nett.
+Word: Nachricht; Meaning: message, news; Type: Noun; Article: die; Plural: die Nachrichten; example_sentence: Ich sehe abends immer die Nachrichten im Fernsehen. Kommst du mit ins Kino? - Ich weiß es noch nicht. Ich schreibe dir später eine Nachricht. Sie haben keine neuen Nachrichten.
+Word: nächste; Meaning: next; Type: Adjective; example_sentence: Sehen wir uns nächste Woche? Ihr nächster Termin ist in einem Monat. Bis nächstes Mal!
+Word: Nähe; Meaning: vicinity, proximity; Type: Noun; Article: die; Plural: none; example_sentence: Die Post ist in der Nähe vom Bahnhof.
+Word: Name; Meaning: name; Type: Noun; Article: der; Plural: die Namen; example_sentence: Wie ist Ihr Name? Mein Name ist Thomas Schmidt. Mein Vorname ist Thomas, Schmidt ist der Familienname.
+Word: nass; Meaning: wet; Type: Adjective; example_sentence: Geh nicht mit den nassen Schuhen ins Wohnzimmer! Du bist ja ganz nass. Hast du den Regenschirm vergessen?
+Word: Natur; Meaning: nature; Type: Noun; Article: die; Plural: none; example_sentence: Ich bin gern draußen in der Natur.
+Word: natürlich; Meaning: naturally, of course; Type: Adverb; example_sentence: Natürlich helfen wir dir. Kommst du zu meiner Party? – Natürlich.
+Word: neben; Meaning: next to; Type: Preposition; example_sentence: Neben mir ist noch ein Platz frei. Die Apotheke ist neben der Post.
+Word: nebenan; Meaning: next door; Type: Adverb; example_sentence: Das ist José. Er wohnt nebenan.
+Word: neblig; Meaning: foggy; Type: Adjective; example_sentence: Fahr vorsichtig! Es ist neblig.
+Word: nehmen; Meaning: to take; Type: Verb; example_sentence: Nehmen Sie die Tabletten vor dem Essen!; Conjugation: nimmt, hat genommen
+Word: nein; Meaning: no; Type: Adverb; example_sentence: Möchten Sie ein Stück Kuchen? – Nein, danke. Fährst du auch nach München? – Nein, ich habe keine Zeit.
+Word: nennen; Meaning: to name, to call; Type: Verb; example_sentence: Mein Freund heißt Alexander, aber alle nennen ihn Alex.; Conjugation: nennt, hat genannt
+Word: nervös; Meaning: nervous; Type: Adjective; example_sentence: Bei Prüfungen bin ich immer sehr nervös.
+Word: nett; Meaning: nice, kind; Type: Adjective; example_sentence: Ich habe viele nette Kollegen. Vielen Dank! Das ist sehr nett von dir.
+Word: neu; Meaning: new; Type: Adjective; example_sentence: Ich bin der neue Mitarbeiter. Wir haben eine neue Wohnung. Zeig mal! Ist das dein neues Handy?
+Word: nicht; Meaning: not; Type: Adverb; example_sentence: Das stimmt nicht. Ich kann morgen leider nicht kommen. Lisa wohnt nicht in Hamburg, sie wohnt in Bremen.
+Word: nichts; Meaning: nothing; Type: Pronoun; example_sentence: Das macht nichts. Hier kaufe ich nichts. Der Laden gefällt mir nicht.
+Word: nie; Meaning: never; Type: Adverb; example_sentence: Er kommt nie pünktlich.
+Word: niemand; Meaning: nobody; Type: Pronoun; example_sentence: Hier ist niemand. Hier ist der Anrufbeantworter von Familie Klein. Leider ist im Moment niemand zu Hause.
+Word: nirgends; Meaning: nowhere; Type: Adverb; example_sentence: Hier kann man nirgends parken. Wo ist Stefan? Ich kann ihn nirgends sehen.
+Word: noch; Meaning: still, yet; Type: Adverb; example_sentence: Vielleicht kommt er noch. Es dauert noch ein paar Minuten. Ich habe noch 20 Euro.
+Word: normal; Meaning: normal; Type: Adjective; example_sentence: Das ist doch ganz normal.
+Word: Note; Meaning: grade, mark; Type: Noun; Article: die; Plural: die Noten; example_sentence: Eva hat immer sehr gute Noten in Deutsch.
+Word: notieren; Meaning: to note down; Type: Verb; example_sentence: Notieren Sie bitte alle wichtigen Informationen.; Conjugation: notiert, hat notiert
+Word: Notiz; Meaning: note; Type: Noun; Article: die; Plural: die Notizen; example_sentence: Schreib mir bitte eine Notiz. Haben Sie einen Notizzettel für mich?
+Word: notwendig; Meaning: necessary; Type: Adjective; example_sentence: Muss ich noch einmal kommen? – Nein, das ist nicht notwendig.
+Word: Nudel; Meaning: noodle; Type: Noun; Article: die; Plural: die Nudeln; example_sentence: Möchten Sie lieber Reis oder Nudeln? – Lieber Nudeln, bitte.
+Word: Nummer; Meaning: number; Type: Noun; Article: die; Plural: die Nummern; example_sentence: Sie haben Zimmer Nummer zwölf. Welche Hausnummer haben Sie? Können Sie mir bitte Ihre Nummer geben? Haben Sie die Bluse auch eine Nummer kleiner?
+Word: nur; Meaning: only; Type: Adverb; example_sentence: Ich möchte nur ein Glas Wasser. Das T-Shirt kostet nur fünf Euro.
+Word: nützlich; Meaning: useful; Type: Adjective; example_sentence: Danke für den Tipp. Er war sehr nützlich.
+Word: oben; Meaning: upstairs; Type: Adverb; example_sentence: Ich wohne oben im 4. Stock.
+Word: Obst; Meaning: fruit; Type: Noun; Article: das; Plural: none; example_sentence: Obst kaufe ich immer auf dem Markt. Heute kaufe ich Äpfel und Orangen.
+Word: oder; Meaning: or; Type: Conjunction; example_sentence: Wann können Sie kommen – heute oder morgen? Entweder fahren wir mit dem Bus oder wir gehen zu Fuß.
+Word: offen; Meaning: open; Type: Adjective; example_sentence: Ist das Fenster im Bad noch offen? Ich glaube, der Supermarkt ist jetzt noch offen.
+Word: öffnen; Meaning: to open; Type: Verb; example_sentence: Ich öffne die Tür.; Conjugation: öffnet, hat geöffnet
+Word: oft; Meaning: often; Type: Adverb; example_sentence: Ich gehe nicht oft ins Kino.
+Word: ohne; Meaning: without; Type: Preposition; example_sentence: Bitte einen Kaffee ohne Milch und Zucker. Schaffst du das auch ohne mich oder soll ich dir helfen?
+Word: Ohr; Meaning: ear; Type: Noun; Article: das; Plural: die Ohren; example_sentence: Ich habe Ohrenschmerzen.
+Word: Öl; Meaning: oil; Type: Noun; Article: das; Plural: die Öle; example_sentence: Machen wir den Salat mit Öl? Können Sie bei meinem Auto bitte das Öl kontrollieren?
+Word: online; Meaning: online; Type: Adjective; example_sentence: Wann bist du wieder online? Ich habe hier kein Internet. Ich bin erst heute Abend wieder online. Sie können das Geld auch online überweisen.
+Word: Orange; Meaning: orange; Type: Noun; Article: die; Plural: die Orangen; example_sentence: Ich esse gern Orangen.
+Word: Ordnung; Meaning: order; Type: Noun; Article: die; Plural: die Ordnungen; example_sentence: Er hat seine Hausaufgabe gut gemacht. Das ist alles in Ordnung. Ich mache gleich Ordnung in meinem Zimmer.
+Word: organisieren; Meaning: to organize; Type: Verb; example_sentence: Frau Gomez organisiert unseren Ausflug. Hast du schon alles für deinen Urlaub organisiert?; Conjugation: organisiert, hat organisiert
+Word: Ort; Meaning: place; Type: Noun; Article: der; Plural: die Orte; example_sentence: Vergessen Sie Ort und Datum nicht, wenn Sie einen Brief schreiben. Der Ort liegt in den Bergen. Wohnort: Köln.
+Word: Paar; Meaning: pair; Type: Noun; Article: das; Plural: die Paare; example_sentence: Romeo und Julia sind ein Paar. Ich brauche ein Paar Schuhe.
+Word: ein paar; Meaning: a few; Type: Pronoun; example_sentence: Wir fahren ein paar Tage ans Meer. Hast du ein paar Minuten Zeit?
+Word: packen; Meaning: to pack; Type: Verb; example_sentence: Ich muss noch meinen Koffer packen.; Conjugation: packt, hat gepackt
+Word: Paket; Meaning: package; Type: Noun; Article: das; Plural: die Pakete; example_sentence: Bringst du bitte das Paket zur Post?
+Word: Papier; Meaning: paper; Type: Noun; Article: das; Plural: die Papiere; example_sentence: Hier sind Papier und Bleistift.
+Word: Papiere; Meaning: papers; Type: Noun; Article: die; Plural: die Papiere; example_sentence: Haben Sie Ihre Papiere dabei?
+Word: Parfüm; Meaning: perfume; Type: Noun; Article: das; Plural: none; example_sentence: Ich suche ein Parfum als Geschenk für meine Frau.
+Word: Park; Meaning: park; Type: Noun; Article: der; Plural: die Parks; example_sentence: Ich gehe gern im Park spazieren.
+Word: parken; Meaning: to park; Type: Verb; example_sentence: Darf ich hier parken?; Conjugation: parkt, hat geparkt
+Word: Partner; Meaning: partner (male); Type: Noun; Article: der; Plural: die Partner; example_sentence: Veronika ist meine Partnerin.
+Word: Partnerin; Meaning: partner (female); Type: Noun; Article: die; Plural: die Partnerinnen; example_sentence: Veronika ist meine Partnerin.
+Word: Party; Meaning: party; Type: Noun; Article: die; Plural: die Partys; example_sentence: Heute Abend machen wir eine Party.
+Word: Pass; Meaning: passport; Type: Noun; Article: der; Plural: die Pässe; example_sentence: Am Flughafen brauchst du deinen Pass.
+Word: passen; Meaning: to fit; Type: Verb; example_sentence: Die Bluse passt mir nicht.; Conjugation: passt, hat gepasst
+Word: passieren; Meaning: to happen; Type: Verb; example_sentence: Wie ist der Unfall passiert? Was ist passiert?; Conjugation: passiert, ist passiert
+Word: Passwort; Meaning: password; Type: Noun; Article: das; Plural: die Passwörter; example_sentence: Bitte schreiben Sie Ihr Passwort. Sie brauchen ein Passwort. Ich habe mein Passwort vergessen.
+Word: Pause; Meaning: break; Type: Noun; Article: die; Plural: die Pausen; example_sentence: Von 12.00 bis 12.30 Uhr haben wir Mittagspause.
+Word: Person; Meaning: person; Type: Noun; Article: die; Plural: die Personen; example_sentence: Eintritt pro Person: 5 Euro.
+Word: Pferd; Meaning: horse; Type: Noun; Article: das; Plural: die Pferde; example_sentence: Amira liebt Pferde. Sie reitet seit zehn Jahren.
+Word: Pflanze; Meaning: plant; Type: Noun; Article: die; Plural: die Pflanzen; example_sentence: Können Sie sich bitte um unsere Pflanzen kümmern? Wir sind nächste Woche im Urlaub.
+Word: Pizza; Meaning: pizza; Type: Noun; Article: die; Plural: die Pizzen or die Pizzas; example_sentence: Mein Lieblingsessen ist Pizza. Eine Pizza mit viel Käse, bitte.
+Word: Plakat; Meaning: poster; Type: Noun; Article: das; Plural: die Plakate; example_sentence: Wir machen im Unterricht ein Plakat zum Thema „Essen und Trinken“.
+Word: Plan; Meaning: plan; Type: Noun; Article: der; Plural: die Pläne; example_sentence: Ich kaufe mir einen Stadtplan.
+Word: planen; Meaning: to plan; Type: Verb; example_sentence: Wir sollen zusammen eine Klassenparty planen.; Conjugation: plant, hat geplant
+Word: Platz; Meaning: place, seat; Type: Noun; Article: der; Plural: die Plätze; example_sentence: Hier ist noch ein Platz frei. Bitte nehmen Sie Platz! Ich wohne am Messeplatz 5. Ich finde keinen Parkplatz.
+Word: plötzlich; Meaning: suddenly; Type: Adjective/Adverb; example_sentence: Plötzlich war das Licht aus.
+Word: Polizei; Meaning: police; Type: Noun; Article: die; Plural: none; example_sentence: Rufen Sie die Polizei!
+Word: Pommes frites; Meaning: French fries; Type: Noun; Article: die; Plural: none; example_sentence: Die Kinder essen Bratwurst mit Pommes frites.
+Word: Portion; Meaning: portion; Type: Noun; Article: die; Plural: die Portionen; example_sentence: Ich nehme eine kleine Portion Eis.
+Word: Post; Meaning: post office; Type: Noun; Article: die; Plural: none; example_sentence: Entschuldigung, wo ist die Post? Ist Post für mich da?
+Word: Poster; Meaning: poster; Type: Noun; Article: das; Plural: die Poster; example_sentence: Das Poster hängt über dem Bett.
+Word: Postkarte; Meaning: postcard; Type: Noun; Article: die; Plural: die Postkarten; example_sentence: Schreibst du mir eine Postkarte aus Kanada?
+Word: Postleitzahl; Meaning: postal code; Type: Noun; Article: die; Plural: die Postleitzahlen; example_sentence: Wie ist Ihre Postleitzahl?
+Word: Praktikum; Meaning: internship; Type: Noun; Article: das; Plural: die Praktika; example_sentence: Ich mache ein Praktikum bei Siemens.
+Word: praktisch; Meaning: practical; Type: Adjective; example_sentence: Mit meinem neuen Handy kann ich auch im Internet surfen und Fotos machen. Das finde ich sehr praktisch.
+Word: Praxis; Meaning: practice (medical); Type: Noun; Article: die; Plural: die Praxen; example_sentence: Unsere Praxis ist ab acht Uhr geöffnet. Frau Doktor Weiß hat ab neun Uhr Sprechstunde.
+Word: Preis; Meaning: price; Type: Noun; Article: der; Plural: die Preise; example_sentence: Die Preise sind hier viel höher als bei uns.
+Word: preiswert; Meaning: inexpensive; Type: Adjective; example_sentence: Die Jacke ist sehr preiswert. Sie kostet nur 15 Euro.
+Word: privat; Meaning: private; Type: Adjective; example_sentence: Das ist meine Nummer im Büro und das ist meine private Handynummer. Dieser Strand ist privat. Wir dürfen hier nicht schwimmen gehen. Hey, du darfst die Mail nicht lesen! Sie ist privat.
+Word: pro; Meaning: per; Type: Preposition; example_sentence: Das Zimmer kostet 100 Euro pro Nacht.
+Word: probieren; Meaning: to try; Type: Verb; example_sentence: Möchten Sie den Käse probieren? Die Tür geht schwer auf. Probier mal!; Conjugation: probiert, hat probiert
+Word: Problem; Meaning: problem; Type: Noun; Article: das; Plural: die Probleme; example_sentence: Ich habe ein Problem. Können Sie mir bitte helfen?
+Word: Produkt; Meaning: product; Type: Noun; Article: das; Plural: die Produkte; example_sentence: Unsere Produkte haben eine sehr hohe Qualität.
+Word: Programm; Meaning: program; Type: Noun; Article: das; Plural: die Programme; example_sentence: Dieses Programm im Radio interessiert mich nicht. Was kommt heute im Kino? Hast du das Programm hier?
+Word: Projekt; Meaning: project; Type: Noun; Plural: Projekte; example_sentence: Wir machen ein Projekt über Sehenswürdigkeiten in unserer Stadt.
+Word: Prospekt; Meaning: brochure; Type: Noun; Plural: Prospekte; example_sentence: Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.
+Word: prüfen; Meaning: to check; Type: Verb; example_sentence: Bitte prüfen Sie die Rechnung sofort.; Conjugation: prüft, hat geprüft
+Word: Prüfung; Meaning: exam; Type: Noun; Plural: Prüfungen; example_sentence: Ich habe die Prüfung bestanden.
+Word: Pullover; Meaning: sweater; Type: Noun; Plural: Pullover; example_sentence: Ich muss mir einen Pullover kaufen.
+Word: pünktlich; Meaning: punctual; Type: Adjective; example_sentence: Der Bus fährt pünktlich um acht Uhr. Herr Müller ist immer pünktlich.
+Word: putzen; Meaning: to clean; Type: Verb; example_sentence: Ich muss heute noch das Bad putzen.; Conjugation: putzt, hat geputzt
+Word: Qualität; Meaning: quality; Type: Noun; Plural: Qualitäten; example_sentence: Dieser Fernseher hat eine gute Qualität. Ich finde die Qualität wichtiger als den Preis.
+Word: Quiz; Meaning: quiz; Type: Noun; Plural: none; example_sentence: Er schaut gern Quizsendungen an. Sie hat beim Quiz gewonnen.
+Word: Radio; Meaning: radio; Type: Noun; Plural: Radios; example_sentence: Ich höre im Auto gern Radio.
+Word: raten; Meaning: to advise; Type: Verb; example_sentence: Ich weiß nicht, welches Handy ich kaufen soll. Was raten Sie mir?; Conjugation: rät, hat geraten
+Word: Rathaus; Meaning: town hall; Type: Noun; Plural: Rathäuser; example_sentence: Das Formular bekommen Sie im Rathaus. Sie müssen sich im Rathaus anmelden.
+Word: Rätsel; Meaning: puzzle; Type: Noun; Plural: Rätsel; example_sentence: Das Rätsel ist schwierig! Ich weiß die Antwort nicht.
+Word: rauchen; Meaning: to smoke; Type: Verb; example_sentence: Stört es Sie, wenn ich rauche?; Conjugation: raucht, hat geraucht
+Word: Raum; Meaning: room; Type: Noun; Plural: Räume; example_sentence: Der Unterricht findet heute in Raum 332 statt.
+Word: rechnen; Meaning: to calculate; Type: Verb; example_sentence: Sarah kann gut rechnen.; Conjugation: rechnet, hat gerechnet
+Word: Rechnung; Meaning: bill; Type: Noun; Plural: Rechnungen; example_sentence: Schicken Sie die Rechnung an mich. Bitte, die Rechnung!
+Word: recht haben; Meaning: to be right; Type: Verb; example_sentence: Du hast (nicht) recht.; Conjugation: hat recht, hatte recht, hat recht gehabt
+Word: rechts; Meaning: right (direction); Type: Adverb/Adjective; example_sentence: Der Bahnhof ist hier rechts.
+Word: reden; Meaning: to talk; Type: Verb; example_sentence: Mit meiner Freundin kann ich über alles reden.; Conjugation: redet, hat geredet
+Word: Regen; Meaning: rain; Type: Noun; Plural: none; example_sentence: Bei Regen gehe ich nicht aus dem Haus.
+Word: regnen; Meaning: to rain; Type: Verb; example_sentence: Wenn es regnet, bleiben wir zu Hause.; Conjugation: regnet, hat geregnet
+Word: reich; Meaning: rich; Type: Adjective; example_sentence: Lotte ist reich. Sie hat sehr viel Geld.
+Word: Reifen; Meaning: tire; Type: Noun; Plural: Reifen; example_sentence: Ich brauche neue Reifen für mein Auto.
+Word: Reihe; Meaning: row, line; Type: Noun; Plural: Reihen; example_sentence: Ich habe Karten für das Konzert. Wir sitzen in der dritten Reihe. Wer ist jetzt an der Reihe?
+Word: Reinigung; Meaning: dry cleaning; Type: Noun; Plural: Reinigungen; example_sentence: Bringst du bitte die Bluse in die Reinigung? Man darf sie nicht in der Waschmaschine waschen.
+Word: Reis; Meaning: rice; Type: Noun; Plural: none; example_sentence: Ich esse gern Reis mit Gemüse und Fisch.
+Word: Reise; Meaning: trip, journey; Type: Noun; Plural: Reisen; example_sentence: Wir machen eine Reise nach Österreich. Ich mache nächste Woche eine Geschäftsreise.
+Word: Reisebüro; Meaning: travel agency; Type: Noun; Plural: Reisebüros; example_sentence: Wir organisieren eine Rundreise durch Deutschland. Wir buchen die Reise im Reisebüro.
+Word: Reiseführer; Meaning: guidebook; Type: Noun; Plural: Reiseführer; example_sentence: Ich kaufe mir einen Reiseführer von Berlin. Unser Reiseführer heißt Robert und ist sehr sympathisch.
+Word: reisen; Meaning: to travel; Type: Verb; example_sentence: Ich reise gern.; Conjugation: reist, ist gereist
+Word: reiten; Meaning: to ride; Type: Verb; example_sentence: Möchtest du reiten lernen?; Conjugation: reitet, ist geritten
+Word: renovieren; Meaning: to renovate; Type: Verb; example_sentence: Wir renovieren das ganze Haus.; Conjugation: renoviert, hat renoviert
+Word: Rentner; Meaning: retiree; Type: Noun; Plural: Rentner; example_sentence: Mein Onkel arbeitet nicht mehr. Er ist Rentner.
+Word: Reparatur; Meaning: repair; Type: Noun; Plural: Reparaturen; example_sentence: Die Reparatur ist sehr teuer.
+Word: reparieren; Meaning: to repair; Type: Verb; example_sentence: Er muss den Motor reparieren.; Conjugation: repariert, hat repariert
+Word: reservieren; Meaning: to reserve; Type: Verb; example_sentence: Reservieren Sie bitte ein Doppelzimmer. Ich möchte gern einen Tisch für fünf Personen reservieren.; Conjugation: reserviert, hat reserviert
+Word: Rest; Meaning: remainder; Type: Noun; Plural: Reste; example_sentence: Hier sind 50 Euro. Den Rest gebe ich dir später. Es ist noch ein Rest Suppe da. Möchtest du noch?
+Word: Restaurant; Meaning: restaurant; Type: Noun; Plural: Restaurants; example_sentence: Wir essen heute in einem Restaurant.
+Word: Rezept; Meaning: recipe; Type: Noun; Plural: Rezepte; example_sentence: Dieser Kuchen schmeckt super! Kannst du mir bitte das Rezept geben? Dieses Medikament gibt es nur auf Rezept.
+Word: Rezeption; Meaning: reception; Type: Noun; Plural: Rezeptionen; example_sentence: Geben Sie bitte den Schlüssel an der Rezeption ab.
+Word: richtig; Meaning: correct; Type: Adjective; example_sentence: Habe ich das richtig verstanden? Das ist richtig.
+Word: riechen; Meaning: to smell; Type: Verb; example_sentence: Diese Blumen riechen gut.; Conjugation: riecht, hat gerochen
+Word: Rind; Meaning: beef; Type: Noun; Plural: none; example_sentence: Ich esse nur Fleisch vom Rind.
+Word: Ring; Meaning: ring; Type: Noun; Plural: Ringe; example_sentence: Ich habe meinen Ring verloren.
+Word: Rock; Meaning: skirt; Type: Noun; Plural: Röcke; example_sentence: Der Rock ist zu eng.
+Word: romantisch; Meaning: romantic; Type: Adjective; example_sentence: Dieser Film ist sehr romantisch. Meine Freundin ist total romantisch.
+Word: Rose; Meaning: rose; Type: Noun; Plural: Rosen; example_sentence: Er schenkt seiner Freundin rote Rosen zum Geburtstag.
+Word: Rücken; Meaning: back; Type: Noun; Plural: none; example_sentence: Mein Rücken tut mir weh.
+Word: Rucksack; Meaning: backpack; Type: Noun; Plural: Rucksäcke; example_sentence: Ich nehme lieber einen Rucksack als einen Koffer mit.
+Word: rufen; Meaning: to call; Type: Verb; example_sentence: Rufst du bitte die Kinder? Das Essen ist fertig.; Conjugation: ruft, hat gerufen
+Word: Ruhe; Meaning: quiet; Type: Noun; Plural: none; example_sentence: Ruhe, bitte! Hier in der Bibliothek darf man nicht laut sprechen. Meine Großmutter ist krank. Sie braucht viel Ruhe.
+Word: ruhig; Meaning: calm; Type: Adjective; example_sentence: Ich möchte ein ruhiges Zimmer.
+Word: rund; Meaning: round; Type: Adjective; example_sentence: Unser Wohnzimmertisch ist rund. Bis Berlin sind es noch rund 80 Kilometer.
+Word: Rundgang; Meaning: tour; Type: Noun; Plural: Rundgänge; example_sentence: Der Rundgang durch das Schloss beginnt in wenigen Minuten.
+Word: Sache; Meaning: thing; Type: Noun; Plural: Sachen; example_sentence: Ihr könnt eure Sachen im Hotel lassen. Nimm deine Sachen und komm! Das ist meine Sache.
+Word: Saft; Meaning: juice; Type: Noun; Plural: Säfte; example_sentence: Möchtest du einen Apfelsaft?
+Word: sagen; Meaning: to say; Type: Verb; example_sentence: Entschuldigung, was haben Sie gesagt? Wie sagt man „sorry“ auf Deutsch? Sag mal, wie geht es dir denn?; Conjugation: sagt, hat gesagt
+Word: Salat; Meaning: salad; Type: Noun; Plural: Salate; example_sentence: Wie schmeckt dir der Salat? Möchten Sie zum Fisch einen Salat?
+Word: Salz; Meaning: salt; Type: Noun; Plural: none; example_sentence: Entschuldigung, kann ich bitte Salz haben?
+Word: sammeln; Meaning: to collect; Type: Verb; example_sentence: Peter sammelt Briefmarken. Im Herbst sammeln wir im Wald bunte Blätter.; Conjugation: sammelt, hat gesammelt
+Word: Satz; Meaning: sentence; Type: Noun; Plural: Sätze; example_sentence: Den letzten Satz verstehe ich nicht.
+Word: sauber; Meaning: clean; Type: Adjective; example_sentence: Bringen Sie mir bitte ein sauberes Glas!
+Word: sauer; Meaning: sour, angry; Type: Adjective; example_sentence: Zitronen sind mir zu sauer. Was ist los? – Ich bin sauer. Ich muss am Wochenende zu Hause bleiben und darf nicht mit meinen Freunden ins Kino gehen.
+Word: schade; Meaning: pity; Type: Adjective; example_sentence: Schade, dass du nicht kommen kannst.
+Word: schädlich; Meaning: harmful; Type: Adjective; example_sentence: Rauchen ist schädlich für die Gesundheit.
+Word: schaffen; Meaning: to manage, accomplish; Type: Verb; example_sentence: Kannst du mir bitte helfen? Ich schaffe das nicht alleine. Geschafft! Das Projekt ist endlich fertig.; Conjugation: schafft, hat geschafft
+Word: Schalter; Meaning: counter; Type: Noun; Plural: Schalter; example_sentence: Gehen Sie bitte zum Schalter drei! Der Lichtschalter ist neben der Tür.
+Word: scharf; Meaning: sharp, spicy; Type: Adjective; example_sentence: Die Suppe ist mir zu scharf. Pass auf! Das Messer ist sehr scharf.
+Word: scheinen; Meaning: to shine; Type: Verb; example_sentence: Die Sonne scheint.; Conjugation: scheint, hat geschienen
+Word: schenken; Meaning: to give (a gift); Type: Verb; example_sentence: Was schenken wir Michael zum Geburtstag?; Conjugation: schenkt, hat geschenkt
+Word: Schere; Meaning: scissors; Type: Noun; Plural: Scheren; example_sentence: Die Schere schneidet nicht gut. Hast du eine andere?
+Word: schicken; Meaning: to send; Type: Verb; example_sentence: Bitte schicken Sie mir eine E-Mail. Ich schicke dir den Brief nach Hause.; Conjugation: schickt, hat geschickt
+Word: Schiff; Meaning: ship; Type: Noun; Plural: Schiffe; example_sentence: Wir fahren mit dem Schiff von Basel nach Köln.
+Word: Schild; Meaning: sign, shield; Type: Noun; Plural: Schilder; example_sentence: Haben Sie das Schild nicht gesehen?
+Word: schimpfen; Meaning: to scold; Type: Verb; example_sentence: Warum schimpfst du denn so laut? – Ich ärgere mich über mein Auto. Alle schimpfen über/auf das Wetter.; Conjugation: schimpft, hat geschimpft
+Word: Schirm; Meaning: umbrella; Type: Noun; Plural: none; example_sentence: Nimm den Schirm mit, es regnet.
+Word: schlafen; Meaning: to sleep; Type: Verb; example_sentence: Ich schlafe meistens acht Stunden. Haben Sie gut geschlafen? Gute Nacht! Schlaf gut und träum süß!; Conjugation: schläft, hat geschlafen
+Word: Schlafzimmer; Meaning: bedroom; Type: Noun; Plural: Schlafzimmer; example_sentence: Hier ist das Schlafzimmer.
+Word: schlecht; Meaning: bad, ill; Type: Adjective; example_sentence: Das Wetter ist schlecht. Wir haben schon seit einer Woche schlechtes Wetter. Mir ist schlecht! Mir geht es schlecht. Ich habe Fieber.
+Word: schließen; Meaning: to close; Type: Verb; example_sentence: Bitte schließen Sie die Tür. Wir müssen uns beeilen, die Bank schließt um 18 Uhr.; Conjugation: schließt, hat geschlossen
+Word: schlimm; Meaning: bad, serious; Type: Adjective; example_sentence: Kein Problem, das ist nicht so schlimm.
+Word: Schloss; Meaning: castle, lock; Type: Noun; Plural: Schlösser; example_sentence: Am Wochenende besichtigen wir Schloss Neuschwanstein. An unserer Tür ist das Schloss kaputt.
+Word: Schluss; Meaning: end; Type: Noun; Plural: Schlüsse; example_sentence: Zum Schluss nochmals herzlichen Dank. Ich muss jetzt Schluss machen. Bis bald!
+Word: Schlüssel; Meaning: key; Type: Noun; Plural: Schlüssel; example_sentence: Ich gebe Ihnen noch den Zimmerschlüssel. Ich finde meinen Schlüssel nicht.
+Word: schmecken; Meaning: to taste; Type: Verb; example_sentence: Schmeckt dir die Suppe? Hat es Ihnen geschmeckt? Schmeckt's?; Conjugation: schmeckt, hat geschmeckt
+Word: Schmerz; Meaning: pain; Type: Noun; Plural: Schmerzen; example_sentence: Haben Sie Schmerzen? Ich habe Bauchschmerzen.
+Word: schmutzig; Meaning: dirty; Type: Adjective; example_sentence: Das Handtuch ist schmutzig.
+Word: Schnee; Meaning: snow; Type: Noun; Plural: none; example_sentence: In den Bergen liegt viel Schnee.
+Word: schneiden (sich); Meaning: to cut (oneself); Type: Verb; example_sentence: Das Messer schneidet nicht gut. Wer schneidet dir die Haare? Aua! Ich habe mich geschnitten!; Conjugation: schneidet, hat geschnitten
+Word: schneien; Meaning: to snow; Type: Verb; example_sentence: Morgen schneit es.; Conjugation: schneit, hat geschneit
+Word: schnell; Meaning: fast; Type: Adjective; example_sentence: Warum fährst du so schnell?
+Word: Schokolade; Meaning: chocolate; Type: Noun; Plural: none; example_sentence: Julia liebt Schokolade.
+Word: schon; Meaning: already; Type: Adverb; example_sentence: Ist das Essen schon fertig? Ich wohne schon seit fünf Jahren in Freiburg.
+Word: schön; Meaning: beautiful; Type: Adjective; example_sentence: Schöne Ferien! Das Bild ist sehr schön. Schön, dass du kommst.
+Word: Schrank; Meaning: cupboard; Type: Noun; Plural: Schränke; example_sentence: Die Gläser stehen im Schrank. Legst du bitte die Handtücher in den Schrank?
+Word: schrecklich; Meaning: terrible; Type: Adjective; example_sentence: Ich finde ihren Rock schrecklich. Er sieht furchtbar aus! Ich finde den Film schrecklich. Er macht mir Angst.
+Word: schreiben; Meaning: to write; Type: Verb; example_sentence: Ich schreibe dir eine E-Mail.; Conjugation: schreibt, hat geschrieben
+Word: schriftlich; Meaning: written; Type: Adjective; example_sentence: Sie müssen sich schriftlich anmelden. Die schriftliche Prüfung dauert 70 Minuten.
+Word: Schuh; Meaning: shoe; Type: Noun; Plural: Schuhe; example_sentence: Zieh die Schuhe aus! Die neuen Schuhe sind mir zu eng. Sie drücken.
+Word: Schule; Meaning: school; Type: Noun; Plural: Schulen; example_sentence: Meine Tochter geht schon in die Schule. Die Schule ist gleich hier um die Ecke.
+Word: Schüler; Meaning: student (male); Type: Noun; Plural: Schüler; example_sentence: In meinem Kurs sind acht Schülerinnen und fünf Schüler.
+Word: Schülerin; Meaning: student (female); Type: Noun; Plural: Schülerinnen; example_sentence: In meinem Kurs sind acht Schülerinnen und fünf Schüler.
+Word: schwach; Meaning: weak; Type: Adjective; example_sentence: Er ist krank und schwach. Ich fühle mich sehr schwach. Die Tabletten sind zu schwach. Sie helfen nicht.
+Word: schwanger; Meaning: pregnant; Type: Adjective; example_sentence: Lena ist schwanger. Sie bekommt im Juli ein Kind.
+Word: Schwein; Meaning: pig, pork; Type: Noun; Plural: Schweine; example_sentence: Ich esse kein Schweinefleisch.
+Word: schwer; Meaning: heavy, hard; Type: Adjective; example_sentence: Wie schwer ist das Paket? Das ist eine schwere Arbeit.
+Word: schwierig; Meaning: difficult; Type: Adjective; example_sentence: Die Prüfung war nicht schwierig.
+Word: Schwimmbad; Meaning: swimming pool; Type: Noun; Plural: Schwimmbäder; example_sentence: Kommst du mit ins Schwimmbad?
+Word: schwimmen; Meaning: to swim; Type: Verb; example_sentence: Ich schwimme täglich einen Kilometer.; Conjugation: schwimmt, ist geschwommen
+Word: See; Meaning: lake; Type: Noun; Plural: Seen; example_sentence: Morgen fahren wir mal an einen See schwimmen. Komm, wir fahren an den Bodensee.
+Word: See; Meaning: sea; Type: Noun; Plural: none; example_sentence: Die See ist heute ruhig. Wir machen Urlaub an der Nordsee.
+Word: sehen; Meaning: to see; Type: Verb; example_sentence: Ich kann dich nicht sehen. Möchtest du einen Film sehen? Ich habe Lisa lange nicht gesehen. Ist sie im Urlaub? Darf ich mal Ihren Ausweis sehen?; Conjugation: sieht, hat gesehen
+Word: Sehenswürdigkeit; Meaning: sightseeing attraction; Type: Noun; Plural: Sehenswürdigkeiten; example_sentence: Welche Sehenswürdigkeiten gibt es in Frankfurt?
+Word: sehr; Meaning: very; Type: Adverb; example_sentence: Danke sehr! Das Wetter ist heute sehr schön.
+Word: Seife; Meaning: soap; Type: Noun; Plural: Seifen; example_sentence: Hier gibt es keine Seife.
+Word: sein; Meaning: to be; Type: Verb; example_sentence: Das sind meine Kollegen. Ich bin Mechaniker. Die Cola ist kalt. Mir ist kalt. Ich bin dreiundzwanzig. Um halb elf ist Pause. Frau Berger ist im Urlaub.; Conjugation: ist, war, ist gewesen
+Word: an sein / aus sein; Meaning: to be on / off; Type: Verb; example_sentence: Das Licht ist noch an/schon aus.
+Word: auf sein; Meaning: to be open; Type: Verb; example_sentence: Das Fenster ist noch auf.
+Word: weg sein; Meaning: to be gone; Type: Verb; example_sentence: Herr Meier ist schon weg.
+Word: zu sein; Meaning: to be closed; Type: Verb; example_sentence: Die Tür ist zu.
+Word: seit; Meaning: since, for; Type: Preposition; example_sentence: Ich wohne seit drei Jahren in Köln.
+Word: Seite; Meaning: page, side; Type: Noun; Plural: Seiten; example_sentence: Öffnen Sie das Kursbuch auf Seite 20. Das ist die Bachstraße. Mein Haus ist auf der linken Seite.
+Word: selbst; Meaning: self; Type: Adverb; example_sentence: Du musst mir nicht helfen, ich mache das selbst.
+Word: Sendung; Meaning: program, broadcast; Type: Noun; Plural: Sendungen; example_sentence: Welche Sendungen schaust du gern an? – Ich mag Sportsendungen. Diese Sendung ist nicht für Jugendliche unter 18 Jahren.
+Word: Service; Meaning: service; Type: Noun; Plural: none; example_sentence: Ich bin mit dem Service in der Werkstatt sehr zufrieden. Rufst du beim Pizza-Service an?
+Word: setzen (sich); Meaning: to sit down; Type: Verb; example_sentence: Setz dich doch!; Conjugation: setzt, hat gesetzt
+Word: sicher; Meaning: safe, certain; Type: Adjective; example_sentence: Dieses Auto ist besonders sicher. Ich bin ganz sicher, dass er kommt. Er ist sicher gleich da.
+Word: singen; Meaning: to sing; Type: Verb; example_sentence: Er singt gern.; Conjugation: singt, hat gesungen
+Word: Situation; Meaning: situation; Type: Noun; Plural: Situationen; example_sentence: Ich bin in einer schwierigen Situation. Ich weiß nicht, was ich tun soll. Lesen Sie die Anzeigen und die Aufgaben 11-15. Welche Anzeige passt zu welcher Situation?
+Word: sitzen; Meaning: to sit; Type: Verb; example_sentence: Wo möchten Sie sitzen? – Bitte ganz hinten.; Conjugation: sitzt, hat/ist gesessen
+Word: Ski; Meaning: ski; Type: Noun; Plural: Ski; example_sentence: Gehen wir am Wochenende Ski fahren? Er kauft sich neue Ski.
+Word: so; Meaning: so, like this; Type: Adverb; example_sentence: Sie müssen das so machen! Fahren Sie bitte nicht so schnell! Meine Frau ist so groß wie ich. So, das war‘s/wär‘s!
+Word: Sofa; Meaning: sofa; Type: Noun; Plural: Sofas; example_sentence: Das Sofa ist bequem.
+Word: sofort; Meaning: immediately; Type: Adverb; example_sentence: Bitte antworten Sie sofort. Sie können sich ab sofort für den Kurs anmelden.
+Word: sogar; Meaning: even; Type: Adverb; example_sentence: Heute ist es sehr kalt. In den Bergen schneit es sogar. Zu meiner Hochzeit kommen viele Gäste. Sogar meine Tante aus Kanada kommt.
+Word: sollen; Meaning: should, ought to; Type: Verb; example_sentence: Wann soll ich kommen und was soll ich mitbringen?; Conjugation: soll, sollte
+Word: Sonne; Meaning: sun; Type: Noun; Plural: Sonnen; example_sentence: Die Sonne scheint.
+Word: sonnig; Meaning: sunny; Type: Adjective; example_sentence: Morgen ist das Wetter wieder warm und sonnig.
+Word: sonst; Meaning: otherwise; Type: Adverb; example_sentence: Haben Sie sonst noch einen Wunsch? – Nein danke, das ist alles. Beeil dich, sonst kommen wir zu spät!
+Word: spannend; Meaning: exciting; Type: Adjective; example_sentence: Ich finde den Film sehr spannend.
+Word: sparen; Meaning: to save money; Type: Verb; example_sentence: Ein neues Auto ist sehr teuer. Ich muss sparen.; Conjugation: spart, hat gespart
+Word: Spaß; Meaning: fun; Type: Noun; Plural: none; example_sentence: Meine Arbeit macht mir Spaß. Ich will nicht aufräumen. Das macht mir keinen Spaß. Viel Spaß!
+Word: spät; Meaning: late; Type: Adjective; example_sentence: Es ist schon spät, ich muss gehen.
+Word: später; Meaning: later; Type: Adverb; example_sentence: Das können wir später machen.
+Word: spazieren gehen; Meaning: to go for a walk; Type: Verb; example_sentence: Wir gehen sonntags immer spazieren.; Conjugation: geht spazieren, ist spazieren gegangen
+Word: Spaziergang; Meaning: walk; Type: Noun; Plural: Spaziergänge; example_sentence: Abends mache ich immer einen Spaziergang.
+Word: speichern; Meaning: to save (data); Type: Verb; example_sentence: Sie müssen die Datei speichern.; Conjugation: speichert, hat gespeichert
+Word: Speisekarte; Meaning: menu; Type: Noun; Plural: Speisekarten; example_sentence: Entschuldigung, bringen Sie uns bitte die Speisekarte.
+Word: Spiel; Meaning: game; Type: Noun; Plural: Spiele; example_sentence: Welche Kartenspiele kennen Sie? Monopoly ist ein sehr bekanntes Spiel.
+Word: spielen; Meaning: to play; Type: Verb; example_sentence: Die Kinder spielen draußen.; Conjugation: spielt, hat gespielt
+Word: Sport; Meaning: sport; Type: Noun; Plural: none; example_sentence: Ich mache viel Sport.
+Word: sportlich; Meaning: sporty; Type: Adjective; example_sentence: Tom ist sehr sportlich.
+Word: Sportplatz; Meaning: sports field; Type: Noun; Plural: Sportplätze; example_sentence: Das Fußballtraining ist um 17 Uhr auf dem Sportplatz.
+Word: Sprache; Meaning: language; Type: Noun; Plural: Sprachen; example_sentence: Welche Sprachen sprichst du? – Ich spreche Englisch und Spanisch.
+Word: sprechen; Meaning: to speak; Type: Verb; example_sentence: Kann ich (mit) Herrn Klein sprechen?; Conjugation: spricht, hat gesprochen
+Word: Sprechstunde; Meaning: office hours; Type: Noun; Plural: Sprechstunden; example_sentence: Frau Doktor Weiß hat von 9:00 bis 12:30 Uhr Sprechstunde.
+Word: Stadt; Meaning: city; Type: Noun; Plural: Städte; example_sentence: Heidelberg ist eine alte Stadt.
+Word: Stadtplan; Meaning: city map; Type: Noun; Plural: Stadtpläne; example_sentence: Haben Sie einen Stadtplan von Salzburg?
+Word: Star; Meaning: star; Type: Noun; Plural: Stars; example_sentence: Diese Sängerin ist ein Star in Deutschland.
+Word: stark; Meaning: strong; Type: Adjective; example_sentence: Ich habe starke Kopfschmerzen. Es regnet stark. Der Kaffee ist sehr stark.
+Word: stattfinden; Meaning: to take place; Type: Verb; example_sentence: Das Spiel findet auch bei Regen statt.; Conjugation: findet statt, hat stattgefunden
+Word: stehen; Meaning: to stand; Type: Verb; example_sentence: Der Bus steht schon an der Haltestelle.; Conjugation: steht, hat/ist gestanden
+Word: Stelle; Meaning: position, job; Type: Noun; Plural: Stellen; example_sentence: Ich habe eine neue Stelle. Ich arbeite jetzt bei Mercedes. Wir treffen uns hier an dieser Stelle.
+Word: stellen; Meaning: to put, to place; Type: Verb; example_sentence: Stell die Milch bitte in den Kühlschrank!; Conjugation: stellt, hat gestellt
+Word: sterben; Meaning: to die; Type: Verb; example_sentence: Herr Müller kommt heute nicht. Sein Vater ist gestern gestorben.; Conjugation: stirbt, ist gestorben
+Word: Stiefel; Meaning: boots; Type: Noun; Plural: Stiefel; example_sentence: Wie viel kosten die roten Stiefel?
+Word: Stift; Meaning: pen; Type: Noun; Plural: Stifte; example_sentence: Kannst du mir bitte einen Stift geben? - Was brauchst du? Einen Farbstift oder einen Bleistift oder einen Kugelschreiber?
+Word: Stipendium; Meaning: scholarship; Type: Noun; Plural: Stipendien; example_sentence: Wenn ich ein gutes Zeugnis habe, bekomme ich ein Stipendium.
+Word: Stock; Meaning: floor, story; Type: Noun; Plural: Stockwerke; example_sentence: Unsere Wohnung liegt im ersten Stock. Das Gebäude hat zwanzig Stockwerke.
+Word: stören; Meaning: to disturb; Type: Verb; example_sentence: Störe ich?; Conjugation: stört, hat gestört
+Word: Strand; Meaning: beach; Type: Noun; Plural: Strände; example_sentence: Im Urlaub bin ich am liebsten am Strand.
+Word: Straße; Meaning: street; Type: Noun; Plural: Straßen; example_sentence: In welcher Straße wohnen Sie?
+Word: Straßenbahn; Meaning: tram; Type: Noun; Plural: Straßenbahnen; example_sentence: Fahren wir mit der Straßenbahn oder mit der U-Bahn?
+Word: streiten; Meaning: to argue; Type: Verb; example_sentence: Die Kinder streiten (sich) oft.; Conjugation: streitet, hat gestritten
+Word: streng; Meaning: strict; Type: Adjective; example_sentence: Der Lehrer von meiner Tochter ist sehr streng.
+Word: Stress; Meaning: stress; Type: Noun; Plural: none; example_sentence: Ich habe bei der Arbeit viel Stress.
+Word: stressig; Meaning: stressful; Type: Adjective; example_sentence: Meine Arbeit ist stressig.
+Word: Stück; Meaning: piece; Type: Noun; Plural: Stücke; example_sentence: Möchten Sie noch ein Stück Kuchen? Im Theater spielen sie heute das Stück „Romeo und Julia“.
+Word: Student; Meaning: student (male); Type: Noun; Plural: Studenten; example_sentence: Ich bin Studentin.
+Word: Studentin; Meaning: student (female); Type: Noun; Plural: Studentinnen; example_sentence: Ich bin Studentin.
+Word: studieren; Meaning: to study; Type: Verb; example_sentence: Ich studiere in Mainz.; Conjugation: studiert, hat studiert
+Word: Studium; Meaning: studies; Type: Noun; Plural: none; example_sentence: Das Studium dauert drei Jahre.
+Word: Stuhl; Meaning: chair; Type: Noun; Plural: Stühle; example_sentence: Ist der Stuhl frei?
+Word: suchen; Meaning: to search; Type: Verb; example_sentence: Suchst du etwas? Ich suche meine Brille.; Conjugation: sucht, hat gesucht
+Word: super; Meaning: great; Type: Adjective; example_sentence: Der Film ist super. Er kann super tanzen.
+Word: Supermarkt; Meaning: supermarket; Type: Noun; Plural: Supermärkte; example_sentence: Ich kaufe oft im Supermarkt ein.
+Word: Suppe; Meaning: soup; Type: Noun; Plural: Suppen; example_sentence: Schmeckt dir die Suppe?
+Word: surfen; Meaning: to surf; Type: Verb; example_sentence: Ich möchte gern surfen lernen. Surfst du oft im Internet?; Conjugation: surft, hat/ist gesurft
+Word: süß; Meaning: sweet, cute; Type: Adjective; example_sentence: Ich finde die Torte zu süß. Ist das deine Tochter? Die ist ja süß!
+Word: Süßigkeiten; Meaning: sweets; Type: Noun; Plural: Süßigkeiten; example_sentence: Welche Süßigkeiten isst du am liebsten? - Schokolade und Eis.
+Word: sympathisch; Meaning: likeable, nice; Type: Adjective; example_sentence: Der neue Chef ist sehr sympathisch.
+Word: Tablet; Meaning: tablet; Type: Noun; Plural: Tablets; example_sentence: Hast du ein Tablet? - Nein, ich habe einen Laptop und ein Handy.
+Word: Tablette; Meaning: pill; Type: Noun; Plural: Tabletten; example_sentence: Du sollst am Abend zwei Tabletten nehmen.
+Word: Tafel; Meaning: board; Type: Noun; Plural: Tafeln; example_sentence: Der Lehrer schreibt das neue Wort an die Tafel. Am Eingang gibt es Tafeln mit Informationen.
+Word: tanzen; Meaning: to dance; Type: Verb; example_sentence: Tanzen Sie gern?; Conjugation: tanzt, hat getanzt
+Word: Tasche; Meaning: bag; Type: Noun; Plural: Taschen; example_sentence: Ich habe die Schlüssel in der Tasche. Ich habe nicht viel Gepäck. Nur eine Tasche.
+Word: Taschengeld; Meaning: pocket money; Type: Noun; Plural: none; example_sentence: Wie viel Taschengeld bekommen deine Kinder?
+Word: Tasse; Meaning: cup; Type: Noun; Plural: Tassen; example_sentence: Möchten Sie eine Tasse Kaffee?
+Word: (aus)tauschen; Meaning: to exchange; Type: Verb; example_sentence: Können wir bitte die Plätze tauschen? Können wir unsere Adressen austauschen?; Conjugation: tauscht (aus), hat (aus)getauscht
+Word: Taxi; Meaning: taxi; Type: Noun; Plural: Taxis; example_sentence: Bitte rufen Sie mir ein Taxi.
+Word: Team; Meaning: team; Type: Noun; Plural: Teams; example_sentence: Ich arbeite gern in einem Team. Welches Fußballteam findest du am besten?
+Word: Tee; Meaning: tea; Type: Noun; Plural: none; example_sentence: Ich trinke morgens immer Tee.
+Word: teilen; Meaning: to share; Type: Verb; example_sentence: Wollen wir die Pizza teilen?; Conjugation: teilt, hat geteilt
+Word: teilnehmen; Meaning: to participate; Type: Verb; example_sentence: Ich möchte an dem Tanzkurs teilnehmen.; Conjugation: nimmt teil, hat teilgenommen
+Word: Telefon; Meaning: telephone; Type: Noun; Plural: Telefone; example_sentence: Darf ich bitte Ihr Telefon benutzen?
+Word: telefonieren; Meaning: to telephone; Type: Verb; example_sentence: Ich muss kurz telefonieren.; Conjugation: telefoniert, hat telefoniert
+Word: Teller; Meaning: plate; Type: Noun; Plural: Teller; example_sentence: Stell die Teller bitte auf den Tisch! Möchtest du noch einen Teller Suppe?
+Word: Tennis; Meaning: tennis; Type: Noun; Plural: none; example_sentence: Steffi spielt sehr gut Tennis.
+Word: Termin; Meaning: appointment; Type: Noun; Plural: Termine; example_sentence: Am besten machen wir sofort einen Termin. Ich habe heute einen Termin bei meiner Zahnärztin.
+Word: teuer; Meaning: expensive; Type: Adjective; example_sentence: Das ist mir zu teuer.
+Word: Text; Meaning: text; Type: Noun; Plural: Texte; example_sentence: Lesen Sie bitte den Text.
+Word: Theater; Meaning: theater; Type: Noun; Plural: Theater; example_sentence: Ich gehe nicht gern ins Theater.
+Word: Thema; Meaning: topic; Type: Noun; Plural: Themen; example_sentence: Heute heißt unser Thema: „Essen und Trinken“.
+Word: Ticket; Meaning: ticket; Type: Noun; Plural: Tickets; example_sentence: Wie viel kostet das Ticket?
+Word: tief; Meaning: deep; Type: Adjective; example_sentence: Vorsicht, das Wasser ist tief!
+Word: Tier; Meaning: animal; Type: Noun; Plural: Tiere; example_sentence: Wir dürfen keine Tiere in der Wohnung haben. Meine Lieblingstiere sind Katzen.
+Word: Tipp; Meaning: tip; Type: Noun; Plural: Tipps; example_sentence: Kannst du mir einen guten Tipp geben?
+Word: Tisch; Meaning: table; Type: Noun; Plural: Tische; example_sentence: Das Essen steht schon auf dem Tisch.
+Word: Titel; Meaning: title; Type: Noun; Plural: Titel; example_sentence: Wie heißt der Film? - Ich weiß den Titel nicht mehr.
+Word: Toilette; Meaning: toilet; Type: Noun; Plural: Toiletten; example_sentence: Wo ist die Toilette, bitte?
+Word: toll; Meaning: great; Type: Adjective; example_sentence: Der Urlaub war toll.
+Word: Tomate; Meaning: tomato; Type: Noun; Plural: Tomaten; example_sentence: Die Tomate ist noch grün.
+Word: Topf; Meaning: pot; Type: Noun; Plural: Töpfe; example_sentence: Hast du keinen größeren Topf? Ich möchte Kartoffeln kochen.
+Word: Torte; Meaning: cake; Type: Noun; Plural: Torten; example_sentence: Zum Geburtstag backe ich dir eine Torte.
+Word: tot; Meaning: dead; Type: Adjective; example_sentence: Meine Großeltern sind schon lange tot.
+Word: total; Meaning: totally; Type: Adverb; example_sentence: Der Film ist total langweilig.
+Word: Tour; Meaning: tour; Type: Noun; Plural: Touren; example_sentence: Wo kann ich eine Stadttour buchen? Wir gehen am Wochenende wandern. Ich kenne eine schöne Tour in den Bergen.
+Word: Tourist; Meaning: tourist (male); Type: Noun; Plural: Touristen; example_sentence: Im Sommer kommen viele Touristen in diese Stadt.
+Word: Touristin; Meaning: tourist (female); Type: Noun; Plural: Touristinnen; example_sentence: Im Sommer kommen viele Touristen in diese Stadt.
+Word: tragen; Meaning: to carry; Type: Verb; example_sentence: Ich kann den Koffer nicht tragen, er ist zu schwer. Er trägt heute einen blauen Anzug.; Conjugation: trägt, hat getragen
+Word: trainieren; Meaning: to train; Type: Verb; example_sentence: Wir trainieren einmal pro Woche im Sportverein.; Conjugation: trainiert, hat trainiert
+Word: Training; Meaning: training; Type: Noun; Plural: Trainings; example_sentence: Das Training ist immer dienstags. Ich gehe jede Woche zum Training.
+Word: Traum; Meaning: dream; Type: Noun; Plural: Träume; example_sentence: Ich möchte eine eigene Firma, das ist mein Traum.
+Word: träumen; Meaning: to dream; Type: Verb; example_sentence: Ich habe schlecht geträumt. Ich träume von einem großen Haus mit Garten.; Conjugation: träumt, hat geträumt
+Word: traurig; Meaning: sad; Type: Adjective; example_sentence: Ich bin sehr traurig. Meine Katze ist weggelaufen.
+Word: treffen; Meaning: to meet; Type: Verb; example_sentence: Ich treffe in der Stadt einen Kollegen.; Conjugation: trifft, hat getroffen
+Word: Treppe; Meaning: stairs; Type: Noun; Plural: Treppen; example_sentence: Ich nehme die Treppe, nicht den Aufzug. Wo ist die Toilette? - Die Treppe hoch und dann links.
+Word: trinken; Meaning: to drink; Type: Verb; example_sentence: Möchtest du etwas trinken?; Conjugation: trinkt, hat getrunken
+Word: trocken; Meaning: dry; Type: Adjective; example_sentence: Die Wäsche ist bald trocken.
+Word: tschüs; Meaning: bye; Type: Interjection; example_sentence: Tschüs, bis morgen!
+Word: T-Shirt; Meaning: T-shirt; Type: Noun; Plural: T-Shirts; example_sentence: Haben Sie dieses T-Shirt auch in M?
+Word: tun; Meaning: to do; Type: Verb; example_sentence: Mein Rücken tut weh. Es tut mir leid, ich kann leider nicht kommen. Was kann ich für Sie tun?; Conjugation: tut, hat getan
+Word: Tür; Meaning: door; Type: Noun; Plural: Türen; example_sentence: Mach bitte die Tür zu!
+Word: typisch; Meaning: typical; Type: Adjective; example_sentence: Diese Musik ist typisch für dieses Land. Typisch Anna, sie kommt natürlich wieder zu spät.
+Word: üben; Meaning: to practice; Type: Verb; example_sentence: Ich lerne gerade Gitarre spielen. Ich übe jeden Tag zwei Stunden.; Conjugation: übt, hat geübt
+Word: über; Meaning: over, about; Type: Preposition; example_sentence: Gehen Sie lieber hier über die Straße. Über uns wohnt Familie Schneider. Sind Sie über 18?
+Word: überall; Meaning: everywhere; Type: Adverb; example_sentence: Ich habe überall gesucht, aber ich kann meine Brille nicht finden.
+Word: übermorgen; Meaning: the day after tomorrow; Type: Noun; example_sentence: Morgen habe ich frei. Ich komme übermorgen wieder ins Büro.
+Word: übernachten; Meaning: to stay overnight; Type: Verb; example_sentence: Du kannst bei mir übernachten.; Conjugation: übernachtet, hat übernachtet
+Word: übersetzen; Meaning: to translate; Type: Verb; example_sentence: Können Sie mir den Brief bitte übersetzen?; Conjugation: übersetzt, hat übersetzt
+Word: Übersetzung; Meaning: translation; Type: Noun; Plural: Übersetzungen; example_sentence: Ich brauche eine Übersetzung von meinem Zeugnis.
+Word: überweisen; Meaning: to transfer money; Type: Verb; example_sentence: Sie können das Geld auch überweisen. Ich überweise dir das Geld.; Conjugation: überweist, hat überwiesen
+Word: Uhr; Meaning: clock, watch; Type: Noun; Plural: Uhren; example_sentence: Es ist vier Uhr. Geht deine Uhr richtig?
+Word: um; Meaning: around, at; Type: Preposition; example_sentence: Er kommt um sieben Uhr. Die Apotheke ist gleich um die Ecke.
+Word: umsteigen; Meaning: to change (train, bus); Type: Verb; example_sentence: Sie müssen in Mannheim umsteigen.; Conjugation: steigt um, ist umgestiegen
+Word: umziehen; Meaning: to move (house); Type: Verb; example_sentence: Nächsten Monat ziehen wir um.; Conjugation: zieht um, ist umgezogen
+Word: sich umziehen; Meaning: to change clothes; Type: Reflexive verb; example_sentence: Warte bitte, ich muss mich noch umziehen.; Conjugation: zieht sich um, zog sich um, hat sich umgezogen
+Word: Umzug; Meaning: move (house); Type: Noun; Plural: Umzüge; example_sentence: Der Umzug ist nächste Woche.
+Word: unbedingt; Meaning: absolutely, necessarily; Type: Adverb; example_sentence: Ich muss unbedingt mit dir sprechen.
+Word: und; Meaning: and; Type: Conjunction; example_sentence: Ich habe heute und morgen frei. Ich kaufe ein und mein Mann kocht.
+Word: Unfall; Meaning: accident; Type: Noun; Plural: Unfälle; example_sentence: Ich hatte gestern einen Unfall. Wie ist der Unfall passiert?
+Word: Universität; Meaning: university; Type: Noun; Plural: Universitäten; example_sentence: Er studiert an der Universität Freiburg.
+Word: unten; Meaning: downstairs, below; Type: Adverb; example_sentence: Er wohnt ganz unten im Haus.
+Word: unter; Meaning: under, beneath; Type: Preposition; example_sentence: Unter uns wohnt eine Familie mit drei Kindern.
+Word: unterhalten (sich); Meaning: to chat, converse; Type: Verb; example_sentence: Andreas und Nessrin unterhalten sich. Wir haben uns über das Fußballspiel unterhalten.; Conjugation: unterhält, hat unterhalten
+Word: Unterkunft; Meaning: accommodation; Type: Noun; Plural: Unterkünfte; example_sentence: Ich suche noch eine Unterkunft in Basel. Kennst du ein günstiges Hotel?
+Word: unternehmen; Meaning: to do, undertake; Type: Verb; example_sentence: Wollen wir heute Abend etwas unternehmen?; Conjugation: unternimmt, hat unternommen
+Word: Unterricht; Meaning: class; Type: Noun; example_sentence: Der Unterricht dauert bis 19 Uhr.
+Word: Unterschied; Meaning: difference; Type: Noun; Plural: Unterschiede; example_sentence: Was ist der Unterschied zwischen den beiden Kursen? - Die Kurse sind gleich. Es gibt keinen Unterschied.
+Word: unterschreiben; Meaning: to sign; Type: Verb; example_sentence: Wo muss ich unterschreiben?; Conjugation: unterschreibt, hat unterschrieben
+Word: Unterschrift; Meaning: signature; Type: Noun; Plural: Unterschriften; example_sentence: Hier fehlt noch Ihre Unterschrift.
+Word: untersuchen; Meaning: to examine; Type: Verb; example_sentence: Der Arzt hat mich untersucht. Der Arzt muss dein Bein untersuchen.; Conjugation: untersucht, hat untersucht
+Word: unterwegs sein; Meaning: to be on the way; Type: Verb; example_sentence: Warte bitte auf mich. Ich bin unterwegs und komme gleich.; Conjugation: ist unterwegs, war unterwegs, ist unterwegs gewesen
+Word: Urlaub; Meaning: vacation; Type: Noun; Plural: Urlaube; example_sentence: Ich nehme im September Urlaub.
+Word: verabredet sein; Meaning: to have an appointment, be scheduled; Type: Verb; example_sentence: Ich bin mit meiner Freundin verabredet.; Conjugation: ist verabredet, war verabredet, ist verabredet gewesen
+Word: Veranstaltung; Meaning: event; Type: Noun; Plural: Veranstaltungen; example_sentence: Am Samstag ist unser Restaurant geschlossen. Wir haben eine Veranstaltung.
+Word: verbieten; Meaning: to forbid; Type: Verb; example_sentence: Hier ist Rauchen verboten.; Conjugation: verboten sein
+Word: verdienen; Meaning: to earn; Type: Verb; example_sentence: Ich verdiene 1.500 Euro im Monat.; Conjugation: verdient, hat verdient
+Word: Verein; Meaning: club, association; Type: Noun; Plural: Vereine; example_sentence: Er ist seit vielen Jahren im Verein. Es gibt einen neuen Sportverein in der Stadt.
+Word: vereinbaren; Meaning: to arrange, agree on; Type: Verb; example_sentence: Können wir einen Termin vereinbaren?; Conjugation: vereinbart, hat vereinbart
+Word: vergessen; Meaning: to forget; Type: Verb; example_sentence: Ich habe meine Hausaufgaben vergessen. Vergiss deinen Arzttermin nicht!; Conjugation: vergisst, hat vergessen
+Word: vergleichen; Meaning: to compare; Type: Verb; example_sentence: Vergleichen Sie die Angebote!; Conjugation: vergleicht, hat verglichen
+Word: verkaufen; Meaning: to sell; Type: Verb; example_sentence: Er verkauft sein altes Auto.; Conjugation: verkauft, hat verkauft
+Word: Verkehr; Meaning: traffic; Type: Noun; example_sentence: Morgens gibt es hier immer viel Verkehr.
+Word: Verkehrsmittel; Meaning: means of transportation; Type: Noun; Plural: Verkehrsmittel; example_sentence: Welche Verkehrsmittel benutzen Sie oft?
+Word: verletzen (sich); Meaning: to injure (oneself); Type: Verb; example_sentence: Sind Sie verletzt? – Ja, am Bein.; Conjugation: verletzt, hat verletzt
+Word: verlieben (sich); Meaning: to fall in love; Type: Verb; example_sentence: Ich bin total verliebt.; Conjugation: verliebt, hat verliebt
+Word: verlieren; Meaning: to lose; Type: Verb; example_sentence: Ich habe meinen Schlüssel verloren. Michael hat seine Arbeit verloren.; Conjugation: verliert, hat verloren
+Word: vermieten; Meaning: to rent out; Type: Verb; example_sentence: Die Wohnung ist schon vermietet.; Conjugation: vermietet, hat vermietet
+Word: Vermieter; Meaning: landlord; Type: Noun; Plural: Vermieter; example_sentence: Unser Vermieter ist nett.
+Word: Vermieterin; Meaning: landlady; Type: Noun; Plural: Vermieterinnen; example_sentence: Unsere Vermieterin ist sehr nett.
+Word: verpassen; Meaning: to miss (e.g., a train); Type: Verb; example_sentence: Ich habe den Zug verpasst.; Conjugation: verpasst, hat verpasst
+Word: verreisen; Meaning: to travel, go away; Type: Verb; example_sentence: Verreist ihr in den Ferien?; Conjugation: verreist, ist verreist
+Word: verschieben; Meaning: to postpone; Type: Verb; example_sentence: Leider muss ich den Termin verschieben.; Conjugation: verschiebt, hat verschoben
+Word: verschieden; Meaning: different, various; Type: Adjective; example_sentence: Unsere beiden Kinder sind sehr verschieden. Ich habe diese Schuhe in verschiedenen Farben.
+Word: Verspätung; Meaning: delay; Type: Noun; Plural: Verspätungen; example_sentence: Unser Zug hat leider 15 Minuten Verspätung.
+Word: verstehen; Meaning: to understand; Type: Verb; example_sentence: Können Sie mich verstehen? Ich verstehe diese Aufgabe nicht.; Conjugation: versteht, hat verstanden
+Word: versuchen; Meaning: to try, attempt; Type: Verb; example_sentence: Kann ich es auch einmal versuchen? Haben Sie es schon einmal mit diesem Mittel versucht?; Conjugation: versucht, hat versucht
+Word: Vertrag; Meaning: contract; Type: Noun; Plural: Verträge; example_sentence: Ich muss den Vertrag noch unterschreiben.
+Word: viel; Meaning: a lot, much; Type: Adjective; example_sentence: Ich habe leider nicht viel Zeit. Viel Spaß! Im Winter sind viele Leute erkältet.
+Word: vielleicht; Meaning: maybe; Type: Adverb; example_sentence: Vielleicht bekomme ich diesen Job. Er besucht uns vielleicht am Wochenende. Kannst du mir vielleicht ein bisschen Geld leihen?
+Word: Vogel; Meaning: bird; Type: Noun; Plural: Vögel; example_sentence: Nadine mag Vögel. Morgens singen die Vögel immer laut.
+Word: voll; Meaning: full; Type: Adjective; example_sentence: Morgens und abends sind die Züge immer sehr voll. Die Flasche ist noch ganz voll.
+Word: Volleyball; Meaning: volleyball; Type: Noun; Plural: Volleyballs; example_sentence: Ich spiele gern Volleyball.
+Word: von; Meaning: from, of; Type: Preposition; example_sentence: Das Auto von Felix ist kaputt. Er kommt gerade von Köln/von zu Hause.
+Word: vor; Meaning: ago, before, in front of; Type: Preposition; example_sentence: Er ist vor einer Stunde gegangen. Das Auto steht vor der Tür.
+Word: vorbei; Meaning: past, by; Type: Adverb; example_sentence: Die Linie 8 fährt am Krankenhaus vorbei. Kommst du morgen bei mir vorbei?
+Word: vorbereiten; Meaning: to prepare; Type: Verb; example_sentence: Morgen mache ich eine Party. Ich muss noch viel dafür vorbereiten. Ich muss mich auf meine Prüfung vorbereiten.; Conjugation: vorbereitet, hat vorbereitet
+Word: vorgestern; Meaning: the day before yesterday; Type: Adverb; example_sentence: Er hat mich vorgestern angerufen.
+Word: vorher; Meaning: before; Type: Adverb; example_sentence: Ich komme mit ins Café. Vorher muss ich aber noch zur Bank.
+Word: vorn(e); Meaning: at the front; Type: Adverb; example_sentence: Bitte vorn(e) einsteigen!
+Word: Vorname; Meaning: first name; Type: Noun; Plural: Vornamen; example_sentence: Ich heiße Müller, mein Vorname ist Eva.
+Word: Vorschlag; Meaning: suggestion; Type: Noun; Plural: Vorschläge; example_sentence: Was machen wir am Wochenende? Hast du einen guten Vorschlag? Wir haben doch schon so viele Vorschläge gemacht.
+Word: vorsichtig; Meaning: careful; Type: Adjective; example_sentence: Sei vorsichtig! Du musst vorsichtig fahren, es ist neblig.
+Word: vorstellen (sich); Meaning: to introduce (oneself); Type: Verb; example_sentence: Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen? Darf ich Ihnen meine Frau vorstellen?; Conjugation: stellt vor, hat vorgestellt
+Word: vorwärts; Meaning: forward; Type: Adverb; example_sentence: Fahren Sie bitte noch ein Stück vorwärts.
+Word: wach; Meaning: awake; Type: Adjective; example_sentence: Bist du schon lange wach? Ich bin noch nicht ganz wach.
+Word: Wagen; Meaning: car, vehicle; Type: Noun; Plural: Wagen; example_sentence: Wo steht Ihr Wagen? Im zweiten Wagen ist unser Zugrestaurant.
+Word: wählen; Meaning: to choose; Type: Verb; example_sentence: Sie müssen erst eine Null wählen. Wählen Sie bitte ein Getränk.; Conjugation: wählt, hat gewählt
+Word: wahr; Meaning: true; Type: Adjective; example_sentence: Das ist (nicht) wahr!
+Word: wahrscheinlich; Meaning: probably; Type: Adverb; example_sentence: Wahrscheinlich mache ich im Herbst einen Deutschkurs. Er kommt wahrscheinlich nicht.
+Word: Wald; Meaning: forest; Type: Noun; Plural: Wälder; example_sentence: Im Wald ist es ruhig. Ich gehe gern im Wald spazieren.
+Word: wandern; Meaning: to hike; Type: Verb; example_sentence: Wir gehen oft wandern.; Conjugation: wandert, ist gewandert
+Word: wann; Meaning: when; Type: Question word; example_sentence: Wann bist du fertig? Wann kann ich Sie anrufen?
+Word: warm; Meaning: warm; Type: Adjective; example_sentence: Hier ist es sehr warm. Mittags esse ich oft ein warmes Essen. Ich brauche einen warmen Pullover.
+Word: warten; Meaning: to wait; Type: Verb; example_sentence: Können Sie ein paar Minuten warten? Auf wen warten Sie?; Conjugation: wartet, hat gewartet
+Word: warum; Meaning: why; Type: Question word; example_sentence: Warum kommt er nicht?
+Word: was; Meaning: what; Type: Question word; example_sentence: Was ist das? Was möchten Sie?
+Word: Wäsche; Meaning: laundry; Type: Noun; Plural: Wäschen; example_sentence: Ich muss noch Wäsche waschen.
+Word: waschen (sich); Meaning: to wash (oneself); Type: Verb; example_sentence: Wo kann ich mir die Hände waschen?; Conjugation: wäscht, hat gewaschen
+Word: Wasser; Meaning: water; Type: Noun; Singular: Wasser; example_sentence: Ein Glas Wasser, bitte. Gibt es hier kein warmes Wasser?
+Word: Webseite; Meaning: website; Type: Noun; Plural: Webseiten; example_sentence: Es gibt viele Webseiten mit Grammatikübungen.
+Word: wechseln; Meaning: to change, to exchange; Type: Verb; example_sentence: Wir müssen den Reifen wechseln. Können Sie mir zehn Dollar wechseln?; Conjugation: wechselt, hat gewechselt
+Word: wecken; Meaning: to wake (someone up); Type: Verb; example_sentence: Bitte wecken Sie mich morgen früh um fünf.; Conjugation: weckt, hat geweckt
+Word: weg/weg-; Meaning: away; Type: Adverb/Prefix; example_sentence: Meine Brille ist weg. Ich finde sie nicht mehr.
+Word: Weg; Meaning: path; Type: Noun; Plural: die Wege; example_sentence: Das ist der kürzeste Weg. Können Sie mir bitte den Weg zum Flughafen beschreiben?
+Word: wegen; Meaning: because of; Type: Preposition; example_sentence: Wegen seiner Arbeit kann er leider nicht kommen. Ich rufe wegen meiner Tochter an.
+Word: wehtun; Meaning: to hurt; Type: Verb; example_sentence: Wo tut es weh? Ich will dir nicht wehtun.; Conjugation: tut weh, hat wehgetan
+Word: weiblich; Meaning: female; Type: Adjective; example_sentence: Wählen Sie bitte: „weiblich“ oder „männlich“.
+Word: weich; Meaning: soft; Type: Adjective; example_sentence: Ich möchte zum Frühstück ein weiches Ei. Das Bett im Hotel war zu weich.
+Word: weil; Meaning: because; Type: Conjunction; example_sentence: Ich kann nicht kommen, weil ich arbeiten muss.
+Word: Wein; Meaning: wine; Type: Noun; Plural: Weine; example_sentence: Nein danke, ich möchte keinen Wein.
+Word: weinen; Meaning: to cry; Type: Verb; example_sentence: Warum weint das Baby? Weine bitte nicht!; Conjugation: weint, hat geweint
+Word: weit; Meaning: far; Type: Adjective; example_sentence: Zum Bahnhof ist es nicht weit.
+Word: weiter; Meaning: further, continue; Type: Adjective/Adverb; example_sentence: Der Bus fährt nicht weiter. Entschuldigung, können Sie mir bitte weiterhelfen?
+Word: welcher; Meaning: which; Type: Question word; example_sentence: Welcher Tag ist heute? Welchen Kurs möchtest du machen? Welche Bluse nehmen Sie? Welches Buch suchst du?
+Word: Welt; Meaning: world; Type: Noun; Plural: Welten; example_sentence: Ich möchte gern einmal um die Welt reisen. Die Studenten kommen aus vielen Ländern. Sie kommen aus der ganzen Welt.
+Word: wenig; Meaning: little, few; Type: Adjective; example_sentence: Ich habe leider nur wenig verstanden. Er verdient wenig.
+Word: wenigstens; Meaning: at least; Type: Adverb; example_sentence: Ich habe keinen Hunger. - Ach, essen Sie wenigstens ein Stück Kuchen.
+Word: wenn; Meaning: if, when; Type: Conjunction; example_sentence: Wenn ich nicht arbeiten muss, komme ich.
+Word: wer (wen, wem); Meaning: who (accusative, dative); Type: Question word; example_sentence: Wer ist das?
+Word: werden; Meaning: to become, will (future); Type: Verb; example_sentence: Mein Sohn will Arzt werden.; Conjugation: wird, ist geworden
+Word: Werkstatt; Meaning: workshop, garage; Type: Noun; Plural: Werkstätten; example_sentence: Mein Auto ist kaputt. Es ist in der Werkstatt.
+Word: Wettbewerb; Meaning: competition; Type: Noun; Plural: Wettbewerbe; example_sentence: Mein Sohn hat bei einem Wettbewerb gewonnen.
+Word: Wetter; Meaning: weather; Type: Noun; Singular: Wetter; example_sentence: Heute ist das Wetter gut: Es ist sonnig und warm. Wir hatten im Urlaub schlechtes Wetter.
+Word: wichtig; Meaning: important; Type: Adjective; example_sentence: Es ist wichtig, dass Sie auch kommen. Morgen habe ich einen wichtigen Termin.
+Word: wie; Meaning: how, like; Type: Question word; example_sentence: Wie heißt du? Wie bitte? Können Sie das bitte wiederholen?; Conjugation: wie, wie
+Word: wie viel; Meaning: how much; Type: Question word; example_sentence: Wie viel kostet diese Hose? Wie viele Kinder haben Sie?
+Word: wieder; Meaning: again; Type: Adverb; example_sentence: Stefan kann wieder zum Fußballtraining kommen. Geht es dir wieder besser? Du kommst schon wieder zu spät. Wann kommst du wieder?
+Word: wiederholen; Meaning: to repeat; Type: Verb; example_sentence: Können Sie das bitte wiederholen?; Conjugation: wiederholt, hat wiederholt
+Word: Wiederhören; Meaning: goodbye (on the phone); Type: Noun; example_sentence: Wir müssen jetzt Schluss machen. Also auf Wiederhören!
+Word: Wiedersehen; Meaning: farewell, goodbye; Type: Noun; example_sentence: Auf Wiedersehen!
+Word: willkommen; Meaning: welcome; Type: Adjective; example_sentence: Herzlich willkommen in Berlin!
+Word: Wind; Meaning: wind; Type: Noun; Plural: Winde; example_sentence: Der Wind ist kalt.
+Word: windig; Meaning: windy; Type: Adjective; example_sentence: Heute ist es sehr windig.
+Word: wirklich; Meaning: really; Type: Adjective/Adverb; example_sentence: Du glaubst mir nicht? Es ist aber wirklich so.
+Word: wissen; Meaning: to know; Type: Verb; example_sentence: Weißt du, wie der Hausmeister heißt?; Conjugation: weiß, hat gewusst
+Word: Witz; Meaning: joke; Type: Noun; Plural: Witze; example_sentence: Wir haben Witze erzählt und viel gelacht.
+Word: witzig; Meaning: funny; Type: Adjective; example_sentence: Warum lachst du? Ich finde das nicht witzig.
+Word: wo; Meaning: where; Type: Question word; example_sentence: Wo waren Sie im Urlaub? - In Frankreich. Wo ist meine Uhr? Wo sind Sie geboren?
+Word: woher; Meaning: from where; Type: Question word; example_sentence: Woher kommen Sie? Woher wissen Sie das?
+Word: wohin; Meaning: to where; Type: Question word; example_sentence: Wohin fährt dieser Bus? - Nach Dresden. Wohin wollen Sie am Wochenende gehen?
+Word: wohnen; Meaning: to live (in a place); Type: Verb; example_sentence: Ich wohne in Kiel.; Conjugation: wohnt, hat gewohnt
+Word: Wohnung; Meaning: apartment; Type: Noun; Plural: Wohnungen; example_sentence: Die Wohnung ist sehr schön.
+Word: Wohnzimmer; Meaning: living room; Type: Noun; Plural: Wohnzimmer; example_sentence: Die Kinder sitzen im Wohnzimmer und sehen fern.
+Word: Wolke; Meaning: cloud; Type: Noun; Plural: Wolken; example_sentence: Heute gibt es viele Wolken.
+Word: wollen; Meaning: to want; Type: Verb; example_sentence: Wollen Sie einen Kaffee trinken?; Conjugation: will, wollte, hat gewollt
+Word: Workshop; Meaning: workshop; Type: Noun; Plural: Workshops; example_sentence: Das war ein toller Workshop. Ich habe viel gelernt. Am Freitag gibt es einen Computer-Workshop in meiner Firma.
+Word: Wort; Meaning: word; Type: Noun; Plural: Wörter; example_sentence: Ich kenne das Wort nicht. Ich muss das Wort im Wörterbuch suchen.
+Word: wunderbar; Meaning: wonderful; Type: Adjective; example_sentence: Diese Schokolade schmeckt wunderbar. Wir hatten im Urlaub wunderbares Wetter.
+Word: Wunsch; Meaning: wish; Type: Noun; Plural: Wünsche; example_sentence: Ich wünsche Ihnen alles Gute! Was ist dein größter Wunsch?
+Word: wünschen; Meaning: to wish; Type: Verb; example_sentence: Ich wünsche mir eine Kamera zum Geburtstag.
+Word: Wurst; Meaning: sausage; Type: Noun; Plural: Würste; example_sentence: Eine Wurst mit Pommes, bitte.
+Word: Zahl; Meaning: number; Type: Noun; Plural: Zahlen; example_sentence: Können Sie die Zahl bitte wiederholen?
+Word: zahlen; Meaning: to pay; Type: Verb; example_sentence: Entschuldigung, zahlen bitte!; Conjugation: zahlt, hat gezahlt
+Word: Zahn; Meaning: tooth; Type: Noun; Plural: Zähne; example_sentence: Der Zahn tut mir schon seit einer Woche weh.
+Word: zeichnen; Meaning: to draw; Type: Verb; example_sentence: Caterina kann gut zeichnen. Sieh mal das Bild hier.; Conjugation: zeichnet, hat gezeichnet
+Word: zeigen; Meaning: to show; Type: Verb; example_sentence: Können Sie mir bitte den Weg zum Bahnhof zeigen?; Conjugation: zeigt, hat gezeigt
+Word: Zeit; Meaning: time; Type: Noun; Plural: Zeiten; example_sentence: Ich habe heute keine Zeit.
+Word: Zeitschrift; Meaning: magazine; Type: Noun; Plural: Zeitschriften; example_sentence: Diese Zeitschrift kauft Andrea jede Woche.
+Word: Zeitung; Meaning: newspaper; Type: Noun; Plural: Zeitungen; example_sentence: Ich lese manchmal Zeitung. Wo ist die Zeitung von heute?
+Word: Zelt; Meaning: tent; Type: Noun; Plural: Zelte; example_sentence: Im Sommer schlafen wir manchmal im Zelt.
+Word: Zentrum; Meaning: center; Type: Noun; Plural: Zentren; example_sentence: Der Bahnhof ist im Stadtzentrum. Wohnst du im Zentrum? - Nein, ich wohne nicht direkt in der Stadt.
+Word: Zettel; Meaning: note, piece of paper; Type: Noun; Plural: Zettel; example_sentence: Hast du einen Zettel für mich? Ich muss etwas notieren. Schreiben Sie Ihre Telefonnummer bitte auf den Zettel.
+Word: Zeugnis; Meaning: report card, certificate; Type: Noun; Plural: Zeugnisse; example_sentence: Morgen bekommen die Kinder ihr Zeugnis.
+Word: anziehen; Meaning: to put on (clothes); Type: Verb; example_sentence: Ich ziehe (mir) eine Jacke an.; Conjugation: zieht (an/aus), hat/ist angezogen
+Word: Ziel; Meaning: goal, destination; Type: Noun; Plural: Ziele; example_sentence: John läuft sehr schnell. Er war als erster am Ziel. Was ist dein Ziel im Leben?
+Word: Zimmer; Meaning: room; Type: Noun; Plural: Zimmer; example_sentence: Das Zimmer ist am größten. Die Wohnung hat drei Zimmer.
+Word: Zirkus; Meaning: circus; Type: Noun; Plural: Zirkusse; example_sentence: Heute gehen wir mit den Kindern in den Zirkus.
+Word: Zitrone; Meaning: lemon; Type: Noun; Plural: Zitronen; example_sentence: Ich trinke den Tee mit Zitrone. Lucia mag Zitroneneis.
+Word: Zoo; Meaning: zoo; Type: Noun; Plural: Zoos; example_sentence: Am Sonntag gehen wir in den Zoo.
+Word: zu; Meaning: to, at, too; Type: Preposition; example_sentence: Der Bus fährt zum Bahnhof. Ich gehe zu Fuß. Ich bin zu Hause. Das Kleid ist mir zu teuer. Ich trinke zum Essen ein Bier.
+Word: Zucker; Meaning: sugar; Type: Noun; example_sentence: Trinken Sie den Tee mit oder ohne Zucker?
+Word: zuerst; Meaning: first; Type: Adverb; example_sentence: Zuerst müsst ihr die Hausaufgaben machen, dann könnt ihr spielen.
+Word: zufrieden; Meaning: satisfied; Type: Adjective; example_sentence: Ich bin mit der Wohnung zufrieden. Sie ist nicht groß, aber sie hat einen Balkon.
+Word: Zug; Meaning: train; Type: Noun; Plural: Züge; example_sentence: Ich fahre gern mit dem Zug.
+Word: zuhören; Meaning: to listen; Type: Verb; example_sentence: Hör mir doch mal zu! Ich rede mit dir.; Conjugation: hört zu, hat zugehört
+Word: zuletzt; Meaning: last, finally; Type: Adverb; example_sentence: Wir haben uns vor drei Jahren zuletzt gesehen. Diese Aufgabe machen wir zuletzt.
+Word: zum Beispiel; Meaning: for example; Type: Phrase; example_sentence: Mein Freund hat viele Hobbys, zum Beispiel Kochen, Lesen und Tanzen.
+Word: zumachen; Meaning: to close; Type: Verb; example_sentence: Machst du bitte das Fenster zu?; Conjugation: macht zu, hat zugemacht
+Word: zurück; Meaning: back; Type: Adverb; example_sentence: Eine Fahrkarte nach Frankfurt und zurück, bitte. Wir gehen wieder zurück.
+Word: zusammen; Meaning: together; Type: Adverb; example_sentence: Wollen wir zusammen essen gehen? Zahlen, bitte. – Zusammen oder getrennt?
+Word: zwischen; Meaning: between; Type: Preposition; example_sentence: Heidelberg liegt zwischen Frankfurt und Stuttgart. Zwischen acht und zehn Uhr bin ich zu Hause.
